@@ -16,6 +16,18 @@ func main(){
 	c.OnHTML("*",func(e *colly.HTMLElement) {
 		fmt.Println(e)
 	})
-}
+
+	// Set error handler
+
+	c.OnError(func(r *colly.Response,err error) {
+		fmt.Println("Request URL:",r.Request.URL,"failed with response:",r,"\nError:",err)
+	})
+	
+	// Set scraping
+
+	c.Visit("https://duckduckgo.com")
+	
+
+	}
 
 	
