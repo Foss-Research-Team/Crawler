@@ -1,6 +1,6 @@
 Nov. 17, 2019 12:36 AM
 
-fetch.go needs the map data structure to store the SHA256 checksum of the webpage instead of the URL. URLs are misleading.
+fetch.go needs the map data structure to use the SHA256 checksum of the webpage as a key and the URL as a value. URLs are misleading.
 
 Here is an example from an output of fetch.go that makes my point clear:
 
@@ -8,7 +8,5 @@ https://www.mediawiki.org/wiki/
 
 https://mediawiki.org/
 
-Both lead to the EXACT same webpage. But a SHA256 checksum would make the 
-
-equivalence of the two clear.
+Both lead to the EXACT same webpage yet they are different URLs. But a SHA256 checksum would make the equivalence of the two clear.
 
