@@ -47,6 +47,8 @@ func extract_urls(html_page []byte) [1024][] byte {
 	search_sub_domain := []byte("href=\"/")
 
 	search_dif_domain := []byte("href=\"//")
+	
+	var url []byte
 
 	var urls [1024][]byte
 
@@ -67,13 +69,21 @@ func extract_urls(html_page []byte) [1024][] byte {
 		}
 
 		for html_page[i] != 0x22 {
-			
-			urls[url_index] = append(urls[url_index],html_page[i])
 
-			url_map[string(urls[url_index])] = 1
+			url = append(url,html_page[i])
 			
 			i++
 		}
+		
+		if (url_map[string(urls[url_index])] == 0) {
+			
+			urls[url_index] = url
+
+			url_map[string(urls[url_index])] = 1
+		
+		} 
+
+		url = []byte{}
 
 		url_index++
 
@@ -104,12 +114,20 @@ func extract_urls(html_page []byte) [1024][] byte {
 
 		for html_page[i] != 0x22 {
 
-			urls[url_index] = append(urls[url_index],html_page[i])
+			url = append(url,html_page[i])
 			
-			url_map[string(urls[url_index])] = 1
-
 			i++
 		}
+		
+		if (url_map[string(urls[url_index])] == 0) {
+			
+			urls[url_index] = url
+
+			url_map[string(urls[url_index])] = 1
+		
+		}
+
+		url = []byte{}
 
 		url_index++
 
@@ -137,6 +155,7 @@ func extract_urls(html_page []byte) [1024][] byte {
 
 		if ( bytes.Equal( html_page[i+1:i+2],[]byte("/") ) ) {
 			
+			i++
 
 			continue
 		}
@@ -146,13 +165,20 @@ func extract_urls(html_page []byte) [1024][] byte {
 
 		for html_page[i] != 0x22 {
 
+			url = append(url,html_page[i])
 			
-			urls[url_index] = append(urls[url_index],html_page[i])
-			
-			url_map[string(urls[url_index])] = 1
-
 			i++
 		}
+		
+		if (url_map[string(urls[url_index])] == 0) {
+			
+			urls[url_index] = url
+
+			url_map[string(urls[url_index])] = 1
+		
+		}
+
+		url = []byte{}
 
 		url_index++
 
