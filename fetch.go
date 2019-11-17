@@ -76,8 +76,12 @@ func extract_urls(html_page []byte) [1024][] byte {
 		}
 		
 		if (url_map[string(url)] == 0) {
+			
+			urls[url_index] = make([]byte,len(url))
 
 			copy(urls[url_index],url)
+			
+			fmt.Printf("%s\n",urls[url_index])
 
 			url_map[string(urls[url_index])] = 1
 
@@ -121,6 +125,8 @@ func extract_urls(html_page []byte) [1024][] byte {
 		
 		if (url_map[string(url)] == 0) {
 			
+			urls[url_index] = make([]byte,len(url))
+
 			copy(urls[url_index],url)
 
 			url_map[string(urls[url_index])] = 1
@@ -171,6 +177,8 @@ func extract_urls(html_page []byte) [1024][] byte {
 		
 		if (url_map[string(url)] == 0) {
 			
+			urls[url_index] = make([]byte,len(url))
+
 			copy(urls[url_index],url)
 
 			url_map[string(urls[url_index])] = 1
