@@ -11,6 +11,8 @@ import (
 	"bytes"
 )
 
+var url_map = make(map[string]uint8)
+
 func getPage(a string)  []byte {
 	
 	resp, err := http.Get(a)
@@ -67,6 +69,8 @@ func extract_urls(html_page []byte) [1024][] byte {
 		for html_page[i] != 0x22 {
 			
 			urls[url_index] = append(urls[url_index],html_page[i])
+
+			url_map[string(urls[url_index])] = 1
 			
 			i++
 		}
@@ -102,6 +106,8 @@ func extract_urls(html_page []byte) [1024][] byte {
 
 			urls[url_index] = append(urls[url_index],html_page[i])
 			
+			url_map[string(urls[url_index])] = 1
+
 			i++
 		}
 
@@ -143,6 +149,8 @@ func extract_urls(html_page []byte) [1024][] byte {
 			
 			urls[url_index] = append(urls[url_index],html_page[i])
 			
+			url_map[string(urls[url_index])] = 1
+
 			i++
 		}
 
