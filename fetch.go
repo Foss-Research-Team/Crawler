@@ -65,7 +65,7 @@ func extract_urls(html_page []byte) [1024][] byte {
 
 	fmt.Printf("len_html_page: %d\n",len_html_page)
 
-	fmt.Println("Searching complete URLs")
+	fmt.Printf("%s\n\n","Searching complete URLs")
 
 	for ( (i < len_html_page) && (url_index < 1024) ) {
 
@@ -113,7 +113,7 @@ func extract_urls(html_page []byte) [1024][] byte {
 
 	url = []byte{}
 
-	fmt.Println("Searching URLs with different domains")
+	fmt.Printf("%s\n\n","Searching URLs with different domains")
 
 	for ( (i < len_html_page) && (url_index < 1024) ) {
 
@@ -169,7 +169,7 @@ func extract_urls(html_page []byte) [1024][] byte {
 
 	i = 0
 
-	fmt.Println("Searching sub domain URLs")
+	fmt.Println("%s\n\n","Searching sub domain URLs")
 
 	for ( (i < len_html_page) && (url_index < 1024) ) {
 
@@ -262,6 +262,12 @@ func crawler(url string) {
 
 func main() {
 	
+	shasum_base_url := sha256.Sum256(getPage(os.Args[1]))
+
+	fmt.Printf("Checksum of HMTL page of base url is:\n%x\n\n",shasum_base_url)
+
+	url_map[string(shasum_base_url[0:32])] = []byte(os.Args[1])
+
 	fmt.Printf("%q\n",getPage(os.Args[1]))	
 
 	crawler(os.Args[1])
