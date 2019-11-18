@@ -210,7 +210,7 @@ func extract_urls(html_page []byte) [1024][] byte {
 
 	for ( (i < len_html_page) && (url_index < 1024) ) {
 
-		i_0 = 0	
+		i_0 = i	
 
 		i = bytes.Index(html_page[i_0:],search_sub_domain) + i_0
 
