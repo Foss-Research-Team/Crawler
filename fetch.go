@@ -9,9 +9,10 @@ import (
 	"net/http"
 	"os"
 	"bytes"
+	"crypto/sha256"
 )
 
-var url_map = make(map[string]uint8)
+var url_map = make(map[string][]byte)
 
 func getPage(a string)  []byte {
 	
@@ -52,6 +53,10 @@ func extract_urls(html_page []byte) [1024][] byte {
 
 	var urls [1024][]byte
 
+	var html_of_url []byte
+
+	var shasum [32]byte
+
 	i := 0
 
 	url_index := 0
@@ -74,16 +79,20 @@ func extract_urls(html_page []byte) [1024][] byte {
 			
 			i++
 		}
+
+		html_of_url = getPage(string(url))
+
+		shasum = sha256.Sum256(html_of_url)
 		
-		if (url_map[string(url)] == 0) {
+		if (len(url_map[string(shasum[0:32])]) == 0) {
 			
 			urls[url_index] = make([]byte,len(url))
 
 			copy(urls[url_index],url)
 			
-			fmt.Printf("%s\n",urls[url_index])
+//			fmt.Printf("%s\n",urls[url_index])
 
-			url_map[string(urls[url_index])] = 1
+			url_map[string(shasum[0:32])] = urls[url_index]
 
 			url_index++
 		
@@ -97,6 +106,8 @@ func extract_urls(html_page []byte) [1024][] byte {
 
 	i = 0
 
+	url = []byte{}
+
 	for ( (i < len_html_page) && (url_index < 1024) ) {
 
 		i = bytes.Index(html_page[i:],search_dif_domain) + i
@@ -106,7 +117,7 @@ func extract_urls(html_page []byte) [1024][] byte {
 			break
 		}
 
-		urls[url_index] = append(urls[url_index],[]byte("https:")...)
+		url = append(url,[]byte("https:")...)
 
 
 		for html_page[i] != 0x22 {
@@ -123,22 +134,31 @@ func extract_urls(html_page []byte) [1024][] byte {
 			i++
 		}
 		
-		if (url_map[string(url)] == 0) {
+		html_of_url = getPage(string(url))
+
+		shasum = sha256.Sum256(html_of_url)
+		
+		if (len(url_map[string(shasum[0:32])]) == 0) {
 			
 			urls[url_index] = make([]byte,len(url))
 
 			copy(urls[url_index],url)
+			
+//			fmt.Printf("%s\n",urls[url_index])
 
-			url_map[string(urls[url_index])] = 1
-		
+			url_map[string(shasum[0:32])] = urls[url_index]
+
 			url_index++
-		}
+		
+		} 
 
 		url = []byte{}
 
 		i++
 		
 	}
+
+	url = []byte{}
 
 	i = 0
 
@@ -166,7 +186,7 @@ func extract_urls(html_page []byte) [1024][] byte {
 		}
 
 
-		urls[url_index] = append(urls[url_index],[]byte(os.Args[1])...)
+		url = append(url,[]byte(os.Args[1])...)
 
 		for html_page[i] != 0x22 {
 
@@ -174,17 +194,24 @@ func extract_urls(html_page []byte) [1024][] byte {
 			
 			i++
 		}
+
+		html_of_url = getPage(string(url))
+
+		shasum = sha256.Sum256(html_of_url)
 		
-		if (url_map[string(url)] == 0) {
+		if (len(url_map[string(shasum[0:32])]) == 0) {
 			
 			urls[url_index] = make([]byte,len(url))
 
 			copy(urls[url_index],url)
+			
+//			fmt.Printf("%s\n",urls[url_index])
 
-			url_map[string(urls[url_index])] = 1
-		
+			url_map[string(shasum[0:32])] = urls[url_index]
+
 			url_index++
-		}
+		
+		} 
 
 		url = []byte{}
 
