@@ -63,6 +63,9 @@ func extract_urls(html_page []byte) [1024][] byte {
 	
 	len_html_page := len(html_page)
 
+	fmt.Printf("len_html_page: %d\n",len_html_page)
+
+	fmt.Println("Searching complete URLs")
 
 	for ( (i < len_html_page) && (url_index < 1024) ) {
 
@@ -90,7 +93,7 @@ func extract_urls(html_page []byte) [1024][] byte {
 
 			copy(urls[url_index],url)
 			
-//			fmt.Printf("%s\n",urls[url_index])
+			fmt.Printf("%s\n",urls[url_index])
 
 			url_map[string(shasum[0:32])] = urls[url_index]
 
@@ -100,6 +103,8 @@ func extract_urls(html_page []byte) [1024][] byte {
 
 		url = []byte{}
 
+		fmt.Println(i)
+
 		i++
 		
 	}
@@ -107,6 +112,8 @@ func extract_urls(html_page []byte) [1024][] byte {
 	i = 0
 
 	url = []byte{}
+
+	fmt.Println("Searching URLs with different domains")
 
 	for ( (i < len_html_page) && (url_index < 1024) ) {
 
@@ -144,7 +151,7 @@ func extract_urls(html_page []byte) [1024][] byte {
 
 			copy(urls[url_index],url)
 			
-//			fmt.Printf("%s\n",urls[url_index])
+			fmt.Printf("%s\n",urls[url_index])
 
 			url_map[string(shasum[0:32])] = urls[url_index]
 
@@ -161,6 +168,8 @@ func extract_urls(html_page []byte) [1024][] byte {
 	url = []byte{}
 
 	i = 0
+
+	fmt.Println("Searching sub domain URLs")
 
 	for ( (i < len_html_page) && (url_index < 1024) ) {
 
@@ -205,7 +214,7 @@ func extract_urls(html_page []byte) [1024][] byte {
 
 			copy(urls[url_index],url)
 			
-//			fmt.Printf("%s\n",urls[url_index])
+			fmt.Printf("%s\n",urls[url_index])
 
 			url_map[string(shasum[0:32])] = urls[url_index]
 
@@ -241,16 +250,6 @@ func crawler(url string) {
 	url_list = extract_urls(c)
 
 	i := 0
-
-	for (i < len(url_list)) && (url_list[i] != nil) {
-	
-		fmt.Printf("%s\n",url_list[i])
-
-		i++
-
-	}
-	
-	i = 0
 	
 	for (i < len(url_list)) && (url_list[i] != nil) {
 		
@@ -261,11 +260,10 @@ func crawler(url string) {
 
 }
 
-
-//Problem: We need to get the computer to detect if the URL leads to an HTML file
-
 func main() {
 	
+	fmt.Printf("%q\n",getPage(os.Args[1]))	
+
 	crawler(os.Args[1])
 }
 
