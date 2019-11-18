@@ -73,7 +73,7 @@ func extract_urls(html_page []byte) [1024][] byte {
 
 		i_0 = i
 
-		i = bytes.Index(html_page[i:],search_str) + i_0
+		i = bytes.Index(html_page[i_0:],search_str) + i_0
 
 		if ( (i < 0) || (i < i_0) ) {
 			
@@ -129,15 +129,19 @@ func extract_urls(html_page []byte) [1024][] byte {
 
 	i = 0
 
+	i_0 = 0
+
 	url = []byte{}
 
 	fmt.Printf("%s\n\n","Searching URLs with different domains")
 
 	for ( (i < len_html_page) && (url_index < 1024) ) {
+		
+		i_0 = i
 
-		i = bytes.Index(html_page[i:],search_dif_domain) + i
+		i = bytes.Index(html_page[i_0:],search_dif_domain) + i_0
 
-		if (i < 0) {
+		if ( (i < 0) || ( i < i_0 ) ) {
 			
 			break
 		}
@@ -197,6 +201,8 @@ func extract_urls(html_page []byte) [1024][] byte {
 	}
 
 	url = []byte{}
+	
+	i_0 = 0
 
 	i = 0
 
@@ -204,9 +210,11 @@ func extract_urls(html_page []byte) [1024][] byte {
 
 	for ( (i < len_html_page) && (url_index < 1024) ) {
 
-		i = bytes.Index(html_page[i:],search_sub_domain) + i
+		i_0 = 0	
 
-		if (i < 0) {
+		i = bytes.Index(html_page[i_0:],search_sub_domain) + i_0
+
+		if ( (i < 0) || (i < i_0) ) {
 			
 			break
 		}
@@ -220,6 +228,10 @@ func extract_urls(html_page []byte) [1024][] byte {
 
 		if ( bytes.Equal( html_page[i+1:i+2],[]byte("/") ) ) {
 			
+			url = []byte{}
+
+			fmt.Println(i)
+
 			i++
 
 			continue
@@ -271,6 +283,8 @@ func extract_urls(html_page []byte) [1024][] byte {
 		
 	}
 	
+	i_0 = 0
+
 	i = 0
 	
 	return urls
