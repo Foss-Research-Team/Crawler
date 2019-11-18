@@ -59,6 +59,8 @@ func extract_urls(html_page []byte) [1024][] byte {
 
 	i := 0
 
+	i_0 := 0
+
 	url_index := 0
 	
 	len_html_page := len(html_page)
@@ -69,9 +71,11 @@ func extract_urls(html_page []byte) [1024][] byte {
 
 	for ( (i < len_html_page) && (url_index < 1024) ) {
 
-		i = bytes.Index(html_page[i:],search_str) + i
+		i_0 = i
 
-		if (i < 0) {
+		i = bytes.Index(html_page[i:],search_str) + i_0
+
+		if ( (i < 0) || (i < i_0) ) {
 			
 			break
 		}
@@ -83,7 +87,21 @@ func extract_urls(html_page []byte) [1024][] byte {
 			i++
 		}
 
-		html_of_url = getPage(string(url))
+		i++
+		
+		html_of_url = getPage( string(url) )
+
+		if ( html_of_url == nil ) {
+			
+			fmt.Printf("url string is: %s\n\n",url)
+
+			url = []byte{}
+
+			fmt.Println(i)
+
+			continue
+			
+		}
 
 		shasum = sha256.Sum256(html_of_url)
 		
@@ -141,7 +159,20 @@ func extract_urls(html_page []byte) [1024][] byte {
 			i++
 		}
 		
-		html_of_url = getPage(string(url))
+		html_of_url = getPage( string(url) )
+
+		if ( html_of_url == nil ) {
+			
+			url = []byte{}
+
+			fmt.Println(i)
+
+			i++
+
+			continue
+			
+		}
+
 
 		shasum = sha256.Sum256(html_of_url)
 		
@@ -203,8 +234,20 @@ func extract_urls(html_page []byte) [1024][] byte {
 			
 			i++
 		}
+		
+		html_of_url = getPage( string(url) )
 
-		html_of_url = getPage(string(url))
+		if ( html_of_url == nil ) {
+			
+			url = []byte{}
+
+			fmt.Println(i)
+
+			i++
+
+			continue
+			
+		}
 
 		shasum = sha256.Sum256(html_of_url)
 		
