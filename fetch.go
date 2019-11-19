@@ -76,7 +76,13 @@ func extract_urls(html_page []byte) [1024][] byte {
 		i = bytes.Index(html_page[i_0:],search_str) + i_0
 
 		if ( (i < 0) || (i < i_0) ) {
-			
+
+			url = []byte{}
+
+			fmt.Println(i)
+
+			i++
+
 			break
 		}
 
@@ -92,8 +98,6 @@ func extract_urls(html_page []byte) [1024][] byte {
 		html_of_url = getPage( string(url) )
 
 		if ( html_of_url == nil ) {
-			
-			fmt.Printf("url string is: %s\n\n",url)
 
 			url = []byte{}
 
