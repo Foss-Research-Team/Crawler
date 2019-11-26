@@ -12,7 +12,10 @@ import (
 	"crypto/sha256"
 )
 
-var url_map = make(map[string][]byte)
+var sha_map = make(map[string][]byte)
+
+var url_map = make(map[string] int)
+
 
 func getPage(a string)  []byte {
 	
@@ -79,9 +82,9 @@ func extract_urls(html_page []byte) [1024][] byte {
 
 			url = []byte{}
 
-			fmt.Println(i)
+			fmt.Println("Last index for https:// found: ",i)
 
-			i++
+			i += 2
 
 			break
 		}
@@ -101,7 +104,7 @@ func extract_urls(html_page []byte) [1024][] byte {
 
 			url = []byte{}
 
-			fmt.Println(i)
+			fmt.Println("Failed to get URL of page at index: ",i)
 
 			continue
 			
@@ -109,15 +112,21 @@ func extract_urls(html_page []byte) [1024][] byte {
 
 		shasum = sha256.Sum256(html_of_url)
 		
-		if (len(url_map[string(shasum[0:32])]) == 0) {
-			
+		if ( url_map[string(sha_map[string(shasum[0:])])] == 0 ) {
+
+			//(len(sha_map[string(shasum[0:])]) == 0) {
+
+			fmt.Printf("%s\n",url)
+
+			fmt.Printf("Sha256: %x\n\n",shasum)
+
 			urls[url_index] = make([]byte,len(url))
 
 			copy(urls[url_index],url)
-			
-			fmt.Printf("%s\n",urls[url_index])
 
-			url_map[string(shasum[0:32])] = urls[url_index]
+			sha_map[string(shasum[0:])] = urls[url_index]
+
+			url_map[string(sha_map[string(shasum[0:])])] = 1
 
 			url_index++
 		
@@ -184,7 +193,7 @@ func extract_urls(html_page []byte) [1024][] byte {
 
 		shasum = sha256.Sum256(html_of_url)
 		
-		if (len(url_map[string(shasum[0:32])]) == 0) {
+		if (len(sha_map[string(shasum[0:])]) == 0) {
 			
 			urls[url_index] = make([]byte,len(url))
 
@@ -192,7 +201,7 @@ func extract_urls(html_page []byte) [1024][] byte {
 			
 			fmt.Printf("%s\n",urls[url_index])
 
-			url_map[string(shasum[0:32])] = urls[url_index]
+			sha_map[string(shasum[0:])] = urls[url_index]
 
 			url_index++
 		
@@ -267,7 +276,7 @@ func extract_urls(html_page []byte) [1024][] byte {
 
 		shasum = sha256.Sum256(html_of_url)
 		
-		if (len(url_map[string(shasum[0:32])]) == 0) {
+		if (len(sha_map[string(shasum[0:])]) == 0) {
 			
 			urls[url_index] = make([]byte,len(url))
 
@@ -275,7 +284,7 @@ func extract_urls(html_page []byte) [1024][] byte {
 			
 			fmt.Printf("%s\n",urls[url_index])
 
-			url_map[string(shasum[0:32])] = urls[url_index]
+			sha_map[string(shasum[0:])] = urls[url_index]
 
 			url_index++
 		
@@ -297,6 +306,16 @@ func extract_urls(html_page []byte) [1024][] byte {
 }
 
 func crawler(url string) {
+	
+	shasum_base_url := sha256.Sum256([]byte(url))
+
+	fmt.Printf("Checksum of HMTL page of base url is:\n%x\n\n",shasum_base_url)
+
+	sha_map[string(shasum_base_url[0:])] = []byte(url)
+
+	url_map[string(sha_map[string(shasum_base_url[0:])])] = 1
+
+	fmt.Printf("%q\n",sha_map[string(shasum_base_url[0:])])
 	
 	var c []byte 
 	
@@ -323,11 +342,6 @@ func crawler(url string) {
 
 func main() {
 	
-	shasum_base_url := sha256.Sum256(getPage(os.Args[1]))
-
-	fmt.Printf("Checksum of HMTL page of base url is:\n%x\n\n",shasum_base_url)
-
-	url_map[string(shasum_base_url[0:32])] = []byte(os.Args[1])
 
 	fmt.Printf("%q\n",getPage(os.Args[1]))	
 
