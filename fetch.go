@@ -364,7 +364,7 @@ func crawler(url string) {
 
 	i := 0
 	
-	for (i < len(url_list)) && (url_list[i] != nil) {
+	for ( (i < len(url_list)) && (url_list[i] != nil) ) {
 		
 		crawler(string(url_list[i]))
 
@@ -375,9 +375,6 @@ func crawler(url string) {
 
 func main() {
 	
-
-//	fmt.Printf("%q\n",getPage(os.Args[1]))	
-
 	crawler(os.Args[1])
 }
 
