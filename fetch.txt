@@ -16,18 +16,18 @@ Sha256: 4d1b8a6374f41ebf558b1f4a26ad787cc0a009e1835edb040cc1ab9a21aad735
 url_map of https://archive.org/images/internet-archive-banner-black-logo.png beforehand: 0
 6771
 https://archive.org/donate/cryptocurrency
-Sha256: 9ffdf6d0b1a34ba0aa4d80452eeb2715ae01286d698972cc9545bfb1654b52f7
+Sha256: 47bfa9560176032ce801b43799ee237d7c2b7b357a44b90819754fab7b231552
 
 url_map of https://archive.org/donate/cryptocurrency beforehand: 0
 18143
 https://archive.org/donate
-Sha256: ddd0a9b00ed08c8963e39e31abaf06d3827593c2e480472ae917cb09a88722f8
+Sha256: 79f0d0f3a0a3d3ab68fc9406db0fab8dc023d482bc56b059c9a67b0513d6c7f7
 
 url_map of https://archive.org/donate beforehand: 0
 18743
 18873
 https://www.paypal.com/cgi-bin/webscr
-Sha256: f8e432fbd7d0e3b0195bc918c8f08f97f7779ee667d2cb84725b57294d816a84
+Sha256: 76f798c7a94332c528afbf618121168e49066ef4feb60a579f01e7fa2c9a8f08
 
 url_map of https://www.paypal.com/cgi-bin/webscr beforehand: 0
 19403
@@ -37,7 +37,7 @@ Sha256: cc2b9bad41c04382dc68012be5535e03b6575fddc0f6c696ca4e4131bf426609
 url_map of https://archive.org/download/internetarchivelogoblackonwhite/IABW.png beforehand: 0
 19805
 https://archive.org/services/donate.php?service=paypal
-Sha256: 5f30ce1666d250735eb37c2c0a5d36fbfd6a9b7a9bbb224b8b8cd8f3517801ba
+Sha256: 89b799719d95523b0f7f28d9790e266bc3d5bd4850f9d64647142697cdfc8290
 
 url_map of https://archive.org/services/donate.php?service=paypal beforehand: 0
 20561
@@ -48,7 +48,7 @@ url_map of https://archive.org/services/donate.php?service=paypal beforehand: 0
 25599
 26376
 https://archive.org/services/donate.php
-Sha256: 486e79673a753ccb50e84c82a27b88554c6d2c1095ac9c71c6098f78a69637fd
+Sha256: 6975cd1cc285ae95c12d039bf95bdadf2bd47442512d2b73f3fc41cab60b09b1
 
 url_map of https://archive.org/services/donate.php beforehand: 0
 27103
@@ -59,47 +59,47 @@ Sha256: 796db20bb6c7aa907653bb485cd708c7d474f854815e7e80a976c08c65e54a18
 url_map of https://archive.org/images/logo_arches.png beforehand: 0
 30335
 https://archive.org/web/
-Sha256: 655096381068fff5a3b94fc39b3d60cab89f87c8459ad035be488ba749cd824f
+Sha256: 530261dae844812f63fa19f7d9a441272d4576c5a26ee342454ddfc6ce7e599b
 
 url_map of https://archive.org/web/ beforehand: 0
 32591
 https://archive.org/details/texts
-Sha256: c65e5123fbebe68e9cf28de39d1cb6142a8960670d8d44552c3be2fa13452171
+Sha256: 3b6bd174c42e15c40a72adf8af8e02646ee5f97da7b98e85e4b5b92a5b18c4c8
 
 url_map of https://archive.org/details/texts beforehand: 0
 33010
 https://archive.org/details/movies
-Sha256: e46bce1c626a9f7a24eba38407ffef52c583fbb15bb83dba684324ead8f840c2
+Sha256: d612d93224b2d58da1e894ee95e143f36290fff16f0c3ddd981fedc4efa5856f
 
 url_map of https://archive.org/details/movies beforehand: 0
 33436
 https://archive.org/details/audio
-Sha256: cc9ffb46c77738c5df5df8ff3cb3ccb3d70efecf96224ff2a87dfd96cba75959
+Sha256: 0af640bd3d6e52a2ce72ffdf48bca488ef21aba35dbb39b2853bc8e1772291ce
 
 url_map of https://archive.org/details/audio beforehand: 0
 33860
 https://archive.org/details/software
-Sha256: d56491f8808b0def55b8fd78d5b441c42f1f5b88a8107e6eee45a2377d02b5f6
+Sha256: 27db1a801e82e5cd125b12b18e64a6acd759f687add0222006d272a3036cd8df
 
 url_map of https://archive.org/details/software beforehand: 0
 34295
 https://archive.org/details/image
-Sha256: 4e5ea3de9ef6097bc8c028f4331b1200ff5a98328343b5443b1617fb27e17a08
+Sha256: 3f17e99246a8506a5c269ed1799ff5a8662bbb1f60fcc074d787955ada66cbec
 
 url_map of https://archive.org/details/image beforehand: 0
 34734
 https://archive.org/about/
-Sha256: a10be6b2b01bffabf8b6d4bc321885ff7682ed81b116769ce5874a987ad184ec
+Sha256: 5b3bf1be28f03c14cbd85698b2d41bda0ea2cfe8e059edf5c5bfb95be6361a9e
 
 url_map of https://archive.org/about/ beforehand: 0
 35828
 https://archive.org/about/contact.php
-Sha256: af6ca7e05b4c3cc00de6b42724ce9dfd66768831f32dd150d28799dbf62fbb8e
+Sha256: 1c68e0442bf1e5443a087465d6b648b051530efaac5060255bb59cc62dc1abe2
 
 url_map of https://archive.org/about/contact.php beforehand: 0
 35962
 https://archive.org/projects
-Sha256: d13e6fa54340e843bb3f7e3bd78cfeb8be373986f615a900c51d7df36bd65983
+Sha256: 970b49033a14aa6644834fa4833f06ed446e3ab9309faa5e0db9b3c6d026dfe8
 
 url_map of https://archive.org/projects beforehand: 0
 36201
@@ -110,27 +110,27 @@ url_map of https://archive.org/about/faqs.php beforehand: 0
 36332
 36453
 https://archive.org/about/jobs.php
-Sha256: c7f4598067bf5b673d123f2172a7c4ba1939243365de3ffde0b4beb60eceeaa5
+Sha256: 3827a9aa15d94255ff5ff3c59248dbdf3dbeb6923428ba5360452177a41840f3
 
 url_map of https://archive.org/about/jobs.php beforehand: 0
 36582
 https://archive.org/about/volunteerpositions.php
-Sha256: 91ea27a381008abc5fe110ab46a0422eff6975f6be71b06cc23bc54b4c66c272
+Sha256: b6ec2c17d9d9870855f5de1035c68d6fa836e7075d8c0e802c652acc2557be2e
 
 url_map of https://archive.org/about/volunteerpositions.php beforehand: 0
 36728
 https://archive.org/about/bios.php
-Sha256: 16f4f5af83b71ffa8352f08a1d11906cb877ff949bc789c893549a0e8091e9ab
+Sha256: 999262d74a0f99d505507efcac7db4eb9ef041d3af72ffc660ba030325ead249
 
 url_map of https://archive.org/about/bios.php beforehand: 0
 36862
 https://archive.org/create
-Sha256: 01491858fb199a1a2284133afb9b4d3249f5756a8f888a34d5fdd52014ce714a
+Sha256: b33f92950285ff6df2eb28e88d633716cb23e6dfe8a01b7077c79d5cfd5ce334
 
 url_map of https://archive.org/create beforehand: 0
 37209
 https://archive.org/account/login
-Sha256: 905836f309a9eee50c26fc5e87003aa93334be56709c7a01b1c1169f9485efcc
+Sha256: f086645c3fbd0502e806a07e56f0d6584d52fa019832b0dee0d3b941cd2051d8
 
 url_map of https://archive.org/account/login beforehand: 0
 37648
@@ -154,38 +154,38 @@ Sha256: 96b8b937c96bfa6237c930fd98069b7e55a6aa14c9af64e324e2b8d57df57b5d
 url_map of https://archive.org/images/WaybackLogoSmall.png beforehand: 0
 40442
 https://archive.org/details/books
-Sha256: c6046b0093dc72c75c0d2f82cbba143952766d9bf71dd469636538f668577afd
+Sha256: bed25cff1384474aa6cbfa699ea9bc103fd39325584619fb22abdbf1843edea3
 
 url_map of https://archive.org/details/books beforehand: 0
 41897
 42224
 https://archive.org/search.php?query=mediatype:texts&sort=-publicdate
-Sha256: 6e8372467db4a75b85d4384fc0ee7e638fd34113efd520135814f847fb238c59
+Sha256: 94b2fbb3a5366bf149da24846cbf0e3d7d3627384a37a495086548dc8aadbf50
 
 url_map of https://archive.org/search.php?query=mediatype:texts&sort=-publicdate beforehand: 0
 42522
 https://archive.org/details/smithsonian
-Sha256: 3a56f9de89743480ea34053c9248456be8ba7a9fb55a957164d040906d74546e
+Sha256: a6ef69a7cdb1e4e6e3b1712de1c3eca003417e06f60d2915d9726b5dff23330a
 
 url_map of https://archive.org/details/smithsonian beforehand: 0
 42867
 https://archive.org/details/fedlink
-Sha256: b6b303a2f02cda9154a80a9f4f64b9d08c79cb5544d20791d8596ed8b76fabd6
+Sha256: dc159fcf66f876f2f1a4071f945e5e58d851fd64f930aa85acc84a5386922b59
 
 url_map of https://archive.org/details/fedlink beforehand: 0
 43095
 https://archive.org/details/genealogy
-Sha256: 1afefb728f9861036c6998bf08d58a47ca7eb2509ed5a476b3c4a096d7368506
+Sha256: 45a1c797deac8ed746178b43d14773a002f56d95ca1f4e8371e1877aa65436d5
 
 url_map of https://archive.org/details/genealogy beforehand: 0
 43296
 https://archive.org/details/lincolncollection
-Sha256: 31cb4c1cd3d20b033545ff4cec2ad81c43d6087fe8205bb97fd27c06ee19dd5b
+Sha256: 7eb8047ee70d9338a34a7e4a73fe89d88d2ba7c24a19b753fc902b8255aa5eff
 
 url_map of https://archive.org/details/lincolncollection beforehand: 0
 43499
 https://archive.org/details/inlibrary?sort=-publicdate
-Sha256: 3d18a591dc1a79fb1b5805ce333f047d38cf11a507f5dbdf30f4665e77d9923c
+Sha256: 62bfe980ce2d517dffe0f32cf349f4a01d9a24f13d33d45bad0583e314c21176
 
 url_map of https://archive.org/details/inlibrary?sort=-publicdate beforehand: 0
 44138
@@ -196,75 +196,75 @@ url_map of https://archive.org/images/book-lend.png'); beforehand: 0
 44231
 44609
 https://archive.org/details/americana
-Sha256: bcfa7dbfae1ad0365914df8ecf9cc8a29c1016bfce67806fe3cb6e3ff60c35c9
+Sha256: dcca3d40d6771639d0aefd6ed22df01028205888ddd516e7fc284369d34786bc
 
 url_map of https://archive.org/details/americana beforehand: 0
 45183
 https://archive.org/details/toronto
-Sha256: 33d392fd1332dddb197f44deebdb486d79e52f2ba3002bdfe994aee10097ee6f
+Sha256: f64f331f8be432cafe6108a0ade229f6494d82acd7e779f3d1bb2de1724aed15
 
 url_map of https://archive.org/details/toronto beforehand: 0
 45397
 https://archive.org/details/universallibrary
-Sha256: 513b3d4ecfe856bbc086ca446a43f82f22500ebe0e86d616dfde0a28f19cec99
+Sha256: 1eee735767884101b8afdd331edce1847b0274310f5fdc57724ecc55dfd75b17
 
 url_map of https://archive.org/details/universallibrary beforehand: 0
 45620
 https://archive.org/details/opensource
-Sha256: 6be29bae52b21db5f2c73d36c71df03374890d7a60096f5ea9a882352a317fba
+Sha256: 52c1a2145cf02495e6cfc925e043fde348c36141e75770a7ba240bfe2ec65964
 
 url_map of https://archive.org/details/opensource beforehand: 0
 45834
 https://archive.org/details/gutenberg
-Sha256: 7e2f4fcd55a815e684e372f0c50bda52cc776a40dca3afe76ccc1f5abaa6fb91
+Sha256: aa8fbee20c61500a08d239810197892d3602f30f1a8a4e26d8f62fa81e188483
 
 url_map of https://archive.org/details/gutenberg beforehand: 0
 46041
 https://archive.org/details/biodiversity
-Sha256: 3677854c97a21968313beae50cb4919c59f713ca727dede04d27d98fd71e0937
+Sha256: 993e7c39e3ed51f951faf8d819fec62e39fcadceeef6bb7ade44c15ae17d943d
 
 url_map of https://archive.org/details/biodiversity beforehand: 0
 46257
 https://archive.org/details/iacl
-Sha256: 14492b3b01bd081fe37ff6787d0aa5b96d482212db3781e20f649aabf7542362
+Sha256: 7bd38ee46e92678f3e07f30aca8d7b99ad4e93e481b36d94cde8ca2196db6d11
 
 url_map of https://archive.org/details/iacl beforehand: 0
 46500
 https://openlibrary.org
-Sha256: 7671d5d59c9772b6c2010c1f730b83789e946099fdc9de6700c7e1ff45dd0ebe
+Sha256: 952be4e9a80f69fc0873dc0c364ffa661e12dfea279b77618a39d329c6874314
 
 url_map of https://openlibrary.org beforehand: 0
 47129
 47221
 47564
 https://archive.org/details/booksbylanguage
-Sha256: a1ff63560daddb2db25ccd97af7acec4e193413389f318457843d76ebc4694bc
+Sha256: 1f28e96bd9b8c97f64c7a05e94891e6b7c72c632f021f4861eabc9ea9f4e24f6
 
 url_map of https://archive.org/details/booksbylanguage beforehand: 0
 48067
 https://archive.org/details/additional_collections
-Sha256: 807889a7a65f1c0f4352705dcc00c0823cf17cd96fbb668221ad3f218b3e99dd
+Sha256: c0f98cbdf1c15881dd3c331eaa2d702d476e328808ee45b44a2724fc6bdd0f02
 
 url_map of https://archive.org/details/additional_collections beforehand: 0
 48292
 49112
 https://archive.org/search.php?query=mediatype:movies&sort=-publicdate
-Sha256: 44b78b86c7e482b5a66d83618f2acf30953f761b85345f302325fe10d6eda542
+Sha256: e1f1dd91e436173a6b8aff152dd8c9b311e81df6dc158afc856a3a15f9f03f93
 
 url_map of https://archive.org/search.php?query=mediatype:movies&sort=-publicdate beforehand: 0
 49506
 https://archive.org/details/prelinger
-Sha256: b3dcb2d7df274455d1aa4ec5463d6ce5e7ee3d5b32772a7fccc770925e2844c0
+Sha256: 46d5d6c15b65caa1901cb82d7abe16d510b63896bc8e79d1efa52c40338ebce3
 
 url_map of https://archive.org/details/prelinger beforehand: 0
 49849
 https://archive.org/details/democracy_now_vid
-Sha256: 16b4079a145b3e89edfcae51f9e054ad508160ac1459b320ad41807bf7380f56
+Sha256: d7d0267cd98aa4c15a158c6398d95831d21d9d11bd180b53832e736569abb9c8
 
 url_map of https://archive.org/details/democracy_now_vid beforehand: 0
 50078
 https://archive.org/details/occupywallstreet
-Sha256: dc9f209d4ad1a7487fbfbab37ffcbb94af75a42826bb776f5260cfd4d58ca9e2
+Sha256: 00de861c00cabca5c22ed4082211aeff00b676ed8708a7a90d954d7eb7de46ff
 
 url_map of https://archive.org/details/occupywallstreet beforehand: 0
 50293
@@ -274,7 +274,7 @@ Sha256: 09c3a4dcc37936b0b8274930942db274679ce8dd2b179b19e7f78923418bd460
 url_map of https://archive.org/details/nsa beforehand: 0
 50507
 https://archive.org/details/tv
-Sha256: 437332a20205cd5479a0944067af2e17757f71a2399c54930763971fb635af76
+Sha256: b521294b26d517e9e0673fc8cc7b7cdc678839c66d0d60feb6dd87a60d10f815
 
 url_map of https://archive.org/details/tv beforehand: 0
 51092
@@ -285,349 +285,349 @@ url_map of https://archive.org/services/img/tv'); beforehand: 0
 51174
 51424
 https://archive.org/details/animationandcartoons
-Sha256: 097bce690a10c796281fe9092f791cea26c786f36c5a257a7fde6af3a7dcfac2
+Sha256: bda1e95e4dfa3356881d9380f965485e0040f9ff3f8693494caf79e35ca01f48
 
 url_map of https://archive.org/details/animationandcartoons beforehand: 0
 51960
 https://archive.org/details/artsandmusicvideos
-Sha256: e60617c28581158654f99dcb467aa94975354975af03bc4b2e79bfe1f3d0ec9e
+Sha256: 64c20f21526039d92e6c518b7c149f3bd0b9e82948866c1e98d69cc25e306206
 
 url_map of https://archive.org/details/artsandmusicvideos beforehand: 0
 52193
 https://archive.org/details/computersandtechvideos
-Sha256: 20fb5b8c60aff03aa337a5ded7ed203620d7761b93b59153cf315ce1e19be0ff
+Sha256: 16393e32f8cd44e0d6897f3850d82b12811cf2e9a1319d155fbb82e52080a911
 
 url_map of https://archive.org/details/computersandtechvideos beforehand: 0
 52406
 https://archive.org/details/culturalandacademicfilms
-Sha256: 687132dc148150b3e392bfc1519e26332d44ec7515bee24ee73fc9dbc70bb7ff
+Sha256: 0a09722d57598666a76ef192c01fca5a19bf98a8c932887ef8f4609b338ed57a
 
 url_map of https://archive.org/details/culturalandacademicfilms beforehand: 0
 52651
 https://archive.org/details/ephemera
-Sha256: e08acd99c3028bc6126a6a075a26d85938cf0e3b8b7b4464f7b9afb873162d7f
+Sha256: c2258e234319836ef3e3a97bacbbd8c8d7e1bd733f45ebeb56bc52dc4c8c90b7
 
 url_map of https://archive.org/details/ephemera beforehand: 0
 52888
 https://archive.org/details/moviesandfilms
-Sha256: 1bbd2627a1aa6285d145d6549f9eb41d30493b48c03533e824fa1f0e849fb22a
+Sha256: 504e09dcc69bc371c35f960789a9ef532ac89e010a48f31ec1e02c8c0b775aa4
 
 url_map of https://archive.org/details/moviesandfilms beforehand: 0
 53100
 https://archive.org/details/newsandpublicaffairs
-Sha256: 2f695741a62ae93f8c38bef3a637e1b3963a4411ba84f6992310f6c2075d6cce
+Sha256: d9444d601a040626ce9773cce1eaa152096da9ba11ddf43e0802474f649199ec
 
 url_map of https://archive.org/details/newsandpublicaffairs beforehand: 0
 53292
 https://archive.org/details/911
-Sha256: 24adfb532b10866a76b05c4e47693d01d2d22b2e5489567009a99da55a918c7e
+Sha256: 5de664f4ccbd597f7c79df9930d6b66d96bdfc84a9ef06ff78a44eb485978284
 
 url_map of https://archive.org/details/911 beforehand: 0
 53909
 53992
 54243
 https://archive.org/details/spiritualityandreligion
-Sha256: e6e261e4814d54b70dba3c795652d66733c4cf9fe6e19e929d8b0bf2f7d132bf
+Sha256: ef20bdb6d528ed394e8ee45f46345635377d9790969f40c0be2b035b672d16de
 
 url_map of https://archive.org/details/spiritualityandreligion beforehand: 0
 54719
 https://archive.org/details/sports
-Sha256: 67af866db2c2d6b0f25bd05942cdffaa2304d75788a5b824aa250ee056ebfeeb
+Sha256: 81b4d8bd665bdeb12f03bbf8e1a0ac8fea5a7dcc5ba20aea7699fea94b15ae39
 
 url_map of https://archive.org/details/sports beforehand: 0
 54949
 https://archive.org/details/television
-Sha256: 77f7f25e933e902a25c50f94e9745fe02de038462d0d88675dd32aaa2078b65a
+Sha256: 5289318bbfdfaf44751eec7aa1ee858457058a282091e17c58bf18f8806296de
 
 url_map of https://archive.org/details/television beforehand: 0
 55151
 https://archive.org/details/gamevideos
-Sha256: dfebd4b101af73628c89641e84d8bb5012d6a05a33d28726090f14fe893c8faa
+Sha256: 45d4a816b3343a3f08ea6f53c1df3c084c59cc835fa2095043a0eb0f1e0aa587
 
 url_map of https://archive.org/details/gamevideos beforehand: 0
 55345
 https://archive.org/details/vlogs
-Sha256: ebffb70de82b16527734afb7161a4dc586dcfad31eed051ba1e44997a1b7d122
+Sha256: 64b9a9e62ee48d199ed4c3aa0e3829cc674345ac968345f997b87c42abad8f43
 
 url_map of https://archive.org/details/vlogs beforehand: 0
 55551
 https://archive.org/details/youth_media
-Sha256: d02c4286eae25ca2bdc4d9fba29dc9e1a9575b4e6f54d2557ff916ab9ff517e8
+Sha256: 928495532951ef5c62b125ba5f2eafac976c8429b56cd6c6e04b96ad6f2ca7cf
 
 url_map of https://archive.org/details/youth_media beforehand: 0
 55731
 https://archive.org/details/additional_collections_video
-Sha256: b5b28327e5c03c777dc2989c5c52ae2211ad9fa10e076e0a756fb41b2a66407a
+Sha256: 68932dc5700ccf8fd64b6874ff3d086eb423dba4c59e333036dd9fd9a4879736
 
 url_map of https://archive.org/details/additional_collections_video beforehand: 0
 55945
 56784
 https://archive.org/search.php?query=mediatype:audio&sort=-publicdate
-Sha256: 23cb2a6ad50ad36a3c1121e16c6bc38774fa174927440f260d3241801f1e6c12
+Sha256: 61f6cc8ba8ef8a2788c498c0b4123f5ffef597a9f33e5abf5c96cd8538ab70f4
 
 url_map of https://archive.org/search.php?query=mediatype:audio&sort=-publicdate beforehand: 0
 57175
 https://archive.org/details/GratefulDead
-Sha256: afa57312d48b3c461cd4f817a3bfba21f8fd9a1fcf02937fd3529d5f9725028a
+Sha256: e240955a4ff28fff87d5dd2565cab1f32b632049955ffd3fdc48329c95211bd3
 
 url_map of https://archive.org/details/GratefulDead beforehand: 0
 57521
 https://archive.org/details/netlabels
-Sha256: bf011ea9580869eb0a1b5ee9062c60c7000f279c6a9fea3540ec2696fce08814
+Sha256: 33c9fc4dc314208a48d3ccd2e10b872a7530a880f27066312ec4a04357033f91
 
 url_map of https://archive.org/details/netlabels beforehand: 0
 57727
 https://archive.org/details/oldtimeradio
-Sha256: 1493ecee0992b086c05fa288a7793ddd178d28f080916736a54fb2cfa1c7ad88
+Sha256: 7dd6fc8e7df0cfa9e8ad4879415617b694348f439cbf216d7b6ec3ae81da5087
 
 url_map of https://archive.org/details/oldtimeradio beforehand: 0
 57925
 https://archive.org/details/78rpm
-Sha256: 1165eb0d4352f6ce899097e3a424bd6d804b913d6d1861102c9120ca9d15cc01
+Sha256: 835faa4f512433cbf0213250aa91dbfdfb18a39c9dad2b927b0dc32df492f9c9
 
 url_map of https://archive.org/details/78rpm beforehand: 0
 58129
 https://archive.org/details/etree
-Sha256: f9613a416dd581df7f3c1d9d408809bdd2268a7179c43513b309206d5756f0f6
+Sha256: d6d8f7d645d91ddd7d84b232be75951d66758c19ed777ca982cc4ff575c4b84c
 
 url_map of https://archive.org/details/etree beforehand: 0
 58752
 58837
 59090
 https://archive.org/details/audio_bookspoetry
-Sha256: 8985131e47ba5e15610f0f8de918e6a4fad3b1b80d61eb25814483bbedd3408a
+Sha256: 1aca2c860e5815746c482ed6a3ae47fc53454abb3f1096506894d603a0e16b45
 
 url_map of https://archive.org/details/audio_bookspoetry beforehand: 0
 59634
 https://archive.org/details/opensource_audio
-Sha256: 0c29183c28cd9a4e509f7cb77e6668e8dd08200388fe10a1d421bfc9a495e81b
+Sha256: 05876504476c35646c7f626184e78da24a92dc842e33f982801f103fb6bda13d
 
 url_map of https://archive.org/details/opensource_audio beforehand: 0
 59864
 https://archive.org/details/audio_tech
-Sha256: e7d47ef4221ca5b70b55a3dee67131edadbbbbb3988ca5d416f98c4b8c2c5f35
+Sha256: 6eb1031bf78cfef1eabb36c2ef6ed717cee420e9f308f0c3a5e44c5e7c6c1221
 
 url_map of https://archive.org/details/audio_tech beforehand: 0
 60072
 https://archive.org/details/audio_music
-Sha256: 76c689d2c1f4365a2b4aa7799738ff05e2e8738f921699ab68b13975f6a22b5e
+Sha256: dcda6c3d1f2c59b2ae86babeb7aea7ad7cd7ff157ee733c9ca178aab93451287
 
 url_map of https://archive.org/details/audio_music beforehand: 0
 60304
 https://archive.org/details/audio_news
-Sha256: 461bf00dee9dbf1df152779ec7cf7ab5abaca949e621191e3081262a9f697c1f
+Sha256: f438334ad5fb960f864b4163466f74161b4ab759571f2c00f16c4fb267c3d17d
 
 url_map of https://archive.org/details/audio_news beforehand: 0
 60530
 https://archive.org/details/audio_foreign
-Sha256: cbc9ac689e09de56b69f87617fb2d829620a2de6c32873be5db5d2f8b02b0224
+Sha256: 7d9091ec28a9e8ef0b340f834ca87c45f985b7af5f539fe41913a419b7ec8152
 
 url_map of https://archive.org/details/audio_foreign beforehand: 0
 60760
 https://archive.org/details/radioprograms
-Sha256: ed27697288e9c656694241788fd3dd7f5ee458ab7a00b22c54410ac381fdfa17
+Sha256: a95115986f9687f243f4425b24e116a0216a7dfba389369ecbf1f9a54984de88
 
 url_map of https://archive.org/details/radioprograms beforehand: 0
 60976
 https://archive.org/details/librivoxaudio
-Sha256: c4700eb5ca2d76d226fc2778e3b40952a3fcac2aae3f5dc2aad6c39ad8ad7f03
+Sha256: 4d12116455bb31f6c28d44532966cd3acace6442fcbc32dfb42538d6963a455b
 
 url_map of https://archive.org/details/librivoxaudio beforehand: 0
 61581
 61674
 61935
 https://archive.org/details/audio_religion
-Sha256: 3b0d62b94ec4376523b02b6e900877ea7a6c8ccf42325d0deb0fc52e0475cda8
+Sha256: ea06874c05c8f37ffc95c2b049f6af392453b3971d2552ab0cfaa878065a38c9
 
 url_map of https://archive.org/details/audio_religion beforehand: 0
 62407
 https://archive.org/details/podcasts
-Sha256: 9f0a21dbd77c3c8b97cbf8e48ed3d7e9aa7f1363a3a4bb610c823686dedd0b64
+Sha256: 1580bc4395965ed57c6a958059c0633bfcad01f5dad30986ae23464bf6ff6954
 
 url_map of https://archive.org/details/podcasts beforehand: 0
 62639
 63422
 https://archive.org/search.php?query=mediatype:software&sort=-publicdate
-Sha256: 6dc7d19293a6e8b7f174f048f37c3555c4b55fa004cc83ca0142f5d0f21cf5c4
+Sha256: 9698d84ee726eed03b3cee14eba36941a94781ed41098495aba648efa525529f
 
 url_map of https://archive.org/search.php?query=mediatype:software&sort=-publicdate beforehand: 0
 63828
 https://archive.org/details/tosec
-Sha256: 5892db772f17c23150865b1bfb6860455e92314c2fa83c266a894c4e256fea57
+Sha256: 25ecac68b70a577211c86365d5403f1d10b2e2acbfa0b7b77df405be1b16ddeb
 
 url_map of https://archive.org/details/tosec beforehand: 0
 64170
 https://archive.org/details/softwarelibrary_msdos_games
-Sha256: 65dec26af3aa9fcfb61ef480f0581305fee32e6943ddc14699bc1bc095d7bc99
+Sha256: 063a55a19f0e3923f8650a5235fe5992eaf36afdf2cc82246a53f0efc145d3fd
 
 url_map of https://archive.org/details/softwarelibrary_msdos_games beforehand: 0
 64414
 https://archive.org/details/historicalsoftware
-Sha256: 0a8d0fb24042952ae5d8942a1ebd9c7224cc8af134e1f3cfe869b35d3d4d28d2
+Sha256: 83bcc1679cdfaeb1de41802458ccc35baf0d6d11d5f4220339ff79d04967a497
 
 url_map of https://archive.org/details/historicalsoftware beforehand: 0
 64625
 https://archive.org/details/classicpcgames
-Sha256: 912724c48e1562b3b810bdd268f517a9b2f031cc80dac7e58a2796eb77c9a0ac
+Sha256: 9d581f901dd90e5c14acf161f15f29d320ff312ac89189bd747e0166b0a03d0c
 
 url_map of https://archive.org/details/classicpcgames beforehand: 0
 64854
 https://archive.org/details/softwarelibrary
-Sha256: 7a65cf0b3c86bc19a42aa21356cc8ef52c8e220ad2bfb2a8ac62f53784d5be4b
+Sha256: 343afa960e83d2009da85f51f427be442a5862e08f1d344e19a5abba589da683
 
 url_map of https://archive.org/details/softwarelibrary beforehand: 0
 65074
 https://archive.org/details/internetarcade
-Sha256: db99cced591c6465a8ce9683a7dd8f0a1ccaa1dc40caa64524eccc585792eed5
+Sha256: 7962edb474dcdf2bb9fbabe98f48f69df955aaf953c4deb96257decd1e56fc9a
 
 url_map of https://archive.org/details/internetarcade beforehand: 0
 65664
 65758
 66020
 https://archive.org/details/kodi_archive
-Sha256: c8eef1e4e0dc22e7ac661c6278efa4ecb0508f286de8afc3e91e78da2cbbc586
+Sha256: 6d7b776378e45f63fb3cb74892c2acba433090929d63daf6407ef6c6bd71d1ac
 
 url_map of https://archive.org/details/kodi_archive beforehand: 0
 66556
 https://archive.org/details/open_source_software
-Sha256: 7b2e7442b19ab932c7ae299ad08bf2eb108b74e31b330fc937836e124bca674e
+Sha256: 88c763fd4343e9e1881bb0290bacaa2c09d86d7e1375c550b37ba70095ec1517
 
 url_map of https://archive.org/details/open_source_software beforehand: 0
 66813
 https://archive.org/details/softwarelibrary_msdos
-Sha256: cb46eb8ecd2dd4eaeb27f555491e3651fb323babcad4e5c5a50fef145a20c088
+Sha256: 5d4c42966292220858e339a74f9c375a322e930b9cdacf3969ef3b0494db4514
 
 url_map of https://archive.org/details/softwarelibrary_msdos beforehand: 0
 67041
 https://archive.org/details/vintagesoftware
-Sha256: 3b72e2e72042c333f1d3f7a0c7c28e94b5e339f4f3e2cf28121ac552f604bbe0
+Sha256: 8cf944b1b4ad32c54d77e99b93c45c9e13207d985b40ebfb498915619124c178
 
 url_map of https://archive.org/details/vintagesoftware beforehand: 0
 67227
 https://archive.org/details/apkarchive
-Sha256: ad970591c9fad6e38f205dbce110ae96f7f9d1e0c1aa5880082f221087df485a
+Sha256: 42d970e2a208237158c02a438a8cd9f185d9ff2222f2f5f2d22bdf695315ca6d
 
 url_map of https://archive.org/details/apkarchive beforehand: 0
 67438
 https://archive.org/details/cd-roms
-Sha256: 0c6449cfe2a285ad11eb12e78ac2a36a4075a897eea2677fdd874a222f06f9b6
+Sha256: efaa0a915953eec0d9f8df61e71c8bfb64f15ab535f2721486bb5c8a60808a41
 
 url_map of https://archive.org/details/cd-roms beforehand: 0
 67608
 https://archive.org/details/cdromsoftware
-Sha256: 24fd313434b4748098a78f6163b7ba56c24cdc64f623956b782fc720aee48be8
+Sha256: 4b37f69b149f933ad74bb71885743560b5769062e5f3b7c9d9e6e5e9b7f5faee
 
 url_map of https://archive.org/details/cdromsoftware beforehand: 0
 67818
 https://archive.org/details/consolelivingroom
-Sha256: 81d40e2fdc62f7b9a5587b8906fd32b9ebe1871755c0437ea9d402bdaf52b85e
+Sha256: 19ddf11c6391be4fa3c8132b8cb68457d4430c8e65ff40f4388a1bc28e2e985a
 
 url_map of https://archive.org/details/consolelivingroom beforehand: 0
 68452
 68549
 68814
 https://archive.org/details/softwaresites
-Sha256: d222b4ed31ddf9793e6e61f8f0f26084c65b71b1fbf760fb7779fa2050a484e8
+Sha256: 96f7fa55c33fe00ab6cbda9111eb6d9316fb5292a67485186d74b0f2a558c597
 
 url_map of https://archive.org/details/softwaresites beforehand: 0
 69281
 https://archive.org/details/tucows
-Sha256: 2f9f45737425047c9ff57e7dc9459531caf365ea9b065e5921f9e5363ca0d438
+Sha256: 81e7e2f08e83e681a3ed6e030c661a6b05e51eb7cf1f5f669df38381b516020c
 
 url_map of https://archive.org/details/tucows beforehand: 0
 69482
 https://archive.org/details/cdbbsarchive
-Sha256: 8301526cbd1b0632b870a09729b24804c6aac6673926f571aa79d1fa70237915
+Sha256: 4f3e030348e130b648f9a912c7968310cba7c8567a4bf06006c7a4ebc14587ed
 
 url_map of https://archive.org/details/cdbbsarchive beforehand: 0
 69715
 https://archive.org/details/softwarelibrary_zx_spectrum
-Sha256: ae20c82d4084e8bbe607ae740e73c6c8f51faa74ab668ff344106a932a1bc18c
+Sha256: 48d9bd01335d81c261375730f36cbe3b643f8391259e7423179648f6910c655c
 
 url_map of https://archive.org/details/softwarelibrary_zx_spectrum beforehand: 0
 69945
 https://archive.org/details/cdromimages
-Sha256: 889ae40b260d1522987608fb6c153bf72d8c32a85fbca3fe5eabf327015637b7
+Sha256: 1c58159d8324b63ed5748dd6e3e1efe3c7a682d34b5958dadf0d5dbb4db2b0e5
 
 url_map of https://archive.org/details/cdromimages beforehand: 0
 70142
 https://archive.org/details/doom-cds
-Sha256: 064e73a76b68a5179f475f2178b7f16eefdafcaa2e0dcd28603097748855fd3b
+Sha256: 7d72a1de44a8c42686445cb61f54e1c6020e4ae518956a728b8fba3f3dbc6c99
 
 url_map of https://archive.org/details/doom-cds beforehand: 0
 70341
 https://archive.org/details/zx_spectrum_library_games
-Sha256: 39ec6aa0b38033233deb0394971c421e8121324074603b04d6de75413e181570
+Sha256: 722e6cc08e65d45c0af07b0599eef1fab161be23f556136cc1ad3601113a063a
 
 url_map of https://archive.org/details/zx_spectrum_library_games beforehand: 0
 70557
 71384
 https://archive.org/search.php?query=mediatype:image&sort=-publicdate
-Sha256: 9abf73700c9d83ef69825a66bd0f55fcc0969cf57d95659f4b260b4a7fdaf0fa
+Sha256: 5c1ba0e33682e8663768e3d31f508042f28f39cd900db3238ce655afdc3fae64
 
 url_map of https://archive.org/search.php?query=mediatype:image&sort=-publicdate beforehand: 0
 71776
 https://archive.org/details/flickrcommons
-Sha256: eed2243feb71c1717fd146e7fc8ac5cc4d778ebf57d13a60673468c0ce20ff95
+Sha256: f5fabe1814e3d26f24e1dc768a013b09c6f93740bf5b606fdc64d1c8d98df673
 
 url_map of https://archive.org/details/flickrcommons beforehand: 0
 72123
 https://archive.org/details/flickr-ows
-Sha256: 77ddc649420e49e6e8b3f495b7a771ed187291a481ee877c182cadaa34e70854
+Sha256: 7b9086bea6b101ea1b27ad22e57d39cf3bfc89f4b7d0a2ac224ca36e370cbb9d
 
 url_map of https://archive.org/details/flickr-ows beforehand: 0
 72333
 https://archive.org/details/coverartarchive
-Sha256: 061d79d8f10745452d28c96cc606b6ea20d555cedb09bdc7848027e0ce4536f0
+Sha256: 1f7c48623a40a4dce2ccb6e1eec799d7ffd8773971f549194f7b0d8de0931fef
 
 url_map of https://archive.org/details/coverartarchive beforehand: 0
 72579
 https://archive.org/details/maps_usgs
-Sha256: 37a9f732ae8785599ab41b3449f575fcfaa16410662cf31c9f813004afa416fd
+Sha256: 8f06d22dbc1438eab7b842ddd47292e60aac13187cb2cf178cbee14010065a89
 
 url_map of https://archive.org/details/maps_usgs beforehand: 0
 72773
 https://archive.org/details/metropolitanmuseumofart-gallery
-Sha256: 3f455e8599c7ba01516d1dc61640b63b9bd2b9bebc7bce859c586ba817b10be6
+Sha256: 605e3f8bce789f1a71412599ced68f6901a2f7ef96a508f57dbb90e855946ade
 
 url_map of https://archive.org/details/metropolitanmuseumofart-gallery beforehand: 0
 73359
 73470
 73749
 https://archive.org/details/nasa
-Sha256: d4697be688164f3890192a909df5482b1cac84cac1892d130767a1153a8b30d1
+Sha256: fcf8844a8a79b5d4e3ccc63318e8df6cd73b9f2ff35bc4371de73d9020ba1286
 
 url_map of https://archive.org/details/nasa beforehand: 0
 74281
 https://archive.org/details/solarsystemcollection
-Sha256: 614605cb4460da6287a808c74ac07e140c77562f8de9463f9f17237a11dd34e2
+Sha256: de155681dd791f8d4b05613f850afdc08ae491dbbae350163d90481ea0f92573
 
 url_map of https://archive.org/details/solarsystemcollection beforehand: 0
 74468
 https://archive.org/details/amesresearchcenterimagelibrary
-Sha256: d5f69f5ca87215e1a57f06bcf1703d003019b024a1a3cc79f4bba405c4602eaf
+Sha256: ee3baba5682334a56cea1b541f8c4c2a5adf1b150366f263d8c56b5c4f481b61
 
 url_map of https://archive.org/details/amesresearchcenterimagelibrary beforehand: 0
 74687
 https://archive.org/details/brooklynmuseum
-Sha256: e266d913c2a7c62b1db8d55f6cdeb5f2718d92930720a3cf6340e20bdc6aea3b
+Sha256: ac101d413910ff09d04ce3d7a915b160eaf6987eab8c2ac657b30a973215ba8a
 
 url_map of https://archive.org/details/brooklynmuseum beforehand: 0
 75281
 75375
 75637
 https://archive.org/searchresults.php
-Sha256: 4096ef79e2cd7dac38ded9a3ef874cc537e505ba4d349f7b0b5c53095de0adc5
+Sha256: c2b85a3978513964a2acaa58d031b7ad3128a801d91c29f76d47902359f7ed56
 
 url_map of https://archive.org/searchresults.php beforehand: 0
 80942
 https://web.archive.org/web/*/
-Sha256: 8e6badab8bb900b55888df6a03bfcff8c02a22833b2b61549b0c27f9e8a10219
+Sha256: 607668b3edb39186d6d9b9d4558afdb45c3d0317e5c8329f1bf3a371983c13fb
 
 url_map of https://web.archive.org/web/*/ beforehand: 0
 81074
 https://archive.org/advancedsearch.php
-Sha256: 1eb053830f9edf784244797cd998e8e3b9a248fd9768ee8ad23ca0d414799d83
+Sha256: 73f38f020d9c7ad766cf86529c8007a8a5c8bcc09ecaba7fbb5a7b8bfbadeb8c
 
 url_map of https://archive.org/advancedsearch.php beforehand: 0
 83053
@@ -651,15 +651,26 @@ Sha256: a2baa91ef85fdf2dad8d27128ad350191cdf2f311e4ec1611e2cebdb18d80cbf
 
 url_map of https://blog.archive.org/category/announcements/ beforehand: 0
 84553
-Last index for https:// found:  84553
+Last index for complete URLS found:  84553
 Searching URLs with different domains
 
 https://archive.org/includes/build/css/archive.min.css?v=8932c71e
-https://archive.org/includes/donation_banner/banner.css?v=8932c71e
-https://blog.archive.org
-%s
+Sha256: 67e1f213dd4e23cbe9b21b07f0b2e795738e9f77e31675e5c17e38c3d57d04aa
 
- Searching sub domain URLs
+4933
+https://archive.org/includes/donation_banner/banner.css?v=8932c71e
+Sha256: 8dbebda9bcf20d61c4e676ebcb52968a74e31ccd63859e4e5cf830742c29d030
+
+5970
+https://blog.archive.org
+Sha256: 9aba4c83d61d5970199c886c5b53f07c9532eaa12c8df08474da335b199ba6e7
+
+36076
+38404
+Last index for different domains found:  38404
+Searching sub domain URLs
+
+
 4873
 5909
 https://archive.org/
@@ -714,12 +725,13 @@ a5c93379f2cd5329cc5b186ca14458a7cca01a9972d3394a663ab63391f028ec
 len_html_page: 3213
 Searching complete URLs
 
-Last index for https:// found:  -1
+Last index for complete URLS found:  -1
 Searching URLs with different domains
 
-%s
+Last index for different domains found:  -1
+Searching sub domain URLs
 
- Searching sub domain URLs
+
 Checksum of HMTL page of base url is:
 16faa54aac8b1ca9156423758b382f5f2ab1c1eb7cebcd2d82c9a8ef20204da0
 
@@ -727,12 +739,13 @@ Checksum of HMTL page of base url is:
 len_html_page: 72083
 Searching complete URLs
 
-Last index for https:// found:  -1
+Last index for complete URLS found:  -1
 Searching URLs with different domains
 
-%s
+Last index for different domains found:  -1
+Searching sub domain URLs
 
- Searching sub domain URLs
+
 Checksum of HMTL page of base url is:
 9db1feb95225330e07d324ecb04fac5be92b696e75bf17108aa9f503ef152279
 
@@ -756,7 +769,7 @@ Searching complete URLs
 7710
 7844
 https://archive.org/search.php
-Sha256: c70d72df9178b1663d641ee75243863837ed2d4d37eeb62cf52b9ccf42450a00
+Sha256: 7ece0636d7deec53b9bfa4679f9764a608cf0d15921980d5a5febbeb20c87e82
 
 url_map of https://archive.org/search.php beforehand: 0
 8221
@@ -888,16 +901,20 @@ url_map of https://archive.org/search.php beforehand: 0
 49465
 49727
 https://changelly.com/faq
-Sha256: 657e7a9b86a82d2d712590bf9835d7fbd58d77a44bd64dc974c868fcb00a0da1
+Sha256: 98e377f4c5334b56bf533ff7e1b906e8537100009a2f5769e9c6c402b572f003
 
 url_map of https://changelly.com/faq beforehand: 0
 56117
-Last index for https:// found:  56117
+Last index for complete URLS found:  56117
 Searching URLs with different domains
 
-%s
+2164
+7058
+12488
+Last index for different domains found:  12488
+Searching sub domain URLs
 
- Searching sub domain URLs
+
 2104
 https://archive.org/
 7039
@@ -1072,12 +1089,17 @@ Searching complete URLs
 79887
 80021
 82000
-Last index for https:// found:  82000
+Last index for complete URLS found:  82000
 Searching URLs with different domains
 
-%s
+4580
+5627
+35731
+41161
+Last index for different domains found:  41161
+Searching sub domain URLs
 
- Searching sub domain URLs
+
 4520
 5566
 https://archive.org/
@@ -1163,3 +1185,24 @@ Searching complete URLs
 50078
 50293
 50507
+51092
+51174
+51424
+51960
+52193
+52406
+52651
+52888
+53100
+53292
+53909
+53992
+54243
+54719
+54949
+55151
+55345
+55551
+55731
+55945
+56784

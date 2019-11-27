@@ -81,7 +81,7 @@ func extract_urls(html_page []byte) [1024][] byte {
 
 			url = []byte{}
 
-			fmt.Println("Last index for https:// found: ",i)
+			fmt.Println("Last index for complete URLS found: ",i)
 
 			i += 2
 
@@ -157,6 +157,12 @@ func extract_urls(html_page []byte) [1024][] byte {
 
 		if ( (i < 0) || ( i < i_0 ) ) {
 			
+			url = []byte{}
+
+			fmt.Println("Last index for different domains found: ",i)
+
+			i += 2
+
 			break
 		}
 
@@ -176,6 +182,8 @@ func extract_urls(html_page []byte) [1024][] byte {
 			
 			i++
 		}
+
+		i++
 		
 		html_of_url = getPage( string(url) )
 
@@ -183,6 +191,8 @@ func extract_urls(html_page []byte) [1024][] byte {
 			
 			url = []byte{}
 
+			fmt.Println("Failed to open html of page: %s\n",url)
+			
 			fmt.Println(i)
 
 			i++
@@ -191,10 +201,9 @@ func extract_urls(html_page []byte) [1024][] byte {
 			
 		}
 
-
 		shasum = sha256.Sum256(html_of_url)
 		
-		if (len(sha_map[string(shasum[0:])]) == 0) {
+		if ( (len(sha_map[string(shasum[0:])]) == 0) && ( url_map[string(url)] == 0 ) ) {
 			
 			urls[url_index] = make([]byte,len(url))
 
@@ -202,13 +211,19 @@ func extract_urls(html_page []byte) [1024][] byte {
 			
 			fmt.Printf("%s\n",urls[url_index])
 
+			fmt.Printf("Sha256: %x\n\n",shasum)
+
 			sha_map[string(shasum[0:])] = urls[url_index]
+
+			url_map[string(urls[url_index])] = 1
 
 			url_index++
 		
 		} 
 
 		url = []byte{}
+
+		fmt.Println(i)
 
 		i++
 		
@@ -220,7 +235,7 @@ func extract_urls(html_page []byte) [1024][] byte {
 
 	i = 0
 
-	fmt.Println("%s\n\n","Searching sub domain URLs")
+	fmt.Println("Searching sub domain URLs\n\n")
 
 	for ( (i < len_html_page) && (url_index < 1024) ) {
 
@@ -230,6 +245,11 @@ func extract_urls(html_page []byte) [1024][] byte {
 
 		if ( (i < 0) || (i < i_0) ) {
 			
+			url = []byte{}
+
+			fmt.Println("Last index for different domains found: ",i)
+			i += 2
+
 			break
 		}
 
@@ -260,6 +280,8 @@ func extract_urls(html_page []byte) [1024][] byte {
 			
 			i++
 		}
+
+		i++
 		
 		html_of_url = getPage( string(url) )
 
