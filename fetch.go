@@ -16,7 +16,6 @@ var sha_map = make(map[string][]byte)
 
 var url_map = make(map[string] int)
 
-
 func getPage(a string)  []byte {
 	
 	resp, err := http.Get(a)
@@ -106,15 +105,15 @@ func extract_urls(html_page []byte) [1024][] byte {
 
 			fmt.Println("Failed to get URL of page at index: ",i)
 
+			i++
+
 			continue
 			
 		}
 
 		shasum = sha256.Sum256(html_of_url)
 		
-		if ( url_map[string(sha_map[string(shasum[0:])])] == 0 ) {
-
-			//(len(sha_map[string(shasum[0:])]) == 0) {
+		if ( ( len(sha_map[string(shasum[0:])]) == 0 ) && ( url_map[string(url)] == 0 ) ) {
 
 			fmt.Printf("%s\n",url)
 
@@ -125,8 +124,10 @@ func extract_urls(html_page []byte) [1024][] byte {
 			copy(urls[url_index],url)
 
 			sha_map[string(shasum[0:])] = urls[url_index]
+			
+			fmt.Printf("url_map of %s beforehand: %d\n",urls[url_index],url_map[string(urls[url_index])])
 
-			url_map[string(sha_map[string(shasum[0:])])] = 1
+			url_map[string(urls[url_index])] = 1
 
 			url_index++
 		
@@ -343,7 +344,7 @@ func crawler(url string) {
 func main() {
 	
 
-	fmt.Printf("%q\n",getPage(os.Args[1]))	
+//	fmt.Printf("%q\n",getPage(os.Args[1]))	
 
 	crawler(os.Args[1])
 }
