@@ -18,4 +18,4 @@ Lines: 91, 363, 369, 381
 
 The problem begins with the URL "https://plus.google.com/103654360130207659246"
 
-
+Some complete URLS end with a ')' character and not a \".

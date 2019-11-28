@@ -45,7 +45,7 @@ func getPage(a string)  []byte {
 
 func extract_urls(html_page []byte) [1024][] byte {
 	
-	search_str := []byte("https://")
+	search_str := []byte("\"https://")
 
 	search_sub_domain := []byte("href=\"/")
 
@@ -88,7 +88,7 @@ func extract_urls(html_page []byte) [1024][] byte {
 			break
 		}
 
-		for html_page[i] != 0x22 {
+		for ( (html_page[i] != 0x22) && (html_page[i] != 0x29) ) {
 
 			url = append(url,html_page[i])
 			
@@ -102,7 +102,7 @@ func extract_urls(html_page []byte) [1024][] byte {
 		if ( html_of_url == nil ) {
 
 
-			fmt.Printf("Failed to get HTML of page (%s) at index %d: ",url,i)
+			fmt.Printf("Failed to get HTML of page (%s) at index %d\n\n",url,i)
 			url = []byte{}
 
 			i++
@@ -175,7 +175,7 @@ func extract_urls(html_page []byte) [1024][] byte {
 
 		i++
 
-		for html_page[i] != 0x22 {
+		for ( (html_page[i] != 0x22) && (html_page[i] != 0x29) ) {
 
 			url = append(url,html_page[i])
 			
@@ -189,7 +189,7 @@ func extract_urls(html_page []byte) [1024][] byte {
 		if ( html_of_url == nil ) {
 			
 
-			fmt.Printf("Failed to get HTML of page (%s) at index %d: ",url,i)
+			fmt.Printf("Failed to get HTML of page (%s) at index %d\n\n",url,i)
 			url = []byte{}
 			
 			fmt.Println(i)
