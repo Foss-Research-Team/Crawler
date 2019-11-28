@@ -10,6 +10,12 @@ https://mediawiki.org/
 
 Both lead to the EXACT same webpage yet they are different URLs. But a SHA256 checksum would make the equivalence of the two clear.
 
+--------------------
+
 The following lines are causing the crawler to crash at the weird URLs that do not lead anywhere:
 
 Lines: 91, 363, 369, 381
+
+The problem begins with the URL "https://plus.google.com/103654360130207659246"
+
+
