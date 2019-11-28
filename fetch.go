@@ -102,7 +102,7 @@ func extract_urls(html_page []byte) [1024][] byte {
 		if ( html_of_url == nil ) {
 
 
-			fmt.Printf("Failed to get URL of page (%s) at index %d: ",url,i)
+			fmt.Printf("Failed to get HTML of page (%s) at index %d: ",url,i)
 			url = []byte{}
 
 			i++
@@ -189,7 +189,7 @@ func extract_urls(html_page []byte) [1024][] byte {
 		if ( html_of_url == nil ) {
 			
 
-			fmt.Printf("Failed to get URL of page (%s) at index %d: ",url,i)
+			fmt.Printf("Failed to get HTML of page (%s) at index %d: ",url,i)
 			url = []byte{}
 			
 			fmt.Println(i)
@@ -375,8 +375,8 @@ func crawler(url string) {
 
 func main() {
 	
-	fmt.Printf("%s\n",getPage(os.Args[1]))
+//	fmt.Printf("%s\n",getPage(os.Args[1]))
 
-//	crawler(os.Args[1])
+	crawler(os.Args[1])
 }
 
