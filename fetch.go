@@ -16,7 +16,7 @@ var sha_map = make(map[string][]byte)
 
 var url_map = make(map[string] int)
 
-var blacklist_domain_map = make(map[string] int)
+var blacklist_map = make(map[string] int)
 
 func getPage(a string)  []byte {
 	
@@ -379,7 +379,7 @@ func crawler(url string) {
 
 }
 
-func blacklist(black_url []string) {
+func blacklist_add(black_url []string) {
 
 	var i int = 0
 
@@ -387,10 +387,43 @@ func blacklist(black_url []string) {
 
 	url_map[black_url[i]] = 1
 
-	blacklist_domain_map[black_url[i]] = 1
+	blacklist_map[black_url[i]] = 1
+
+	var shasum []byte = sha256.Sum256()
 
 	i++
 
+	}
+	
+
+}
+
+func extract_domain(url []byte) []byte {
+	
+	var domain []byte
+	
+	var i int = 8
+	
+	for ( ( i < len(url) ) && ( url[i] != 0x2f ) ) {
+		
+		append(domain,url[i])		
+
+		i++
+	}
+
+	return domain
+		
+}
+
+func blacklist_check(url []byte, domain_only uint8) uint8 {
+	
+	if ( domain_only == 1 ) {
+		
+		return blacklist_map[string(extract_domain(url))]
+			
+	} else {
+		
+		return blacklist_map[string(url)]	
 	}
 	
 
