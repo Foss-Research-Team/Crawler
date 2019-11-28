@@ -45,7 +45,9 @@ func getPage(a string)  []byte {
 
 func extract_urls(html_page []byte) [1024][] byte {
 	
-	search_str := []byte("\"https://")
+	var search_str []byte = []byte("\"https://")
+
+	//var url_str []byte = []byte("(https://") //use this for background images only
 
 	search_sub_domain := []byte("href=\"/")
 
@@ -88,7 +90,9 @@ func extract_urls(html_page []byte) [1024][] byte {
 			break
 		}
 
-		for ( (html_page[i] != 0x22) && (html_page[i] != 0x29) ) {
+		i++ //Have the character position at the beginning of the https URL
+
+		for ( html_page[i] != 0x22 ) {
 
 			url = append(url,html_page[i])
 			
@@ -175,7 +179,7 @@ func extract_urls(html_page []byte) [1024][] byte {
 
 		i++
 
-		for ( (html_page[i] != 0x22) && (html_page[i] != 0x29) ) {
+		for ( html_page[i] != 0x22 ) {
 
 			url = append(url,html_page[i])
 			
@@ -348,7 +352,7 @@ func crawler(url string) {
 
 	url_map[string(sha_map[string(shasum_base_url[0:])])] = 1
 
-	fmt.Printf("%q\n",sha_map[string(shasum_base_url[0:])])
+	fmt.Printf("%s\n",sha_map[string(shasum_base_url[0:])])
 	
 	var c []byte 
 	
