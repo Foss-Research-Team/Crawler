@@ -16,6 +16,8 @@ var sha_map = make(map[string][]byte)
 
 var url_map = make(map[string] int)
 
+var blacklist_domain_map = make(map[string] int)
+
 func getPage(a string)  []byte {
 	
 	resp, err := http.Get(a)
@@ -374,6 +376,23 @@ func crawler(url string) {
 
 		i++
 	}
+
+}
+
+func blacklist(black_url []string) {
+
+	var i int = 0
+
+	for i < len(black_url) {
+
+	url_map[black_url[i]] = 1
+
+	blacklist_domain_map[black_url[i]] = 1
+
+	i++
+
+	}
+	
 
 }
 

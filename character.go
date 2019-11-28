@@ -1,7 +1,15 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+)
 
 func main() {
-	fmt.Printf("%s\n",)
+
+	var slammer []string = []string{"at","the","car"}
+
+	var slammer_copy []string = slammer
+
+	fmt.Println(slammer_copy)
+	
 }
