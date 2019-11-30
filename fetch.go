@@ -18,6 +18,21 @@ var url_map = make(map[string] int)
 
 var blacklist_map = make(map[string] int)
 
+var domain_settings uint8 = 0
+
+/*
+Domain settings has the following bitwise configurations:
+
+7	6	5	4	3	2	1	0
+
+Bit 0: Blacklist URL Domains only
+
+Bit 1: List of fixed domains that crawler must stay in is present
+
+Bit 2: 
+
+*/
+
 func getPage(a string)  []byte {
 	
 	resp, err := http.Get(a)
@@ -44,6 +59,36 @@ func getPage(a string)  []byte {
 
 }
 
+func extract_domain(url []byte) []byte {
+	
+	var domain []byte
+	
+	var i int = 8
+	
+	for ( ( i < len(url) ) && ( url[i] != 0x2f ) ) {
+		
+		domain = append(domain,url[i])		
+
+		i++
+	}
+
+	return domain
+		
+}
+
+func blacklist_check(url []byte, domain_only int ) int {
+	
+	if ( domain_only == 1 ) {
+		
+		return blacklist_map[string(extract_domain(url))]
+			
+	} else {
+		
+		return blacklist_map[string(url)]	
+	}
+	
+
+}
 
 func extract_urls(html_page []byte) [1024][] byte {
 	
@@ -119,8 +164,8 @@ func extract_urls(html_page []byte) [1024][] byte {
 
 		shasum = sha256.Sum256(html_of_url)
 		
-		if ( ( len(sha_map[string(shasum[0:])]) == 0 ) && ( url_map[string(url)] == 0 ) ) {
-
+		if ( ( len(sha_map[string(shasum[0:])]) == 0 ) && ( url_map[string(url)] == 0 ) && (blacklist_check(url,int(domain_settings&0x1)) == 0)  ) {
+				
 			fmt.Printf("%s\n",url)
 
 			fmt.Printf("Sha256: %x\n\n",shasum)
@@ -389,8 +434,6 @@ func blacklist_add(black_url []string) {
 
 	blacklist_map[black_url[i]] = 1
 
-	var shasum []byte = sha256.Sum256()
-
 	i++
 
 	}
@@ -398,41 +441,11 @@ func blacklist_add(black_url []string) {
 
 }
 
-func extract_domain(url []byte) []byte {
-	
-	var domain []byte
-	
-	var i int = 8
-	
-	for ( ( i < len(url) ) && ( url[i] != 0x2f ) ) {
-		
-		append(domain,url[i])		
-
-		i++
-	}
-
-	return domain
-		
-}
-
-func blacklist_check(url []byte, domain_only uint8) uint8 {
-	
-	if ( domain_only == 1 ) {
-		
-		return blacklist_map[string(extract_domain(url))]
-			
-	} else {
-		
-		return blacklist_map[string(url)]	
-	}
-	
-
-}
-
 func main() {
 	
-//	fmt.Printf("%s\n",getPage(os.Args[1]))
-
+	fmt.Printf("%s\n",getPage(os.Args[1]))
+	
+	
 	crawler(os.Args[1])
 }
 

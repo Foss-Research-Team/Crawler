@@ -1,0 +1,23 @@
+----------------------
+
+11/29/2019 10:04 PM
+
+A PDF can be identified with the following magic strings:
+
+1. "%PDF-"
+
+2. "trailer"
+
+3. "/Size"
+
+4. "/Root"
+
+5. "startxref"
+
+6. "%%EOF\n"
+
+Oh, and of course the .pdf extension in the filename...or URL
+
+Hyperlinks in PDF can be found by searching for the "/URI" string and then iterating through the PDF file until a '(' character is found. The URL will immediately follow that and be enclosed by a ')' character.
+
+
