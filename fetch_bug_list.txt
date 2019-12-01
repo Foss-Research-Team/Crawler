@@ -32,6 +32,11 @@ A fair bug was found that you would not have foreseen to be fair:
 
 3. https://reddit.com/
 
+I think Masen is right, just blacklist social media sites that are infamous for dynamically changing often.
+
+Easy fix.
+
+
 All of these are the exact same website page yet they are different URL strings.
 
 Also the web crawler got stuck on a dynamic gif with the following URL:
@@ -51,10 +56,47 @@ For now, study the dynamic HTML page "reddithelpgif.txt" And see why the annoyin
 
 It seems that Javascript functions are encased in <script>-like tags. How abouta map that finds the longest such script and matches it to the URL of the webpage? Clearly, although the URL or HTML content may change, the Javascript functions will not.
 
-Wait, I have a great idea:
+Although that sounds like a great idea, this will actually not work out. Since different, yet similiar webpages may have the same JS source code checksum. In fact, that is a great way to check if two websites are similiar: Concatenate all the JS source code embedded in a webpage and get the checksum of this long string. If the checksums match, you bet the pages are similiar. 
 
-Extract ALL the Javascript source code from an HTML page, concatenate it together, get the SHA256 of that large string, and map it so that the return value is a 1 when there is a match. Solves the Dynamic HTML and URL problem at the same time. Although an HTML page's contents may change, the only thing I expect to remain consistent on a website is the DOM JS code itself.
+But it is not useful to check if two websites are unique against a dynamic webpage that changes its HTML contents and even its own URL.
 
-After checking the reddithelpgif.txt and reddithelpgif2.txt, my theory is supported. Even the DOM JS source code remains perfectly consistent within an HTML. The only thing that truly changed in that file is the URL for that webpage. Of course, the exact Javascript source code responsible for that did not.
+It is best to use to concatenate all three forms of URLs (complete URL references, different domains, and sub domain URLs), convert that into a checksum. and map it with boolean return values. This will work against the degoogle and CorpFree subreddits as well as the reddithelpgifs.
 
+Two tests:
+
+1. reddit Page for CorpFree and reddit Page for degoogle
+
+2. Two different versions of https://www.reddithelp.com/en/categories/using-reddit/frontpage-and-subscriptions/image/gif%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525253Bbase64%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252CR0lGODlhAQABAPABAP///wAAACH5BAEKAAAALAAAAAABAAEAAAICRAEAOw%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525253D%25252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525252525253D"
+
+3. Testing difference between GitHub repos:
+
+	1. github.com/Foss-Research-Team/Crawler
+
+	2. github.com/tanveerasalim/Project_Test
+
+According to Masen Poppe, you should just blacklist social media sites altogether. Social Media sites have a problem with sites that dynamically change both their content and their URL at the same time. I was planning to check the checksum for HTML and Javascript but that will not work since that is meant to block out sites that dynamically change their URL. It is not sufficient if you check that the Javascripts are identical, you also have to check the SHA256 of the entire HTML AND if the URLs between the two pages match.
+
+So Masen advised:
+	1. Just add the blacklist functionality. It is necessary.
+
+	2. Add the sethostname functionality. That way, each crawler instance stays in the same hostname setting.
+
+
+But it is not useful to check if two websites are unique against a dynamic webpage that changes its HTML contents and even its own URL.
+
+It is best to use to concatenate all three forms of URLs (complete URL references, different domains, and sub domain URLs), convert that into a checksum. and map it with boolean return values. This will work against the degoogle and CorpFree subreddits as well as the reddithelpgifs.
+
+In fact, the real difference you see in dynamic webpages that change their own URLs are...the URLs that are embedded in the HTML page...DUH. So strip away all the hyperlinks and you should end up with the same non-changing HTML page document. The HTML document does not have to be open, just consistent between dynamic webpages that actually are about the exact same website. Think about cutting away all the URLs embedded in the reddithelpgif.txt HTML page. You will find that there is no real difference between reddithelpgif.txt and reddithelpgif2.txt
+
+In order for this to work, you will even need to strip "http://..." URLs.
+
+No wait, I have an even better idea. Websites embed their own URLs in their own webpage, including dynamic ones. Just strip the website's own URL from the HTML page and find the checksum of that page. Now, the hard part of doing this is that the URL can change. Usually, a website that dynamically changes its own URL changes the very last directory in its subdomain string. So just check for the same URL right before the very last subdomain directory in the URL reference.
+
+Okay, now when I use en.wikipedia.org as a base URL, the same kind of problem with reddithelpgif.txt happens:
+
+https://en.m.wikipedia.org/w/index.php?title=Special:MobileOptions&amp;amp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Bamp%3Breturnto=Special%3AUserLogin&amp;mobileaction=toggle_view_mobile
+
+Even the Colly Library has big problems with repeats. I noticed even Colly is undergoing repeats infinite amount of times, such as with Community_Portal.
+
+Yes, the results with the Wiki Special Mobile page and reddithelpgif page both confirm that the true reason that both the HTML page contents change is that the websites stores its own URL in its own HTML page. If you can just omit the URL of a website's own page that will be excellent. It will fix the problem.
 

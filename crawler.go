@@ -39,7 +39,7 @@ func getPage(a string)  []byte {
 
 	if err != nil {
 		
-		fmt.Fprintf(os.Stderr,"fetch: %v\n",err)
+//		fmt.Fprintf(os.Stderr,"fetch: %v\n",err)
 		
 		return nil
 	}
@@ -50,7 +50,7 @@ func getPage(a string)  []byte {
 
 	if err != nil {
 		
-		fmt.Fprintf(os.Stderr,"fetch: reading HTML contents: %v\n",err)
+//		fmt.Fprintf(os.Stderr,"fetch: reading HTML contents: %v\n",err)
 		
 		return nil
 	}
@@ -92,7 +92,7 @@ func blacklist_check(url []byte, domain_only int ) int {
 
 func extract_urls(html_page []byte) [1024][] byte {
 	
-	var search_str []byte = []byte("\"https://")
+	var search_str []byte = []byte("\"http//")
 
 	//var url_str []byte = []byte("(https://") //use this for background images only
 
@@ -153,7 +153,7 @@ func extract_urls(html_page []byte) [1024][] byte {
 		if ( html_of_url == nil ) {
 
 
-			fmt.Printf("Failed to get HTML of page (%s) at index %d\n\n",url,i)
+			// fmt.Printf("Failed to get HTML of page (%s) at index %d\n\n",url,i)
 			url = []byte{}
 
 			i++
@@ -240,7 +240,7 @@ func extract_urls(html_page []byte) [1024][] byte {
 		if ( html_of_url == nil ) {
 			
 
-			fmt.Printf("Failed to get HTML of page (%s) at index %d\n\n",url,i)
+			// fmt.Printf("Failed to get HTML of page (%s) at index %d\n\n",url,i)
 			url = []byte{}
 			
 			fmt.Println(i)
@@ -446,6 +446,6 @@ func main() {
 	fmt.Printf("%s\n",getPage(os.Args[1]))
 	
 	
-	crawler(os.Args[1])
+//	crawler(os.Args[1])
 }
 
