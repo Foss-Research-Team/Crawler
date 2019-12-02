@@ -100,3 +100,16 @@ Even the Colly Library has big problems with repeats. I noticed even Colly is un
 
 Yes, the results with the Wiki Special Mobile page and reddithelpgif page both confirm that the true reason that both the HTML page contents change is that the websites stores its own URL in its own HTML page. If you can just omit the URL of a website's own page that will be excellent. It will fix the problem.
 
+
+Better idea:
+
+Look at the similarity between these two URLs:
+
+1. "https://en.wikipedia.org/w/index.php?title=Special:MobileOptions"
+
+2. "https://en.wikipedia.org/w/index.php?title=Special:MobileOptions&amp;3amp"
+
+Have another look at the similarity between these URLs.
+
+If you take a close look, you can omit everything in a URL starting from the first "&" character and still end up on the same page.
+

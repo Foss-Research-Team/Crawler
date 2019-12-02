@@ -64,6 +64,8 @@ func extract_domain(url []byte) []byte {
 	var domain []byte
 	
 	var i int = 8
+
+	domain = append(domain,[]byte("https://")...)
 	
 	for ( ( i < len(url) ) && ( url[i] != 0x2f ) ) {
 		
@@ -90,11 +92,9 @@ func blacklist_check(url []byte, domain_only int ) int {
 
 }
 
-func extract_urls(html_page []byte) [1024][] byte {
+func extract_urls(html_page []byte, input_url []byte) [1024][] byte {
 	
-	var search_str []byte = []byte("\"http//")
-
-	//var url_str []byte = []byte("(https://") //use this for background images only
+	var search_str []byte = []byte("href=\"https://")
 
 	search_sub_domain := []byte("href=\"/")
 
@@ -136,14 +136,27 @@ func extract_urls(html_page []byte) [1024][] byte {
 
 			break
 		}
+		
+		for ( html_page[i] != 0x22 ) {
+			
+			i++
+		}
 
 		i++ //Have the character position at the beginning of the https URL
 
-		for ( html_page[i] != 0x22 ) {
+		for ( ( html_page[i] != 0x22 ) && ( html_page[i] != 0x26 ) ){
 
 			url = append(url,html_page[i])
 			
 			i++
+		}
+
+		if ( html_page[i] == 0x26 ) {
+			
+			for ( html_page[i] != 0x22 ) {
+				
+				i++
+			}
 		}
 
 		i++
@@ -226,11 +239,19 @@ func extract_urls(html_page []byte) [1024][] byte {
 
 		i++
 
-		for ( html_page[i] != 0x22 ) {
+		for ( ( html_page[i] != 0x22 ) && ( html_page[i] != 0x26 ) ){
 
 			url = append(url,html_page[i])
 			
 			i++
+		}
+
+		if ( html_page[i] == 0x26 ) {
+			
+			for ( html_page[i] != 0x22 ) {
+				
+				i++
+			}
 		}
 
 		i++
@@ -325,13 +346,21 @@ func extract_urls(html_page []byte) [1024][] byte {
 		}
 
 
-		url = append(url,[]byte(os.Args[1])...)
+		url = append(url,extract_domain(input_url)...)
 
-		for html_page[i] != 0x22 {
+		for ( ( html_page[i] != 0x22 ) && ( html_page[i] != 0x26 ) ){
 
 			url = append(url,html_page[i])
 			
 			i++
+		}
+
+		if ( html_page[i] == 0x26 ) {
+			
+			for ( html_page[i] != 0x22 ) {
+				
+				i++
+			}
 		}
 
 		i++
@@ -411,7 +440,7 @@ func crawler(url string) {
 
 	var url_list [1024][] byte
 	
-	url_list = extract_urls(c)
+	url_list = extract_urls(c,[]byte(url))
 
 	i := 0
 	
@@ -443,9 +472,11 @@ func blacklist_add(black_url []string) {
 
 func main() {
 	
-	fmt.Printf("%s\n",getPage(os.Args[1]))
+//	fmt.Printf("%s\n",getPage(os.Args[1]))
 	
 	
-//	crawler(os.Args[1])
+	crawler(os.Args[1])
+
+//	fmt.Printf("%s\n",extract_domain([]byte(os.Args[1])))
 }
 
