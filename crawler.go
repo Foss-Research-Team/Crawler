@@ -18,7 +18,7 @@ var url_map = make(map[string] int)
 
 var blacklist_map = make(map[string] int)
 
-var domain_settings uint8 = 0
+//var domain_settings uint8 = 0
 
 /*
 Domain settings has the following bitwise configurations:
@@ -78,19 +78,22 @@ func extract_domain(url []byte) []byte {
 		
 }
 
+//General format of all blacklist URLs: https://domain.com
 
 func blacklist_domain(url []byte) []byte {
 	
 	var domain []byte
 	
-	var i int = 8
+	var i int = 8 //so the position is after "https://"
 
 	domain = append(domain,[]byte("https://")...)
 
 	if ( bytes.Index( domain,[]byte("www.") ) > 0 ) {
 		
 		i = bytes.Index( domain, []byte("www.") )		
-	}
+
+		i += 4 //Get past the "www."
+	} 
 	
 	for ( ( i < len(url) ) && ( url[i] != 0x2f ) ) {
 		
@@ -103,17 +106,20 @@ func blacklist_domain(url []byte) []byte {
 		
 }
 
-func blacklist_check(url []byte, domain_only int ) int {
+func blacklist_check(url []byte ) int {
 	
+	
+	return blacklist_map[string(blacklist_domain(url))]
+/*
 	if ( domain_only == 1 ) {
 		
-		return blacklist_map[string(extract_domain(url))]
+		return blacklist_map[string(blacklist_domain(url))]
 			
 	} else {
 		
 		return blacklist_map[string(url)]	
 	}
-	
+*/	
 
 }
 
@@ -204,7 +210,7 @@ func extract_urls(html_page []byte, input_url []byte) [1024][] byte {
 
 		shasum = sha256.Sum256(html_of_url)
 		
-		if ( ( len(sha_map[string(shasum[0:])]) == 0 ) && ( url_map[string(url)] == 0 ) && (blacklist_check(url,int(domain_settings&0x1)) == 0)  ) {
+		if ( ( len(sha_map[string(shasum[0:])]) == 0 ) && ( url_map[string(url)] == 0 ) && (blacklist_check(url) == 0)  ) {
 				
 			fmt.Printf("%s\n",url)
 
@@ -301,7 +307,7 @@ func extract_urls(html_page []byte, input_url []byte) [1024][] byte {
 
 		shasum = sha256.Sum256(html_of_url)
 		
-		if ( (len(sha_map[string(shasum[0:])]) == 0) && ( url_map[string(url)] == 0 ) ) {
+		if ( (len(sha_map[string(shasum[0:])]) == 0) && ( url_map[string(url)] == 0 ) && (blacklist_check(url) == 0) ) {
 			
 			urls[url_index] = make([]byte,len(url))
 
@@ -408,7 +414,7 @@ func extract_urls(html_page []byte, input_url []byte) [1024][] byte {
 
 		shasum = sha256.Sum256(html_of_url)
 		
-		if ( ( len(sha_map[string(shasum[0:])]) == 0 ) && ( url_map[string(url)] == 0 ) ) {
+		if ( ( len(sha_map[string(shasum[0:])]) == 0 ) && ( url_map[string(url)] == 0 ) && (blacklist_check(url)== 0) ) {
 			
 			urls[url_index] = make([]byte,len(url))
 
@@ -493,15 +499,15 @@ https://web.archive.org
 
 */
 
-func blacklist_add(black_url []string) {
+func blacklist_add(blacklist_url []string) {
 
 	var i int = 0
 
-	for i < len(black_url) {
+	for i < len(blacklist_url) {
 
-	url_map[ string( extract_domain( []byte( black_url[i] ) ) ) ] = 1
+	url_map[ string( blacklist_domain( []byte( blacklist_url[i] ) ) ) ] = 1
 
-	blacklist_map[ string( extract_domain( []byte( black_url[i] ) ) ) ] = 1
+	blacklist_map[ string( blacklist_domain( []byte( blacklist_url[i] ) ) ) ] = 1
 
 	i++
 
@@ -514,9 +520,9 @@ func main() {
 	
 //	fmt.Printf("%s\n",getPage(os.Args[1]))
 	
+	blacklist_add([]string{"twitter.com","facebook.com","youtube.com","google.com","reddit.com"})
 	
 	crawler(os.Args[1])
 
-//	fmt.Printf("%s\n",extract_domain([]byte(os.Args[1])))
 }
 
