@@ -155,3 +155,7 @@ Everything after the '&' can dynamically change and is completely unnecessary to
 From now on, bugs focus on blacklist functionality.
 
 There is a bug in blacklist_add. You need to concatenate "https://" in case it does not exist in the base URL.
+
+Change of plans, only allow the hostname itself.
+
+That is, in the complete URL: "https://hostname/..." it prints the hostname

@@ -9,7 +9,6 @@ import (
 	"net/http"
 	"os"
 	"bytes"
-	"strings"
 	"crypto/sha256"
 )
 
@@ -85,18 +84,21 @@ func blacklist_domain(url []byte) []byte {
 	
 	var domain []byte
 	
-	var i int = 8 //so the position is after "https://"
+	var i int = 0 //so the position is after "https://"
 
-	domain = append(domain,[]byte("https://")...)
-
-	if ( bytes.Index( url,[]byte("www.") ) > 0 ) {
+	if ( bytes.Index( url,[]byte("www.") ) >= 0 ) {
 		
 		i = bytes.Index( url, []byte("www.") )		
 
 		i += 4 //Get past the "www."
-	} 
 	
-	for ( ( i < len(url) ) && ( url[i] != 0x2f ) ) {
+	} else if ( bytes.Index( url, []byte("https://") ) >= 0 ) {
+		
+		i = bytes.Index( url, []byte("https://") ) + 8	
+	}
+	
+	
+	for ( ( i < len(url) ) && ( url[i] != 0x2f ) && ( url[i] != 0x22 ) ) {
 		
 		domain = append(domain,url[i])		
 
@@ -109,18 +111,18 @@ func blacklist_domain(url []byte) []byte {
 
 func blacklist_check(url []byte ) int {
 	
-	
-	return blacklist_map[string(blacklist_domain(url))]
-/*
-	if ( domain_only == 1 ) {
+	var key string = ""	
+
+	for key, _ = range blacklist_map {
 		
-		return blacklist_map[string(blacklist_domain(url))]
+		if ( bytes.Index(url,[]byte(key)) >= 0 ) {
 			
-	} else {
-		
-		return blacklist_map[string(url)]	
+			return 1
+		}
 	}
-*/	
+
+	return 0
+	
 
 }
 
@@ -504,15 +506,7 @@ func blacklist_add(blacklist_url []string) {
 
 	var i int = 0
 
-	var domain []byte = []byte("")
-
 	for i < len(blacklist_url) {
-	
-		if ( bytes.Index(blacklist_url[i],[]byte("https://") < 0 ) {
-		
-		domain = append(domain,[]byte("https://")...)
-				
-	}
 
 		url_map[ string( blacklist_domain( []byte( blacklist_url[i] ) ) ) ] = 1
 
@@ -521,7 +515,6 @@ func blacklist_add(blacklist_url []string) {
 		i++
 
 	}
-	
 
 }
 
@@ -529,13 +522,14 @@ func main() {
 	
 //	fmt.Printf("%s\n",getPage(os.Args[1]))
 	
-	blacklist_add([]string{"twitter.com","facebook.com","youtube.com","google.com","reddit.com"})
-	
-	fmt.Printf("%s\n",blacklist_domain([]byte(os.Args[1])))
+	blacklist_add([]string{"twitter.com","facebook.com","youtube.com","google.com","reddit.com","instgram.com"})
 
-	fmt.Printf("blacklist_check_value: %d\n",blacklist_check([]byte("https://twitter.com/account/begin_password_reset?lang=hr")))
 	
-//	crawler(os.Args[1])
+//	fmt.Printf("%s\n",blacklist_domain([]byte(os.Args[1])))
+
+//	fmt.Printf("blacklist_check_value: %d\n",blacklist_check([]byte("https://twitter.com/account/begin_password_reset?lang=hr")))
+	
+	crawler(os.Args[1])
 
 }
 
