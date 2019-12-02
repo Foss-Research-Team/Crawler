@@ -78,6 +78,31 @@ func extract_domain(url []byte) []byte {
 		
 }
 
+
+func blacklist_domain(url []byte) []byte {
+	
+	var domain []byte
+	
+	var i int = 8
+
+	domain = append(domain,[]byte("https://")...)
+
+	if ( bytes.Index( domain,[]byte("www.") ) > 0 ) {
+		
+		i = bytes.Index( domain, []byte("www.") )		
+	}
+	
+	for ( ( i < len(url) ) && ( url[i] != 0x2f ) ) {
+		
+		domain = append(domain,url[i])		
+
+		i++
+	}
+
+	return domain
+		
+}
+
 func blacklist_check(url []byte, domain_only int ) int {
 	
 	if ( domain_only == 1 ) {
@@ -136,6 +161,8 @@ func extract_urls(html_page []byte, input_url []byte) [1024][] byte {
 
 			break
 		}
+
+		// have to move from beginning of \"href=\"https:// to the opening double quote
 		
 		for ( html_page[i] != 0x22 ) {
 			
@@ -453,15 +480,28 @@ func crawler(url string) {
 
 }
 
+/*
+Add hostname URLs to the blacklist:
+
+e.g: 
+
+https://en.wikipedia.org
+
+https://github.com
+
+https://web.archive.org
+
+*/
+
 func blacklist_add(black_url []string) {
 
 	var i int = 0
 
 	for i < len(black_url) {
 
-	url_map[black_url[i]] = 1
+	url_map[ string( extract_domain( []byte( black_url[i] ) ) ) ] = 1
 
-	blacklist_map[black_url[i]] = 1
+	blacklist_map[ string( extract_domain( []byte( black_url[i] ) ) ) ] = 1
 
 	i++
 
