@@ -9,6 +9,7 @@ import (
 	"net/http"
 	"os"
 	"bytes"
+	"strings"
 	"crypto/sha256"
 )
 
@@ -88,9 +89,9 @@ func blacklist_domain(url []byte) []byte {
 
 	domain = append(domain,[]byte("https://")...)
 
-	if ( bytes.Index( domain,[]byte("www.") ) > 0 ) {
+	if ( bytes.Index( url,[]byte("www.") ) > 0 ) {
 		
-		i = bytes.Index( domain, []byte("www.") )		
+		i = bytes.Index( url, []byte("www.") )		
 
 		i += 4 //Get past the "www."
 	} 
@@ -503,13 +504,21 @@ func blacklist_add(blacklist_url []string) {
 
 	var i int = 0
 
+	var domain []byte = []byte("")
+
 	for i < len(blacklist_url) {
+	
+		if ( bytes.Index(blacklist_url[i],[]byte("https://") < 0 ) {
+		
+		domain = append(domain,[]byte("https://")...)
+				
+	}
 
-	url_map[ string( blacklist_domain( []byte( blacklist_url[i] ) ) ) ] = 1
+		url_map[ string( blacklist_domain( []byte( blacklist_url[i] ) ) ) ] = 1
 
-	blacklist_map[ string( blacklist_domain( []byte( blacklist_url[i] ) ) ) ] = 1
+		blacklist_map[ string( blacklist_domain( []byte( blacklist_url[i] ) ) ) ] = 1
 
-	i++
+		i++
 
 	}
 	
@@ -522,7 +531,11 @@ func main() {
 	
 	blacklist_add([]string{"twitter.com","facebook.com","youtube.com","google.com","reddit.com"})
 	
-	crawler(os.Args[1])
+	fmt.Printf("%s\n",blacklist_domain([]byte(os.Args[1])))
+
+	fmt.Printf("blacklist_check_value: %d\n",blacklist_check([]byte("https://twitter.com/account/begin_password_reset?lang=hr")))
+	
+//	crawler(os.Args[1])
 
 }
 

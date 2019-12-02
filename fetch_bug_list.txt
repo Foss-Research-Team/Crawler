@@ -148,6 +148,10 @@ url = append(url,extract_domain(input_url)...)
 
 Everything after the '&' can dynamically change and is completely unnecessary to allow a website to load properly.
 
-
 ----------------------------------------
 
+12/1/2019 10:37 PM
+
+From now on, bugs focus on blacklist functionality.
+
+There is a bug in blacklist_add. You need to concatenate "https://" in case it does not exist in the base URL.
