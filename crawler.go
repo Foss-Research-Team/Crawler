@@ -264,7 +264,7 @@ func extract_urls(html_page []byte, input_url []byte) [1024][] byte {
 
 		shasum = sha256.Sum256(html_of_url)
 		
-		if ( ( len(sha_map[string(shasum[0:])]) == 0 ) && ( url_map[string(url)] == 0 ) && (blacklist_check(url) == 0)  ) {
+		if ( ( len(sha_map[string(shasum[0:])]) == 0 ) && ( url_map[string(url)] == 0 ) && (blacklist_check(url) == 0) && ( domainlist_check(url) == 0 ) ) {
 				
 			fmt.Printf("%s\n",url)
 
@@ -361,7 +361,7 @@ func extract_urls(html_page []byte, input_url []byte) [1024][] byte {
 
 		shasum = sha256.Sum256(html_of_url)
 		
-		if ( (len(sha_map[string(shasum[0:])]) == 0) && ( url_map[string(url)] == 0 ) && (blacklist_check(url) == 0) ) {
+		if ( ( len(sha_map[string(shasum[0:])]) == 0 ) && ( url_map[string(url)] == 0 ) && (blacklist_check(url) == 0) && ( domainlist_check(url) == 0 ) ) {
 			
 			urls[url_index] = make([]byte,len(url))
 
@@ -468,7 +468,7 @@ func extract_urls(html_page []byte, input_url []byte) [1024][] byte {
 
 		shasum = sha256.Sum256(html_of_url)
 		
-		if ( ( len(sha_map[string(shasum[0:])]) == 0 ) && ( url_map[string(url)] == 0 ) && (blacklist_check(url)== 0) ) {
+		if ( ( len(sha_map[string(shasum[0:])]) == 0 ) && ( url_map[string(url)] == 0 ) && (blacklist_check(url) == 0) && ( domainlist_check(url) == 0 ) ) {
 			
 			urls[url_index] = make([]byte,len(url))
 
