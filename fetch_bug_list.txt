@@ -159,3 +159,13 @@ There is a bug in blacklist_add. You need to concatenate "https://" in case it d
 Change of plans, only allow the hostname itself.
 
 That is, in the complete URL: "https://hostname/..." it prints the hostname
+
+-----------------------------------------
+
+12/2/2019 3:46 AM
+
+ Good news: Blacklist is essentially operational. Although it does not work for the very first URL. Fix that in the crawler method obviously.
+
+-----------------------------------------
+
+

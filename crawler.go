@@ -18,6 +18,8 @@ var url_map = make(map[string] int)
 
 var blacklist_map = make(map[string] int)
 
+var set_domain_map = make(map[string] int)
+
 //var domain_settings uint8 = 0
 
 /*
@@ -78,6 +80,28 @@ func extract_domain(url []byte) []byte {
 		
 }
 
+func set_domain(url []byte) {
+	
+	set_domain_map[string(url)] = 1
+
+}
+
+func set_domain_check(url []byte) int {
+	
+	var k uint64 = 0
+
+	for k, _ = range set_domain_map {
+		
+		if ( bytes.Index(url,[]byte(k)) >= 0 ) {
+			
+			return 1
+		}
+
+	}
+
+	return 0
+}
+
 //General format of all blacklist URLs: https://domain.com
 
 func blacklist_domain(url []byte) []byte {
@@ -94,7 +118,9 @@ func blacklist_domain(url []byte) []byte {
 	
 	} else if ( bytes.Index( url, []byte("https://") ) >= 0 ) {
 		
-		i = bytes.Index( url, []byte("https://") ) + 8	
+		i = bytes.Index( url, []byte("https://") )
+
+		i += 8 //Get past the "https://"
 	}
 	
 	
@@ -456,6 +482,13 @@ func extract_urls(html_page []byte, input_url []byte) [1024][] byte {
 
 func crawler(url string) {
 	
+	if ( blacklist_check([]byte(url)) == 1 ) {
+		
+		return
+
+	}
+
+
 	shasum_base_url := sha256.Sum256([]byte(url))
 
 	fmt.Printf("Checksum of HMTL page of base url is:\n%x\n\n",shasum_base_url)
@@ -522,7 +555,7 @@ func main() {
 	
 //	fmt.Printf("%s\n",getPage(os.Args[1]))
 	
-	blacklist_add([]string{"twitter.com","facebook.com","youtube.com","google.com","reddit.com","instgram.com"})
+	blacklist_add([]string{"twitter.com","facebook.com","youtube.com","google.com","reddit.com","instagram.com","reddit.com","linkedin.com","meetup.com","tumblr.com","flickr.com"})
 
 	
 //	fmt.Printf("%s\n",blacklist_domain([]byte(os.Args[1])))
