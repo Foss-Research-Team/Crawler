@@ -18,7 +18,7 @@ var url_map = make(map[string] int)
 
 var blacklist_map = make(map[string] int)
 
-var set_domain_map = make(map[string] int)
+var domainlist_map = make(map[string] int)
 
 //var domain_settings uint8 = 0
 
@@ -80,17 +80,42 @@ func extract_domain(url []byte) []byte {
 		
 }
 
-func set_domain(url []byte) {
+func domainlist_add(url []byte) {
 	
-	set_domain_map[string(url)] = 1
+	var i uint64 = 0
+
+	var domainlist_url []byte = []byte("")
+
+	if ( bytes.Index(url,"www.") >= 0 ) {
+		
+		i = bytes.Index(url,"www.")
+
+		i += 4 // Get past the "www."
+	
+	} else if ( bytes.Index(url,"https://") >= 0 ) {
+
+		i = bytes.Index(url,"https://")
+
+		i += 8 // Get past the "https://"
+	}
+
+	for i < len(url) {
+		
+		domainlist_url = append(domainlist_url,url[i])	
+
+		i++
+	}
+		
+
+	domainlist_map[string(domainlist_url)] = 1
 
 }
 
-func set_domain_check(url []byte) int {
+func domainlist_check(url []byte) int {
 	
-	var k uint64 = 0
+	var k string = ""
 
-	for k, _ = range set_domain_map {
+	for k, _ = range domainlist_map {
 		
 		if ( bytes.Index(url,[]byte(k)) >= 0 ) {
 			
@@ -555,14 +580,18 @@ func main() {
 	
 //	fmt.Printf("%s\n",getPage(os.Args[1]))
 	
-	blacklist_add([]string{"twitter.com","facebook.com","youtube.com","google.com","reddit.com","instagram.com","reddit.com","linkedin.com","meetup.com","tumblr.com","flickr.com"})
+	blacklist_add([]string{"twitter.com","facebook.com","youtube.com","google.com","instagram.com","reddit.com","linkedin.com","meetup.com","tumblr.com","flickr.com"})
+
+	domainlist_add("reddit.com/r/")
 
 	
 //	fmt.Printf("%s\n",blacklist_domain([]byte(os.Args[1])))
 
 //	fmt.Printf("blacklist_check_value: %d\n",blacklist_check([]byte("https://twitter.com/account/begin_password_reset?lang=hr")))
+
+		
 	
-	crawler(os.Args[1])
+//	crawler(os.Args[1])
 
 }
 
