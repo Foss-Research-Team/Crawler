@@ -168,4 +168,6 @@ That is, in the complete URL: "https://hostname/..." it prints the hostname
 
 -----------------------------------------
 
+12/2/2019 8:51 PM
 
+Good news: domainlist_add and domainlist_check functionality now work properly

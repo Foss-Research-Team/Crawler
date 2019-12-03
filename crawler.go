@@ -82,24 +82,25 @@ func extract_domain(url []byte) []byte {
 
 func domainlist_add(url []byte) {
 	
-	var i uint64 = 0
+	var i int = 0
 
 	var domainlist_url []byte = []byte("")
 
-	if ( bytes.Index(url,"www.") >= 0 ) {
+	if ( bytes.Index(url,[]byte("www.")) >= 0 ) {
 		
-		i = bytes.Index(url,"www.")
+		i = bytes.Index(url,[]byte("www."))
 
 		i += 4 // Get past the "www."
 	
-	} else if ( bytes.Index(url,"https://") >= 0 ) {
+	} else if ( bytes.Index(url,[]byte("https://")) >= 0 ) {
 
-		i = bytes.Index(url,"https://")
+		i = bytes.Index(url,[]byte("https://"))
 
 		i += 8 // Get past the "https://"
 	}
 
 	for i < len(url) {
+
 		
 		domainlist_url = append(domainlist_url,url[i])	
 
@@ -264,7 +265,7 @@ func extract_urls(html_page []byte, input_url []byte) [1024][] byte {
 
 		shasum = sha256.Sum256(html_of_url)
 		
-		if ( ( len(sha_map[string(shasum[0:])]) == 0 ) && ( url_map[string(url)] == 0 ) && (blacklist_check(url) == 0) && ( domainlist_check(url) == 0 ) ) {
+		if ( ( len(sha_map[string(shasum[0:])]) == 0 ) && ( url_map[string(url)] == 0 ) && (blacklist_check(url) == 0) && ( domainlist_check(url) == 1 ) ) {
 				
 			fmt.Printf("%s\n",url)
 
@@ -361,7 +362,7 @@ func extract_urls(html_page []byte, input_url []byte) [1024][] byte {
 
 		shasum = sha256.Sum256(html_of_url)
 		
-		if ( ( len(sha_map[string(shasum[0:])]) == 0 ) && ( url_map[string(url)] == 0 ) && (blacklist_check(url) == 0) && ( domainlist_check(url) == 0 ) ) {
+		if ( ( len(sha_map[string(shasum[0:])]) == 0 ) && ( url_map[string(url)] == 0 ) && (blacklist_check(url) == 0) && ( domainlist_check(url) == 1 ) ) {
 			
 			urls[url_index] = make([]byte,len(url))
 
@@ -468,7 +469,7 @@ func extract_urls(html_page []byte, input_url []byte) [1024][] byte {
 
 		shasum = sha256.Sum256(html_of_url)
 		
-		if ( ( len(sha_map[string(shasum[0:])]) == 0 ) && ( url_map[string(url)] == 0 ) && (blacklist_check(url) == 0) && ( domainlist_check(url) == 0 ) ) {
+		if ( ( len(sha_map[string(shasum[0:])]) == 0 ) && ( url_map[string(url)] == 0 ) && (blacklist_check(url) == 0) && ( domainlist_check(url) == 1 ) ) {
 			
 			urls[url_index] = make([]byte,len(url))
 
@@ -580,9 +581,9 @@ func main() {
 	
 //	fmt.Printf("%s\n",getPage(os.Args[1]))
 	
-	blacklist_add([]string{"twitter.com","facebook.com","youtube.com","google.com","instagram.com","reddit.com","linkedin.com","meetup.com","tumblr.com","flickr.com"})
+	blacklist_add([]string{"twitter.com","facebook.com","youtube.com","google.com","instagram.com","linkedin.com","meetup.com","tumblr.com","flickr.com"})
 
-	domainlist_add("reddit.com/r/")
+	domainlist_add([]byte("reddit.com/r/"))
 
 	
 //	fmt.Printf("%s\n",blacklist_domain([]byte(os.Args[1])))
@@ -591,7 +592,7 @@ func main() {
 
 		
 	
-//	crawler(os.Args[1])
+	crawler(os.Args[1])
 
 }
 
