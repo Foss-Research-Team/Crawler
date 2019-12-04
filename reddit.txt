@@ -1,49 +1,64 @@
 Checksum of HMTL page of base url is:
-1ce0a9c8034d21a3acbac23d8a62c9d859597299fc7c2698543fa1a9dd54db95
+ca4c460e6f3c65f7296f136e0e203b375dff565402f0c46e14cad3826697f936
 
-https://www.reddit.com/r/ListOfSubreddits/wiki/listofsubreddits
-len_html_page: 354410
+https://reddit.com
+len_html_page: 542680
 Searching complete URLs
 
-270221
-270345
-270472
-270606
-270735
-270858
-270994
-271112
-271238
-271359
-271480
-271590
-271803
-272016
-272141
-272354
-272567
-272780
-272993
-273206
-273419
-273536
-273858
-273981
-274104
-274227
-274354
-274481
-274608
-274735
-274862
-274996
-275121
-275246
-275371
-275465
-291913
-292173
-Last index for complete URLS found: 292173
+306665
+306789
+306916
+307050
+307179
+307302
+307438
+307556
+307682
+307803
+307924
+308034
+308247
+308460
+308673
+308886
+309099
+309312
+309525
+309738
+309951
+310064
+310321
+311075
+311198
+311321
+311444
+311571
+311698
+311825
+311952
+312079
+312213
+312338
+312463
+312588
+312682
+329312
+329526
+478022
+478107
+478192
+478281
+478538
+478627
+478712
+478801
+478982
+479073
+479264
+479377
+479491
+479611
+Last index for complete URLS found: 479611
 
 Searching URLs with different domains
 
@@ -52,660 +67,16 @@ Last index for different domains found: -1
 Searching sub domain URLs
 
 
-287253
-291185
-https://www.reddit.com/r/all/
-Sha256: 66e2baea7d1e6dea95369ac180535b5ed7132c744891696eee6f538bfdfec96a
-
-url_map of https://www.reddit.com/r/all/ beforehand: 0
-291446
-https://www.reddit.com/r/ListOfSubreddits/
-Sha256: 7a67cdec3a2fa0d678ce7a9e9cc9570d88c98e9155c36dd7b9e13701db521f0f
-
-url_map of https://www.reddit.com/r/ListOfSubreddits/ beforehand: 0
-304774
-Last index for sub domains found:304774
-
-Checksum of HMTL page of base url is:
-1d8ea17541ad1176d1b07da53eb2b17ead8805fdc83d31589a8d2d2e68a1eeeb
-
-https://www.reddit.com/r/all/
-len_html_page: 452313
-Searching complete URLs
-
-376184
-376308
-376435
-376569
-376698
-376821
-376957
-377075
-377201
-377322
-377443
-377553
-377766
-377979
-378100
-378313
-378526
-378739
-378952
-379165
-379378
-379491
-379673
-379981
-380104
-380227
-380350
-380477
-380604
-380731
-380858
-380985
-381119
-381244
-381369
-381494
-381588
-398151
-398375
-411039
-411145
-Last index for complete URLS found: 411145
-
-Searching URLs with different domains
-
-Last index for different domains found: -1
-
-Searching sub domain URLs
-
-
-393350
-397459
-397720
-410831
-Last index for sub domains found:410831
-
-Checksum of HMTL page of base url is:
-05e7c67684bdad46f8338e76810d18348bc7352445c727cd4703cc2d3cdde9c4
-
-https://www.reddit.com/r/ListOfSubreddits/
-len_html_page: 467375
-Searching complete URLs
-
-376217
-376341
-376468
-376602
-376731
-376854
-376990
-377108
-377234
-377355
-377476
-377586
-377799
-378012
-378133
-378346
-378559
-378772
-378985
-379198
-379411
-379524
-379846
-379969
-380092
-380215
-380342
-380469
-380596
-380723
-380850
-380984
-381109
-381234
-381359
-381453
-397878
-398115
-Last index for complete URLS found: 398115
-
-Searching URLs with different domains
-
-Last index for different domains found: -1
-
-Searching sub domain URLs
-
-
-393241
-397173
-397434
-410740
-https://www.reddit.com/r/ListOfSubreddits/hot/
-Sha256: 3b8f6bc966dc5014a56801002fb4baa8e833a519dc037c46d211a0a2207b5521
-
-url_map of https://www.reddit.com/r/ListOfSubreddits/hot/ beforehand: 0
-415632
-https://www.reddit.com/r/ListOfSubreddits/new/
-Sha256: 4e0ae3dcce70b0f2d62854710c4c9a6640a87ef7947a2d5d2b28bde47648937f
-
-url_map of https://www.reddit.com/r/ListOfSubreddits/new/ beforehand: 0
-416301
-https://www.reddit.com/r/ListOfSubreddits/controversial/
-Sha256: 423a1def21b546be6f0eb21f530eda74b6ad0f7210059525a4f4c50c46061033
-
-url_map of https://www.reddit.com/r/ListOfSubreddits/controversial/ beforehand: 0
-416968
-https://www.reddit.com/r/ListOfSubreddits/top/
-Sha256: 4ef0ce9e073128a3f913af3dd4cd13c5ec062f67bedeec6a04d590c92b3a67ec
-
-url_map of https://www.reddit.com/r/ListOfSubreddits/top/ beforehand: 0
-417451
-https://www.reddit.com/r/ListOfSubreddits/rising/
-Sha256: ee51aa9c4479ce18eb899c25332f472cb54581cf5812052c1d554ceb30e3a87e
-
-url_map of https://www.reddit.com/r/ListOfSubreddits/rising/ beforehand: 0
-418117
-https://www.reddit.com/r/ListOfSubreddits/submit?media=true
-Sha256: ea4a04bed0d1e5da06b5514de5bc14835e56c6c5c90d0b15bb6700882f024030
-
-url_map of https://www.reddit.com/r/ListOfSubreddits/submit?media=true beforehand: 0
-419114
-https://www.reddit.com/r/ListOfSubreddits/submit?url
-Sha256: dff14dbe3a0031ae46ad1d8d9adbb7dd7ea0b878431eefab8e0713bdd7e7175c
-
-url_map of https://www.reddit.com/r/ListOfSubreddits/submit?url beforehand: 0
-420548
-Last index for sub domains found:420548
-
-Checksum of HMTL page of base url is:
-d2f71b525bdbf55350fb082cf1647701d41740e220cc46a100cb939efcbed45e
-
-https://www.reddit.com/r/ListOfSubreddits/hot/
-len_html_page: 467511
-Searching complete URLs
-
-376217
-376341
-376468
-376602
-376731
-376854
-376990
-377108
-377234
-377355
-377476
-377586
-377799
-378012
-378133
-378346
-378559
-378772
-378985
-379198
-379411
-379524
-379846
-379969
-380092
-380215
-380342
-380469
-380596
-380723
-380850
-380984
-381109
-381234
-381359
-381453
-397884
-398127
-Last index for complete URLS found: 398127
-
-Searching URLs with different domains
-
-Last index for different domains found: -1
-
-Searching sub domain URLs
-
-
-393241
-397173
-397434
-410752
-415644
-416313
-416980
-417463
-418129
-419126
-420560
-Last index for sub domains found:420560
-
-Checksum of HMTL page of base url is:
-b19faad943e9079d239ba8225712df2599cf74cbf52a9a7eadd75751136514bb
-
-https://www.reddit.com/r/ListOfSubreddits/new/
-len_html_page: 467499
-Searching complete URLs
-
-376217
-376341
-376468
-376602
-376731
-376854
-376990
-377108
-377234
-377355
-377476
-377586
-377799
-378012
-378133
-378346
-378559
-378772
-378985
-379198
-379411
-379524
-379846
-379969
-380092
-380215
-380342
-380469
-380596
-380723
-380850
-380984
-381109
-381234
-381359
-381453
-397884
-398127
-Last index for complete URLS found: 398127
-
-Searching URLs with different domains
-
-Last index for different domains found: -1
-
-Searching sub domain URLs
-
-
-393241
-397173
-397434
-410752
-415608
-416301
-416968
-417451
-418117
-419114
-420548
-Last index for sub domains found:420548
-
-Checksum of HMTL page of base url is:
-cbec442711c20a9e3ee5f2240f975ee4464f06eed170fbaf53e90d0ee87429d7
-
-https://www.reddit.com/r/ListOfSubreddits/controversial/
-len_html_page: 467832
-Searching complete URLs
-
-376217
-376341
-376468
-376602
-376731
-376854
-376990
-377108
-377234
-377355
-377476
-377586
-377799
-378012
-378133
-378346
-378559
-378772
-378985
-379198
-379411
-379524
-379846
-379969
-380092
-380215
-380342
-380469
-380596
-380723
-380850
-380984
-381109
-381234
-381359
-381453
-397894
-398147
-Last index for complete URLS found: 398147
-
-Searching URLs with different domains
-
-Last index for different domains found: -1
-
-Searching sub domain URLs
-
-
-393241
-397173
-397434
-410772
-415454
-416123
-416814
-417297
-417963
-419327
-420761
-Last index for sub domains found:420761
-
-Checksum of HMTL page of base url is:
-86e85f0b891175c2b36168014144cf765da9a4345651812ec883bde2ff1e3ba2
-
-https://www.reddit.com/r/ListOfSubreddits/top/
-len_html_page: 467872
-Searching complete URLs
-
-376217
-376341
-376468
-376602
-376731
-376854
-376990
-377108
-377234
-377355
-377476
-377586
-377799
-378012
-378133
-378346
-378559
-378772
-378985
-379198
-379411
-379524
-379846
-379969
-380092
-380215
-380342
-380469
-380596
-380723
-380850
-380984
-381109
-381234
-381359
-381453
-397884
-398127
-Last index for complete URLS found: 398127
-
-Searching URLs with different domains
-
-Last index for different domains found: -1
-
-Searching sub domain URLs
-
-
-393241
-397173
-397434
-410752
-415614
-416283
-416950
-417457
-418123
-419487
-420921
-Last index for sub domains found:420921
-
-Checksum of HMTL page of base url is:
-e7b4e4eca2b2a478cc64b44f0173fd06c3e38309716915449c51d049d8185584
-
-https://www.reddit.com/r/ListOfSubreddits/rising/
-len_html_page: 467514
-Searching complete URLs
-
-376217
-376341
-376468
-376602
-376731
-376854
-376990
-377108
-377234
-377355
-377476
-377586
-377799
-378012
-378133
-378346
-378559
-378772
-378985
-379198
-379411
-379524
-379846
-379969
-380092
-380215
-380342
-380469
-380596
-380723
-380850
-380984
-381109
-381234
-381359
-381453
-397887
-398133
-Last index for complete URLS found: 398133
-
-Searching URLs with different domains
-
-Last index for different domains found: -1
-
-Searching sub domain URLs
-
-
-393241
-397173
-397434
-410758
-415587
-416256
-416923
-417406
-418096
-419093
-420527
-Last index for sub domains found:420527
-
-Checksum of HMTL page of base url is:
-c054c7ab6a55d1ece57217deb78066b03bbbc174df91cdc790e1cbf6dea4d9fd
-
-https://www.reddit.com/r/ListOfSubreddits/submit?media=true
-len_html_page: 398560
-Searching complete URLs
-
-282245
-282369
-282496
-282630
-282759
-282882
-283018
-283136
-283262
-283383
-283504
-283614
-283827
-284040
-284253
-284441
-284580
-284793
-285006
-285219
-285432
-285548
-285870
-285993
-286116
-286239
-286366
-286493
-286620
-286747
-286874
-287008
-287133
-287258
-287383
-287477
-304166
-304424
-356032
-356135
-356486
-356571
-356656
-356745
-357002
-357091
-357176
-357265
-357446
-357537
-357728
-357841
-357955
-358075
-Last index for complete URLS found: 358075
-
-Searching URLs with different domains
-
-Last index for different domains found: -1
-
-Searching sub domain URLs
-
-
-299265
-303440
-303701
-Last index for sub domains found:303701
-
-Checksum of HMTL page of base url is:
-bfda70db62c30226724a768575202c2b0c761da629039c7ca24b214d1a1c6672
-
-https://www.reddit.com/r/ListOfSubreddits/submit?url
-len_html_page: 398516
-Searching complete URLs
-
-282245
-282369
-282496
-282630
-282759
-282882
-283018
-283136
-283262
-283383
-283504
-283614
-283827
-284040
-284253
-284441
-284580
-284793
-285006
-285219
-285432
-285548
-285870
-285993
-286116
-286239
-286366
-286493
-286620
-286747
-286874
-287008
-287133
-287258
-287383
-287477
-304157
-304406
-356014
-356117
-356468
-356553
-356638
-356727
-356984
-357073
-357158
-357247
-357428
-357519
-357710
-357823
-357937
-358057
-Last index for complete URLS found: 358057
-
-Searching URLs with different domains
-
-Last index for different domains found: -1
-
-Searching sub domain URLs
-
-
-299265
-303440
-303701
-Last index for sub domains found:303701
-
+324485
+328630
+328891
+345276
+345926
+346574
+347038
+347685
+364885
+366300
+370432
+372857
+373051

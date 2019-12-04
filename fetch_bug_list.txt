@@ -171,3 +171,9 @@ That is, in the complete URL: "https://hostname/..." it prints the hostname
 12/2/2019 8:51 PM
 
 Good news: domainlist_add and domainlist_check functionality now work properly
+
+-----------------------------------------
+
+12/3/2019 10:53 PM
+
+Problem: https://reddit.com/sports reprinted its own base URL as a repeat. You need to debug domainlist to ensure repeats do not happen.

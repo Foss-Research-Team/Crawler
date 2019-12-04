@@ -20,7 +20,7 @@ var blacklist_map = make(map[string] int)
 
 var domainlist_map = make(map[string] int)
 
-//var domain_settings uint8 = 0
+var domain_settings uint8 = 0
 
 /*
 Domain settings has the following bitwise configurations:
@@ -109,6 +109,14 @@ func domainlist_add(url []byte) {
 		
 
 	domainlist_map[string(domainlist_url)] = 1
+
+	url_map[string(url)] = 1
+	
+	html_of_url := getPage( string(url) )
+
+	shasum := sha256.Sum256(html_of_url)
+
+	sha_map[string(shasum[0:])] = url
 
 }
 
@@ -521,7 +529,7 @@ func crawler(url string) {
 
 	sha_map[string(shasum_base_url[0:])] = []byte(url)
 
-	url_map[string(sha_map[string(shasum_base_url[0:])])] = 1
+	url_map[string(url)] = 1
 
 	fmt.Printf("%s\n",sha_map[string(shasum_base_url[0:])])
 	
@@ -583,7 +591,7 @@ func main() {
 	
 	blacklist_add([]string{"twitter.com","facebook.com","youtube.com","google.com","instagram.com","linkedin.com","meetup.com","tumblr.com","flickr.com"})
 
-	domainlist_add([]byte("reddit.com/r/"))
+	domainlist_add([]byte("reddit.com/r/sports"))
 
 	
 //	fmt.Printf("%s\n",blacklist_domain([]byte(os.Args[1])))
