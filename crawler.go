@@ -591,7 +591,7 @@ func main() {
 	
 	blacklist_add([]string{"twitter.com","facebook.com","youtube.com","google.com","instagram.com","linkedin.com","meetup.com","tumblr.com","flickr.com"})
 
-	domainlist_add([]byte("reddit.com/r/sports"))
+	domainlist_add([]byte("reddit.com/r/"))
 
 	
 //	fmt.Printf("%s\n",blacklist_domain([]byte(os.Args[1])))

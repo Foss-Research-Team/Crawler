@@ -1,120 +1,64 @@
 Checksum of HMTL page of base url is:
-e7ebc40b82be22ecf5377029cfb5ef55ed11171b9daae34c31901e767d4c8a59
+ca4c460e6f3c65f7296f136e0e203b375dff565402f0c46e14cad3826697f936
 
-https://reddit.com/r/sports
-len_html_page: 620930
+https://reddit.com
+len_html_page: 542680
 Searching complete URLs
 
-372547
-372671
-372798
-372932
-373061
-373184
-373320
-373438
-373564
-373685
-373806
-373916
-374129
-374250
-374463
-374676
-374889
-375102
-375315
-375528
-375741
-375854
-https://www.reddit.com/r/sports/
-Sha256: 26a436622f3c830900d65eeb1fdffde7796bc16d79d4985724fe928e1ca1d71c
-
-url_map of https://www.reddit.com/r/sports/ beforehand: 0
-375978
-https://www.reddit.com/r/sports/?after=t3_e444v4
-Sha256: fc30c94f941708828359504325b26f7401e5f521e8b5ec349eaf0b65cfedcf42
-
-url_map of https://www.reddit.com/r/sports/?after=t3_e444v4 beforehand: 0
-376052
-376905
-377028
-377151
-377274
-377401
-377528
-377655
-377782
-377909
-378043
-378168
-378293
-378418
-378512
-395206
-395430
-https://www.reddit.com/r/sports/comments/e5mw8y/the_panthers_have_fired_head_coach_ron_rivera/
-Sha256: 8c3fadc29aecb9213f23bcf0262e8d664d7489dfe12dad7a7fcb25e1f3a1c571
-
-url_map of https://www.reddit.com/r/sports/comments/e5mw8y/the_panthers_have_fired_head_coach_ron_rivera/ beforehand: 0
-419196
-421008
-421376
-https://www.reddit.com/r/sports/comments/e5azsj/the_seattle_seahawks_receivers_do_the_new_edition/
-Sha256: a3ef9b102e70137ea936d19bf1aff1f2e11e7fc2ef3a5b675b2a10523d085c42
-
-url_map of https://www.reddit.com/r/sports/comments/e5azsj/the_seattle_seahawks_receivers_do_the_new_edition/ beforehand: 0
-426205
-428072
-https://www.reddit.com/r/sports/comments/e5jhbx/patrick_teixeira_turns_the_tables_on_carlos_adames/
-Sha256: 70e2a38ccf95bbfa623bb7b070c1bd21d930695b440dfd58b8bb83a6a38ad34c
-
-url_map of https://www.reddit.com/r/sports/comments/e5jhbx/patrick_teixeira_turns_the_tables_on_carlos_adames/ beforehand: 0
-432871
-https://www.reddit.com/r/sports/comments/e5gq1v/jofra_archers_delivery_barely_misses_the_head_of/
-Sha256: 91926addc1f75a0b2fa8c8e1090531d2bec256cdf21c13a7b24573accb13dc8a
-
-url_map of https://www.reddit.com/r/sports/comments/e5gq1v/jofra_archers_delivery_barely_misses_the_head_of/ beforehand: 0
-444977
-https://www.reddit.com/r/sports/comments/e5u4n7/refs_call_this_a_missed_dunk_by_james_harden/
-Sha256: 39423414e1b6892f3c48d3316558a714722cef54bea70cad807a1c74fabeedac
-
-url_map of https://www.reddit.com/r/sports/comments/e5u4n7/refs_call_this_a_missed_dunk_by_james_harden/ beforehand: 0
-451418
-452675
-https://www.reddit.com/r/sports/comments/e51vb1/can_anyone_identify_the_sports_team_that_this/
-Sha256: 0dacc71c30ba2086d3fd0e4d983c0d34e5a798689757605c7f08b26f00c968d1
-
-url_map of https://www.reddit.com/r/sports/comments/e51vb1/can_anyone_identify_the_sports_team_that_this/ beforehand: 0
-457066
-https://www.reddit.com/r/sports/comments/e5tosg/these_guys_just_drove_an_e63_amg_across_america/
-Sha256: 51460e3294f428c421423684509ed7ad7c217915c412da8a9f1109cde33e9929
-
-url_map of https://www.reddit.com/r/sports/comments/e5tosg/these_guys_just_drove_an_e63_amg_across_america/ beforehand: 0
-463812
-465740
-466198
-https://www.reddit.com/r/sports/comments/e5qrw0/remembering_the_play_of_1982/
-Sha256: b6157c9a0172012f32f5939307347c2b6ac06e630d2e092edbbfde92c03a510c
-
-url_map of https://www.reddit.com/r/sports/comments/e5qrw0/remembering_the_play_of_1982/ beforehand: 0
-471132
-472903
-479055
-479140
-479225
-479314
-479571
-479660
-479745
-479834
-480015
-480106
-480297
-480410
-480524
-480644
-Last index for complete URLS found: 480644
+306665
+306789
+306916
+307050
+307179
+307302
+307438
+307556
+307682
+307803
+307924
+308034
+308247
+308460
+308673
+308886
+309099
+309312
+309525
+309738
+309951
+310064
+310321
+311075
+311198
+311321
+311444
+311571
+311698
+311825
+311952
+312079
+312213
+312338
+312463
+312588
+312682
+329312
+329526
+478022
+478107
+478192
+478281
+478538
+478627
+478712
+478801
+478982
+479073
+479264
+479377
+479491
+479611
+Last index for complete URLS found: 479611
 
 Searching URLs with different domains
 
@@ -123,599 +67,318 @@ Last index for different domains found: -1
 Searching sub domain URLs
 
 
-390355
-394514
-394775
-https://reddit.com/r/sports/
-Sha256: d42ca7142eef7ce51c4fd9ebe99015c62c8b7ea9419a6f5c9bccf04560878225
-
-url_map of https://reddit.com/r/sports/ beforehand: 0
-408100
-408826
-https://reddit.com/r/sports/hot/
-Sha256: 0b6f4fec52e962bbd8af9c4268d12876644b6b4afb464218f68241ca6d667392
-
-url_map of https://reddit.com/r/sports/hot/ beforehand: 0
-412074
-https://reddit.com/r/sports/new/
-Sha256: 2d3fcc0ee6e82dcb087f07040b94f72f723efbfaab01a716905f100d8d241de0
-
-url_map of https://reddit.com/r/sports/new/ beforehand: 0
-412733
-https://reddit.com/r/sports/controversial/
-Sha256: a339e5d75cd129ae4cdc5a11ea7dbeef109df884f2832f4ce24ef592d9c84eac
-
-url_map of https://reddit.com/r/sports/controversial/ beforehand: 0
-413390
-https://reddit.com/r/sports/top/
-Sha256: 8d93dbfeb72c82d1efbc19b94568d35ccd5efd2415f201ecfad64e45dabb614b
-
-url_map of https://reddit.com/r/sports/top/ beforehand: 0
-413863
-https://reddit.com/r/sports/rising/
-Sha256: 9d71dc33ec56b6f527f72d11ba4cdd22e54a6994bd1ff4cedf9b868a9cc8088d
-
-url_map of https://reddit.com/r/sports/rising/ beforehand: 0
-414519
-https://reddit.com/r/sports/submit?media=true
-Sha256: 3abf2ee82586945780cf26603d148fc0beca3ad64136e7c0fcfbcfe032603f97
-
-url_map of https://reddit.com/r/sports/submit?media=true beforehand: 0
-415506
-https://reddit.com/r/sports/submit?url
-Sha256: 8de0fd74ccb2b6100def958d6824cb698dbef94be740ec0353f3a69ebd12b12e
-
-url_map of https://reddit.com/r/sports/submit?url beforehand: 0
-416930
-418966
-https://reddit.com/r/sports/search?q=flair_name%3A%22%3Afootball%3A%20Football%22
-Sha256: c978b719b5e7e4d75020f90d205b4dea6d5e5974df8fe6d60944fef3dbad51c2
-
-url_map of https://reddit.com/r/sports/search?q=flair_name%3A%22%3Afootball%3A%20Football%22 beforehand: 0
-419697
-https://reddit.com/r/sports/comments/e5mw8y/the_panthers_have_fired_head_coach_ron_rivera/
-Sha256: d49c2bded6da24e99ced3102c209c685ae606c4a706750fdf69daf739658b745
-
-url_map of https://reddit.com/r/sports/comments/e5mw8y/the_panthers_have_fired_head_coach_ron_rivera/ beforehand: 0
-420258
-422994
-425969
-426704
-https://reddit.com/r/sports/comments/e5azsj/the_seattle_seahawks_receivers_do_the_new_edition/
-Sha256: 5af92b6b22d6eb7420f98c761aa7ae71d53ce3e4f1e685ee4d6b695a61b68fc8
-
-url_map of https://reddit.com/r/sports/comments/e5azsj/the_seattle_seahawks_receivers_do_the_new_edition/ beforehand: 0
-427269
-429943
-432628
-https://reddit.com/r/sports/search?q=flair_name%3A%22%3Afighting%3A%20Fighting%22
-Sha256: 1abf1fa21288803dabc666daf7cd316df22f52bb692bac48d3f6c4c5f6859031
-
-url_map of https://reddit.com/r/sports/search?q=flair_name%3A%22%3Afighting%3A%20Fighting%22 beforehand: 0
-433373
-https://reddit.com/r/sports/comments/e5jhbx/patrick_teixeira_turns_the_tables_on_carlos_adames/
-Sha256: 7d6e02bccfd91233699c6913ee64bc92c9874fbd1068e46059c3b4da3318fa34
-
-url_map of https://reddit.com/r/sports/comments/e5jhbx/patrick_teixeira_turns_the_tables_on_carlos_adames/ beforehand: 0
-433939
-435771
-442080
-444750
-https://reddit.com/r/sports/search?q=flair_name%3A%22%3Acricket%3A%20Cricket%22
-Sha256: f2235298c9c1778c4e457a7df8eb04920e77dcea416431e068c3f1264fda6c9b
-
-url_map of https://reddit.com/r/sports/search?q=flair_name%3A%22%3Acricket%3A%20Cricket%22 beforehand: 0
-445477
-https://reddit.com/r/sports/comments/e5gq1v/jofra_archers_delivery_barely_misses_the_head_of/
-Sha256: d0de347193b4b6713c898ca9ed91abfffbb078a4d7cdea1e1d518e7a788d0f1e
-
-url_map of https://reddit.com/r/sports/comments/e5gq1v/jofra_archers_delivery_barely_misses_the_head_of/ beforehand: 0
-446038
-447060
-448499
-451182
-https://reddit.com/r/sports/comments/e5u4n7/refs_call_this_a_missed_dunk_by_james_harden/
-Sha256: a92ea6c60aa2bacaa24ee299bee0c34dc8932c6df35e06ccb0562a5bc1689347
-
-url_map of https://reddit.com/r/sports/comments/e5u4n7/refs_call_this_a_missed_dunk_by_james_harden/ beforehand: 0
-451933
-454161
-456835
-https://reddit.com/r/sports/search?q=flair_name%3A%22%3Amedia%3A%20Media%22
-Sha256: 9420049491d3bdcb7207aa22604164f68cdf5785b8d2da388a677a1445a3fe8f
-
-url_map of https://reddit.com/r/sports/search?q=flair_name%3A%22%3Amedia%3A%20Media%22 beforehand: 0
-457732
-https://reddit.com/r/sports/comments/e51vb1/can_anyone_identify_the_sports_team_that_this/
-Sha256: 54d05c74350659e9a4d104982af21c389618531b424f5520c5649874d90b0c2a
-
-url_map of https://reddit.com/r/sports/comments/e51vb1/can_anyone_identify_the_sports_team_that_this/ beforehand: 0
-458284
-459360
-460803
-463578
-https://reddit.com/r/sports/search?q=flair_name%3A%22%3Aracing%3A%20Motorsports%22
-Sha256: 19ca12391ce4b162c5e8faced3f61bbb14d25dfe60fcfcfaf78cb1f39a9c6fbb
-
-url_map of https://reddit.com/r/sports/search?q=flair_name%3A%22%3Aracing%3A%20Motorsports%22 beforehand: 0
-464313
-https://reddit.com/r/sports/comments/e5tosg/these_guys_just_drove_an_e63_amg_across_america/
-Sha256: 2be3f4883286321d4d0a22de605e83704365102eface55387f3fa54361c6dfcb
-
-url_map of https://reddit.com/r/sports/comments/e5tosg/these_guys_just_drove_an_e63_amg_across_america/ beforehand: 0
-464875
-467883
-470549
-471633
-https://reddit.com/r/sports/comments/e5qrw0/remembering_the_play_of_1982/
-Sha256: 1292c0303bc0f13fe7d868f4f954fa4268c8f49ff8711184a714e999690108ca
-
-url_map of https://reddit.com/r/sports/comments/e5qrw0/remembering_the_play_of_1982/ beforehand: 0
-472177
-474371
-Last index for sub domains found:474371
-
-Checksum of HMTL page of base url is:
-2adf25f3b8e962f70dc8c44bfee51a50855e67f396560f6959f2c9c69402a144
-
-https://www.reddit.com/r/sports/
-len_html_page: 621391
-Searching complete URLs
-
-372547
-372671
-372798
-372932
-373061
-373184
-373320
-373438
-373564
-373685
-373806
-373916
-374129
-374250
-374463
-374676
-374889
-375102
-375315
-375528
-375741
-375854
-375978
-376052
-376905
-377028
-377151
-377274
-377401
-377528
-377655
-377782
-377909
-378043
-378168
-378293
-378418
-378512
-395209
-395436
-419202
-421014
-421382
-426211
-428078
-432877
-445005
-446262
-450957
-457431
-464177
-466105
-466563
-471497
-473268
-479420
-479505
-479590
-479679
-479936
-480025
-480110
-480199
-480380
-480471
-480662
-480775
-480889
-481009
-Last index for complete URLS found: 481009
-
-Searching URLs with different domains
-
-Last index for different domains found: -1
-
-Searching sub domain URLs
-
-
-390355
-394514
-394775
-408106
-408832
-https://www.reddit.com/r/sports/hot/
-Sha256: 022a7f5f82a588c02d7e040b02266e3c672a0ad0d5fde3b751d8d0083d49a5be
-
-url_map of https://www.reddit.com/r/sports/hot/ beforehand: 0
-412080
-https://www.reddit.com/r/sports/new/
-Sha256: ddfb63fc50e5b07cc83d12380bf898eadf150e3e35fbb4bdf7013f92aa7ae1eb
-
-url_map of https://www.reddit.com/r/sports/new/ beforehand: 0
-412739
-https://www.reddit.com/r/sports/controversial/
-Sha256: b55e4e5ac80cacfd387a6657cff204fb5cd48648c7ad918fb9941ab6a876178e
-
-url_map of https://www.reddit.com/r/sports/controversial/ beforehand: 0
-413396
-https://www.reddit.com/r/sports/top/
-Sha256: 767f52aaeccef61d2a32670094564a1f69b37df17bd8dc56a443bf3c9b233ddf
-
-url_map of https://www.reddit.com/r/sports/top/ beforehand: 0
-413869
-https://www.reddit.com/r/sports/rising/
-Sha256: ae8f1954397634035698bb911cfa0866a4e262120ce44ad7bca7dc4286cb4eec
-
-url_map of https://www.reddit.com/r/sports/rising/ beforehand: 0
-414525
-https://www.reddit.com/r/sports/submit?media=true
-Sha256: bd8661898044d20ed7d247608c82170a55e86abc1b96defd567c0d330462264b
-
-url_map of https://www.reddit.com/r/sports/submit?media=true beforehand: 0
-415512
-https://www.reddit.com/r/sports/submit?url
-Sha256: 13c1f5a8835b82f923f284db8c749d197f0ee3e68ddf3df985b17839071af19c
-
-url_map of https://www.reddit.com/r/sports/submit?url beforehand: 0
-416936
-418972
-https://www.reddit.com/r/sports/search?q=flair_name%3A%22%3Afootball%3A%20Football%22
-Sha256: ef1d37b1de93524f62297d00f65281adade371cd2df42719edd4d57760804e82
-
-url_map of https://www.reddit.com/r/sports/search?q=flair_name%3A%22%3Afootball%3A%20Football%22 beforehand: 0
-419703
-420264
-423000
-425975
-426710
-427275
-429949
-432634
-https://www.reddit.com/r/sports/search?q=flair_name%3A%22%3Afighting%3A%20Fighting%22
-Sha256: c0a43b127245c34b1afda381bc7f2aeae6c6df28c7bab99106eb8252d7c1dd41
-
-url_map of https://www.reddit.com/r/sports/search?q=flair_name%3A%22%3Afighting%3A%20Fighting%22 beforehand: 0
-433379
-433945
-435777
-442086
-444769
-445520
-448064
-450730
-https://www.reddit.com/r/sports/search?q=flair_name%3A%22%3Acricket%3A%20Cricket%22
-Sha256: 2815e64987cb665112ec952310f872d6fd8bb533be7a57d6290aae5445bcc149
-
-url_map of https://www.reddit.com/r/sports/search?q=flair_name%3A%22%3Acricket%3A%20Cricket%22 beforehand: 0
-451457
-452018
-453077
-454522
-457200
-https://www.reddit.com/r/sports/search?q=flair_name%3A%22%3Amedia%3A%20Media%22
-Sha256: f1433a57a4c002a7f809b602103835ec92e31f610699416c22d70691fbc02cef
-
-url_map of https://www.reddit.com/r/sports/search?q=flair_name%3A%22%3Amedia%3A%20Media%22 beforehand: 0
-458097
-458649
-459725
-461168
-463943
-https://www.reddit.com/r/sports/search?q=flair_name%3A%22%3Aracing%3A%20Motorsports%22
-Sha256: 7dd5d5f148cab0f16112871067cbf250ece57a9ffe6c73ea0fce197cec4546e2
-
-url_map of https://www.reddit.com/r/sports/search?q=flair_name%3A%22%3Aracing%3A%20Motorsports%22 beforehand: 0
-464678
-465240
-468248
-470914
-471998
-472542
-474736
-Last index for sub domains found:474736
-
-Checksum of HMTL page of base url is:
-0c6f0b981900eb2d74327ccc3b9a89683401947cfd01c66f64adff830349a625
-
-https://www.reddit.com/r/sports/hot/
-len_html_page: 463855
-Searching complete URLs
-
-372621
-372745
-372872
-373006
-373135
-373258
-373394
-373512
-373638
-373759
-373880
-373990
-374203
-374324
-374537
-374750
-374963
-375176
-375389
-375602
-375815
-375928
-376250
-376373
-376496
-376619
-376746
-376873
-377000
-377127
-377254
-377388
-377513
-377638
-377763
-377857
-394333
-394566
-Last index for complete URLS found: 394566
-
-Searching URLs with different domains
-
-Last index for different domains found: -1
-
-Searching sub domain URLs
-
-
-389700
-393632
-393893
-407236
-412108
-412767
-413424
-413897
-414553
-415540
-416964
-Last index for sub domains found:416964
-
-Checksum of HMTL page of base url is:
-2f9afcabc7c9ca7a71dcdbee50b589923aeb4deb13ff1b7026578d76265fc21e
-
-https://www.reddit.com/r/sports/new/
-len_html_page: 463843
-Searching complete URLs
-
-372621
-372745
-372872
-373006
-373135
-373258
-373394
-373512
-373638
-373759
-373880
-373990
-374203
-374324
-374537
-374750
-374963
-375176
-375389
-375602
-375815
-375928
-376250
-376373
-376496
-376619
-376746
-376873
-377000
-377127
-377254
-377388
-377513
-377638
-377763
-377857
-394333
-394566
-Last index for complete URLS found: 394566
-
-Searching URLs with different domains
-
-Last index for different domains found: -1
-
-Searching sub domain URLs
-
-
-389700
-393632
-393893
-407236
-412072
-412755
-413412
-413885
-414541
-415528
-416952
-Last index for sub domains found:416952
-
-Checksum of HMTL page of base url is:
-deef414bb1f16213b2e60ff5db697bc9fed573776dfe6d5d684436d7d8f9058d
-
-https://www.reddit.com/r/sports/controversial/
-len_html_page: 464176
-Searching complete URLs
-
-372621
-372745
-372872
-373006
-373135
-373258
-373394
-373512
-373638
-373759
-373880
-373990
-374203
-374324
-374537
-374750
-374963
-375176
-375389
-375602
-375815
-375928
-376250
-376373
-376496
-376619
-376746
-376873
-377000
-377127
-377254
-377388
-377513
-377638
-377763
-377857
-394343
-394586
-Last index for complete URLS found: 394586
-
-Searching URLs with different domains
-
-Last index for different domains found: -1
-
-Searching sub domain URLs
-
-
-389700
-393632
-393893
-407256
-411918
-412577
-413258
-413731
-414387
-415741
-417165
-Last index for sub domains found:417165
-
-Checksum of HMTL page of base url is:
-494043c0f3458d197e19b0f1eae5a55dc146bc6a2b86a1de30b4d9cbd081cdaa
-
-https://www.reddit.com/r/sports/top/
-len_html_page: 464216
-Searching complete URLs
-
-372621
-372745
-372872
-373006
-373135
-373258
-373394
-373512
-373638
-373759
-373880
-373990
-374203
-374324
-374537
-374750
-374963
-375176
-375389
-375602
-375815
-375928
-376250
-376373
-376496
-376619
-376746
-376873
-377000
-377127
-377254
-377388
-377513
-377638
-377763
-377857
-394333
-394566
-Last index for complete URLS found: 394566
-
-Searching URLs with different domains
-
-Last index for different domains found: -1
-
-Searching sub domain URLs
-
-
-389700
-393632
-393893
-407236
-412078
-412737
-413394
-413891
-414547
-415901
-417325
-Last index for sub domains found:417325
-
-Checksum of HMTL page of base url is:
-46f1542234a49ddcef37ff2aaf8156c271a8ff1d69ddefee4f247369b80aeec7
-
-https://www.reddit.com/r/sports/rising/
-len_html_page: 463858
-Searching complete URLs
-
-372621
-372745
-372872
-373006
-373135
-373258
-373394
-373512
+324485
+328630
+https://reddit.com/r/all/
+Sha256: e33d0f13e7f51f2ca01930a85dbc33190d935f70e634a617c0a1b3a2e84f6766
+
+url_map of https://reddit.com/r/all/ beforehand: 0
+328891
+345276
+345926
+346574
+347038
+347685
+364885
+366300
+370432
+https://reddit.com/r/AskReddit/
+Sha256: a6eba0ced1922a467863983da4e23bbc73171099eaf6a7d9f1adceb51fd5cd18
+
+url_map of https://reddit.com/r/AskReddit/ beforehand: 0
+372857
+https://reddit.com/r/NoStupidQuestions/
+Sha256: 8dbe2c91689b9f11a59f24c6c6c1046262cee3fa3ebfa880fce969b7164defc3
+
+url_map of https://reddit.com/r/NoStupidQuestions/ beforehand: 0
+373051
+https://reddit.com/r/DestinyTheGame/
+Sha256: 2897134bceffac4c4dbd8dc3767e8c781ace8d3fe16f24924c891656b6c8b97b
+
+url_map of https://reddit.com/r/DestinyTheGame/ beforehand: 0
+373255
+https://reddit.com/r/explainlikeimfive/
+Sha256: 0eba05133e94127bd3720e8a8b4969cf97d238e7ab1e22519a920f9a6e386cb1
+
+url_map of https://reddit.com/r/explainlikeimfive/ beforehand: 0
+373459
+https://reddit.com/r/AskMen/
+Sha256: 05438eb8edeb9c988d23a1905f29692d2312523b3d1edf640d82af520eaf7343
+
+url_map of https://reddit.com/r/AskMen/ beforehand: 0
+373647
+https://reddit.com/r/leagueoflegends/
+Sha256: 980028a4d2adb12b8982aa4911c93f4538335679b9dd381bf81b49d1257dffac
+
+url_map of https://reddit.com/r/leagueoflegends/ beforehand: 0
+373831
+https://reddit.com/r/Minecraft/
+Sha256: de789c926468f3b49cf37cada0bf858a0493005266c03bc78810961149b7da46
+
+url_map of https://reddit.com/r/Minecraft/ beforehand: 0
+374021
+https://reddit.com/r/anime/
+Sha256: 541f5c2429221c192fc1d9026dde96ac5d4dbc550c02e61cf8ce0e2af0fde59e
+
+url_map of https://reddit.com/r/anime/ beforehand: 0
+374191
+https://reddit.com/r/IAmA/
+Sha256: 13ff17a0b4f5a37566e42f973f1b965bafcd478e516faedfd3faec6475cb49b5
+
+url_map of https://reddit.com/r/IAmA/ beforehand: 0
+374351
+https://reddit.com/r/AskWomen/
+Sha256: 2bde6bf821cb16b206fdbf01bf70d48fe8ba9deac638d4a035798a169eb9e0e6
+
+url_map of https://reddit.com/r/AskWomen/ beforehand: 0
+374517
+https://reddit.com/r/OutOfTheLoop/
+Sha256: e49696bc5cdaa57bc1e4129b615a71085fac148d03d977033a08efe4dd407a13
+
+url_map of https://reddit.com/r/OutOfTheLoop/ beforehand: 0
+374699
+https://reddit.com/r/Fitness/
+Sha256: 229d5222f0e3de7809ea804a45c742d4a03577fcf29860e6112b027b9d07b56f
+
+url_map of https://reddit.com/r/Fitness/ beforehand: 0
+374879
+https://reddit.com/r/destiny2/
+Sha256: 4ba7db9028f815c3dc748a88287bf72f5d6908a3263e4f0ac7452b2da99ab5fa
+
+url_map of https://reddit.com/r/destiny2/ beforehand: 0
+375051
+https://reddit.com/r/classicwow/
+Sha256: 46bb26e327021a1672c3ae0990ae9adf728ecbe8ad50db5f3a6b34dca19ac2a5
+
+url_map of https://reddit.com/r/classicwow/ beforehand: 0
+375229
+https://reddit.com/r/PS4/
+Sha256: dd0cf48d4a73549be5b590b4c2d9a5a4110c115d71ceccf8f01438a8ec3f30e7
+
+url_map of https://reddit.com/r/PS4/ beforehand: 0
+375397
+https://reddit.com/r/discordapp/
+Sha256: 7711a075049b2fdf62857fff5f761fa09b17642a3206edf8792080701ad5ad0b
+
+url_map of https://reddit.com/r/discordapp/ beforehand: 0
+375565
+https://reddit.com/r/DnD/
+Sha256: ffd0bc6270e8804d8e04f8de6cb510aecc57da19b7b8b5deaa8d3f6b51f8ea05
+
+url_map of https://reddit.com/r/DnD/ beforehand: 0
+375733
+https://reddit.com/r/FIFA/
+Sha256: 8d031f7f659c9a0d175058e5ad2d80a61b7a9a41486a470537ae4dd4932b4a1e
+
+url_map of https://reddit.com/r/FIFA/ beforehand: 0
+375889
+https://reddit.com/r/Instagram/
+Sha256: be4d654255fafab527e7e74cd958b61d95df198163dd694d1850dcb107499948
+
+url_map of https://reddit.com/r/Instagram/ beforehand: 0
+376057
+https://reddit.com/r/apple/
+Sha256: d6eae58e0001ce7d47511ca81277b8e9e836c923a0073d01495f22ac23b881d6
+
+url_map of https://reddit.com/r/apple/ beforehand: 0
+376227
+https://reddit.com/r/Twitch/
+Sha256: b3eaf1047474764115c3d6bc2207c7f15eabb3d121c71828c6c5e563b90bab80
+
+url_map of https://reddit.com/r/Twitch/ beforehand: 0
+376391
+https://reddit.com/r/videos/
+Sha256: 9094dc45481620767d7343409728b1167ffc4d974abd1d2f9f9f0fe89d55254b
+
+url_map of https://reddit.com/r/videos/ beforehand: 0
+376557
+https://reddit.com/r/FortNiteBR/
+Sha256: 57385bc1ebb6df7096e7fe27de40827aab170167e5fc0718120e89e3e83ad91f
+
+url_map of https://reddit.com/r/FortNiteBR/ beforehand: 0
+376731
+https://reddit.com/r/NintendoSwitch/
+Sha256: fea3caaf351f69c5a1d092f682b61004ab8e7084f8681b2d4c311dd1cb3b226e
+
+url_map of https://reddit.com/r/NintendoSwitch/ beforehand: 0
+376921
+https://reddit.com/r/NBA2k/
+Sha256: 75449abc3646adcd7bb9e6ce007d3f5ae02810f7c0563dcedf18b00f19939f3d
+
+url_map of https://reddit.com/r/NBA2k/ beforehand: 0
+377101
+https://reddit.com/r/gtaonline/
+Sha256: e34c804fc9a616073e43bab526458967d947215be11de3c0f8e6a15176b53d30
+
+url_map of https://reddit.com/r/gtaonline/ beforehand: 0
+377271
+https://reddit.com/r/wow/
+Sha256: 322e889ada3bfabaef899d3999fe66794c9abf5ee34c91589437bdc4313a731b
+
+url_map of https://reddit.com/r/wow/ beforehand: 0
+377437
+https://reddit.com/r/dndnext/
+Sha256: b06e49866e0adb4abbdbf73a59978b07a383cc5518d5da531ddd0ca4847669cc
+
+url_map of https://reddit.com/r/dndnext/ beforehand: 0
+377599
+https://reddit.com/r/Tinder/
+Sha256: 8541bc9a531f54388f240f6bce1f2f8ce5204e46e5bebed136d3c160726aa309
+
+url_map of https://reddit.com/r/Tinder/ beforehand: 0
+377767
+https://reddit.com/r/xboxone/
+Sha256: 74f3a2a5b931e68056402ec9ce5df49ff8be53567e022eecf3a5f63c5ff286ce
+
+url_map of https://reddit.com/r/xboxone/ beforehand: 0
+377935
+https://reddit.com/r/relationship_advice/
+Sha256: a8342f35127f1aadb8e53e293ce32794aed9c0561cb3795bc6fcd4843fd7363c
+
+url_map of https://reddit.com/r/relationship_advice/ beforehand: 0
+378129
+https://reddit.com/r/Amd/
+Sha256: d244d118c790f910f9d33dbf34f5707202667b2c2a3db2731f5ede1dd039ff56
+
+url_map of https://reddit.com/r/Amd/ beforehand: 0
+378315
+https://reddit.com/r/buildapc/
+Sha256: 11d5a0f5ff8ac2491e085d42e477805e30ca3533d18e2f9ce570891a1dfe59dd
+
+url_map of https://reddit.com/r/buildapc/ beforehand: 0
+378479
+https://reddit.com/r/todayilearned/
+Sha256: d3f0e3b98d4d3ad7d8cb20975e00d5152b2bce651941579653500318b77f2f4a
+
+url_map of https://reddit.com/r/todayilearned/ beforehand: 0
+378663
+https://reddit.com/r/sysadmin/
+Sha256: c193e713460bf2a00221c46373b6491be0bd5276079240674428fb9a40015927
+
+url_map of https://reddit.com/r/sysadmin/ beforehand: 0
+378847
+https://reddit.com/r/OnePiece/
+Sha256: db05824d1beb1e16f44415c24f23a25888c068f9b984140b8206882f7bfd577d
+
+url_map of https://reddit.com/r/OnePiece/ beforehand: 0
+379021
+https://reddit.com/r/malefashionadvice/
+Sha256: 9fcbb513ac56ce302ba6a6f58ec4636737b781a32775bf1709b6e507335b02a5
+
+url_map of https://reddit.com/r/malefashionadvice/ beforehand: 0
+379213
+https://reddit.com/r/techsupport/
+Sha256: 97562a6279dd72b2fe5e91a24aac7b2ccbf1fa9c7afbcbcaa96fc6577daddfae
+
+url_map of https://reddit.com/r/techsupport/ beforehand: 0
+379411
+https://reddit.com/r/iphone/
+Sha256: a351878e1aa544c9ef46682d40d036814dd65c8e96a75575f0ad9f4d40de8638
+
+url_map of https://reddit.com/r/iphone/ beforehand: 0
+379587
+https://reddit.com/r/nba/
+Sha256: 24a0230d914509613031ea4fc5743a7a5b20d4c806d854b75f76d46f1e8a0de6
+
+url_map of https://reddit.com/r/nba/ beforehand: 0
+379747
+https://reddit.com/r/GlobalOffensive/
+Sha256: 562e66fc6e399002d1e28c384efbbe72659c1190cb50008bc20bc7108b22a482
+
+url_map of https://reddit.com/r/GlobalOffensive/ beforehand: 0
+379925
+https://reddit.com/r/reddeadredemption/
+Sha256: cfca1c18a33768ba7c5a836ef4f24b959e58874e82bad344252ff8fbeca45718
+
+url_map of https://reddit.com/r/reddeadredemption/ beforehand: 0
+380131
+https://reddit.com/r/jailbreak/
+Sha256: 7bc6dcf1acf5dfd218c6102674a679729ddb97ce97b4ddb0052705743da0af54
+
+url_map of https://reddit.com/r/jailbreak/ beforehand: 0
+380325
+https://reddit.com/r/ffxiv/
+Sha256: 250f9d2db62a9fdebc19263875a309d9028e10fc7cd2b53b2aacd11676a6b159
+
+url_map of https://reddit.com/r/ffxiv/ beforehand: 0
+380495
+https://reddit.com/r/askscience/
+Sha256: 0ace54228236413f18d53b16f58c0cf27a58ff960c9345fa903f5c51e643badd
+
+url_map of https://reddit.com/r/askscience/ beforehand: 0
+380667
+https://reddit.com/r/Cooking/
+Sha256: ee7c4e7c9d67405442a130fb70ff3eae7116b577050ff358ff93f4efa3b8d9db
+
+url_map of https://reddit.com/r/Cooking/ beforehand: 0
+380843
+https://reddit.com/r/2007scape/
+Sha256: 1f136dbd92afeb9bbde5707da068c747aecdc7ec00bbee81f046dae3fdd44a9e
+
+url_map of https://reddit.com/r/2007scape/ beforehand: 0
+381017
+https://reddit.com/r/LivestreamFail/
+Sha256: d10204d36944f27f4789ee7e4a17d800c27ec861ce240de69f41a918d9d69e23
+
+url_map of https://reddit.com/r/LivestreamFail/ beforehand: 0
+381205
+https://reddit.com/r/nfl/
+Sha256: eedbbf531f45cceabb0eba90e25fc501353a29ff6ce0fcd88c2e612e892e240c
+
+url_map of https://reddit.com/r/nfl/ beforehand: 0
+381381
+https://reddit.com/r/cars/
+Sha256: 978e36a286d72aa7bc97036a7d9a54aea96af5373e8f719d7fac84905c66b78d
+
+url_map of https://reddit.com/r/cars/ beforehand: 0
+381537
+https://reddit.com/r/pics/
+Sha256: 5783ab3d73a30e19b1b93c920f3e468c21a61ece7dbb392b54c010853fb00b6b
+
+url_map of https://reddit.com/r/pics/ beforehand: 0
+381695
+https://reddit.com/r/MonsterHunterWorld/
+Sha256: e720ab83f37cfd96671c8ff23c710489cbe0037450a1e8c2115b2e7b8e700b50
+
+url_map of https://reddit.com/r/MonsterHunterWorld/ beforehand: 0
+381881
+https://reddit.com/r/legaladvice/
+Sha256: fa3468449a1afa82300e1f48abbfd25683ea76ab454d8c664b5220034a7aff1e
+
+url_map of https://reddit.com/r/legaladvice/ beforehand: 0
+382081
+https://reddit.com/r/Showerthoughts/
+Sha256: d99ae47bab129f76b8a55e4428164f7ccdbff2d3eed42a03e9ec877f84a09fb5
+
+url_map of https://reddit.com/r/Showerthoughts/ beforehand: 0
+382273
+https://reddit.com/r/pcmasterrace/
+Sha256: 490cb738e42939acdfef8a86a58930a4cd98e15227f02f83a0eebcd3e7c7e49d
+
+url_map of https://reddit.com/r/pcmasterrace/ beforehand: 0
+382467
+https://reddit.com/r/GooglePixel/
+Sha256: aa8764c28b3c9d0ba509f23006a77751fbe4635368e46de5fa73ad3f7072db5b
+
+url_map of https://reddit.com/r/GooglePixel/ beforehand: 0
+382655
+https://reddit.com/r/cscareerquestions/
+Sha256: 284209fd084d8bc191b46158aaad6fec985313e1b6f40caac35df41977ed30fc
+
+url_map of https://reddit.com/r/cscareerquestions/ beforehand: 0
+382853
+https://reddit.com/r/LifeProTips/
+Sha256: c4be94cffc833f4a11a2682c16839c24d1ad844789a1b1d607a67e24ccdde0fb
+
+url_map of https://reddit.com/r/LifeProTips/ beforehand: 0
+383051
+https://reddit.com/r/Music/
+Sha256: a90f22a9ac24b8bfb0182f7cdc8ec24c7685b893f1db2b9d2b56f370131ced6c
+
+url_map of https://reddit.com/r/Music/ beforehand: 0
+383225
+https://reddit.com/r/pokemon/
+Sha256: 2d78b684be73ec3436694c33a32551658c5cc507a288edd652ee6792fb727acf
+
+url_map of https://reddit.com/r/pokemon/ beforehand: 0
+383391
