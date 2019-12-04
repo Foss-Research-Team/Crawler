@@ -1,0 +1,332 @@
+Checksum of HMTL page of base url is:
+ca4c460e6f3c65f7296f136e0e203b375dff565402f0c46e14cad3826697f936
+
+https://reddit.com
+len_html_page: 542680
+Searching complete URLs
+
+https://www.redditstatic.com/desktop2x/runtime~Reddit.0570ed6ff36047841877.js
+Sha256: ee4d94f521b0f176a30ba8a79e80cb15795fa3f2a4a521e3b2aade31ae27bc1e
+
+url_map of https://www.redditstatic.com/desktop2x/runtime~Reddit.0570ed6ff36047841877.js beforehand: 0
+306665
+https://www.redditstatic.com/desktop2x/RedesignContentFonts.6eb104b68639e6b81daf.js
+Sha256: f57fbe819e4c3fd4999d03c17e8d95f95bdefe36dab829ce4c092a20f457ff13
+
+url_map of https://www.redditstatic.com/desktop2x/RedesignContentFonts.6eb104b68639e6b81daf.js beforehand: 0
+306789
+https://www.redditstatic.com/desktop2x/RedesignOldContentFonts.3e3b3ded5cf83c97048d.js
+Sha256: a8d4dd541ffa7cef2e81a9ff7512a6654211ff1ea8d032ec56e832cf86e61866
+
+url_map of https://www.redditstatic.com/desktop2x/RedesignOldContentFonts.3e3b3ded5cf83c97048d.js beforehand: 0
+306916
+https://www.redditstatic.com/desktop2x/vendors~Chat~Governance~Reddit.4156f690812fdad83add.js
+Sha256: 220d3f7c5def1fa15a20f42b6ba82c9b9aca105380349f4a571c958b5599e0c3
+
+url_map of https://www.redditstatic.com/desktop2x/vendors~Chat~Governance~Reddit.4156f690812fdad83add.js beforehand: 0
+307050
+https://www.redditstatic.com/desktop2x/vendors~Governance~Reddit.42de832bb94b97a3292e.js
+Sha256: 1634ba56194a4cebf57febfe89ce7015203b37657a86bf60f4989de7087d26c4
+
+url_map of https://www.redditstatic.com/desktop2x/vendors~Governance~Reddit.42de832bb94b97a3292e.js beforehand: 0
+307179
+https://www.redditstatic.com/desktop2x/vendors~Poll~Reddit.269ad5c60225139a922c.js
+Sha256: 8b633f248bcbb0ff7a5957c73f3c770186d426db31faf2aab1058b8eec1a01b2
+
+url_map of https://www.redditstatic.com/desktop2x/vendors~Poll~Reddit.269ad5c60225139a922c.js beforehand: 0
+307302
+https://www.redditstatic.com/desktop2x/vendors~EconHelperActions~Reddit.38898a6cab72699d4b6d.js
+Sha256: 99ebeae3a8fd3e256a3f5583b2dff7766871c2c0c478f6d17bb3772c706562b2
+
+url_map of https://www.redditstatic.com/desktop2x/vendors~EconHelperActions~Reddit.38898a6cab72699d4b6d.js beforehand: 0
+307438
+https://www.redditstatic.com/desktop2x/vendors~Reddit.81c288f4ffc2fe9917fc.js
+Sha256: 49f97f586a320f5f03ff754d7c5b3a8f431cd348e13c758e205466903e16e620
+
+url_map of https://www.redditstatic.com/desktop2x/vendors~Reddit.81c288f4ffc2fe9917fc.js beforehand: 0
+307556
+https://www.redditstatic.com/desktop2x/Chat~Governance~Reddit.097219b9dbfd267fc76d.js
+Sha256: 837d668059af91e450a979a5aac3d36fac06c55aef3b1e781ccb189356b2d421
+
+url_map of https://www.redditstatic.com/desktop2x/Chat~Governance~Reddit.097219b9dbfd267fc76d.js beforehand: 0
+307682
+https://www.redditstatic.com/desktop2x/Governance~Reddit.a488f68997869a89f376.js
+Sha256: 69497efe503a4a0c8fe4c9e09ef11850149f5e5969ca4b3484229d2b00a7b35a
+
+url_map of https://www.redditstatic.com/desktop2x/Governance~Reddit.a488f68997869a89f376.js beforehand: 0
+307803
+https://www.redditstatic.com/desktop2x/EconHelperActions.30a0a1f537e6f5b88ee7.js
+Sha256: 93f7e45af365d5a60132acf6232f74110f8901a2fa7d6c41de68e80648f603b5
+
+url_map of https://www.redditstatic.com/desktop2x/EconHelperActions.30a0a1f537e6f5b88ee7.js beforehand: 0
+307924
+https://www.redditstatic.com/desktop2x/Reddit.379957463ea3747c1e63.js
+Sha256: a36965c93d12fca1fcb8f79f9f5c8e717da88ba3b81ada1de9742dac0a71cc3d
+
+url_map of https://www.redditstatic.com/desktop2x/Reddit.379957463ea3747c1e63.js beforehand: 0
+308034
+https://www.redditstatic.com/desktop2x/vendors~CollectionCommentsPage~CommentsPage~Explore~Frontpage~GovernanceReleaseNotesModal~ModListing~bc44510a.4fe480e7fe863eb98c3c.js
+Sha256: cef4f5b529d83e273d12d0e8d86ef4230ddeb8a90ba113b167792f1862c7f469
+
+url_map of https://www.redditstatic.com/desktop2x/vendors~CollectionCommentsPage~CommentsPage~Explore~Frontpage~GovernanceReleaseNotesModal~ModListing~bc44510a.4fe480e7fe863eb98c3c.js beforehand: 0
+308247
+https://www.redditstatic.com/desktop2x/CollectionCommentsPage~CommentsPage~Explore~Frontpage~GovernanceReleaseNotesModal~MembershipPaywallP~3b146788.150d71e5c48acca466c5.js
+Sha256: e11ce41c506cdfc6eaded56577ea829316f88b81b797c191a106c7473453ea2b
+
+url_map of https://www.redditstatic.com/desktop2x/CollectionCommentsPage~CommentsPage~Explore~Frontpage~GovernanceReleaseNotesModal~MembershipPaywallP~3b146788.150d71e5c48acca466c5.js beforehand: 0
+308460
+https://www.redditstatic.com/desktop2x/ChatMessageInput~ChatPost~CollectionCommentsPage~CommentsPage~Explore~Frontpage~GovernanceReleaseNot~7e52de2e.877163b74290afb3d029.js
+Sha256: 821d35640dba6415b55bc6a93a37b0ccb69ec657cf4196ffe4dacf37c5087600
+
+url_map of https://www.redditstatic.com/desktop2x/ChatMessageInput~ChatPost~CollectionCommentsPage~CommentsPage~Explore~Frontpage~GovernanceReleaseNot~7e52de2e.877163b74290afb3d029.js beforehand: 0
+308673
+https://www.redditstatic.com/desktop2x/CollectionCommentsPage~CommentsPage~Explore~Frontpage~ModListing~ModQueuePages~ModerationPages~Multi~a20b358a.f9f1579ed1257ff4c7be.js
+Sha256: 52cc1485b4992d7fe7f8ab2987fc249f0fa19fb1ab4be61d0a8bf1485fd14c28
+
+url_map of https://www.redditstatic.com/desktop2x/CollectionCommentsPage~CommentsPage~Explore~Frontpage~ModListing~ModQueuePages~ModerationPages~Multi~a20b358a.f9f1579ed1257ff4c7be.js beforehand: 0
+308886
+https://www.redditstatic.com/desktop2x/CollectionCommentsPage~CommentsPage~Explore~Frontpage~GovernanceReleaseNotesModal~ModListing~ModQueu~c06ba326.ca8791cf502ce447de95.js
+Sha256: e368fb706c0396e20add1871bee414c090874f325de3f47e6b173d268d54cf14
+
+url_map of https://www.redditstatic.com/desktop2x/CollectionCommentsPage~CommentsPage~Explore~Frontpage~GovernanceReleaseNotesModal~ModListing~ModQueu~c06ba326.ca8791cf502ce447de95.js beforehand: 0
+309099
+https://www.redditstatic.com/desktop2x/ChatPost~CollectionCommentsPage~CommentsPage~Frontpage~ModListing~ModQueuePages~ModerationPages~Mult~95e5b38b.d92ef03a143ecbe095f0.js
+Sha256: b003521618a981341fbbcb04a7f6add411dc0e1cf5f0a110e3b8943342746367
+
+url_map of https://www.redditstatic.com/desktop2x/ChatPost~CollectionCommentsPage~CommentsPage~Frontpage~ModListing~ModQueuePages~ModerationPages~Mult~95e5b38b.d92ef03a143ecbe095f0.js beforehand: 0
+309312
+https://www.redditstatic.com/desktop2x/CollectionCommentsPage~CommentsPage~Explore~Frontpage~ModListing~ModQueuePages~ModerationPages~Multi~dc5241f9.8fae43deb4e8193713c0.js
+Sha256: f2dbb6e9303b18a3ff59bd37b7978bdb94feb0fb9cae41395e05b61ee73c88a0
+
+url_map of https://www.redditstatic.com/desktop2x/CollectionCommentsPage~CommentsPage~Explore~Frontpage~ModListing~ModQueuePages~ModerationPages~Multi~dc5241f9.8fae43deb4e8193713c0.js beforehand: 0
+309525
+https://www.redditstatic.com/desktop2x/ChatPost~CollectionCommentsPage~CommentsPage~Frontpage~ModListing~ModQueuePages~Multireddit~Poll~Pro~e3aed935.e344f97dc51bd8972c57.js
+Sha256: 00d6ec0eddc86511e09bde25369fd20c34220dea1e0105ac90fb7af12d48e218
+
+url_map of https://www.redditstatic.com/desktop2x/ChatPost~CollectionCommentsPage~CommentsPage~Frontpage~ModListing~ModQueuePages~Multireddit~Poll~Pro~e3aed935.e344f97dc51bd8972c57.js beforehand: 0
+309738
+https://www.redditstatic.com/desktop2x/CollectionCommentsPage~CommentsPage~Explore~Frontpage~MembershipPaywallPage~ModListing~ModQueuePages~af3398b2.90fdf6225f847ce9e937.js
+Sha256: ba438f9dbc15aa4cce39341f63049b11d7bb1b38cc5654d9fd79a1d852e9ab7b
+
+url_map of https://www.redditstatic.com/desktop2x/CollectionCommentsPage~CommentsPage~Explore~Frontpage~MembershipPaywallPage~ModListing~ModQueuePages~af3398b2.90fdf6225f847ce9e937.js beforehand: 0
+309951
+https://www.redditstatic.com/desktop2x/Frontpage.395359bb6306b7dd96fc.js
+Sha256: 95263dfd4a0816f466fd3312b57b3d3a12b18e5f780c138d162510bb70a75a02
+
+url_map of https://www.redditstatic.com/desktop2x/Frontpage.395359bb6306b7dd96fc.js beforehand: 0
+310064
+https://www.reddit.com/
+Sha256: 8b3b8401f43fe26a786975f7d6f079eef8b890c10262cb5dcd26d8eba1373c81
+
+url_map of https://www.reddit.com/ beforehand: 0
+310321
+https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-57x57.png
+Sha256: c4c693923f90d5e2e58221a70eb1964afc8415fa331c2fbef5f2bcfd6ed58710
+
+url_map of https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-57x57.png beforehand: 0
+311075
+https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-60x60.png
+Sha256: 830f8efbab82e70d435bab805b13da831332aae1ad65fdb49908e8a8084a7803
+
+url_map of https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-60x60.png beforehand: 0
+311198
+https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-72x72.png
+Sha256: 582ba603c6f0c745a5516f276aad40ea97cdc231e2d6f8a335164e92337103ca
+
+url_map of https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-72x72.png beforehand: 0
+311321
+https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-76x76.png
+Sha256: 28650e76242b1ea4813a63feb6de9f69e727d248eb333738181bbd5a030b0b0b
+
+url_map of https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-76x76.png beforehand: 0
+311444
+https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-114x114.png
+Sha256: 6988a5547ce56d52e315b646b4a15d235d18017e783e7106c5a743aea39fd35f
+
+url_map of https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-114x114.png beforehand: 0
+311571
+https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-120x120.png
+Sha256: 2b2598bb4ed44943f8b16c9e42866bbb633b33bac28b9f110fd533f6d8394a5f
+
+url_map of https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-120x120.png beforehand: 0
+311698
+https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-144x144.png
+Sha256: 3c78d75d172a3c0da9f685f1a902845d933fef07cf60dc5a7e75c04814372a1b
+
+url_map of https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-144x144.png beforehand: 0
+311825
+https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-152x152.png
+Sha256: 04b8a6203299a9bf0d65dbc0fe308e32c53f67097b01983006632b73a5c1482f
+
+url_map of https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-152x152.png beforehand: 0
+311952
+https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-180x180.png
+Sha256: a1fe8d2a2c8e14c0430689c07eea139f27188a6b0c5f4a9af2433e34dd25932c
+
+url_map of https://www.redditstatic.com/desktop2x/img/favicon/apple-icon-180x180.png beforehand: 0
+312079
+https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png
+Sha256: 180d883f1a407421a39bb24634ae2a4c26b2339055c881f896caaf741ad100cc
+
+url_map of https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png beforehand: 0
+312213
+https://www.redditstatic.com/desktop2x/img/favicon/favicon-32x32.png
+Sha256: 862b93ac411000b6a1fe4bc48565a1b7da8d67a377d7f79d15c6d67bd32db0a8
+
+url_map of https://www.redditstatic.com/desktop2x/img/favicon/favicon-32x32.png beforehand: 0
+312338
+https://www.redditstatic.com/desktop2x/img/favicon/favicon-96x96.png
+Sha256: ed3e5451383a8bdd8360ee0878cb541f4c007b9c4db0e8465047723ff808f858
+
+url_map of https://www.redditstatic.com/desktop2x/img/favicon/favicon-96x96.png beforehand: 0
+312463
+https://www.redditstatic.com/desktop2x/img/favicon/favicon-16x16.png
+Sha256: 035cd5e73a45c0781fdbf371f5e04d7d21b87ceb062ecf9d7205a9b1b2fff6dc
+
+url_map of https://www.redditstatic.com/desktop2x/img/favicon/favicon-16x16.png beforehand: 0
+312588
+https://www.redditstatic.com/desktop2x/img/favicon/manifest.json
+Sha256: 1b7e76fc37bde396ce62240e3210869b579d85e58a37952ee76091c3898ec23a
+
+url_map of https://www.redditstatic.com/desktop2x/img/favicon/manifest.json beforehand: 0
+312682
+https://www.reddit.com/login/?dest=https%3A%2F%2Fwww.reddit.com%2F
+Sha256: e220ff318bcfdc9de2495acf38e351bdc9db8f10b8684688b2dabeb61eb9b0f8
+
+url_map of https://www.reddit.com/login/?dest=https%3A%2F%2Fwww.reddit.com%2F beforehand: 0
+329312
+https://www.reddit.com/register/?dest=https%3A%2F%2Fwww.reddit.com%2F
+Sha256: 88a6165f4583af0b9e9f5bc35d011822c4ab2ffcddd804b883d5a0f3ff6ade20
+
+url_map of https://www.reddit.com/register/?dest=https%3A%2F%2Fwww.reddit.com%2F beforehand: 0
+329526
+https://about.reddit.com
+Sha256: ce3f9ea6f9ef11758ba9d9c858712235a489879d4416429b4f4dbd1d818342de
+
+url_map of https://about.reddit.com beforehand: 0
+478022
+https://about.reddit.com/careers/
+Sha256: 97a520bc7e3da8a0a020533d35fcd87e69654596ff9fb6f5665174929fc8762b
+
+url_map of https://about.reddit.com/careers/ beforehand: 0
+478107
+https://about.reddit.com/press/
+Sha256: 4ce2c1c982ef9f01caab44234f7ce5633d896691ce4951b5c60a5d33f1f3bbfc
+
+url_map of https://about.reddit.com/press/ beforehand: 0
+478192
+https://www.redditinc.com/advertising
+Sha256: 38d8e124dccd2580999e2e39081b5c5bb97b9a9fcc7a9b19ada7e2d84c293c4b
+
+url_map of https://www.redditinc.com/advertising beforehand: 0
+478281
+https://www.reddithelp.com
+Sha256: 426750bd64fde8f7431fdc0b4abb7580dff41018783fc9c950cbcc3c8bb00270
+
+url_map of https://www.reddithelp.com beforehand: 0
+478538
+https://www.reddit.com/mobile/download
+Sha256: 5a73e4cc8e2759ff7cf95e3070210521d6f201ab68c2feb8540a6689457c8771
+
+url_map of https://www.reddit.com/mobile/download beforehand: 0
+478627
+https://www.reddit.com/coins
+Sha256: 99757aea2caf537893bc84baf8d113b63ca0a45b05d1100b9841b3b33804d723
+
+url_map of https://www.reddit.com/coins beforehand: 0
+478712
+https://www.reddit.com/premium
+Sha256: 9e6e34ad3c344b80ce1dd506eab9d6ac26fec0939a9d95f16f706020c12ff334
+
+url_map of https://www.reddit.com/premium beforehand: 0
+478801
+https://www.reddit.com/subreddits/a-1/
+Sha256: 485f59dcdac74fe9312ae262765e1b2b1b4dcfc23fbc595e70db5807a463eb8c
+
+url_map of https://www.reddit.com/subreddits/a-1/ beforehand: 0
+478982
+https://www.reddit.com/posts/a-1/
+Sha256: f212a7ddae8f6be2f13a15a4ed301c84a709133f01bc4ea440203be6faa25846
+
+url_map of https://www.reddit.com/posts/a-1/ beforehand: 0
+479073
+https://www.redditinc.com/policies/user-agreement
+Sha256: dbc0272a78551b6101277b30f4759413a96d3d7eecb17284de5b59593406a8a7
+
+url_map of https://www.redditinc.com/policies/user-agreement beforehand: 0
+479264
+https://www.redditinc.com/policies/content-policy
+Sha256: e70332dd5939b9a4fc02e5d4472e67c25f0bb976b6ec60de4d2b27c2f203b36d
+
+url_map of https://www.redditinc.com/policies/content-policy beforehand: 0
+479377
+https://www.reddit.com/help/privacypolicy
+Sha256: 688a279b2c13f1491ba06546b65cf39904b76468e21c22381bbc1decdea41f77
+
+url_map of https://www.reddit.com/help/privacypolicy beforehand: 0
+479491
+https://www.reddit.com/help/healthycommunities/
+Sha256: 325cdd06c98ae23f27a496381e6ff1a4c0c1ef576598d225cdd2e78b0c3969f1
+
+url_map of https://www.reddit.com/help/healthycommunities/ beforehand: 0
+479611
+Last index for complete URLS found: 479611
+
+Searching URLs with different domains
+
+Last index for different domains found: -1
+
+Searching sub domain URLs
+
+
+https://reddit.com/
+Sha256: 073b0d269426be0b6d16efcb06b1381551fa4d82bd855c2f1feb146327b9322e
+
+url_map of https://reddit.com/ beforehand: 0
+324485
+328630
+https://reddit.com/r/all/
+Sha256: a2abb9fefcf899e30ebed4a41a97c7e3b510d5359abc67737de5ac0d0fc0dfb4
+
+url_map of https://reddit.com/r/all/ beforehand: 0
+328891
+https://reddit.com/hot/
+Sha256: 9b628d3e4a5ace8b11584ae604cb2ea391f1553503f9fef074dbf01714682d35
+
+url_map of https://reddit.com/hot/ beforehand: 0
+345276
+https://reddit.com/new/
+Sha256: 05dda6c7acaa35aaa026fb9dd68d422aa0ddddc5c1101992ec5d0020498acf78
+
+url_map of https://reddit.com/new/ beforehand: 0
+345926
+https://reddit.com/controversial/
+Sha256: cbf2f5524788323c15cbc37e95131a6b584e1aa0040a1cf91d6cde50c5ebb99f
+
+url_map of https://reddit.com/controversial/ beforehand: 0
+346574
+https://reddit.com/top/
+Sha256: 610afb5bb04c6c693dd1369971a48ac9d1303883b6dea55756a79e4bb6712e3e
+
+url_map of https://reddit.com/top/ beforehand: 0
+347038
+https://reddit.com/rising/
+Sha256: 3ce320f355da3c2ef80e97bad06914b57ff7260ce766dd490a39d2e0e913cd95
+
+url_map of https://reddit.com/rising/ beforehand: 0
+347685
+https://reddit.com/submit?media=true
+Sha256: ab466e4fe0f3a9a9c370493e4335f1f822a604f42e93753e40da98fe2fb9460c
+
+url_map of https://reddit.com/submit?media=true beforehand: 0
+364885
+https://reddit.com/submit?url
+Sha256: ca3c93a6a7dc2ea04bbfeb1479e85bafcc5829f0e7a74c0ac95967da2011ef6b
+
+url_map of https://reddit.com/submit?url beforehand: 0
+366300
+https://reddit.com/submit
+Sha256: 7e6c983415332a4b5c2cb2886bcd2d7837246ba332d08038771f3082ecfae788
+
+url_map of https://reddit.com/submit beforehand: 0
+370432
