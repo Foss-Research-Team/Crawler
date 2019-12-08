@@ -179,3 +179,61 @@ Good news: domainlist_add and domainlist_check functionality now work properly
 Problem: https://reddit.com/sports reprinted its own base URL as a repeat. You need to debug domainlist to ensure repeats do not happen.
 
 Actually, the problem is you forget the ending '/' in the URL: https://reddit.com/r/sports" You might just want the program to handle that for them.
+
+-----------------------------------------
+
+12/4/2019 12:04 PM
+
+Problem: Two of the same URLs:
+
+https://reddit.com/r/sports/new
+
+vs
+
+https://www.reddit.com/r/sports/new
+
+This is really easy to fix.
+
+To be really honest, this is not a critical error. You can look at the reddit.txt log and realize that it does not get stuck in an infinite loop despite this.
+
+------------------------------------------
+
+12/7/2019 at 9:36 PM
+
+Problem: The fixed domainlist_check is very slow.
+
+To make this faster, have the program directly look for the proper domain string within the HTML file instead of checking if each individual URL fits the domain string. 
+
+Wait, then PageRank will not be able to do its job correctly. The crawler for an academic search engine should be searching for journal articles, even if they are not part of the fixed domain set, and adding them to an inverted index.
+
+Well, what is in the above paragraph is certainly correct. But this is a web crawling library after all. We should not assume everyone cares about crawling for the sake of search engine design. As such, we should make a completely separate function called extract_domainlist_urls that specifically only looks for the urls that fit the domainlist condition.
+
+------------------------------------------
+
+12/7/2019 at 9:59 PM
+
+Problem: Even when the subdomain is archive.org/details/jstor
+
+to search for all jstor links, the crawler returns none!
+
+Turns out the reason for this is that all the hyperlink references are in SINGLE quotes, not double quotes.
+
+Simply edit the HTML file so that ALL "href=\'" become "href=\"". DO NOT FORGET TO FIX THE ENDING DOUBLE QUOTE
+
+Good news, the problem has been fixed.
+
+------------------------------------------
+
+12/7/2019 at 2:58 AM
+
+Problem: The precondition in the domainlist_add that automatically added an ending '/' in the URL if not already present is actually a bad idea since it prevented the crawler for giving results for "archive.org/details/jstor" So this has to be removed permanently.
+
+Good news, the problem has been fixed.
+
+------------------------------------------
+
+12/8/2019 at 3:20 AM
+
+Problem: DomainList is VERY SLOW.
+
+Just make a separate extract_domainlist_urls function that actively seeks the domainlist URLs directly.

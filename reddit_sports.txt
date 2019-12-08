@@ -1,0 +1,3087 @@
+Checksum of HMTL page of base url is:
+e7ebc40b82be22ecf5377029cfb5ef55ed11171b9daae34c31901e767d4c8a59
+
+https://reddit.com/r/sports
+len_html_page: 463785
+Searching complete URLs
+
+372621
+372745
+372872
+373006
+373135
+373258
+373394
+373512
+373638
+373759
+373880
+373990
+374203
+374324
+374537
+374750
+374963
+375176
+375389
+375602
+375815
+375928
+376250
+376373
+376496
+376619
+376746
+376873
+377000
+377127
+377254
+377388
+377513
+377638
+377763
+377857
+394324
+394548
+Last index for complete URLS found: 394548
+
+Searching URLs with different domains
+
+Last index for different domains found: -1
+
+Searching sub domain URLs
+
+
+389700
+393632
+https://reddit.com/r/all/
+Sha256: addaaef739b5ecf2e189b07cc2e4bd78c872c9fd1ea85dd77097aa0e451210f3
+
+url_map of https://reddit.com/r/all/ beforehand: 0
+393893
+https://reddit.com/r/sports/
+Sha256: f663b393741e0cd9240a45df89c092576979bae625153bb816c243b17fe0dc27
+
+url_map of https://reddit.com/r/sports/ beforehand: 0
+407218
+https://reddit.com/r/sports/hot/
+Sha256: e0b68abe48be0bb63fcda989025dfa00ef493252112386e437296f60c709d76a
+
+url_map of https://reddit.com/r/sports/hot/ beforehand: 0
+412090
+https://reddit.com/r/sports/new/
+Sha256: 9eb88002a6296e12ba41fa6a2f1f8671d657190bdbfb6ece5eaf07d807353216
+
+url_map of https://reddit.com/r/sports/new/ beforehand: 0
+412749
+https://reddit.com/r/sports/controversial/
+Sha256: 41a97ea2cc4b7f8d5e74c021d558c629163f8a2c177d545fe718d753b24bc399
+
+url_map of https://reddit.com/r/sports/controversial/ beforehand: 0
+413406
+https://reddit.com/r/sports/top/
+Sha256: 6b903a4e76a67f256cd3c547ef4fd1c8d17972d00327f1532976f84c391694a2
+
+url_map of https://reddit.com/r/sports/top/ beforehand: 0
+413879
+https://reddit.com/r/sports/rising/
+Sha256: 8891be11b094b6cb8e2038e34c4996a4740d24f84f2c2973b74e2c9f5d579168
+
+url_map of https://reddit.com/r/sports/rising/ beforehand: 0
+414535
+https://reddit.com/r/sports/submit?media=true
+Sha256: 866090335d563e4d2ca48d69c23a20d4f65527a1b0a41ed75a3251f2d328d50e
+
+url_map of https://reddit.com/r/sports/submit?media=true beforehand: 0
+415522
+https://reddit.com/r/sports/submit?url
+Sha256: 50d879ba69133d0d7bfcb9555c99114283299c7c23bb00578a5cb2906cdebc88
+
+url_map of https://reddit.com/r/sports/submit?url beforehand: 0
+416946
+Last index for sub domains found:416946
+
+Checksum of HMTL page of base url is:
+b68267e597a612adb33fbe02a8f9a899f42efbd7cf229ff8df900f902f9fa6b2
+
+https://reddit.com/r/all/
+len_html_page: 448983
+Searching complete URLs
+
+372588
+372712
+372839
+372973
+373102
+373225
+373361
+373479
+373605
+373726
+373847
+373957
+374170
+374291
+374504
+374717
+374930
+375143
+375356
+375569
+375782
+375895
+https://www.reddit.com/r/all/
+Sha256: 8d7d5a096c17c6f16e7a2f673e006ba0a258e70d63f8a67c06f566448667ea62
+
+url_map of https://www.reddit.com/r/all/ beforehand: 0
+376077
+376385
+376508
+376631
+376754
+376881
+377008
+377135
+377262
+377389
+377523
+377648
+377773
+377898
+377992
+394630
+394854
+407593
+407699
+Last index for complete URLS found: 407699
+
+Searching URLs with different domains
+
+Last index for different domains found: -1
+
+Searching sub domain URLs
+
+
+389829
+393938
+394199
+407385
+Last index for sub domains found:407385
+
+Checksum of HMTL page of base url is:
+1d8ea17541ad1176d1b07da53eb2b17ead8805fdc83d31589a8d2d2e68a1eeeb
+
+https://www.reddit.com/r/all/
+len_html_page: 448913
+Searching complete URLs
+
+372588
+372712
+372839
+372973
+373102
+373225
+373361
+373479
+373605
+373726
+373847
+373957
+374170
+374291
+374504
+374717
+374930
+375143
+375356
+375569
+375782
+375895
+376077
+376385
+376508
+376631
+376754
+376881
+377008
+377135
+377262
+377389
+377523
+377648
+377773
+377898
+377992
+394630
+394854
+407593
+407699
+Last index for complete URLS found: 407699
+
+Searching URLs with different domains
+
+Last index for different domains found: -1
+
+Searching sub domain URLs
+
+
+389829
+393938
+394199
+407385
+Last index for sub domains found:407385
+
+Checksum of HMTL page of base url is:
+7f98c1bcbdd2433150320b21b8cf75f713671335f5c0255ebe58785c352fb0af
+
+https://reddit.com/r/sports/
+len_html_page: 474207
+Searching complete URLs
+
+372621
+372745
+372872
+373006
+373135
+373258
+373394
+373512
+373638
+373759
+373880
+373990
+374203
+374324
+374537
+374750
+374963
+375176
+375389
+375602
+375815
+375928
+376250
+376373
+376496
+376619
+376746
+376873
+377000
+377127
+377254
+377388
+377513
+377638
+377763
+377857
+394327
+394554
+Last index for complete URLS found: 394554
+
+Searching URLs with different domains
+
+Last index for different domains found: -1
+
+Searching sub domain URLs
+
+
+389700
+393632
+393893
+407224
+412096
+412755
+413412
+413885
+414541
+415528
+416952
+Last index for sub domains found:416952
+
+Checksum of HMTL page of base url is:
+e1a6f1da05d5aec8c4261ee1f63bc16181c538a28b604df359941f7c3e5b90f2
+
+https://reddit.com/r/sports/hot/
+len_html_page: 463946
+Searching complete URLs
+
+372621
+372745
+372872
+373006
+373135
+373258
+373394
+373512
+373638
+373759
+373880
+373990
+374203
+374324
+374537
+374750
+374963
+375176
+375389
+375602
+375815
+375928
+376250
+376373
+376496
+376619
+376746
+376873
+377000
+377127
+377254
+377388
+377513
+377638
+377763
+377857
+394333
+394566
+Last index for complete URLS found: 394566
+
+Searching URLs with different domains
+
+Last index for different domains found: -1
+
+Searching sub domain URLs
+
+
+389700
+393632
+393893
+407236
+412108
+412767
+413424
+413897
+414553
+415540
+416964
+Last index for sub domains found:416964
+
+Checksum of HMTL page of base url is:
+b0ad261fcb1dd5aaf72aea681c3be6e150a5ebc8f6a9fa838148fd6ffd5839ee
+
+https://reddit.com/r/sports/new/
+len_html_page: 611783
+Searching complete URLs
+
+372547
+372671
+372798
+372932
+373061
+373184
+373320
+373438
+373564
+373685
+373806
+373916
+374129
+374250
+374463
+374676
+374889
+375102
+375315
+375528
+375741
+375854
+https://www.reddit.com/r/sports/
+Sha256: d239014610800204c9708c080d9d05de9c0063fff3208831b6a6acaf0b049e09
+
+url_map of https://www.reddit.com/r/sports/ beforehand: 0
+375978
+https://www.reddit.com/r/sports/new/?after=t3_e48vqy
+Sha256: 66a2f830d1ec99bc533302a2606fb444fc668d9b6086178218896d9f01ab23c6
+
+url_map of https://www.reddit.com/r/sports/new/?after=t3_e48vqy beforehand: 0
+376056
+376909
+377032
+377155
+377278
+377405
+377532
+377659
+377786
+377913
+378047
+378172
+378297
+378422
+378516
+395219
+395452
+https://www.reddit.com/r/sports/comments/e5u4n7/refs_call_this_a_missed_dunk_by_james_harden/
+Sha256: 8c04222a8477aec12a36c4493a79341082235874e2757d1d3cf9971df10bb7d3
+
+url_map of https://www.reddit.com/r/sports/comments/e5u4n7/refs_call_this_a_missed_dunk_by_james_harden/ beforehand: 0
+419122
+420379
+https://www.reddit.com/r/sports/comments/e5tosg/these_guys_just_drove_an_e63_amg_across_america/
+Sha256: 44ada8d74a3407cef610fe4c599c4995981307dec74c545a618b398969a4892e
+
+url_map of https://www.reddit.com/r/sports/comments/e5tosg/these_guys_just_drove_an_e63_amg_across_america/ beforehand: 0
+425185
+427113
+427571
+https://www.reddit.com/r/sports/comments/e5su03/fred_vanvleet_shooting_around_toronto_raptors_fun/
+Sha256: cbe34403850df274ed8050edfbac88129d05b8e6f30d1556f637e16b43737191
+
+url_map of https://www.reddit.com/r/sports/comments/e5su03/fred_vanvleet_shooting_around_toronto_raptors_fun/ beforehand: 0
+432158
+433999
+https://www.reddit.com/r/sports/comments/e5qrw0/remembering_the_play_of_1982/
+Sha256: a2904d47bd41b93423cd186203a11df66a860fb031640d4279954ab7e99e2658
+
+url_map of https://www.reddit.com/r/sports/comments/e5qrw0/remembering_the_play_of_1982/ beforehand: 0
+439085
+440856
+https://www.reddit.com/r/sports/comments/e5mw8y/the_panthers_have_fired_head_coach_ron_rivera/
+Sha256: 2caeb1ff51a4d13c10b40eff227c20bce51f13c81f623c1a5bbb85511e068d52
+
+url_map of https://www.reddit.com/r/sports/comments/e5mw8y/the_panthers_have_fired_head_coach_ron_rivera/ beforehand: 0
+445626
+447438
+447806
+https://www.reddit.com/r/sports/comments/e5jhbx/patrick_teixeira_turns_the_tables_on_carlos_adames/
+Sha256: 7556f4f9ea286839434261f0a5142aaec198cbfe6da3bb55d329475bcfc39d1c
+
+url_map of https://www.reddit.com/r/sports/comments/e5jhbx/patrick_teixeira_turns_the_tables_on_carlos_adames/ beforehand: 0
+452352
+https://www.reddit.com/r/sports/comments/e5ib6z/their_soccer_club_vanished_they_kept_coming_after/
+Sha256: 363bc2e7a05f474b11ca9458c16876664bf14dd15872fea21ce83e0bfc1044b8
+
+url_map of https://www.reddit.com/r/sports/comments/e5ib6z/their_soccer_club_vanished_they_kept_coming_after/ beforehand: 0
+458446
+460437
+460836
+https://www.reddit.com/r/sports/comments/e5gq1v/jofra_archers_delivery_barely_misses_the_head_of/
+Sha256: 04d7b480279fbd4f0bc6b6eaabef39a2d08e42834e23a449c5d6dca929d2f021
+
+url_map of https://www.reddit.com/r/sports/comments/e5gq1v/jofra_archers_delivery_barely_misses_the_head_of/ beforehand: 0
+465663
+473913
+473998
+474083
+474172
+474429
+474518
+474603
+474692
+474873
+474964
+475155
+475268
+475382
+475502
+Last index for complete URLS found: 475502
+
+Searching URLs with different domains
+
+Last index for different domains found: -1
+
+Searching sub domain URLs
+
+
+390359
+394518
+394779
+408122
+408848
+412060
+412743
+413400
+413873
+414529
+415516
+416940
+418886
+https://reddit.com/r/sports/comments/e5u4n7/refs_call_this_a_missed_dunk_by_james_harden/
+Sha256: 0ed7581a0863b64734b1249fe34f6b1fff475a447c934ce10fda2509665844a2
+
+url_map of https://reddit.com/r/sports/comments/e5u4n7/refs_call_this_a_missed_dunk_by_james_harden/ beforehand: 0
+419637
+422181
+424951
+https://reddit.com/r/sports/search?q=flair_name%3A%22%3Aracing%3A%20Motorsports%22
+Sha256: 3a04cee62ed5933be379ed3ccd219ea7beb9eb155acd575fca3140de45b6bef9
+
+url_map of https://reddit.com/r/sports/search?q=flair_name%3A%22%3Aracing%3A%20Motorsports%22 beforehand: 0
+425686
+https://reddit.com/r/sports/comments/e5tosg/these_guys_just_drove_an_e63_amg_across_america/
+Sha256: e02d028f84c7b97792c40dd513b59df64c0f0379a8f2515310eca92b92d54f2e
+
+url_map of https://reddit.com/r/sports/comments/e5tosg/these_guys_just_drove_an_e63_amg_across_america/ beforehand: 0
+426248
+429256
+431927
+https://reddit.com/r/sports/search?q=flair_name%3A%22%3Abasketball%3A%20Basketball%22
+Sha256: e3fc73a7a7daa94655ed8ddb24049ddfad79640a40e236f6e8480d7c9efc084c
+
+url_map of https://reddit.com/r/sports/search?q=flair_name%3A%22%3Abasketball%3A%20Basketball%22 beforehand: 0
+432663
+https://reddit.com/r/sports/comments/e5su03/fred_vanvleet_shooting_around_toronto_raptors_fun/
+Sha256: d16b1b7d0eae961234becc58e59746b3454530b78133047fcbad9a2b50115f65
+
+url_map of https://reddit.com/r/sports/comments/e5su03/fred_vanvleet_shooting_around_toronto_raptors_fun/ beforehand: 0
+433234
+435839
+438502
+https://reddit.com/r/sports/search?q=flair_name%3A%22%3Afootball%3A%20Football%22
+Sha256: 82aa5f8994994534b8bbeba75e4b8b023e4320021a0d45a3b76b2a7958fe2c69
+
+url_map of https://reddit.com/r/sports/search?q=flair_name%3A%22%3Afootball%3A%20Football%22 beforehand: 0
+439586
+https://reddit.com/r/sports/comments/e5qrw0/remembering_the_play_of_1982/
+Sha256: 780fd0259d905595d515f60dd3f4bbb92b6bbbb069c1bbc14f2c3ec5726c14f0
+
+url_map of https://reddit.com/r/sports/comments/e5qrw0/remembering_the_play_of_1982/ beforehand: 0
+440130
+442624
+445396
+446127
+https://reddit.com/r/sports/comments/e5mw8y/the_panthers_have_fired_head_coach_ron_rivera/
+Sha256: f932c7176d2b3785557d26c95df08fddf843afb5103ac085a2fe765e8a774000
+
+url_map of https://reddit.com/r/sports/comments/e5mw8y/the_panthers_have_fired_head_coach_ron_rivera/ beforehand: 0
+446688
+449424
+452109
+https://reddit.com/r/sports/search?q=flair_name%3A%22%3Afighting%3A%20Fighting%22
+Sha256: 7930fe9053a93ecd502a3e59a3c8ccdd5d5b4ac5e57217362e3fde986e2920e6
+
+url_map of https://reddit.com/r/sports/search?q=flair_name%3A%22%3Afighting%3A%20Fighting%22 beforehand: 0
+452854
+https://reddit.com/r/sports/comments/e5jhbx/patrick_teixeira_turns_the_tables_on_carlos_adames/
+Sha256: f5fb463768ef1d6c5e101ac74af374dce904c9f3c138f881eb5f6bb6b492ee3d
+
+url_map of https://reddit.com/r/sports/comments/e5jhbx/patrick_teixeira_turns_the_tables_on_carlos_adames/ beforehand: 0
+453420
+455433
+458208
+https://reddit.com/r/sports/search?q=flair_name%3A%22%3Asoccer%3A%20Soccer%22
+Sha256: 35b30dbdc6acfcb11d82d7cae82e065049202895888c996bc0e9a72d3b8bfdd7
+
+url_map of https://reddit.com/r/sports/search?q=flair_name%3A%22%3Asoccer%3A%20Soccer%22 beforehand: 0
+458944
+https://reddit.com/r/sports/comments/e5ib6z/their_soccer_club_vanished_they_kept_coming_after/
+Sha256: 2e5434aeef6b0c3c8935f50a58ad90e96439296a4b781ddea7188ce0d65ca5f8
+
+url_map of https://reddit.com/r/sports/comments/e5ib6z/their_soccer_club_vanished_they_kept_coming_after/ beforehand: 0
+459503
+462768
+465436
+https://reddit.com/r/sports/search?q=flair_name%3A%22%3Acricket%3A%20Cricket%22
+Sha256: 33768f0c23035f03aaae59a5cc46386280d7f0cffab036ed7932cba94c6e0b77
+
+url_map of https://reddit.com/r/sports/search?q=flair_name%3A%22%3Acricket%3A%20Cricket%22 beforehand: 0
+466163
+https://reddit.com/r/sports/comments/e5gq1v/jofra_archers_delivery_barely_misses_the_head_of/
+Sha256: f5a1460886a4dd4fb6744069aeadfc494dd286a2ee3d8f921eba43bc28a9556b
+
+url_map of https://reddit.com/r/sports/comments/e5gq1v/jofra_archers_delivery_barely_misses_the_head_of/ beforehand: 0
+466724
+467783
+469228
+Last index for sub domains found:469228
+
+Checksum of HMTL page of base url is:
+2adf25f3b8e962f70dc8c44bfee51a50855e67f396560f6959f2c9c69402a144
+
+https://www.reddit.com/r/sports/
+len_html_page: 463719
+Searching complete URLs
+
+372621
+372745
+372872
+373006
+373135
+373258
+373394
+373512
+373638
+373759
+373880
+373990
+374203
+374324
+374537
+374750
+374963
+375176
+375389
+375602
+375815
+375928
+376250
+376373
+376496
+376619
+376746
+376873
+377000
+377127
+377254
+377388
+377513
+377638
+377763
+377857
+394327
+394554
+Last index for complete URLS found: 394554
+
+Searching URLs with different domains
+
+Last index for different domains found: -1
+
+Searching sub domain URLs
+
+
+389700
+393632
+393893
+407224
+https://www.reddit.com/r/sports/hot/
+Sha256: 0abf4609acad964b7be8bcb872b38ad3aabcd4ce6bf25161f16c25286d083b3d
+
+url_map of https://www.reddit.com/r/sports/hot/ beforehand: 0
+412096
+https://www.reddit.com/r/sports/new/
+Sha256: 3b03400e2c37bcbb18f021790f752c829522b6e013d2ee9ce27d159525907092
+
+url_map of https://www.reddit.com/r/sports/new/ beforehand: 0
+412755
+https://www.reddit.com/r/sports/controversial/
+Sha256: 8a9f41edd6b7b5e8e827e706bda0507b9887ee68178b783811bd8d44037bfaee
+
+url_map of https://www.reddit.com/r/sports/controversial/ beforehand: 0
+413412
+https://www.reddit.com/r/sports/top/
+Sha256: adedad5fcca971b52145419960bb8055df752d9602f042e57d25633c1e3acfce
+
+url_map of https://www.reddit.com/r/sports/top/ beforehand: 0
+413885
+https://www.reddit.com/r/sports/rising/
+Sha256: 54d2ec83412b2a0e851eb068cffc5577d8e76e4c3547e1abe90469f8765587b5
+
+url_map of https://www.reddit.com/r/sports/rising/ beforehand: 0
+414541
+https://www.reddit.com/r/sports/submit?media=true
+Sha256: b6d28a7ce03fae501348499d157a37ded8a26a1866e864a235041c7cf219039d
+
+url_map of https://www.reddit.com/r/sports/submit?media=true beforehand: 0
+415528
+https://www.reddit.com/r/sports/submit?url
+Sha256: 83f8fa18a6f600641283ba934cb1cd9312afc83d351e6da730ae105dd0c5c8af
+
+url_map of https://www.reddit.com/r/sports/submit?url beforehand: 0
+416952
+Last index for sub domains found:416952
+
+Checksum of HMTL page of base url is:
+0c6f0b981900eb2d74327ccc3b9a89683401947cfd01c66f64adff830349a625
+
+https://www.reddit.com/r/sports/hot/
+len_html_page: 463855
+Searching complete URLs
+
+372621
+372745
+372872
+373006
+373135
+373258
+373394
+373512
+373638
+373759
+373880
+373990
+374203
+374324
+374537
+374750
+374963
+375176
+375389
+375602
+375815
+375928
+376250
+376373
+376496
+376619
+376746
+376873
+377000
+377127
+377254
+377388
+377513
+377638
+377763
+377857
+394333
+394566
+Last index for complete URLS found: 394566
+
+Searching URLs with different domains
+
+Last index for different domains found: -1
+
+Searching sub domain URLs
+
+
+389700
+393632
+393893
+407236
+412108
+412767
+413424
+413897
+414553
+415540
+416964
+Last index for sub domains found:416964
+
+Checksum of HMTL page of base url is:
+2f9afcabc7c9ca7a71dcdbee50b589923aeb4deb13ff1b7026578d76265fc21e
+
+https://www.reddit.com/r/sports/new/
+len_html_page: 612056
+Searching complete URLs
+
+372547
+372671
+372798
+372932
+373061
+373184
+373320
+373438
+373564
+373685
+373806
+373916
+374129
+374250
+374463
+374676
+374889
+375102
+375315
+375528
+375741
+375854
+375978
+376056
+376909
+377032
+377155
+377278
+377405
+377532
+377659
+377786
+377913
+378047
+378172
+378297
+378422
+378516
+395219
+395452
+419122
+420375
+425183
+427111
+427569
+432156
+433997
+439083
+440854
+445624
+447436
+447804
+452350
+458444
+460435
+460834
+465661
+473911
+473996
+474081
+474170
+474427
+474516
+474601
+474690
+474871
+474962
+475153
+475266
+475380
+475500
+Last index for complete URLS found: 475500
+
+Searching URLs with different domains
+
+Last index for different domains found: -1
+
+Searching sub domain URLs
+
+
+390359
+394518
+394779
+408122
+408848
+412060
+412743
+413400
+413873
+414529
+415516
+416940
+418886
+419633
+422177
+424949
+https://www.reddit.com/r/sports/search?q=flair_name%3A%22%3Aracing%3A%20Motorsports%22
+Sha256: 63185d08f36c0b113760f2dd939b0f5f7a6de35aa67681277b60b1690edd2cc5
+
+url_map of https://www.reddit.com/r/sports/search?q=flair_name%3A%22%3Aracing%3A%20Motorsports%22 beforehand: 0
+425684
+426246
+429254
+431925
+https://www.reddit.com/r/sports/search?q=flair_name%3A%22%3Abasketball%3A%20Basketball%22
+Sha256: 606ab3db93d85f292994d503366ded42551245b5b8f7efc9ac8b9f06d046ea96
+
+url_map of https://www.reddit.com/r/sports/search?q=flair_name%3A%22%3Abasketball%3A%20Basketball%22 beforehand: 0
+432661
+433232
+435837
+438500
+https://www.reddit.com/r/sports/search?q=flair_name%3A%22%3Afootball%3A%20Football%22
+Sha256: 76c9b38fce240401661c334cc91d69078cfa3f8767b8934c28174e5c6058d40b
+
+url_map of https://www.reddit.com/r/sports/search?q=flair_name%3A%22%3Afootball%3A%20Football%22 beforehand: 0
+439584
+440128
+442622
+445394
+446125
+446686
+449422
+452107
+https://www.reddit.com/r/sports/search?q=flair_name%3A%22%3Afighting%3A%20Fighting%22
+Sha256: beda34a0643f7a030647718a0017514381afaa2d7612a77525cda66fbbd5bad7
+
+url_map of https://www.reddit.com/r/sports/search?q=flair_name%3A%22%3Afighting%3A%20Fighting%22 beforehand: 0
+452852
+453418
+455431
+458206
+https://www.reddit.com/r/sports/search?q=flair_name%3A%22%3Asoccer%3A%20Soccer%22
+Sha256: 052783ce1d1ea17ed047ba7e3e8c60376abd0260eaa863f292b107d80681abaa
+
+url_map of https://www.reddit.com/r/sports/search?q=flair_name%3A%22%3Asoccer%3A%20Soccer%22 beforehand: 0
+458942
+459501
+462766
+465434
+https://www.reddit.com/r/sports/search?q=flair_name%3A%22%3Acricket%3A%20Cricket%22
+Sha256: 19c20b4adb47f6ce079ca6b8cabe4eb7fbac88fb0c11ac3e67b2d8d7eb1b9ec7
+
+url_map of https://www.reddit.com/r/sports/search?q=flair_name%3A%22%3Acricket%3A%20Cricket%22 beforehand: 0
+466161
+466722
+467781
+469226
+Last index for sub domains found:469226
+
+Checksum of HMTL page of base url is:
+6d10e3e70c28001e9aa36dbf61a0e1126f6ba4cd212e3560bef1db016e9ad90b
+
+https://www.reddit.com/r/sports/search?q=flair_name%3A%22%3Aracing%3A%20Motorsports%22
+len_html_page: 364301
+Searching complete URLs
+
+275938
+276062
+276189
+276323
+276452
+276575
+276711
+276829
+276955
+277076
+277197
+277307
+277520
+277733
+277946
+278159
+278372
+278585
+278798
+279011
+279224
+279341
+279663
+279786
+279909
+280032
+280159
+280286
+280413
+280540
+280667
+280801
+280926
+281051
+281176
+281270
+298288
+298585
+321022
+321107
+321192
+321281
+321538
+321627
+321712
+321801
+321982
+322073
+322264
+322377
+322491
+322611
+Last index for complete URLS found: 322611
+
+Searching URLs with different domains
+
+Last index for different domains found: -1
+
+Searching sub domain URLs
+
+
+293073
+297523
+297784
+https://www.reddit.com/r/sports/search?q=flair_name:
+Sha256: bbfa28b6d0b70f9a2915fd3a458422f235ee1e6e1032a8b9ecc89ae6098484e8
+
+url_map of https://www.reddit.com/r/sports/search?q=flair_name: beforehand: 0
+311613
+311805
+311995
+Last index for sub domains found:311995
+
+Checksum of HMTL page of base url is:
+44314832d4291b2a6931502af06f0a001c5c437eee9d41472c95fdabe0d5e758
+
+https://www.reddit.com/r/sports/search?q=flair_name:
+len_html_page: 363707
+Searching complete URLs
+
+275938
+276062
+276189
+276323
+276452
+276575
+276711
+276829
+276955
+277076
+277197
+277307
+277520
+277733
+277946
+278159
+278372
+278585
+278798
+279011
+279224
+279341
+279663
+279786
+279909
+280032
+280159
+280286
+280413
+280540
+280667
+280801
+280926
+281051
+281176
+281270
+298212
+298465
+320722
+320807
+320892
+320981
+321238
+321327
+321412
+321501
+321682
+321773
+321964
+322077
+322191
+322311
+Last index for complete URLS found: 322311
+
+Searching URLs with different domains
+
+Last index for different domains found: -1
+
+Searching sub domain URLs
+
+
+293073
+297491
+297752
+311441
+311601
+311759
+Last index for sub domains found:311759
+
+Checksum of HMTL page of base url is:
+17b460d9fe83ddbeff5d08ed84ad1332a0847828c511ce7224cfe9a9faba0791
+
+https://www.reddit.com/r/sports/search?q=flair_name%3A%22%3Abasketball%3A%20Basketball%22
+len_html_page: 364361
+Searching complete URLs
+
+275938
+276062
+276189
+276323
+276452
+276575
+276711
+276829
+276955
+277076
+277197
+277307
+277520
+277733
+277946
+278159
+278372
+278585
+278798
+279011
+279224
+279341
+279663
+279786
+279909
+280032
+280159
+280286
+280413
+280540
+280667
+280801
+280926
+281051
+281176
+281270
+298294
+298594
+321049
+321134
+321219
+321308
+321565
+321654
+321739
+321828
+322009
+322100
+322291
+322404
+322518
+322638
+Last index for complete URLS found: 322638
+
+Searching URLs with different domains
+
+Last index for different domains found: -1
+
+Searching sub domain URLs
+
+
+293073
+297526
+297787
+311628
+311823
+312016
+Last index for sub domains found:312016
+
+Checksum of HMTL page of base url is:
+114f72ad9cc0956a885e5b211ae9de878e4e2a9265144945e3c0c86b06fcd091
+
+https://www.reddit.com/r/sports/search?q=flair_name%3A%22%3Afootball%3A%20Football%22
+len_html_page: 373943
+Searching complete URLs
+
+275938
+276062
+276189
+276323
+276452
+276575
+276711
+276829
+276955
+277076
+277197
+277307
+277520
+277733
+277946
+278159
+278372
+278585
+278798
+279011
+279224
+279341
+279663
+279786
+279909
+280032
+280159
+280286
+280413
+280540
+280667
+280801
+280926
+281051
+281176
+281270
+298286
+298582
+321013
+321098
+321183
+321272
+321529
+321618
+321703
+321792
+321973
+322064
+322255
+322368
+322482
+322602
+Last index for complete URLS found: 322602
+
+Searching URLs with different domains
+
+Last index for different domains found: -1
+
+Searching sub domain URLs
+
+
+293073
+297522
+297783
+311608
+311799
+311988
+Last index for sub domains found:311988
+
+Checksum of HMTL page of base url is:
+3da31eebac12cff85194596b6ecc5ebfaaf96c6c979124c1d53e40139cceddca
+
+https://www.reddit.com/r/sports/search?q=flair_name%3A%22%3Afighting%3A%20Fighting%22
+len_html_page: 364281
+Searching complete URLs
+
+275938
+276062
+276189
+276323
+276452
+276575
+276711
+276829
+276955
+277076
+277197
+277307
+277520
+277733
+277946
+278159
+278372
+278585
+278798
+279011
+279224
+279341
+279663
+279786
+279909
+280032
+280159
+280286
+280413
+280540
+280667
+280801
+280926
+281051
+281176
+281270
+298286
+298582
+321013
+321098
+321183
+321272
+321529
+321618
+321703
+321792
+321973
+322064
+322255
+322368
+322482
+322602
+Last index for complete URLS found: 322602
+
+Searching URLs with different domains
+
+Last index for different domains found: -1
+
+Searching sub domain URLs
+
+
+293073
+297522
+297783
+311608
+311799
+311988
+Last index for sub domains found:311988
+
+Checksum of HMTL page of base url is:
+28bdfbaec71d28684cdf00f3a8a3a23dfa8371d68f882e348eac867eb1f6f7b4
+
+https://www.reddit.com/r/sports/search?q=flair_name%3A%22%3Asoccer%3A%20Soccer%22
+len_html_page: 364201
+Searching complete URLs
+
+275938
+276062
+276189
+276323
+276452
+276575
+276711
+276829
+276955
+277076
+277197
+277307
+277520
+277733
+277946
+278159
+278372
+278585
+278798
+279011
+279224
+279341
+279663
+279786
+279909
+280032
+280159
+280286
+280413
+280540
+280667
+280801
+280926
+281051
+281176
+281270
+298278
+298570
+320977
+321062
+321147
+321236
+321493
+321582
+321667
+321756
+321937
+322028
+322219
+322332
+322446
+322566
+Last index for complete URLS found: 322566
+
+Searching URLs with different domains
+
+Last index for different domains found: -1
+
+Searching sub domain URLs
+
+
+293073
+297518
+297779
+311588
+311775
+311960
+Last index for sub domains found:311960
+
+Checksum of HMTL page of base url is:
+2070a1fe4d65d67d0085d405130e684ff308083e77a2050560f7e43ddb45de31
+
+https://www.reddit.com/r/sports/search?q=flair_name%3A%22%3Acricket%3A%20Cricket%22
+len_html_page: 364241
+Searching complete URLs
+
+275938
+276062
+276189
+276323
+276452
+276575
+276711
+276829
+276955
+277076
+277197
+277307
+277520
+277733
+277946
+278159
+278372
+278585
+278798
+279011
+279224
+279341
+279663
+279786
+279909
+280032
+280159
+280286
+280413
+280540
+280667
+280801
+280926
+281051
+281176
+281270
+298282
+298576
+320995
+321080
+321165
+321254
+321511
+321600
+321685
+321774
+321955
+322046
+322237
+322350
+322464
+322584
+Last index for complete URLS found: 322584
+
+Searching URLs with different domains
+
+Last index for different domains found: -1
+
+Searching sub domain URLs
+
+
+293073
+297520
+297781
+311598
+311787
+311974
+Last index for sub domains found:311974
+
+Checksum of HMTL page of base url is:
+deef414bb1f16213b2e60ff5db697bc9fed573776dfe6d5d684436d7d8f9058d
+
+https://www.reddit.com/r/sports/controversial/
+len_html_page: 464176
+Searching complete URLs
+
+372621
+372745
+372872
+373006
+373135
+373258
+373394
+373512
+373638
+373759
+373880
+373990
+374203
+374324
+374537
+374750
+374963
+375176
+375389
+375602
+375815
+375928
+376250
+376373
+376496
+376619
+376746
+376873
+377000
+377127
+377254
+377388
+377513
+377638
+377763
+377857
+394343
+394586
+Last index for complete URLS found: 394586
+
+Searching URLs with different domains
+
+Last index for different domains found: -1
+
+Searching sub domain URLs
+
+
+389700
+393632
+393893
+407256
+411918
+412577
+413258
+413731
+414387
+415741
+417165
+Last index for sub domains found:417165
+
+Checksum of HMTL page of base url is:
+494043c0f3458d197e19b0f1eae5a55dc146bc6a2b86a1de30b4d9cbd081cdaa
+
+https://www.reddit.com/r/sports/top/
+len_html_page: 464216
+Searching complete URLs
+
+372621
+372745
+372872
+373006
+373135
+373258
+373394
+373512
+373638
+373759
+373880
+373990
+374203
+374324
+374537
+374750
+374963
+375176
+375389
+375602
+375815
+375928
+376250
+376373
+376496
+376619
+376746
+376873
+377000
+377127
+377254
+377388
+377513
+377638
+377763
+377857
+394333
+394566
+Last index for complete URLS found: 394566
+
+Searching URLs with different domains
+
+Last index for different domains found: -1
+
+Searching sub domain URLs
+
+
+389700
+393632
+393893
+407236
+412078
+412737
+413394
+413891
+414547
+415901
+417325
+Last index for sub domains found:417325
+
+Checksum of HMTL page of base url is:
+46f1542234a49ddcef37ff2aaf8156c271a8ff1d69ddefee4f247369b80aeec7
+
+https://www.reddit.com/r/sports/rising/
+len_html_page: 463858
+Searching complete URLs
+
+372621
+372745
+372872
+373006
+373135
+373258
+373394
+373512
+373638
+373759
+373880
+373990
+374203
+374324
+374537
+374750
+374963
+375176
+375389
+375602
+375815
+375928
+376250
+376373
+376496
+376619
+376746
+376873
+377000
+377127
+377254
+377388
+377513
+377638
+377763
+377857
+394336
+394572
+Last index for complete URLS found: 394572
+
+Searching URLs with different domains
+
+Last index for different domains found: -1
+
+Searching sub domain URLs
+
+
+389700
+393632
+393893
+407242
+412051
+412710
+413367
+413840
+414520
+415507
+416931
+Last index for sub domains found:416931
+
+Checksum of HMTL page of base url is:
+8ba04c3d174493036b4a24b588126601319da04d7acff6126a39464bfc4bea27
+
+https://www.reddit.com/r/sports/submit?media=true
+len_html_page: 396541
+Searching complete URLs
+
+280214
+280338
+280465
+280599
+280728
+280851
+280987
+281105
+281231
+281352
+281473
+281583
+281796
+282009
+282197
+282336
+282549
+282762
+282975
+283188
+283401
+283517
+283839
+283962
+284085
+284208
+284335
+284462
+284589
+284716
+284843
+284977
+285102
+285227
+285352
+285446
+302180
+302428
+354107
+354210
+354561
+354646
+354731
+354820
+355077
+355166
+355251
+355340
+355521
+355612
+355803
+355916
+356030
+356150
+Last index for complete URLS found: 356150
+
+Searching URLs with different domains
+
+Last index for different domains found: -1
+
+Searching sub domain URLs
+
+
+297289
+301464
+301725
+Last index for sub domains found:301725
+
+Checksum of HMTL page of base url is:
+ddc9c06a58927f2248399b295c09fe1d6b3218bec25eca01adf14d70b2f2f208
+
+https://www.reddit.com/r/sports/submit?url
+len_html_page: 410430
+Searching complete URLs
+
+280214
+280338
+280465
+280599
+280728
+280851
+280987
+281105
+281231
+281352
+281473
+281583
+281796
+282009
+282197
+282336
+282549
+282762
+282975
+283188
+283401
+283517
+283839
+283962
+284085
+284208
+284335
+284462
+284589
+284716
+284843
+284977
+285102
+285227
+285352
+285446
+302171
+302410
+354089
+354192
+354543
+354628
+354713
+354802
+355059
+355148
+355233
+355322
+355503
+355594
+355785
+355898
+356012
+356132
+Last index for complete URLS found: 356132
+
+Searching URLs with different domains
+
+Last index for different domains found: -1
+
+Searching sub domain URLs
+
+
+297289
+301464
+301725
+Last index for sub domains found:301725
+
+Checksum of HMTL page of base url is:
+209e2e4372f63e55f8755415951e5decc6cb3d34ebd641acd47856eda8cd621e
+
+https://www.reddit.com/r/sports/new/?after=t3_e48vqy
+len_html_page: 464074
+Searching complete URLs
+
+372621
+372745
+372872
+373006
+373135
+373258
+373394
+373512
+373638
+373759
+373880
+373990
+374203
+374324
+374537
+374750
+374963
+375176
+375389
+375602
+375815
+375928
+376250
+376373
+376496
+376619
+376746
+376873
+377000
+377127
+377254
+377388
+377513
+377638
+377763
+377857
+394353
+394606
+Last index for complete URLS found: 394606
+
+Searching URLs with different domains
+
+Last index for different domains found: -1
+
+Searching sub domain URLs
+
+
+389700
+393632
+393893
+407276
+412112
+412795
+413452
+413925
+414581
+415568
+416992
+Last index for sub domains found:416992
+
+Checksum of HMTL page of base url is:
+b296c231e33c3ad1d1af5fa062630964c12af1caa6cc3c87a3257078b97e93f3
+
+https://www.reddit.com/r/sports/comments/e5u4n7/refs_call_this_a_missed_dunk_by_james_harden/
+len_html_page: 405162
+Searching complete URLs
+
+328781
+328905
+329032
+329166
+329295
+329418
+329554
+329672
+329798
+329919
+330040
+330150
+330363
+330576
+330789
+331002
+331215
+331428
+331641
+331854
+332067
+332183
+332505
+332628
+332751
+332874
+333001
+333128
+333255
+333382
+333509
+333643
+333768
+333893
+334018
+334112
+350649
+350943
+Last index for complete URLS found: 350943
+
+Searching URLs with different domains
+
+Last index for different domains found: -1
+
+Searching sub domain URLs
+
+
+345955
+349887
+350148
+Last index for sub domains found:350148
+
+Checksum of HMTL page of base url is:
+66334bc05e64f19e7eb6fe621ca188d7611c20f4d2d61de8c978a0315647d287
+
+https://www.reddit.com/r/sports/comments/e5tosg/these_guys_just_drove_an_e63_amg_across_america/
+len_html_page: 405186
+Searching complete URLs
+
+328781
+328905
+329032
+329166
+329295
+329418
+329554
+329672
+329798
+329919
+330040
+330150
+330363
+330576
+330789
+331002
+331215
+331428
+331641
+331854
+332067
+332183
+332505
+332628
+332751
+332874
+333001
+333128
+333255
+333382
+333509
+333643
+333768
+333893
+334018
+334112
+350652
+350949
+Last index for complete URLS found: 350949
+
+Searching URLs with different domains
+
+Last index for different domains found: -1
+
+Searching sub domain URLs
+
+
+345955
+349887
+350148
+Last index for sub domains found:350148
+
+Checksum of HMTL page of base url is:
+b9cedac05e16237df5b65517d1b3cae8be6f4c13f0427394d9107e6183a86474
+
+https://www.reddit.com/r/sports/comments/e5su03/fred_vanvleet_shooting_around_toronto_raptors_fun/
+len_html_page: 405202
+Searching complete URLs
+
+328781
+328905
+329032
+329166
+329295
+329418
+329554
+329672
+329798
+329919
+330040
+330150
+330363
+330576
+330789
+331002
+331215
+331428
+331641
+331854
+332067
+332183
+332505
+332628
+332751
+332874
+333001
+333128
+333255
+333382
+333509
+333643
+333768
+333893
+334018
+334112
+350654
+350953
+Last index for complete URLS found: 350953
+
+Searching URLs with different domains
+
+Last index for different domains found: -1
+
+Searching sub domain URLs
+
+
+345955
+349887
+350148
+Last index for sub domains found:350148
+
+Checksum of HMTL page of base url is:
+a29e671f6e0714f5b497dde7fcc40524ce3cbd25487890aafa1d08e49f6c244c
+
+https://www.reddit.com/r/sports/comments/e5qrw0/remembering_the_play_of_1982/
+len_html_page: 405034
+Searching complete URLs
+
+328781
+328905
+329032
+329166
+329295
+329418
+329554
+329672
+329798
+329919
+330040
+330150
+330363
+330576
+330789
+331002
+331215
+331428
+331641
+331854
+332067
+332183
+332505
+332628
+332751
+332874
+333001
+333128
+333255
+333382
+333509
+333643
+333768
+333893
+334018
+334112
+350633
+350911
+Last index for complete URLS found: 350911
+
+Searching URLs with different domains
+
+Last index for different domains found: -1
+
+Searching sub domain URLs
+
+
+345955
+349887
+350148
+Last index for sub domains found:350148
+
+Checksum of HMTL page of base url is:
+6f964b7d4f69de52aa7e179b3b98a38bd79cee82418588093b044e82000d45b1
+
+https://www.reddit.com/r/sports/comments/e5mw8y/the_panthers_have_fired_head_coach_ron_rivera/
+len_html_page: 405170
+Searching complete URLs
+
+328781
+328905
+329032
+329166
+329295
+329418
+329554
+329672
+329798
+329919
+330040
+330150
+330363
+330576
+330789
+331002
+331215
+331428
+331641
+331854
+332067
+332183
+332505
+332628
+332751
+332874
+333001
+333128
+333255
+333382
+333509
+333643
+333768
+333893
+334018
+334112
+350650
+350945
+Last index for complete URLS found: 350945
+
+Searching URLs with different domains
+
+Last index for different domains found: -1
+
+Searching sub domain URLs
+
+
+345955
+349887
+350148
+Last index for sub domains found:350148
+
+Checksum of HMTL page of base url is:
+7b7a73e2d8d2e19a0eaa0fb1063fc14737b7c1c9b7421c715dd9b6cc9535a197
+
+https://www.reddit.com/r/sports/comments/e5jhbx/patrick_teixeira_turns_the_tables_on_carlos_adames/
+len_html_page: 405210
+Searching complete URLs
+
+328781
+328905
+329032
+329166
+329295
+329418
+329554
+329672
+329798
+329919
+330040
+330150
+330363
+330576
+330789
+331002
+331215
+331428
+331641
+331854
+332067
+332183
+332505
+332628
+332751
+332874
+333001
+333128
+333255
+333382
+333509
+333643
+333768
+333893
+334018
+334112
+350655
+350955
+Last index for complete URLS found: 350955
+
+Searching URLs with different domains
+
+Last index for different domains found: -1
+
+Searching sub domain URLs
+
+
+345955
+349887
+350148
+Last index for sub domains found:350148
+
+Checksum of HMTL page of base url is:
+a3e4253c67b27b9b41d0a881799f9ce6bb2720eff955b6efd54b0c748873c1c4
+
+https://www.reddit.com/r/sports/comments/e5ib6z/their_soccer_club_vanished_they_kept_coming_after/
+len_html_page: 458700
+Searching complete URLs
+
+328906
+329030
+329157
+329291
+329420
+329543
+329679
+329797
+329923
+330044
+330165
+330275
+330488
+330701
+330914
+331127
+331340
+331553
+331766
+331979
+332192
+332308
+https://amp.reddit.com/r/sports/comments/e5ib6z/their_soccer_club_vanished_they_kept_coming_after/
+Sha256: 444895c9b7e884c9f1b7a4a19d8b077b74c73f216d4674124af67580736a1271
+
+url_map of https://amp.reddit.com/r/sports/comments/e5ib6z/their_soccer_club_vanished_they_kept_coming_after/ beforehand: 0
+332449
+332625
+334152
+334275
+334398
+334521
+334648
+334775
+334902
+335029
+335156
+335290
+335415
+335540
+335665
+335759
+352830
+353129
+370579
+371888
+372850
+376476
+376729
+385247
+385332
+385417
+385506
+385763
+385852
+385937
+386026
+386207
+386298
+386489
+386602
+386716
+386836
+Last index for complete URLS found: 386836
+
+Searching URLs with different domains
+
+Last index for different domains found: -1
+
+Searching sub domain URLs
+
+
+347935
+352063
+352324
+367923
+370341
+372301
+374050
+https://www.reddit.com/r/sports/comments/e5ib6z/their_soccer_club_vanished_they_kept_coming_after/?sort=confidence
+Sha256: 09cc8d54aa84c2a21cb9e348c7f312aa61eb2cb4492bf50206231b1b34d457e9
+
+url_map of https://www.reddit.com/r/sports/comments/e5ib6z/their_soccer_club_vanished_they_kept_coming_after/?sort=confidence beforehand: 0
+377504
+https://www.reddit.com/r/sports/comments/e5ib6z/their_soccer_club_vanished_they_kept_coming_after/?sort=top
+Sha256: 8626bf6cdd1686df42aedcb65a7bf3c24399b41090edd14a8932b8c85e688f73
+
+url_map of https://www.reddit.com/r/sports/comments/e5ib6z/their_soccer_club_vanished_they_kept_coming_after/?sort=top beforehand: 0
+377836
+https://www.reddit.com/r/sports/comments/e5ib6z/their_soccer_club_vanished_they_kept_coming_after/?sort=new
+Sha256: afd372941d9b82ea1d548442b6235e227616b956df5884cf7ed29f32941fdaf9
+
+url_map of https://www.reddit.com/r/sports/comments/e5ib6z/their_soccer_club_vanished_they_kept_coming_after/?sort=new beforehand: 0
+378143
+https://www.reddit.com/r/sports/comments/e5ib6z/their_soccer_club_vanished_they_kept_coming_after/?sort=controversial
+Sha256: 745e3693c136aa2fc4ebc2eba971b78f2c732df0c8af45bb2efd89df08b632a5
+
+url_map of https://www.reddit.com/r/sports/comments/e5ib6z/their_soccer_club_vanished_they_kept_coming_after/?sort=controversial beforehand: 0
+378460
+https://www.reddit.com/r/sports/comments/e5ib6z/their_soccer_club_vanished_they_kept_coming_after/?sort=old
+Sha256: f582dae3ffc04453585b75c0c1f2ea2437688c12c36c17a9a2ff1c9d2dc57ba7
+
+url_map of https://www.reddit.com/r/sports/comments/e5ib6z/their_soccer_club_vanished_they_kept_coming_after/?sort=old beforehand: 0
+378777
+https://www.reddit.com/r/sports/comments/e5ib6z/their_soccer_club_vanished_they_kept_coming_after/?sort=qa
+Sha256: 88b92d0cd09e8c83d69b168fdff9e1fb5296f7a72dc24b4170823c727d8ef4c0
+
+url_map of https://www.reddit.com/r/sports/comments/e5ib6z/their_soccer_club_vanished_they_kept_coming_after/?sort=qa beforehand: 0
+379083
+https://www.reddit.com/r/sports/duplicates/e5ib6z/their_soccer_club_vanished_they_kept_coming_after/
+Sha256: 6b83d79fbbd7227994d88dddf891f25163da3c94e84ddd9e0d10e9a35e07d564
+
+url_map of https://www.reddit.com/r/sports/duplicates/e5ib6z/their_soccer_club_vanished_they_kept_coming_after/ beforehand: 0
+379406
+380338
+https://www.reddit.com/r/sports/comments/e5ib6z/their_soccer_club_vanished_they_kept_coming_after/f9kw13l/
+Sha256: 4cf9bd4127347b2f8e672f515efa6f599b722faaf02db1040679b096a2b8d858
+
+url_map of https://www.reddit.com/r/sports/comments/e5ib6z/their_soccer_club_vanished_they_kept_coming_after/f9kw13l/ beforehand: 0
+380606
+381164
+382652
+Last index for sub domains found:382652
+
+Checksum of HMTL page of base url is:
+b044c173b4dd114821e87184a4e4cb37516b6d5277544c3b079d89302e616e1e
+
+https://amp.reddit.com/r/sports/comments/e5ib6z/their_soccer_club_vanished_they_kept_coming_after/
+len_html_page: 68819
+Searching complete URLs
+
+601
+35197
+37671
+38286
+https://www.reddit.com/r/sports/?utm_source=amp
+Sha256: 7183908af06f814a89bc032d3c898c85c435d5fd8487728a2f98f96aac6d45a2
+
+url_map of https://www.reddit.com/r/sports/?utm_source=amp beforehand: 0
+38622
+38882
+https://www.reddit.com/r/sports/comments/e5ib6z/their_soccer_club_vanished_they_kept_coming_after/?utm_source=amp
+Sha256: c383acf8bcab17d7e0349993f5ca4e70c831ef1e0469b2ed3fe663553ddb503f
+
+url_map of https://www.reddit.com/r/sports/comments/e5ib6z/their_soccer_club_vanished_they_kept_coming_after/?utm_source=amp beforehand: 0
+39285
+39638
+39975
+40350
+44453
+44750
+https://www.reddit.com/r/sports/comments/e5ib6z/comment/f9kw13l?utm_source=amp
+Sha256: ceb9528b41d05867f32e525c5fd661a31975ef5696756fecb712761b33f68973
+
+url_map of https://www.reddit.com/r/sports/comments/e5ib6z/comment/f9kw13l?utm_source=amp beforehand: 0
+45025
+45319
+https://www.reddit.com/r/sports/comments/e5mw8y/the_panthers_have_fired_head_coach_ron_rivera/?utm_source=amp
+Sha256: 0f52aa76e51dca61f0631a91143882cb2ec43427fa793e3f2f36f645b24ffea5
+
+url_map of https://www.reddit.com/r/sports/comments/e5mw8y/the_panthers_have_fired_head_coach_ron_rivera/?utm_source=amp beforehand: 0
+46208
+46426
+46752
+47105
+https://www.reddit.com/r/sports/comments/e5azsj/the_seattle_seahawks_receivers_do_the_new_edition/?utm_source=amp
+Sha256: 50060a67e435c61abe9574d36f9eb1adc756dc939be8ffcfc690b9c5f0bd5230
+
+url_map of https://www.reddit.com/r/sports/comments/e5azsj/the_seattle_seahawks_receivers_do_the_new_edition/?utm_source=amp beforehand: 0
+48181
+48978
+49336
+https://www.reddit.com/r/sports/comments/e5jhbx/patrick_teixeira_turns_the_tables_on_carlos_adames/?utm_source=amp
+Sha256: 3217d5011f049235201bb02d9099e43c23c5f3817a999b08fdacb7bae4912f5f
+
+url_map of https://www.reddit.com/r/sports/comments/e5jhbx/patrick_teixeira_turns_the_tables_on_carlos_adames/?utm_source=amp beforehand: 0
+50091
+50901
+51258
+https://www.reddit.com/r/sports/comments/e5u4n7/refs_call_this_a_missed_dunk_by_james_harden/?utm_source=amp
+Sha256: b9109747d168ac409982bac1e100dbe581cb44711c28454d3f52a9d2e8277733
+
+url_map of https://www.reddit.com/r/sports/comments/e5u4n7/refs_call_this_a_missed_dunk_by_james_harden/?utm_source=amp beforehand: 0
+52006
+52759
+53108
+https://www.reddit.com/r/sports/comments/e5gq1v/jofra_archers_delivery_barely_misses_the_head_of/?utm_source=amp
+Sha256: a5dc4d378505b97eea8cfdfb61b1d92ddacc2343e1b847c4e1060f74554d4535
+
+url_map of https://www.reddit.com/r/sports/comments/e5gq1v/jofra_archers_delivery_barely_misses_the_head_of/?utm_source=amp beforehand: 0
+53858
+54187
+54612
+54967
+55588
+55837
+https://www.reddit.com/r/sports
+Sha256: 72de96eb3d181601246a5570ea955dddaf4d3538cb9691e0deb79924206f8409
+
+url_map of https://www.reddit.com/r/sports beforehand: 0
+66484
+68103
+Last index for complete URLS found: 68103
+
+Searching URLs with different domains
+
+Last index for different domains found: -1
+
+Searching sub domain URLs
+
+
+https://amp.reddit.com/r/sports/?utm_source=amp
+Sha256: de34d83f08f49d9d604574386275944949f691d0cd52a981d2444ddb44c65ab4
+
+url_map of https://amp.reddit.com/r/sports/?utm_source=amp beforehand: 0
+45809
+https://amp.reddit.com/r/sports/
+Sha256: 3cf99cf763791fe4baaf8e898448c769d45a2812813cad33c51b8d1142d504f4
+
+url_map of https://amp.reddit.com/r/sports/ beforehand: 0
+46004
+47778
+47973
+49687
+49882
+51608
+51803
+53456
+53651
+Last index for sub domains found:53651
+
+Checksum of HMTL page of base url is:
+4b4119e62d6ebd814849a420e7303615bc555720a0756b64535bfcef928231ff
+
+https://www.reddit.com/r/sports/?utm_source=amp
+len_html_page: 463838
+Searching complete URLs
+
+372621
+372745
+372872
+373006
+373135
+373258
+373394
+373512
+373638
+373759
+373880
+373990
+374203
+374324
+374537
+374750
+374963
+375176
+375389
+375602
+375815
+375928
+376250
+376373
+376496
+376619
+376746
+376873
+377000
+377127
+377254
+377388
+377513
+377638
+377763
+377857
+394346
+394592
+Last index for complete URLS found: 394592
+
+Searching URLs with different domains
+
+Last index for different domains found: -1
+
+Searching sub domain URLs
+
+
+389700
+393632
+393893
+407262
+412134
+412793
+413450
+413923
+414579
+415566
+416990
+Last index for sub domains found:416990
+
+Checksum of HMTL page of base url is:
+72fa0ef097eb5c43f30a6bf6ebc83d84237aeb872bd51a5df2ecd0312e14b110
+
+https://www.reddit.com/r/sports/comments/e5ib6z/their_soccer_club_vanished_they_kept_coming_after/?utm_source=amp
+len_html_page: 442890
+Searching complete URLs
+
+328906
+329030
+329157
+329291
+329420
+329543
+329679
+329797
+329923
+330044
+330165
+330275
+330488
+330701
+330914
+331127
+331340
+331553
+331766
+331979
+332192
+332308
+332449
+332625
+334152
+334275
+334398
+334521
+334648
+334775
+334902
+335029
+335156
+335290
+335415
+335540
+335665
+335759
+352516
+352834
+369989
+371298
+372260
+375905
+376177
+383560
+383645
+383730
+383819
+384076
+384165
+384250
+384339
+384520
+384611
+384802
+384915
+385029
+385149
+Last index for complete URLS found: 385149
+
+Searching URLs with different domains
+
+Last index for different domains found: -1
+
+Searching sub domain URLs
+
+
+347602
+351730
+351991
+367333
+369751
+371711
+373460
+376952
+377284
+377591
+377908
+378225
+378531
+378854
+379786
+380054
+380612
+Last index for sub domains found:380612
+
+Checksum of HMTL page of base url is:
+c26ce740d5de1c87dce545048997405804eabf80baa43428202ad2b0828efff6
+
+https://www.reddit.com/r/sports/comments/e5ib6z/comment/f9kw13l?utm_source=amp
+len_html_page: 405261
+Searching complete URLs
+
+328772
+328896
+329023
+329157
+329286
+329409
+329545
+329663
+329789
+329910
+330031
+330141
+330354
+330567
+330780
+330993
+331206
+331419
+331632
+331845
+332058
+332174
+332496
+332619
+332742
+332865
+332992
+333119
+333246
+333373
+333500
+333634
+333759
+333884
+334009
+334103
+350629
+350912
+Last index for complete URLS found: 350912
+
+Searching URLs with different domains
+
+Last index for different domains found: -1
+
+Searching sub domain URLs
+
+
+345946
+349878
+350139
+Last index for sub domains found:350139
+
+Checksum of HMTL page of base url is:
+23b82d966fa1a659d60499405a7eb9cec17828327ca3724e927559b17235e44b
+
+https://www.reddit.com/r/sports/comments/e5mw8y/the_panthers_have_fired_head_coach_ron_rivera/?utm_source=amp
+len_html_page: 405289
+Searching complete URLs
+
+328781
+328905
+329032
+329166
+329295
+329418
+329554
+329672
+329798
+329919
+330040
+330150
+330363
+330576
+330789
+331002
+331215
+331428
+331641
+331854
+332067
+332183
+332505
+332628
+332751
+332874
+333001
+333128
+333255
+333382
+333509
+333643
+333768
+333893
+334018
+334112
+350669
+350983
+Last index for complete URLS found: 350983
+
+Searching URLs with different domains
+
+Last index for different domains found: -1
+
+Searching sub domain URLs
+
+
+345955
+349887
+350148
+Last index for sub domains found:350148
+
+Checksum of HMTL page of base url is:
+a8aba4479cdaf682df2bc87961e1d9360d092bcc9d010ece6b15f9853ffb0e75
+
+https://www.reddit.com/r/sports/comments/e5azsj/the_seattle_seahawks_receivers_do_the_new_edition/?utm_source=amp
+len_html_page: 405321
+Searching complete URLs
+
+328781
+328905
+329032
+329166
+329295
+329418
+329554
+329672
+329798
+329919
+330040
+330150
+330363
+330576
+330789
+331002
+331215
+331428
+331641
+331854
+332067
+332183
+332505
+332628
+332751
+332874
+333001
+333128
+333255
+333382
+333509
+333643
+333768
+333893
+334018
+334112
+350673
+350991
+Last index for complete URLS found: 350991
+
+Searching URLs with different domains
+
+Last index for different domains found: -1
+
+Searching sub domain URLs
+
+
+345955
+349887
+350148
+Last index for sub domains found:350148
+
+Checksum of HMTL page of base url is:
+2d1ddf4f2c7926c6e4534a792d98e1f4b282fa9e4abf96aa7c32371ec37ca9fc
+
+https://www.reddit.com/r/sports/comments/e5jhbx/patrick_teixeira_turns_the_tables_on_carlos_adames/?utm_source=amp
+len_html_page: 405329
+Searching complete URLs
+
+328781
+328905
+329032
+329166
+329295
+329418
+329554
+329672
+329798
+329919
+330040
+330150
+330363
+330576
+330789
+331002
+331215
+331428
+331641
+331854
+332067
+332183
+332505
+332628
+332751
+332874
+333001
+333128
+333255
+333382
+333509
+333643
+333768
+333893
+334018
+334112
+350674
+350993
+Last index for complete URLS found: 350993
+
+Searching URLs with different domains
+
+Last index for different domains found: -1
+
+Searching sub domain URLs
+
+
+345955
+349887
+350148
+Last index for sub domains found:350148
+
+Checksum of HMTL page of base url is:
+8b8cdc445f099d11d8ec5ff6caefd422218db70d42d35188c524156e1589f19c
+
+https://www.reddit.com/r/sports/comments/e5u4n7/refs_call_this_a_missed_dunk_by_james_harden/?utm_source=amp
+len_html_page: 405281
+Searching complete URLs
+
+328781
+328905
+329032
+329166
+329295
+329418
+329554
+329672
+329798
+329919
+330040
+330150
+330363
+330576
+330789
+331002
+331215
+331428
+331641
+331854
+332067
+332183
+332505
+332628
+332751
+332874
+333001
+333128
+333255
+333382
+333509
+333643
+333768
+333893
+334018
+334112
+350668
+350981
+Last index for complete URLS found: 350981
+
+Searching URLs with different domains
+
+Last index for different domains found: -1
+
+Searching sub domain URLs
+
+
+345955
+349887
+350148
+Last index for sub domains found:350148
+
+Checksum of HMTL page of base url is:
+a94776035489844f33080c558011793d29c87c6d26d247a7580c8d52cfa5d272
+
+https://www.reddit.com/r/sports/comments/e5gq1v/jofra_archers_delivery_barely_misses_the_head_of/?utm_source=amp
+len_html_page: 405313
+Searching complete URLs
+
+328781
+328905
+329032
+329166
+329295
+329418
+329554
+329672
+329798
+329919
+330040
+330150
+330363
+330576
+330789
+331002
+331215
+331428
+331641
+331854
+332067
+332183
+332505
+332628
+332751
+332874
+333001
+333128
+333255
+333382
+333509
+333643
+333768
+333893
+334018
+334112
+350672
+350989
+Last index for complete URLS found: 350989
+
+Searching URLs with different domains
+
+Last index for different domains found: -1
+
+Searching sub domain URLs
+
+
+345955
+349887
+350148
+Last index for sub domains found:350148
+
+Checksum of HMTL page of base url is:
+7742e7105637d4a91aaabbfa9c6dc795062f794e5d2a41e91e4a8fb8200fefb3
+
+https://www.reddit.com/r/sports
+len_html_page: 463709
+Searching complete URLs
+
+372621
+372745
+372872
+373006
+373135
+373258
+373394
+373512
+373638
+373759
+373880
+373990
+374203
+374324
+374537
+374750
+374963
+375176
+375389
+375602
+375815
+375928
+376250
+376373
+376496
+376619
+376746
+376873
+377000
+377127
+377254
+377388
+377513
+377638
+377763
+377857
+394324
+394548
+Last index for complete URLS found: 394548
+
+Searching URLs with different domains
+
+Last index for different domains found: -1
+
+Searching sub domain URLs
+
+
+389700
+393632
+393893
+407218
+412090
+412749
+413406
+413879
+414535
+415522
+416946
+Last index for sub domains found:416946
+
+Checksum of HMTL page of base url is:
+5a3efb328d383b96f0279cf257f2fb05ccc0b722ed26997481fa04a6298bef6d
+
+https://amp.reddit.com/r/sports/?utm_source=amp
+len_html_page: 463974
+Searching complete URLs
+
+372621
+372745
+372872
+373006
+373135
+373258
+373394
+373512
+373638
+373759
+373880
+373990
+374203
+374324
+374537
+374750
+374963
+375176
+375389
+375602
+375815
+375928
+376250
+376373
+376496
+376619
+376746
+376873
+377000
+377127
+377254
+377388
+377513
+377638
+377763
+377857
+394346
