@@ -610,6 +610,10 @@ func extract_domainlist_urls(html_page []byte, input_url []byte) [1024][] byte {
 
 		k = "href=\"" + k + "\""
 
+		i = 0
+
+		i_0 = 0
+
 		for ( (i < len_html_page) && (url_index < 1024) ) {
 
 			i_0 = i
@@ -709,13 +713,15 @@ func extract_domainlist_urls(html_page []byte, input_url []byte) [1024][] byte {
 
 	fmt.Printf("%s\n\n","Searching URLs with different domains")
 
-	search_dif_domain = append(search_dif_domain,k[8:]...)
-
 	for k, _ = range domainlist_map {
 		
 		//search_dif_domain == "href=\"//domainname.domainsuffix/sub/domains/..."
 
 		search_dif_domain = append(search_dif_domain,k[8:]...)
+
+		i = 0
+
+		i_0 = 0
 
 		for ( (i < len_html_page) && (url_index < 1024) ) {
 			
@@ -805,7 +811,6 @@ func extract_domainlist_urls(html_page []byte, input_url []byte) [1024][] byte {
 			i++
 			
 		}
-
 	}
 
 	url = []byte{}
@@ -821,6 +826,10 @@ func extract_domainlist_urls(html_page []byte, input_url []byte) [1024][] byte {
 	for k, _  = range domainlist_map {
 
 		search_sub_domain = append(search_sub_domain,extract_subdomain([]byte(k))...)
+
+		i = 0
+
+		i_0 = 0
 
 		for ( (i < len_html_page) && (url_index < 1024) ) {
 
@@ -910,10 +919,6 @@ func extract_domainlist_urls(html_page []byte, input_url []byte) [1024][] byte {
 		}
 	}
 	
-	i_0 = 0
-
-	i = 0
-	
 	return urls
 	
 	
@@ -957,6 +962,8 @@ func crawler(url string) {
 	
 	if ( ( (domain_settings >> 1) & 0x1 ) == 1) {
 	
+		fmt.Printf("%s\n","Printing extract_domainlist_urls\n")	
+
 		url_list = extract_domainlist_urls(c,[]byte(url))
 	
 	} else {

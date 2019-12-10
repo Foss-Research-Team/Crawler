@@ -54,7 +54,7 @@
         }
       </script>
         <script src="//archive.org/includes/build/js/webcomponent-loader.min.js?v=80a784c3" type="text/javascript"></script>
-                      <meta property="braintree_token" content="eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiIwZDViOGQxODg0YmEzNjNiZTc1MWUzNTk2NTczODY5OTY3NjkzZDg3YzYwZTZlYWUyODI3ZGM1OGVjMDE2MmMyfGNyZWF0ZWRfYXQ9MjAxOS0xMi0xMFQwNTozMDo1MS4xMjgyMTMzOTkrMDAwMFx1MDAyNm1lcmNoYW50X2lkPXBxZDdoejQ0c3dwNnp2dndcdTAwMjZwdWJsaWNfa2V5PTQ5ZnI3dmM0end0cW5iZ3QiLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzL3BxZDdoejQ0c3dwNnp2dncvY2xpZW50X2FwaS92MS9jb25maWd1cmF0aW9uIiwiZ3JhcGhRTCI6eyJ1cmwiOiJodHRwczovL3BheW1lbnRzLmJyYWludHJlZS1hcGkuY29tL2dyYXBocWwiLCJkYXRlIjoiMjAxOC0wNS0wOCJ9LCJjaGFsbGVuZ2VzIjpbImN2diJdLCJlbnZpcm9ubWVudCI6InByb2R1Y3Rpb24iLCJjbGllbnRBcGlVcmwiOiJodHRwczovL2FwaS5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzL3BxZDdoejQ0c3dwNnp2dncvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5jb20iLCJhbmFseXRpY3MiOnsidXJsIjoiaHR0cHM6Ly9jbGllbnQtYW5hbHl0aWNzLmJyYWludHJlZWdhdGV3YXkuY29tL3BxZDdoejQ0c3dwNnp2dncifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6ZmFsc2UsInBheXBhbEVuYWJsZWQiOnRydWUsInBheXBhbCI6eyJkaXNwbGF5TmFtZSI6IkludGVybmV0IEFyY2hpdmUiLCJjbGllbnRJZCI6IkFUOFAzNkVQSHdDQl9kUm5LTy1OZ3N6Rk1mYWd3VzZReFdQcUpMZU9VRDZQb0dkT0N5d3JfS2JMSDRIZkxMV2szZUxPNVRqdS1pYzRtVFYyIiwicHJpdmFjeVVybCI6Imh0dHBzOi8vYXJjaGl2ZS5vcmcvYWJvdXQvdGVybXMucGhwIiwidXNlckFncmVlbWVudFVybCI6Imh0dHBzOi8vYXJjaGl2ZS5vcmcvYWJvdXQvdGVybXMucGhwIiwiYmFzZVVybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXNzZXRzVXJsIjoiaHR0cHM6Ly9jaGVja291dC5wYXlwYWwuY29tIiwiZGlyZWN0QmFzZVVybCI6bnVsbCwiYWxsb3dIdHRwIjpmYWxzZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOmZhbHNlLCJlbnZpcm9ubWVudCI6ImxpdmUiLCJ1bnZldHRlZE1lcmNoYW50IjpmYWxzZSwiYnJhaW50cmVlQ2xpZW50SWQiOiJBUktyWVJEaDNBR1hEelc3c09fM2JTa3EtVTFDN0hHX3VXTkMtejU3TGpZU0ROVU9TYU90SWE5cTZWcFciLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoiSW50ZXJuZXRBcmNoaXZlX2luc3RhbnQiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6InBxZDdoejQ0c3dwNnp2dnciLCJ2ZW5tbyI6Im9mZiJ9">
+                      <meta property="braintree_token" content="eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiI0NDIzZDk4Yzg3MDk3MjJhM2ZkZTk3YmQwMzc3NWM3OTBhYzI5MGY1MDZiYzVlZWUzODViYTg1NjkwMjcyZmQxfGNyZWF0ZWRfYXQ9MjAxOS0xMi0xMFQwNTo1NDo1NS43MTI5NjYwNTkrMDAwMFx1MDAyNm1lcmNoYW50X2lkPXBxZDdoejQ0c3dwNnp2dndcdTAwMjZwdWJsaWNfa2V5PTQ5ZnI3dmM0end0cW5iZ3QiLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzL3BxZDdoejQ0c3dwNnp2dncvY2xpZW50X2FwaS92MS9jb25maWd1cmF0aW9uIiwiZ3JhcGhRTCI6eyJ1cmwiOiJodHRwczovL3BheW1lbnRzLmJyYWludHJlZS1hcGkuY29tL2dyYXBocWwiLCJkYXRlIjoiMjAxOC0wNS0wOCJ9LCJjaGFsbGVuZ2VzIjpbImN2diJdLCJlbnZpcm9ubWVudCI6InByb2R1Y3Rpb24iLCJjbGllbnRBcGlVcmwiOiJodHRwczovL2FwaS5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzL3BxZDdoejQ0c3dwNnp2dncvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5jb20iLCJhbmFseXRpY3MiOnsidXJsIjoiaHR0cHM6Ly9jbGllbnQtYW5hbHl0aWNzLmJyYWludHJlZWdhdGV3YXkuY29tL3BxZDdoejQ0c3dwNnp2dncifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6ZmFsc2UsInBheXBhbEVuYWJsZWQiOnRydWUsInBheXBhbCI6eyJkaXNwbGF5TmFtZSI6IkludGVybmV0IEFyY2hpdmUiLCJjbGllbnRJZCI6IkFUOFAzNkVQSHdDQl9kUm5LTy1OZ3N6Rk1mYWd3VzZReFdQcUpMZU9VRDZQb0dkT0N5d3JfS2JMSDRIZkxMV2szZUxPNVRqdS1pYzRtVFYyIiwicHJpdmFjeVVybCI6Imh0dHBzOi8vYXJjaGl2ZS5vcmcvYWJvdXQvdGVybXMucGhwIiwidXNlckFncmVlbWVudFVybCI6Imh0dHBzOi8vYXJjaGl2ZS5vcmcvYWJvdXQvdGVybXMucGhwIiwiYmFzZVVybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXNzZXRzVXJsIjoiaHR0cHM6Ly9jaGVja291dC5wYXlwYWwuY29tIiwiZGlyZWN0QmFzZVVybCI6bnVsbCwiYWxsb3dIdHRwIjpmYWxzZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOmZhbHNlLCJlbnZpcm9ubWVudCI6ImxpdmUiLCJ1bnZldHRlZE1lcmNoYW50IjpmYWxzZSwiYnJhaW50cmVlQ2xpZW50SWQiOiJBUktyWVJEaDNBR1hEelc3c09fM2JTa3EtVTFDN0hHX3VXTkMtejU3TGpZU0ROVU9TYU90SWE5cTZWcFciLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoiSW50ZXJuZXRBcmNoaXZlX2luc3RhbnQiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6InBxZDdoejQ0c3dwNnp2dnciLCJ2ZW5tbyI6Im9mZiJ9">
                       <meta property="environment" content="production">
                       <meta property="venmo_id" content="2878003111190856236">
             <link href="//archive.org/includes/build/css/archive.min.css?v=80a784c3" rel="stylesheet" type="text/css"/>
@@ -1194,7 +1194,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
           <span class="label-with-border">Filters</span>
         </button>
         <div class="results_count">
-          1,849,599          <div class="topinblock micro-label" style="padding-top:2px">
+          1,849,374          <div class="topinblock micro-label" style="padding-top:2px">
             RESULTS          </div>
         </div>
         <div class="sortbar-rule"></div>
@@ -1262,7 +1262,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       <div class="fatable facet-mediatype">
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=mediatype%3A%22collection%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=mediatype%3A%22collection%22'"/>
                           </div>
             <div class="facell">
                                             352                          </div>
@@ -1271,16 +1271,16 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=mediatype%3A%22texts%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=mediatype%3A%22texts%22'"/>
                           </div>
             <div class="facell">
-                                            1,844,220                          </div>
+                                            1,843,995                          </div>
                           <span class="facell">
                 texts              </span>
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=mediatype%3A%22data%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=mediatype%3A%22data%22'"/>
                           </div>
             <div class="facell">
                                             5,008                          </div>
@@ -1289,7 +1289,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=mediatype%3A%22image%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=mediatype%3A%22image%22'"/>
                           </div>
             <div class="facell">
                                             9                          </div>
@@ -1298,7 +1298,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=mediatype%3A%22account%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=mediatype%3A%22account%22'"/>
                           </div>
             <div class="facell">
                                             7                          </div>
@@ -1307,7 +1307,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=mediatype%3A%22audio%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=mediatype%3A%22audio%22'"/>
                           </div>
             <div class="facell">
                                             2                          </div>
@@ -1315,7 +1315,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                 audio              </span>
                       </label>
                                 </div>
-      <a href="/details/journals&amp;subject=Journals&morf=mediatype" rel="nofollow" class="js-more-facets-click">More <span class="iconochive-right-solid"  aria-hidden="true"></span><span class="sr-only">right-solid</span></a>
+      <a href="/details/journals&morf=mediatype" rel="nofollow" class="js-more-facets-click">More <span class="iconochive-right-solid"  aria-hidden="true"></span><span class="sr-only">right-solid</span></a>
       <div>
                   </div>
     </div>
@@ -1323,68 +1323,68 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       <div class="fatable facet-year">
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=year%3A%222017%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=year%3A%222017%22'"/>
                           </div>
             <div class="facell">
-                                            24,612                          </div>
+                                            24,582                          </div>
                           <span class="facell">
                 2017              </span>
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=year%3A%222016%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=year%3A%222016%22'"/>
                           </div>
             <div class="facell">
-                                            92,359                          </div>
+                                            92,337                          </div>
                           <span class="facell">
                 2016              </span>
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=year%3A%222015%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=year%3A%222015%22'"/>
                           </div>
             <div class="facell">
-                                            92,693                          </div>
+                                            92,662                          </div>
                           <span class="facell">
                 2015              </span>
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=year%3A%222014%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=year%3A%222014%22'"/>
                           </div>
             <div class="facell">
-                                            173,222                          </div>
+                                            173,198                          </div>
                           <span class="facell">
                 2014              </span>
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=year%3A%222013%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=year%3A%222013%22'"/>
                           </div>
             <div class="facell">
-                                            98,794                          </div>
+                                            98,778                          </div>
                           <span class="facell">
                 2013              </span>
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=year%3A%222012%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=year%3A%222012%22'"/>
                           </div>
             <div class="facell">
-                                            102,389                          </div>
+                                            102,382                          </div>
                           <span class="facell">
                 2012              </span>
                       </label>
                                 </div>
-      <a href="/details/journals&amp;subject=Journals&morf=year" rel="nofollow" class="js-more-facets-click">More <span class="iconochive-right-solid"  aria-hidden="true"></span><span class="sr-only">right-solid</span></a>
+      <a href="/details/journals&morf=year" rel="nofollow" class="js-more-facets-click">More <span class="iconochive-right-solid"  aria-hidden="true"></span><span class="sr-only">right-solid</span></a>
       <div>
                   </div>
     </div>
-    <h5><button data-toggle='collapse' data-target='.facet_subject' aria-expanded='false' role='button' aria-controls='facet_subject' class='collapsed'>Topics &amp; Subjects</button><span class='hidden-xs'>Topics &amp; Subjects</span><a href="/details/journals&amp;subject=Journals&morf=-subject" class="js-more-facets-click" data-switchtoalpha="-subject"><img class="filter-" data-toggle="tooltip" title="Show sorted alphabetically" src="/images/filter-count.png"></a></h5>    <div class="facet_subject collapse" >
+    <h5><button data-toggle='collapse' data-target='.facet_subject' aria-expanded='false' role='button' aria-controls='facet_subject' class='collapsed'>Topics &amp; Subjects</button><span class='hidden-xs'>Topics &amp; Subjects</span><a href="/details/journals&morf=-subject" class="js-more-facets-click" data-switchtoalpha="-subject"><img class="filter-" data-toggle="tooltip" title="Show sorted alphabetically" src="/images/filter-count.png"></a></h5>    <div class="facet_subject collapse" >
       <div class="fatable facet-subject">
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=subject%3A%22Mathematics%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=subject%3A%22Mathematics%22'"/>
                           </div>
             <div class="facell">
                                             104,539                          </div>
@@ -1393,7 +1393,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=subject%3A%22journals%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=subject%3A%22journals%22'"/>
                           </div>
             <div class="facell">
                                             77,839                          </div>
@@ -1402,7 +1402,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=subject%3A%22Computing+Research+Repository%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=subject%3A%22Computing+Research+Repository%22'"/>
                           </div>
             <div class="facell">
                                             53,200                          </div>
@@ -1411,7 +1411,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=subject%3A%22Astrophysics%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=subject%3A%22Astrophysics%22'"/>
                           </div>
             <div class="facell">
                                             43,937                          </div>
@@ -1420,7 +1420,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=subject%3A%22Condensed+Matter%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=subject%3A%22Condensed+Matter%22'"/>
                           </div>
             <div class="facell">
                                             41,014                          </div>
@@ -1429,7 +1429,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=subject%3A%22Physics%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=subject%3A%22Physics%22'"/>
                           </div>
             <div class="facell">
                                             29,960                          </div>
@@ -1437,7 +1437,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                 Physics              </span>
                       </label>
                                 </div>
-      <a href="/details/journals&amp;subject=Journals&morf=subject" rel="nofollow" class="js-more-facets-click">More <span class="iconochive-right-solid"  aria-hidden="true"></span><span class="sr-only">right-solid</span></a>
+      <a href="/details/journals&morf=subject" rel="nofollow" class="js-more-facets-click">More <span class="iconochive-right-solid"  aria-hidden="true"></span><span class="sr-only">right-solid</span></a>
       <div>
                   </div>
     </div>
@@ -1445,16 +1445,16 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       <div class="fatable facet-collection">
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=collection%3A%22journals%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=collection%3A%22journals%22'"/>
                           </div>
             <div class="facell">
-                                            1,831,041                          </div>
+                                            1,830,797                          </div>
                           <span class="facell">
                 <a href="/details/journals" class='collection-facet' data-event-click-tracking='Facets|FacetCollectionLink'>Journals</a>              </span>
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=collection%3A%22arxiv%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=collection%3A%22arxiv%22'"/>
                           </div>
             <div class="facell">
                                             1,076,008                          </div>
@@ -1463,7 +1463,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=collection%3A%22jstor_ejc%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=collection%3A%22jstor_ejc%22'"/>
                           </div>
             <div class="facell">
                                             452,031                          </div>
@@ -1472,7 +1472,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=collection%3A%22pubmed%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=collection%3A%22pubmed%22'"/>
                           </div>
             <div class="facell">
                                             209,787                          </div>
@@ -1481,7 +1481,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=collection%3A%22jstor_publhealrepo1896%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=collection%3A%22jstor_publhealrepo1896%22'"/>
                           </div>
             <div class="facell">
                                             42,377                          </div>
@@ -1490,7 +1490,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=collection%3A%22jstor_science%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=collection%3A%22jstor_science%22'"/>
                           </div>
             <div class="facell">
                                             35,637                          </div>
@@ -1498,15 +1498,15 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                 <a href="/details/jstor_science" class='collection-facet' data-event-click-tracking='Facets|FacetCollectionLink'>JSTOR Early Journal Content, Science</a>              </span>
                       </label>
                                 </div>
-      <a href="/details/journals&amp;subject=Journals&morf=collection" rel="nofollow" class="js-more-facets-click">More <span class="iconochive-right-solid"  aria-hidden="true"></span><span class="sr-only">right-solid</span></a>
+      <a href="/details/journals&morf=collection" rel="nofollow" class="js-more-facets-click">More <span class="iconochive-right-solid"  aria-hidden="true"></span><span class="sr-only">right-solid</span></a>
       <div>
                   </div>
     </div>
-    <h5><button data-toggle='collapse' data-target='.facet_creator' aria-expanded='false' role='button' aria-controls='facet_creator' class='collapsed'>Creator</button><span class='hidden-xs'>Creator</span><a href="/details/journals&amp;subject=Journals&morf=-creator" class="js-more-facets-click" data-switchtoalpha="-creator"><img class="filter-" data-toggle="tooltip" title="Show sorted alphabetically" src="/images/filter-count.png"></a></h5>    <div class="facet_creator collapse" >
+    <h5><button data-toggle='collapse' data-target='.facet_creator' aria-expanded='false' role='button' aria-controls='facet_creator' class='collapsed'>Creator</button><span class='hidden-xs'>Creator</span><a href="/details/journals&morf=-creator" class="js-more-facets-click" data-switchtoalpha="-creator"><img class="filter-" data-toggle="tooltip" title="Show sorted alphabetically" src="/images/filter-count.png"></a></h5>    <div class="facet_creator collapse" >
       <div class="fatable facet-creator">
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=creator%3A%22%26na%3B%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=creator%3A%22%26na%3B%22'"/>
                           </div>
             <div class="facell">
                                             5,811                          </div>
@@ -1515,7 +1515,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=creator%3A%22arxiv.org%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=creator%3A%22arxiv.org%22'"/>
                           </div>
             <div class="facell">
                                             5,003                          </div>
@@ -1524,7 +1524,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=creator%3A%22%26na%3B+%26na%3B%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=creator%3A%22%26na%3B+%26na%3B%22'"/>
                           </div>
             <div class="facell">
                                             1,507                          </div>
@@ -1533,7 +1533,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=creator%3A%22j.+m.+c.%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=creator%3A%22j.+m.+c.%22'"/>
                           </div>
             <div class="facell">
                                             1,085                          </div>
@@ -1542,7 +1542,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=creator%3A%22j.+a.+a.%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=creator%3A%22j.+a.+a.%22'"/>
                           </div>
             <div class="facell">
                                             1,009                          </div>
@@ -1551,7 +1551,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=creator%3A%22iaset+journals%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=creator%3A%22iaset+journals%22'"/>
                           </div>
             <div class="facell">
                                             978                          </div>
@@ -1559,7 +1559,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                 iaset journals              </span>
                       </label>
                                 </div>
-      <a href="/details/journals&amp;subject=Journals&morf=creator" rel="nofollow" class="js-more-facets-click">More <span class="iconochive-right-solid"  aria-hidden="true"></span><span class="sr-only">right-solid</span></a>
+      <a href="/details/journals&morf=creator" rel="nofollow" class="js-more-facets-click">More <span class="iconochive-right-solid"  aria-hidden="true"></span><span class="sr-only">right-solid</span></a>
       <div>
                   </div>
     </div>
@@ -1567,16 +1567,16 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       <div class="fatable facet-languageSorter">
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=languageSorter%3A%22English%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=languageSorter%3A%22English%22'"/>
                           </div>
             <div class="facell">
-                                            1,472,838                          </div>
+                                            1,472,618                          </div>
                           <span class="facell">
                 English              </span>
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=languageSorter%3A%22German%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=languageSorter%3A%22German%22'"/>
                           </div>
             <div class="facell">
                                             8,964                          </div>
@@ -1585,7 +1585,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=languageSorter%3A%22French%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=languageSorter%3A%22French%22'"/>
                           </div>
             <div class="facell">
                                             2,168                          </div>
@@ -1594,7 +1594,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=languageSorter%3A%22Latin%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=languageSorter%3A%22Latin%22'"/>
                           </div>
             <div class="facell">
                                             1,076                          </div>
@@ -1603,7 +1603,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=languageSorter%3A%22Catalan%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=languageSorter%3A%22Catalan%22'"/>
                           </div>
             <div class="facell">
                                             1,031                          </div>
@@ -1612,7 +1612,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=languageSorter%3A%22Dutch%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=languageSorter%3A%22Dutch%22'"/>
                           </div>
             <div class="facell">
                                             632                          </div>
@@ -1620,7 +1620,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                 Dutch              </span>
                       </label>
                                 </div>
-      <a href="/details/journals&amp;subject=Journals&morf=languageSorter" rel="nofollow" class="js-more-facets-click">More <span class="iconochive-right-solid"  aria-hidden="true"></span><span class="sr-only">right-solid</span></a>
+      <a href="/details/journals&morf=languageSorter" rel="nofollow" class="js-more-facets-click">More <span class="iconochive-right-solid"  aria-hidden="true"></span><span class="sr-only">right-solid</span></a>
       <div>
                   </div>
     </div>
@@ -1645,7 +1645,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
             <span class="hidden-xs-span">SHOW </span><span>DETAILS</span>
           </div>
 
-                      <a class="stealth" href="/details/journals?amp%3Bsubject=Journals&sort=downloads" rel="nofollow"><div class="up-down">
+                      <a class="stealth" href="/details/journals?&sort=downloads" rel="nofollow"><div class="up-down">
                               <div class="iconochive-up-solid"  aria-hidden="true"></div><span class="sr-only">up-solid</span>                <div class="iconochive-down-solid in"  aria-hidden="true"></div><span class="sr-only">down-solid</span>                          </div></a>
                     <div class="topinblock">
             <div class="hidden-md hidden-lg">
@@ -1664,7 +1664,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                 SORT BY
               </div>
               <span class="big-label blue-pop">
-                <a class="ikind stealth in" data-id="views" href="/details/journals?amp%3Bsubject=Journals" rel="nofollow">VIEWS</a><div class="iconochive-dot ikind-sep"></div><a class="ikind stealth" data-id="title" href="/details/journals?amp%3Bsubject=Journals&amp;sort=titleSorter" rel="nofollow">TITLE</a><div class="iconochive-dot ikind-sep hidden"></div><a class="ikind stealth hidden" data-id="date-archived" href="/details/journals?amp%3Bsubject=Journals&amp;sort=-publicdate" rel="nofollow">DATE ARCHIVED</a><div class="iconochive-dot ikind-sep"></div><a class="ikind stealth" id="date_switcher" data-id="date-published" href="/details/journals?amp%3Bsubject=Journals&amp;sort=-date" rel="nofollow">DATE PUBLISHED</a><div class="iconochive-dot ikind-sep hidden"></div><a class="ikind stealth hidden" data-id="date-reviewed" href="/details/journals?amp%3Bsubject=Journals&amp;sort=-reviewdate" rel="nofollow">DATE REVIEWED</a><div class="iconochive-dot ikind-sep"></div><a class="ikind stealth" data-id="creator" href="/details/journals?amp%3Bsubject=Journals&amp;sort=creatorSorter" rel="nofollow">CREATOR</a>              </span>
+                <a class="ikind stealth in" data-id="views" href="/details/journals" rel="nofollow">VIEWS</a><div class="iconochive-dot ikind-sep"></div><a class="ikind stealth" data-id="title" href="/details/journals?sort=titleSorter" rel="nofollow">TITLE</a><div class="iconochive-dot ikind-sep hidden"></div><a class="ikind stealth hidden" data-id="date-archived" href="/details/journals?sort=-publicdate" rel="nofollow">DATE ARCHIVED</a><div class="iconochive-dot ikind-sep"></div><a class="ikind stealth" id="date_switcher" data-id="date-published" href="/details/journals?sort=-date" rel="nofollow">DATE PUBLISHED</a><div class="iconochive-dot ikind-sep hidden"></div><a class="ikind stealth hidden" data-id="date-reviewed" href="/details/journals?sort=-reviewdate" rel="nofollow">DATE REVIEWED</a><div class="iconochive-dot ikind-sep"></div><a class="ikind stealth" data-id="creator" href="/details/journals?sort=creatorSorter" rel="nofollow">CREATOR</a>              </span>
             </div>
           </div>
         </div><!--/.sortbar-->
@@ -1756,7 +1756,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">31.6<small>M</small></nobr>
+                  <nobr class="hidden-xs">31.7<small>M</small></nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">32M</nobr>
               </div>
 
@@ -1778,7 +1778,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   1,076,008                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  31.6<small>M</small>                  <div class="micro-label">VIEWS</div>
+                  31.7<small>M</small>                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -1795,7 +1795,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>31.6<small>M</small></nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>31.7<small>M</small></nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -2134,7 +2134,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">853,963</nobr>
+                  <nobr class="hidden-xs">854,190</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">854K</nobr>
               </div>
 
@@ -2156,7 +2156,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   8,330                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  853,963                  <div class="micro-label">VIEWS</div>
+                  854,190                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -2173,7 +2173,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>853,963</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>854,190</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -2197,7 +2197,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">839,965</nobr>
+                  <nobr class="hidden-xs">840,129</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">840K</nobr>
               </div>
 
@@ -2219,7 +2219,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   9,953                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  839,965                  <div class="micro-label">VIEWS</div>
+                  840,129                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -2236,7 +2236,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>839,965</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>840,129</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -2260,8 +2260,8 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">789,346</nobr>
-          <nobr class="hidden-sm hidden-md hidden-lg">789K</nobr>
+                  <nobr class="hidden-xs">789,636</nobr>
+          <nobr class="hidden-sm hidden-md hidden-lg">790K</nobr>
               </div>
 
 
@@ -2282,7 +2282,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   7,572                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  789,346                  <div class="micro-label">VIEWS</div>
+                  789,636                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -2299,7 +2299,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>789,346</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>789,636</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -2323,7 +2323,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">775,862</nobr>
+                  <nobr class="hidden-xs">776,015</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">776K</nobr>
               </div>
 
@@ -2345,7 +2345,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   7,920                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  775,862                  <div class="micro-label">VIEWS</div>
+                  776,015                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -2362,7 +2362,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>775,862</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>776,015</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -2386,7 +2386,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">657,136</nobr>
+                  <nobr class="hidden-xs">657,251</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">657K</nobr>
               </div>
 
@@ -2408,7 +2408,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   7,405                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  657,136                  <div class="micro-label">VIEWS</div>
+                  657,251                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -2425,7 +2425,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>657,136</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>657,251</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -2449,7 +2449,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">627,121</nobr>
+                  <nobr class="hidden-xs">627,224</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">627K</nobr>
               </div>
 
@@ -2471,7 +2471,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   6,843                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  627,121                  <div class="micro-label">VIEWS</div>
+                  627,224                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -2488,7 +2488,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>627,121</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>627,224</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -2512,7 +2512,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">603,168</nobr>
+                  <nobr class="hidden-xs">603,346</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">603K</nobr>
               </div>
 
@@ -2534,7 +2534,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   6,411                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  603,168                  <div class="micro-label">VIEWS</div>
+                  603,346                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -2551,7 +2551,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>603,168</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>603,346</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -2575,8 +2575,8 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">558,452</nobr>
-          <nobr class="hidden-sm hidden-md hidden-lg">558K</nobr>
+                  <nobr class="hidden-xs">558,667</nobr>
+          <nobr class="hidden-sm hidden-md hidden-lg">559K</nobr>
               </div>
 
 
@@ -2597,7 +2597,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   5,689                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  558,452                  <div class="micro-label">VIEWS</div>
+                  558,667                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -2614,7 +2614,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>558,452</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>558,667</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -2638,8 +2638,8 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">558,426</nobr>
-          <nobr class="hidden-sm hidden-md hidden-lg">558K</nobr>
+                  <nobr class="hidden-xs">558,630</nobr>
+          <nobr class="hidden-sm hidden-md hidden-lg">559K</nobr>
               </div>
 
 
@@ -2660,7 +2660,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   6,354                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  558,426                  <div class="micro-label">VIEWS</div>
+                  558,630                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -2677,7 +2677,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>558,426</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>558,630</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -2701,7 +2701,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">551,856</nobr>
+                  <nobr class="hidden-xs">551,979</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">552K</nobr>
               </div>
 
@@ -2723,7 +2723,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   6,224                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  551,856                  <div class="micro-label">VIEWS</div>
+                  551,979                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -2740,7 +2740,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>551,856</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>551,979</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -2764,7 +2764,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">538,117</nobr>
+                  <nobr class="hidden-xs">538,375</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">538K</nobr>
               </div>
 
@@ -2786,7 +2786,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   5,546                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  538,117                  <div class="micro-label">VIEWS</div>
+                  538,375                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -2803,7 +2803,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>538,117</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>538,375</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -2827,8 +2827,8 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">527,464</nobr>
-          <nobr class="hidden-sm hidden-md hidden-lg">527K</nobr>
+                  <nobr class="hidden-xs">527,658</nobr>
+          <nobr class="hidden-sm hidden-md hidden-lg">528K</nobr>
               </div>
 
 
@@ -2849,7 +2849,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   4,712                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  527,464                  <div class="micro-label">VIEWS</div>
+                  527,658                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -2866,7 +2866,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>527,464</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>527,658</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -2890,7 +2890,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">500,850</nobr>
+                  <nobr class="hidden-xs">501,420</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">501K</nobr>
               </div>
 
@@ -2912,7 +2912,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   2,147                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  500,850                  <div class="micro-label">VIEWS</div>
+                  501,420                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -2929,7 +2929,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>500,850</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>501,420</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -2953,7 +2953,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">476,734</nobr>
+                  <nobr class="hidden-xs">477,119</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">477K</nobr>
               </div>
 
@@ -2975,7 +2975,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   2,179                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  476,734                  <div class="micro-label">VIEWS</div>
+                  477,119                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -2992,7 +2992,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>476,734</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>477,119</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -3016,7 +3016,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">462,904</nobr>
+                  <nobr class="hidden-xs">462,991</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">463K</nobr>
               </div>
 
@@ -3038,7 +3038,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   4,884                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  462,904                  <div class="micro-label">VIEWS</div>
+                  462,991                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -3055,7 +3055,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>462,904</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>462,991</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -3079,7 +3079,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">460,129</nobr>
+                  <nobr class="hidden-xs">460,267</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">460K</nobr>
               </div>
 
@@ -3101,7 +3101,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   4,327                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  460,129                  <div class="micro-label">VIEWS</div>
+                  460,267                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -3118,7 +3118,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>460,129</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>460,267</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -3142,8 +3142,8 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">457,461</nobr>
-          <nobr class="hidden-sm hidden-md hidden-lg">457K</nobr>
+                  <nobr class="hidden-xs">457,529</nobr>
+          <nobr class="hidden-sm hidden-md hidden-lg">458K</nobr>
               </div>
 
 
@@ -3164,7 +3164,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   5,332                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  457,461                  <div class="micro-label">VIEWS</div>
+                  457,529                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -3181,7 +3181,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>457,461</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>457,529</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -3205,7 +3205,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">450,792</nobr>
+                  <nobr class="hidden-xs">450,913</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">451K</nobr>
               </div>
 
@@ -3227,7 +3227,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   4,392                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  450,792                  <div class="micro-label">VIEWS</div>
+                  450,913                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -3244,7 +3244,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>450,792</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>450,913</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -3268,8 +3268,8 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">424,468</nobr>
-          <nobr class="hidden-sm hidden-md hidden-lg">424K</nobr>
+                  <nobr class="hidden-xs">424,756</nobr>
+          <nobr class="hidden-sm hidden-md hidden-lg">425K</nobr>
               </div>
 
 
@@ -3290,7 +3290,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   2,317                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  424,468                  <div class="micro-label">VIEWS</div>
+                  424,756                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -3307,7 +3307,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>424,468</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>424,756</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -3331,7 +3331,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">417,133</nobr>
+                  <nobr class="hidden-xs">417,205</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">417K</nobr>
               </div>
 
@@ -3353,7 +3353,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   4,523                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  417,133                  <div class="micro-label">VIEWS</div>
+                  417,205                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -3370,7 +3370,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>417,133</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>417,205</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -3394,8 +3394,8 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">405,468</nobr>
-          <nobr class="hidden-sm hidden-md hidden-lg">405K</nobr>
+                  <nobr class="hidden-xs">405,648</nobr>
+          <nobr class="hidden-sm hidden-md hidden-lg">406K</nobr>
               </div>
 
 
@@ -3416,7 +3416,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   3,394                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  405,468                  <div class="micro-label">VIEWS</div>
+                  405,648                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -3433,7 +3433,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>405,468</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>405,648</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -3457,7 +3457,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">397,515</nobr>
+                  <nobr class="hidden-xs">397,624</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">398K</nobr>
               </div>
 
@@ -3479,7 +3479,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   4,120                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  397,515                  <div class="micro-label">VIEWS</div>
+                  397,624                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -3496,7 +3496,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>397,515</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>397,624</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -3520,8 +3520,8 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">396,242</nobr>
-          <nobr class="hidden-sm hidden-md hidden-lg">396K</nobr>
+                  <nobr class="hidden-xs">396,675</nobr>
+          <nobr class="hidden-sm hidden-md hidden-lg">397K</nobr>
               </div>
 
 
@@ -3542,7 +3542,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   2,109                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  396,242                  <div class="micro-label">VIEWS</div>
+                  396,675                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -3559,7 +3559,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>396,242</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>396,675</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -3583,7 +3583,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">392,575</nobr>
+                  <nobr class="hidden-xs">392,676</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">393K</nobr>
               </div>
 
@@ -3605,7 +3605,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   4,089                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  392,575                  <div class="micro-label">VIEWS</div>
+                  392,676                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -3622,7 +3622,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>392,575</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>392,676</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -3646,7 +3646,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">383,199</nobr>
+                  <nobr class="hidden-xs">383,295</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">383K</nobr>
               </div>
 
@@ -3668,7 +3668,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   4,537                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  383,199                  <div class="micro-label">VIEWS</div>
+                  383,295                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -3685,7 +3685,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>383,199</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>383,295</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -3709,7 +3709,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">379,269</nobr>
+                  <nobr class="hidden-xs">379,396</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">379K</nobr>
               </div>
 
@@ -3731,7 +3731,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   3,788                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  379,269                  <div class="micro-label">VIEWS</div>
+                  379,396                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -3748,7 +3748,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>379,269</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>379,396</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -3772,7 +3772,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">375,506</nobr>
+                  <nobr class="hidden-xs">375,650</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">376K</nobr>
               </div>
 
@@ -3794,7 +3794,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   3,524                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  375,506                  <div class="micro-label">VIEWS</div>
+                  375,650                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -3811,7 +3811,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>375,506</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>375,650</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -3835,7 +3835,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">368,360</nobr>
+                  <nobr class="hidden-xs">368,463</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">368K</nobr>
               </div>
 
@@ -3857,7 +3857,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   4,098                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  368,360                  <div class="micro-label">VIEWS</div>
+                  368,463                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -3874,7 +3874,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>368,360</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>368,463</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -3898,7 +3898,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">359,114</nobr>
+                  <nobr class="hidden-xs">359,221</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">359K</nobr>
               </div>
 
@@ -3920,7 +3920,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   3,683                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  359,114                  <div class="micro-label">VIEWS</div>
+                  359,221                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -3937,7 +3937,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>359,114</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>359,221</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -3961,7 +3961,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">350,167</nobr>
+                  <nobr class="hidden-xs">350,251</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">350K</nobr>
               </div>
 
@@ -3983,7 +3983,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   3,452                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  350,167                  <div class="micro-label">VIEWS</div>
+                  350,251                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -4000,7 +4000,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>350,167</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>350,251</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -4024,7 +4024,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">348,541</nobr>
+                  <nobr class="hidden-xs">348,657</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">349K</nobr>
               </div>
 
@@ -4046,7 +4046,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   3,178                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  348,541                  <div class="micro-label">VIEWS</div>
+                  348,657                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -4063,7 +4063,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>348,541</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>348,657</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -4087,7 +4087,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">344,595</nobr>
+                  <nobr class="hidden-xs">344,665</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">345K</nobr>
               </div>
 
@@ -4109,7 +4109,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   3,735                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  344,595                  <div class="micro-label">VIEWS</div>
+                  344,665                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -4126,7 +4126,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>344,595</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>344,665</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -4150,7 +4150,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">340,903</nobr>
+                  <nobr class="hidden-xs">341,096</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">341K</nobr>
               </div>
 
@@ -4168,7 +4168,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   2,602                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  340,903                  <div class="micro-label">VIEWS</div>
+                  341,096                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -4185,7 +4185,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>340,903</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>341,096</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -4209,7 +4209,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">335,294</nobr>
+                  <nobr class="hidden-xs">335,452</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">335K</nobr>
               </div>
 
@@ -4231,7 +4231,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   3,039                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  335,294                  <div class="micro-label">VIEWS</div>
+                  335,452                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -4248,7 +4248,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>335,294</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>335,452</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -4272,7 +4272,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">325,158</nobr>
+                  <nobr class="hidden-xs">325,281</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">325K</nobr>
               </div>
 
@@ -4294,7 +4294,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   2,429                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  325,158                  <div class="micro-label">VIEWS</div>
+                  325,281                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -4311,7 +4311,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>325,158</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>325,281</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -4335,7 +4335,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">314,544</nobr>
+                  <nobr class="hidden-xs">314,685</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">315K</nobr>
               </div>
 
@@ -4357,7 +4357,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   3,121                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  314,544                  <div class="micro-label">VIEWS</div>
+                  314,685                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -4374,7 +4374,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>314,544</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>314,685</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -4398,7 +4398,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">313,410</nobr>
+                  <nobr class="hidden-xs">313,495</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">313K</nobr>
               </div>
 
@@ -4420,7 +4420,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   3,006                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  313,410                  <div class="micro-label">VIEWS</div>
+                  313,495                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -4437,7 +4437,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>313,410</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>313,495</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -4461,7 +4461,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">309,818</nobr>
+                  <nobr class="hidden-xs">309,946</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">310K</nobr>
               </div>
 
@@ -4483,7 +4483,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   2,817                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  309,818                  <div class="micro-label">VIEWS</div>
+                  309,946                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -4500,7 +4500,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>309,818</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>309,946</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -4524,7 +4524,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">302,545</nobr>
+                  <nobr class="hidden-xs">302,659</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">303K</nobr>
               </div>
 
@@ -4546,7 +4546,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   3,039                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  302,545                  <div class="micro-label">VIEWS</div>
+                  302,659                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -4563,7 +4563,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>302,545</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>302,659</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -4587,7 +4587,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">301,544</nobr>
+                  <nobr class="hidden-xs">301,611</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">302K</nobr>
               </div>
 
@@ -4609,7 +4609,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   3,555                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  301,544                  <div class="micro-label">VIEWS</div>
+                  301,611                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -4626,7 +4626,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>301,544</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>301,611</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -4650,7 +4650,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">299,279</nobr>
+                  <nobr class="hidden-xs">299,468</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">299K</nobr>
               </div>
 
@@ -4672,7 +4672,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   1,514                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  299,279                  <div class="micro-label">VIEWS</div>
+                  299,468                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -4689,7 +4689,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>299,279</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>299,468</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -4713,7 +4713,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">292,210</nobr>
+                  <nobr class="hidden-xs">292,389</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">292K</nobr>
               </div>
 
@@ -4735,7 +4735,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   2,120                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  292,210                  <div class="micro-label">VIEWS</div>
+                  292,389                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -4752,7 +4752,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>292,210</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>292,389</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -4776,7 +4776,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">287,556</nobr>
+                  <nobr class="hidden-xs">287,688</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">288K</nobr>
               </div>
 
@@ -4798,7 +4798,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   2,438                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  287,556                  <div class="micro-label">VIEWS</div>
+                  287,688                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -4815,7 +4815,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>287,556</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>287,688</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -4839,7 +4839,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">279,642</nobr>
+                  <nobr class="hidden-xs">279,737</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">280K</nobr>
               </div>
 
@@ -4861,7 +4861,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   2,906                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  279,642                  <div class="micro-label">VIEWS</div>
+                  279,737                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -4878,7 +4878,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>279,642</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>279,737</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -4902,7 +4902,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">278,552</nobr>
+                  <nobr class="hidden-xs">278,645</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">279K</nobr>
               </div>
 
@@ -4924,7 +4924,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   2,757                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  278,552                  <div class="micro-label">VIEWS</div>
+                  278,645                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -4941,7 +4941,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>278,552</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>278,645</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -4965,7 +4965,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">275,317</nobr>
+                  <nobr class="hidden-xs">275,463</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">275K</nobr>
               </div>
 
@@ -4987,7 +4987,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   2,238                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  275,317                  <div class="micro-label">VIEWS</div>
+                  275,463                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -5004,7 +5004,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>275,317</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>275,463</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -5028,7 +5028,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">275,055</nobr>
+                  <nobr class="hidden-xs">275,117</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">275K</nobr>
               </div>
 
@@ -5050,7 +5050,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   2,873                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  275,055                  <div class="micro-label">VIEWS</div>
+                  275,117                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -5067,7 +5067,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>275,055</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>275,117</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -5091,7 +5091,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">274,564</nobr>
+                  <nobr class="hidden-xs">274,772</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">275K</nobr>
               </div>
 
@@ -5113,7 +5113,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   1,609                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  274,564                  <div class="micro-label">VIEWS</div>
+                  274,772                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -5130,7 +5130,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>274,564</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>274,772</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -5154,7 +5154,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">272,650</nobr>
+                  <nobr class="hidden-xs">272,901</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">273K</nobr>
               </div>
 
@@ -5176,7 +5176,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   1,154                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  272,650                  <div class="micro-label">VIEWS</div>
+                  272,901                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -5193,7 +5193,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>272,650</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>272,901</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -5217,7 +5217,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">263,036</nobr>
+                  <nobr class="hidden-xs">263,130</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">263K</nobr>
               </div>
 
@@ -5239,7 +5239,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   2,192                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  263,036                  <div class="micro-label">VIEWS</div>
+                  263,130                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -5256,7 +5256,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>263,036</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>263,130</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -5280,7 +5280,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">245,185</nobr>
+                  <nobr class="hidden-xs">245,262</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">245K</nobr>
               </div>
 
@@ -5302,7 +5302,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   2,530                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  245,185                  <div class="micro-label">VIEWS</div>
+                  245,262                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -5319,7 +5319,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>245,185</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>245,262</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -5343,7 +5343,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">242,693</nobr>
+                  <nobr class="hidden-xs">242,739</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">243K</nobr>
               </div>
 
@@ -5365,7 +5365,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   2,822                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  242,693                  <div class="micro-label">VIEWS</div>
+                  242,739                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -5382,7 +5382,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>242,693</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>242,739</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -5406,7 +5406,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">223,160</nobr>
+                  <nobr class="hidden-xs">223,205</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">223K</nobr>
               </div>
 
@@ -5428,7 +5428,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   2,363                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  223,160                  <div class="micro-label">VIEWS</div>
+                  223,205                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -5445,7 +5445,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>223,160</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>223,205</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -5469,7 +5469,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">220,822</nobr>
+                  <nobr class="hidden-xs">220,942</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">221K</nobr>
               </div>
 
@@ -5491,7 +5491,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   2,013                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  220,822                  <div class="micro-label">VIEWS</div>
+                  220,942                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -5508,7 +5508,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>220,822</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>220,942</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -5532,7 +5532,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">218,779</nobr>
+                  <nobr class="hidden-xs">218,917</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">219K</nobr>
               </div>
 
@@ -5554,7 +5554,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   1,168                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  218,779                  <div class="micro-label">VIEWS</div>
+                  218,917                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -5571,7 +5571,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>218,779</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>218,917</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -5595,7 +5595,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">203,597</nobr>
+                  <nobr class="hidden-xs">203,698</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">204K</nobr>
               </div>
 
@@ -5617,7 +5617,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   1,714                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  203,597                  <div class="micro-label">VIEWS</div>
+                  203,698                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -5634,7 +5634,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>203,597</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>203,698</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -5658,7 +5658,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">197,401</nobr>
+                  <nobr class="hidden-xs">197,489</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">197K</nobr>
               </div>
 
@@ -5680,7 +5680,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   2,042                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  197,401                  <div class="micro-label">VIEWS</div>
+                  197,489                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -5697,7 +5697,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>197,401</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>197,489</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -5721,7 +5721,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">192,691</nobr>
+                  <nobr class="hidden-xs">192,730</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">193K</nobr>
               </div>
 
@@ -5743,7 +5743,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   2,213                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  192,691                  <div class="micro-label">VIEWS</div>
+                  192,730                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -5760,7 +5760,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>192,691</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>192,730</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -5784,7 +5784,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">182,612</nobr>
+                  <nobr class="hidden-xs">182,657</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">183K</nobr>
               </div>
 
@@ -5806,7 +5806,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   2,104                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  182,612                  <div class="micro-label">VIEWS</div>
+                  182,657                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -5823,7 +5823,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>182,612</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>182,657</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -5847,7 +5847,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">178,791</nobr>
+                  <nobr class="hidden-xs">178,907</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">179K</nobr>
               </div>
 
@@ -5869,7 +5869,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   1,137                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  178,791                  <div class="micro-label">VIEWS</div>
+                  178,907                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -5886,7 +5886,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>178,791</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>178,907</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -5910,7 +5910,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">173,728</nobr>
+                  <nobr class="hidden-xs">173,912</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">174K</nobr>
               </div>
 
@@ -5932,7 +5932,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   678                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  173,728                  <div class="micro-label">VIEWS</div>
+                  173,912                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -5949,70 +5949,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>173,728</nobr>
-          </h6>
-        
-              </div><!--/.statbar-->
-
-          </div><!--/.item-ia-->
-
-
-    <div class="details-ia hidden-tiles">
-      <div class="C1"></div>
-              <div class="C234">
-          <span>The JSTOR Early Journal Content is a selection of journal materials published prior to 1923 in the United States and prior to 1870 elsewhere. It includes discourse and scholarship in the arts and humanities, economics and politics, and in mathematics and other sciences - nearly 500,000 articles from more than 200 journals. It was uploaded to the Internet Archive in 2013. JSTOR Early Journal Content has been freely available at www.jstor.org since September 2011. Early Journal Content is updated...</span><br/>                                                </div>
-            <div class="C5"></div>
-    </div>
-
-    
-
-    <div class="item-ia collection-ia" data-id="jstor_condor"
-      data-mediatype="collection"
-       onclick="AJS.colclick(this)" >
-
-      
-
-      <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">170,366</nobr>
-          <nobr class="hidden-sm hidden-md hidden-lg">170K</nobr>
-              </div>
-
-
-
-      
-      <div class="C234">
-                  <div class="collection-title C C2">
-                          <a href="/details/jstor_condor" data-event-click-tracking="GenericCollection|ItemTile">
-                                  <div class="tile-img">
-                    <img class="item-img clipH"
-                      source="/services/img/jstor_condor">
-                  </div><!--/.tile-img-->
-                                <div>
-                  JSTOR Early Journal Content, The Condor                </div>
-              </a>
-              <div class="collection-stats">
-                <div class="iconochive-collection topinblock hidden-lists"  aria-hidden="true"></div><span class="sr-only">collection</span>                <div class="num-items topinblock">
-                  1,991                  <div class="micro-label">ITEMS</div>
-                </div>
-                <div class="num-items hidden-tiles">
-                  170,366                  <div class="micro-label">VIEWS</div>
-                </div>
-              </div>
-                      </div><!--.C2-->
-                <div class="hidden-tiles pubdate C C3">
-          <nobr class="hidden-xs">-</nobr>
-          <nobr class="hidden-sm hidden-md hidden-lg">-</nobr>
-        </div>
-        <div class="by C C4">
-                                                                </div><!--/.C4-->
-      </div><!--/.C234-->
-
-      <div class="statbar ">
-        <div class="mt-icon C C5 hidden-tiles">
-                                <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
-
-                  <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>170,366</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>173,912</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -6036,7 +5973,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">170,321</nobr>
+                  <nobr class="hidden-xs">170,417</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">170K</nobr>
               </div>
 
@@ -6058,7 +5995,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   996                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  170,321                  <div class="micro-label">VIEWS</div>
+                  170,417                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -6075,7 +6012,70 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>170,321</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>170,417</nobr>
+          </h6>
+        
+              </div><!--/.statbar-->
+
+          </div><!--/.item-ia-->
+
+
+    <div class="details-ia hidden-tiles">
+      <div class="C1"></div>
+              <div class="C234">
+          <span>The JSTOR Early Journal Content is a selection of journal materials published prior to 1923 in the United States and prior to 1870 elsewhere. It includes discourse and scholarship in the arts and humanities, economics and politics, and in mathematics and other sciences - nearly 500,000 articles from more than 200 journals. It was uploaded to the Internet Archive in 2013. JSTOR Early Journal Content has been freely available at www.jstor.org since September 2011. Early Journal Content is updated...</span><br/>                                                </div>
+            <div class="C5"></div>
+    </div>
+
+    
+
+    <div class="item-ia collection-ia" data-id="jstor_condor"
+      data-mediatype="collection"
+       onclick="AJS.colclick(this)" >
+
+      
+
+      <div class="hidden-tiles views C C1">
+                  <nobr class="hidden-xs">170,390</nobr>
+          <nobr class="hidden-sm hidden-md hidden-lg">170K</nobr>
+              </div>
+
+
+
+      
+      <div class="C234">
+                  <div class="collection-title C C2">
+                          <a href="/details/jstor_condor" data-event-click-tracking="GenericCollection|ItemTile">
+                                  <div class="tile-img">
+                    <img class="item-img clipH"
+                      source="/services/img/jstor_condor">
+                  </div><!--/.tile-img-->
+                                <div>
+                  JSTOR Early Journal Content, The Condor                </div>
+              </a>
+              <div class="collection-stats">
+                <div class="iconochive-collection topinblock hidden-lists"  aria-hidden="true"></div><span class="sr-only">collection</span>                <div class="num-items topinblock">
+                  1,991                  <div class="micro-label">ITEMS</div>
+                </div>
+                <div class="num-items hidden-tiles">
+                  170,390                  <div class="micro-label">VIEWS</div>
+                </div>
+              </div>
+                      </div><!--.C2-->
+                <div class="hidden-tiles pubdate C C3">
+          <nobr class="hidden-xs">-</nobr>
+          <nobr class="hidden-sm hidden-md hidden-lg">-</nobr>
+        </div>
+        <div class="by C C4">
+                                                                </div><!--/.C4-->
+      </div><!--/.C234-->
+
+      <div class="statbar ">
+        <div class="mt-icon C C5 hidden-tiles">
+                                <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
+
+                  <h6 class="stat  hidden-tiles">
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>170,390</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -6099,7 +6099,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">170,211</nobr>
+                  <nobr class="hidden-xs">170,285</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">170K</nobr>
               </div>
 
@@ -6121,7 +6121,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   1,679                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  170,211                  <div class="micro-label">VIEWS</div>
+                  170,285                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -6138,7 +6138,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>170,211</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>170,285</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -6162,7 +6162,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">167,393</nobr>
+                  <nobr class="hidden-xs">167,492</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">167K</nobr>
               </div>
 
@@ -6184,7 +6184,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   942                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  167,393                  <div class="micro-label">VIEWS</div>
+                  167,492                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -6201,7 +6201,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>167,393</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>167,492</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -6225,8 +6225,8 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">164,488</nobr>
-          <nobr class="hidden-sm hidden-md hidden-lg">164K</nobr>
+                  <nobr class="hidden-xs">164,527</nobr>
+          <nobr class="hidden-sm hidden-md hidden-lg">165K</nobr>
               </div>
 
 
@@ -6247,7 +6247,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   1,661                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  164,488                  <div class="micro-label">VIEWS</div>
+                  164,527                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -6264,7 +6264,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>164,488</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>164,527</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -6288,7 +6288,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">164,369</nobr>
+                  <nobr class="hidden-xs">164,427</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">164K</nobr>
               </div>
 
@@ -6310,7 +6310,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   1,668                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  164,369                  <div class="micro-label">VIEWS</div>
+                  164,427                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -6327,7 +6327,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>164,369</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>164,427</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -6351,7 +6351,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       
 
       <div class="hidden-tiles views C C1">
-                  <nobr class="hidden-xs">161,002</nobr>
+                  <nobr class="hidden-xs">161,090</nobr>
           <nobr class="hidden-sm hidden-md hidden-lg">161K</nobr>
               </div>
 
@@ -6373,7 +6373,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                   1,243                  <div class="micro-label">ITEMS</div>
                 </div>
                 <div class="num-items hidden-tiles">
-                  161,002                  <div class="micro-label">VIEWS</div>
+                  161,090                  <div class="micro-label">VIEWS</div>
                 </div>
               </div>
                       </div><!--.C2-->
@@ -6390,7 +6390,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                                 <span class="iconochive-collection"  aria-hidden="true"></span><span class="sr-only">collection</span>                  </div>
 
                   <h6 class="stat  hidden-tiles">
-            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>161,002</nobr>
+            <span class="iconochive-eye"  aria-hidden="true"></span><span class="sr-only">eye</span>            <nobr>161,090</nobr>
           </h6>
         
               </div><!--/.statbar-->
@@ -6407,10 +6407,10 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
 
     </div><!--/.results-->        <center class="more_search">
           <a class="btn btn-info btn-sm" style="visibility:hidden"
-            onclick="return AJS.more_search(this,'/details/journals?amp%3Bsubject=Journals&sort=-downloads&page=',1)" href="#">MORE RESULTS</a><br/>
+            onclick="return AJS.more_search(this,'/details/journals?&sort=-downloads&page=',1)" href="#">MORE RESULTS</a><br/>
           <span class="more-search-fetching">Fetching more results <img src="/images/loading.gif"/></span>
                     <noscript>
-                          <a href="/details/journals?amp%3Bsubject=Journals&sort=-downloads&page=2" type="button" class="page-next">Next Page</a>
+                          <a href="/details/journals?&sort=-downloads&page=2" type="button" class="page-next">Next Page</a>
                       </noscript>
         </center>
               </div>
@@ -6419,7 +6419,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
     </div><!--.columns-items-->
   </div><!--/.row-->
 
-          <script>archive_setup.push(function() { AJS.date_switcher('&nbsp;<a href="/details/journals?amp%3Bsubject=Journals&amp;sort=-publicdate" rel="nofollow"><div class="date_switcher">Date Archived</div></a> <a href="/details/journals?amp%3Bsubject=Journals&amp;sort=-date" rel="nofollow"><div class="date_switcher in">Date Published</div></a> <a href="/details/journals?amp%3Bsubject=Journals&amp;sort=-reviewdate" rel="nofollow"><div class="date_switcher">Date Reviewed</div></a> '); })</script>
+          <script>archive_setup.push(function() { AJS.date_switcher('&nbsp;<a href="/details/journals?sort=-publicdate" rel="nofollow"><div class="date_switcher">Date Archived</div></a> <a href="/details/journals?sort=-date" rel="nofollow"><div class="date_switcher in">Date Published</div></a> <a href="/details/journals?sort=-reviewdate" rel="nofollow"><div class="date_switcher">Date Reviewed</div></a> '); })</script>
                   </div>
       </div>
 
@@ -6604,13 +6604,13 @@ archive_setup.push(function() {
     </div><!--/#wrap-->
     
     <!-- Timing ...
-     rendered on: www25.us.archive.org
+     rendered on: www19.us.archive.org
  seconds diff sec               message   stack(file:line:function)
 =========================================================
   0.0000   0.0000         petabox start   var/cache/petabox/petabox/www/sf/details.php:1:require
                                              |common/ia:66:require_once
                                              |setup.php:310:log
-  0.0090   0.0090      redis_read start   var/cache/petabox/petabox/www/sf/details.php:62:getItem
+  0.0117   0.0117      redis_read start   var/cache/petabox/petabox/www/sf/details.php:62:getItem
                                              |details.php:183:getItem
                                              |common/Item.inc:77:parseMetadata
                                              |Item.inc:132:get_obj
@@ -6623,7 +6623,7 @@ archive_setup.push(function() {
                                              |AdapterPipeline.inc:608:fetch
                                              |RecordServer.inc:144:execute
                                              |RecordServer/FetchRecordOp.inc:52:log
-  0.0125   0.0035     redis_read finish   var/cache/petabox/petabox/www/sf/details.php:62:getItem
+  0.0190   0.0073     redis_read finish   var/cache/petabox/petabox/www/sf/details.php:62:getItem
                                              |details.php:183:getItem
                                              |common/Item.inc:77:parseMetadata
                                              |Item.inc:132:get_obj
@@ -6636,19 +6636,19 @@ archive_setup.push(function() {
                                              |AdapterPipeline.inc:608:fetch
                                              |RecordServer.inc:144:execute
                                              |RecordServer/FetchRecordOp.inc:58:log
-  0.0351   0.0226   begin session_start   var/cache/petabox/petabox/www/sf/details.php:62:getItem
+  0.0551   0.0361   begin session_start   var/cache/petabox/petabox/www/sf/details.php:62:getItem
                                              |details.php:197:include
                                              |collection.php:212:head
                                              |common/Nav.inc:120:__construct
                                              |Nav.inc:188:session_start
                                              |Cookies.inc:56:log
-  0.0354   0.0003    done session_start   var/cache/petabox/petabox/www/sf/details.php:62:getItem
+  0.0552   0.0001    done session_start   var/cache/petabox/petabox/www/sf/details.php:62:getItem
                                              |details.php:197:include
                                              |collection.php:212:head
                                              |common/Nav.inc:120:__construct
                                              |Nav.inc:188:session_start
                                              |Cookies.inc:62:log
-  0.2782   0.2429      call get_redis()   var/cache/petabox/petabox/www/sf/details.php:62:getItem
+  0.2963   0.2411      call get_redis()   var/cache/petabox/petabox/www/sf/details.php:62:getItem
                                              |details.php:197:include
                                              |collection.php:212:head
                                              |common/Nav.inc:120:__construct
@@ -6659,7 +6659,7 @@ archive_setup.push(function() {
                                              |Metadata.inc:811:_get_obj_part
                                              |Metadata.inc:850:get_json_obj
                                              |Metadata.inc:2279:log
-  0.2787   0.0005      redis_read start   var/cache/petabox/petabox/www/sf/details.php:62:getItem
+  0.2968   0.0005      redis_read start   var/cache/petabox/petabox/www/sf/details.php:62:getItem
                                              |details.php:197:include
                                              |collection.php:212:head
                                              |common/Nav.inc:120:__construct
@@ -6672,7 +6672,7 @@ archive_setup.push(function() {
                                              |Metadata.inc:2309:fetch
                                              |Metadata/RecordServer.inc:144:execute
                                              |RecordServer/FetchRecordOp.inc:52:log
-  0.2821   0.0033     redis_read finish   var/cache/petabox/petabox/www/sf/details.php:62:getItem
+  0.2992   0.0024     redis_read finish   var/cache/petabox/petabox/www/sf/details.php:62:getItem
                                              |details.php:197:include
                                              |collection.php:212:head
                                              |common/Nav.inc:120:__construct
@@ -6685,7 +6685,7 @@ archive_setup.push(function() {
                                              |Metadata.inc:2309:fetch
                                              |Metadata/RecordServer.inc:144:execute
                                              |RecordServer/FetchRecordOp.inc:58:log
-  0.3220   0.0400              bug dump   var/cache/petabox/petabox/www/sf/details.php:62:getItem
+  0.3430   0.0437              bug dump   var/cache/petabox/petabox/www/sf/details.php:62:getItem
                                              |details.php:197:include
                                              |collection.php:267:footer
                                              |common/setup.php:156:footer
@@ -6697,8 +6697,8 @@ if (window.archive_analytics) {
   var vs = window.archive_analytics.get_data_packets();
   for (var i in vs) {
     vs[i]['cache_bust']=Math.random();
-    vs[i]['server_ms']=322;
-    vs[i]['server_name']="www25.us.archive.org";
+    vs[i]['server_ms']=342;
+    vs[i]['server_name']="www19.us.archive.org";
       }
 
   if ($(".more_search").size()>0) {
@@ -6714,12 +6714,215 @@ Checksum of HMTL page of base url is:
 42f669ebfac38f16d194754ad26b6b2d802823f2052efec985c18441279e0fcd
 
 https://archive.org/details/journals
-len_html_page: 362005
+Printing extract_domainlist_urls
+
+len_html_page: 360776
 Searching complete URLs
 
 Last index for complete URLS found: -1
 
-Last index for complete URLS found: 0
+Last index for complete URLS found: -1
 
 Searching URLs with different domains
 
+Last index for different domains found: -1
+
+Last index for different domains found: -1
+
+Searching sub domain URLs
+
+
+https://archive.org//archive.org/includes/build/css/archive.min.css?v=80a784c3
+Sha256: 6acf9a488a6a5e39914ad63860835a2c0a01854886fc2d5c12ebbc66695ed762
+
+url_map of https://archive.org//archive.org/includes/build/css/archive.min.css?v=80a784c3 beforehand: 0
+5841
+6649
+https://archive.org/
+Sha256: 5199cd7d2052d7b46fcde1e7b8e9b1f4f149f97435f58d47bd89b198766fa850
+
+url_map of https://archive.org/ beforehand: 0
+33668
+37577
+43046
+https://archive.org/bookmarks.php?add_bookmark=1
+Sha256: 7576ce3bfe43e3798b4682e22803c82cb38f422f9f8cca5e30818595890dc265
+
+url_map of https://archive.org/bookmarks.php?add_bookmark=1 beforehand: 0
+82906
+https://archive.org/services/collection-rss.php?collection=journals
+Sha256: 6f0c5016b0691e85e139a5e6cbd11e943811d2d2978f59f1a3f682199c152a07
+
+url_map of https://archive.org/services/collection-rss.php?collection=journals beforehand: 0
+83804
+https://archive.org/editxml/journals
+Sha256: 2446b79d283a0a35f55caf5db2290fecc2d6171234e006641f2bdce822d98468
+
+url_map of https://archive.org/editxml/journals beforehand: 0
+84110
+84349
+https://archive.org/details/journals?tab=about
+Sha256: d3abc7bf54d66a89a60a4447cfdef9744d79c94b3149de4ce4cf2a8730e7a8e5
+
+url_map of https://archive.org/details/journals?tab=about beforehand: 0
+84772
+https://archive.org/details/journals?tab=collection
+Sha256: d1c6fe76eb311158ded5bd6caa3d2b14bd9d9980da4ebd417afce5a0b2a2054e
+
+url_map of https://archive.org/details/journals?tab=collection beforehand: 0
+85167
+https://archive.org/details/journals?tab=forum
+Sha256: 7d36b664d4c7cc2aba3729cd3f4de0327dac61bf5d83bf31225e8d92baa42efe
+
+url_map of https://archive.org/details/journals?tab=forum beforehand: 0
+85538
+94377
+97825
+98307
+101671
+102654
+https://archive.org/details/arxiv
+Sha256: 5953a932a843bd4d8c0e8d499b647083266feaa1f55440fcc6f21d0c20706b46
+
+url_map of https://archive.org/details/arxiv beforehand: 0
+103257
+https://archive.org/details/jstor_ejc
+Sha256: 57e002101b8bfec2c8ac56b79be69f5047e568e7acd70c43ffdc8f48c15a681f
+
+url_map of https://archive.org/details/jstor_ejc beforehand: 0
+103867
+https://archive.org/details/pubmed
+Sha256: fb899e80279087557f0f11945b5625dc28ead0bac35463500dc3c3ab652c23a2
+
+url_map of https://archive.org/details/pubmed beforehand: 0
+104489
+https://archive.org/details/jstor_publhealrepo1896
+Sha256: 9c205f79b759bb270b17112fe721a928939173e836680d42055b3a8afa35ce0f
+
+url_map of https://archive.org/details/jstor_publhealrepo1896 beforehand: 0
+105129
+https://archive.org/details/jstor_science
+Sha256: 778677134e4dddd9b7b24a7c04db24c55e2b83f29b20e0d1e33ce875071d2a2a
+
+url_map of https://archive.org/details/jstor_science beforehand: 0
+105799
+106061
+106515
+109820
+113404
+https://archive.org/details/journals?
+Sha256: 9963e1d811e38f97d63d5cc32e815ecfb5f5d9286fb3ed5ce860b4ba787264cf
+
+url_map of https://archive.org/details/journals? beforehand: 0
+114759
+115915
+https://archive.org/details/journals?sort=titleSorter
+Sha256: a0b211d799c0f3af8ba47d4eb7b45f697aa8d29c722a6146939c43b140a285d7
+
+url_map of https://archive.org/details/journals?sort=titleSorter beforehand: 0
+116066
+https://archive.org/details/journals?sort=-publicdate
+Sha256: 675cd6838897180c659a287a2465a0418d56212e36524cefe1536e02e45e0649
+
+url_map of https://archive.org/details/journals?sort=-publicdate beforehand: 0
+116239
+https://archive.org/details/journals?sort=-date
+Sha256: d514328e2bfe027aa0c11672da40ae7b1f746e8ca1a8c47238bbd38238703499
+
+url_map of https://archive.org/details/journals?sort=-date beforehand: 0
+116420
+https://archive.org/details/journals?sort=-reviewdate
+Sha256: 34c09083b12fe2fc9580d967a23ba799b2d36725e17565d0bc7055dd42d00e95
+
+url_map of https://archive.org/details/journals?sort=-reviewdate beforehand: 0
+116602
+https://archive.org/details/journals?sort=creatorSorter
+Sha256: 79ce4498421e83da2410ebf66f64d2c0fddcd70c5f1faf7262572fe76f615f17
+
+url_map of https://archive.org/details/journals?sort=creatorSorter beforehand: 0
+116765
+118083
+121100
+124040
+126748
+129826
+https://archive.org/details/jstor_nortamerrev
+Sha256: b6a533ee07572f80c36234812ace4cd1eb3a36d80882662bb6324ff656ff5ace
+
+url_map of https://archive.org/details/jstor_nortamerrev beforehand: 0
+132877
+https://archive.org/details/jstor_amernatu
+Sha256: b1c255728228bfe3f510971d9661974e49bf9f58460d88cb2d3d903923b540dc
+
+url_map of https://archive.org/details/jstor_amernatu beforehand: 0
+135942
+https://archive.org/details/jstor_botanicalgazette
+Sha256: 630395e65895290db6223596a28ef726a1c05fc7e0fb915ae00ed78e94351ab8
+
+url_map of https://archive.org/details/jstor_botanicalgazette beforehand: 0
+139004
+https://archive.org/details/jstor_virglawregi
+Sha256: 0d2e98d266b07acd45d8967aec78a482a65ce412ad5164bc44440404c43bef03
+
+url_map of https://archive.org/details/jstor_virglawregi beforehand: 0
+142037
+https://archive.org/details/jstor_harvardlawreview
+Sha256: ad2cb5924c812d502c902621e98201e958abfaedb290e611b5c5f13537349f69
+
+url_map of https://archive.org/details/jstor_harvardlawreview beforehand: 0
+145083
+https://archive.org/details/jstor_yalelawj
+Sha256: cc9575397a017ec489e55b08b24fd43f57545cfa408309f2e81fb4c034614b18
+
+url_map of https://archive.org/details/jstor_yalelawj beforehand: 0
+148111
+https://archive.org/details/jstor_auk
+Sha256: d5c947c60e9713e95022f286fb8cfffdc938b6b364df67f4ae7290eff8d088c7
+
+url_map of https://archive.org/details/jstor_auk beforehand: 0
+151123
+https://archive.org/details/jstor_amermathmont
+Sha256: 8fbd34ff85b32fdb78be997c478f00c885fd295d74fac29ab9346c5322c8d324
+
+url_map of https://archive.org/details/jstor_amermathmont beforehand: 0
+154135
+https://archive.org/details/jstor_michlawrevi
+Sha256: c41be457d9d7ecc47fae81a7e7a6bbaa07620026c7bba45f77b57929f1a4806a
+
+url_map of https://archive.org/details/jstor_michlawrevi beforehand: 0
+157180
+https://archive.org/details/jstor_americanjnursing
+Sha256: 99904b345d99c9f3600414396334f9c668e10df0947efd7a018ad7e26ee73490
+
+url_map of https://archive.org/details/jstor_americanjnursing beforehand: 0
+160220
+https://archive.org/details/jstor_annaameracadpoli
+Sha256: 72c9ce018741f7afc128287fd26d98c0ee50dd6c170481b9c94fc01d2486919d
+
+url_map of https://archive.org/details/jstor_annaameracadpoli beforehand: 0
+163277
+https://archive.org/details/jstor_procacadnatuscie
+Sha256: f7b5afde530fe5413478d5b4d153758dbdd05900c8fc5ec82ff54ae22e2ca8e6
+
+url_map of https://archive.org/details/jstor_procacadnatuscie beforehand: 0
+166365
+https://archive.org/details/jstor_biblicalworld
+Sha256: 1e338305dab662431faa63d7515444ecc6ea5c70dc40d38a7a116180e7f89f40
+
+url_map of https://archive.org/details/jstor_biblicalworld beforehand: 0
+169447
+https://archive.org/details/jstor_modelangnote
+Sha256: c318b5f6cf4de92d088cb17ff99eb2e9701a90b766e5454c1985c7c3cdb2b20f
+
+url_map of https://archive.org/details/jstor_modelangnote beforehand: 0
+172480
+https://archive.org/details/jstor_willmaryquar
+Sha256: a7cb14e6c8f9e85762f71d6e90b2bba39ecdf037a590064653afd115b4f20a8c
+
+url_map of https://archive.org/details/jstor_willmaryquar beforehand: 0
+175515
+https://archive.org/details/jstor_virghistbiog
+Sha256: bfaf1a70433454f44bcf7d21dbcd86600c7c40af9ba5814d9cf63c76d210ad8f
+
+url_map of https://archive.org/details/jstor_virghistbiog beforehand: 0
+178559
