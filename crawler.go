@@ -65,11 +65,11 @@ func getPage(a string)  []byte {
 
 		var len_html_page int = len(b)
 
-		for ( (i < len_html_page) && ( bytes.Index(b[i:],[]byte("href='")) >= 0 ) ) {
+		for ( (i < len_html_page) && ( bytes.Index(b[i_0:],[]byte("href='")) >= 0 ) ) {
 			
 			i_0 = i
 
-			i = bytes.Index(b[i:],[]byte("href='")) + i_0
+			i = bytes.Index(b[i_0:],[]byte("href='")) + i_0
 
 			b[i+5] = 0x22
 
@@ -111,6 +111,28 @@ func extract_domain(url []byte) []byte {
 		
 }
 
+func extract_subdomain(url []byte) []byte {
+	
+	if ( bytes.Index(url,[]byte("https://")) == 0 ) {
+		
+		url = url[8:]
+	}
+
+	var i int = 0
+
+	var subdomain []byte = []byte("")
+
+	for url[i] != 0x2f {
+		
+		i++
+	}
+
+	i++ // get past the '/'
+
+	return subdomain
+	
+}
+
 func domainlist_add(url []byte) {
 	
 	var i int = 0
@@ -145,13 +167,6 @@ func domainlist_add(url []byte) {
 
 		i++
 	}
-/*	
-	if ( domainlist_url[len(url)-1] != '/' ) {
-	
-		domainlist_url = append(domainlist_url,'/')
-
-	}
-*/		
 
 	domainlist_map[string(domainlist_url)] = 1
 
@@ -320,7 +335,7 @@ func extract_urls(html_page []byte, input_url []byte) [1024][] byte {
 
 		shasum = sha256.Sum256(html_of_url)
 		
-		if ( ( len(sha_map[string(shasum[0:])]) == 0 ) && ( url_map[string(url)] == 0 ) && (blacklist_check(url) == 0) && ( domainlist_check(url) == 1 ) ) {
+		if ( ( len(sha_map[string(shasum[0:])]) == 0 ) && ( url_map[string(url)] == 0 ) && (blacklist_check(url) == 0) ) {
 				
 			fmt.Printf("%s\n",url)
 
@@ -417,7 +432,7 @@ func extract_urls(html_page []byte, input_url []byte) [1024][] byte {
 
 		shasum = sha256.Sum256(html_of_url)
 		
-		if ( ( len(sha_map[string(shasum[0:])]) == 0 ) && ( url_map[string(url)] == 0 ) && (blacklist_check(url) == 0) && ( domainlist_check(url) == 1 ) ) {
+		if ( ( len(sha_map[string(shasum[0:])]) == 0 ) && ( url_map[string(url)] == 0 ) && (blacklist_check(url) == 0) ) {
 			
 			urls[url_index] = make([]byte,len(url))
 
@@ -524,7 +539,7 @@ func extract_urls(html_page []byte, input_url []byte) [1024][] byte {
 
 		shasum = sha256.Sum256(html_of_url)
 		
-		if ( ( len(sha_map[string(shasum[0:])]) == 0 ) && ( url_map[string(url)] == 0 ) && (blacklist_check(url) == 0) && ( domainlist_check(url) == 1 ) ) {
+		if ( ( len(sha_map[string(shasum[0:])]) == 0 ) && ( url_map[string(url)] == 0 ) && (blacklist_check(url) == 0) ) {
 			
 			urls[url_index] = make([]byte,len(url))
 
@@ -563,11 +578,11 @@ func extract_urls(html_page []byte, input_url []byte) [1024][] byte {
 
 func extract_domainlist_urls(html_page []byte, input_url []byte) [1024][] byte {
 	
-	var search_str []byte = []byte("href=\"https://")
+	//var search_str []byte = []byte("href=\"https://")
 
-	search_sub_domain := []byte("href=\"/")
+	var search_sub_domain []byte = []byte("href=\"/")
 
-	search_dif_domain := []byte("href=\"//")
+	var search_dif_domain []byte = []byte("href=\"//")
 
 	var url []byte
 
@@ -588,189 +603,209 @@ func extract_domainlist_urls(html_page []byte, input_url []byte) [1024][] byte {
 	fmt.Printf("len_html_page: %d\n",len_html_page)
 
 	fmt.Printf("%s\n\n","Searching complete URLs")
+	
+	var k string = ""
+	
+	for k, _ = range domainlist_map {
 
-	for ( (i < len_html_page) && (url_index < 1024) ) {
+		k = "href=\"" + k + "\""
 
-		i_0 = i
+		for ( (i < len_html_page) && (url_index < 1024) ) {
 
-		i = bytes.Index(html_page[i_0:],search_str) + i_0
+			i_0 = i
 
-		if ( (i < 0) || (i < i_0) ) {
+			i = bytes.Index(html_page[i_0:],[]byte(k)) + i_0
 
-			url = []byte{}
+			if ( (i < 0) || (i < i_0) ) {
 
-			fmt.Printf("Last index for complete URLS found: %d\n\n",i)
+				url = []byte{}
 
-			i += 2
+				fmt.Printf("Last index for complete URLS found: %d\n\n",i)
 
-			break
-		}
+				i += 2
 
-		// have to move from beginning of \"href=\"https:// to the opening double quote
-		
-		for ( html_page[i] != 0x22 ) {
-			
-			i++
-		}
+				break
+			}
 
-		i++ //Have the character position at the beginning of the https URL
-
-		for ( ( html_page[i] != 0x22 ) && ( html_page[i] != 0x26 ) ){
-
-			url = append(url,html_page[i])
-			
-			i++
-		}
-
-		if ( html_page[i] == 0x26 ) {
+			// have to move from beginning of \"href=\"https:// to the opening double quote
 			
 			for ( html_page[i] != 0x22 ) {
 				
 				i++
 			}
-		}
 
-		i++
-		
-		html_of_url = getPage( string(url) )
+			i++ //Have the character position at the beginning of the https URL
 
-		if ( html_of_url == nil ) {
+			for ( ( html_page[i] != 0x22 ) && ( html_page[i] != 0x26 ) ){
 
+				url = append(url,html_page[i])
+				
+				i++
+			}
 
-			// fmt.Printf("Failed to get HTML of page (%s) at index %d\n\n",url,i)
-			url = []byte{}
+			if ( html_page[i] == 0x26 ) {
+				
+				for ( html_page[i] != 0x22 ) {
+					
+					i++
+				}
+			}
 
 			i++
+			
+			html_of_url = getPage( string(url) )
 
-			continue
+			if ( html_of_url == nil ) {
+
+
+				// fmt.Printf("Failed to get HTML of page (%s) at index %d\n\n",url,i)
+				url = []byte{}
+
+				i++
+
+				continue
+				
+			}
+
+			shasum = sha256.Sum256(html_of_url)
+			
+			if ( ( len(sha_map[string(shasum[0:])]) == 0 ) && ( url_map[string(url)] == 0 ) ) {
+					
+				fmt.Printf("%s\n",url)
+
+				fmt.Printf("Sha256: %x\n\n",shasum)
+
+				urls[url_index] = make([]byte,len(url))
+
+				copy(urls[url_index],url)
+
+				sha_map[string(shasum[0:])] = urls[url_index]
+				
+				fmt.Printf("url_map of %s beforehand: %d\n",urls[url_index],url_map[string(urls[url_index])])
+
+				url_map[string(urls[url_index])] = 1
+
+				url_index++
+			
+			} 
+
+			url = []byte{}
+
+			fmt.Println(i)
+
+			i++
 			
 		}
 
-		shasum = sha256.Sum256(html_of_url)
-		
-		if ( ( len(sha_map[string(shasum[0:])]) == 0 ) && ( url_map[string(url)] == 0 ) && (blacklist_check(url) == 0) && ( domainlist_check(url) == 1 ) ) {
-				
-			fmt.Printf("%s\n",url)
-
-			fmt.Printf("Sha256: %x\n\n",shasum)
-
-			urls[url_index] = make([]byte,len(url))
-
-			copy(urls[url_index],url)
-
-			sha_map[string(shasum[0:])] = urls[url_index]
-			
-			fmt.Printf("url_map of %s beforehand: %d\n",urls[url_index],url_map[string(urls[url_index])])
-
-			url_map[string(urls[url_index])] = 1
-
-			url_index++
-		
-		} 
-
-		url = []byte{}
-
-		fmt.Println(i)
-
-		i++
-		
 	}
 
 	i = 0
 
 	i_0 = 0
 
+	k = ""
+
 	url = []byte{}
 
 	fmt.Printf("%s\n\n","Searching URLs with different domains")
 
-	for ( (i < len_html_page) && (url_index < 1024) ) {
+	search_dif_domain = append(search_dif_domain,k[8:]...)
+
+	for k, _ = range domainlist_map {
 		
-		i_0 = i
+		//search_dif_domain == "href=\"//domainname.domainsuffix/sub/domains/..."
 
-		i = bytes.Index(html_page[i_0:],search_dif_domain) + i_0
+		search_dif_domain = append(search_dif_domain,k[8:]...)
 
-		if ( (i < 0) || ( i < i_0 ) ) {
+		for ( (i < len_html_page) && (url_index < 1024) ) {
 			
-			url = []byte{}
+			i_0 = i
 
-			fmt.Printf("Last index for different domains found: %d\n\n",i)
-			i += 2
+			i = bytes.Index(html_page[i_0:],search_dif_domain) + i_0
 
-			break
-		}
+			if ( (i < 0) || ( i < i_0 ) ) {
+				
+				url = []byte{}
 
-		url = append(url,[]byte("https:")...)
+				fmt.Printf("Last index for different domains found: %d\n\n",i)
+				i += 2
+
+				break
+			}
+
+			url = append(url,[]byte("https:")...)
 
 
-		for html_page[i] != 0x22 {
+			for html_page[i] != 0x22 {
 
-			i++
-		}
+				i++
+			}
 
-		i++
+			i++ // get past the double quote
 
-		for ( ( html_page[i] != 0x22 ) && ( html_page[i] != 0x26 ) ){
+			for ( ( html_page[i] != 0x22 ) && ( html_page[i] != 0x26 ) ){
 
-			url = append(url,html_page[i])
-			
-			i++
-		}
-
-		if ( html_page[i] == 0x26 ) {
-			
-			for ( html_page[i] != 0x22 ) {
+				url = append(url,html_page[i])
 				
 				i++
 			}
-		}
 
-		i++
-		
-		html_of_url = getPage( string(url) )
+			if ( html_page[i] == 0x26 ) {
+				
+				for ( html_page[i] != 0x22 ) {
+					
+					i++
+				}
+			}
 
-		if ( html_of_url == nil ) {
+			i++ // get past the double quote
 			
+			html_of_url = getPage( string(url) )
 
-			// fmt.Printf("Failed to get HTML of page (%s) at index %d\n\n",url,i)
+			if ( html_of_url == nil ) {
+				
+
+				// fmt.Printf("Failed to get HTML of page (%s) at index %d\n\n",url,i)
+				url = []byte{}
+				
+				fmt.Println(i)
+
+				i++
+
+				continue
+				
+			}
+
+			shasum = sha256.Sum256(html_of_url)
+			
+			if ( ( len(sha_map[string(shasum[0:])]) == 0 ) && ( url_map[string(url)] == 0 ) ) {
+				
+				urls[url_index] = make([]byte,len(url))
+
+				copy(urls[url_index],url)
+				
+				fmt.Printf("%s\n",urls[url_index])
+
+				fmt.Printf("Sha256: %x\n\n",shasum)
+
+				sha_map[string(shasum[0:])] = urls[url_index]
+
+				fmt.Printf("url_map of %s beforehand: %d\n",urls[url_index],url_map[string(urls[url_index])])
+
+				url_map[string(urls[url_index])] = 1
+
+				url_index++
+			
+			} 
+
 			url = []byte{}
-			
+
 			fmt.Println(i)
 
 			i++
-
-			continue
 			
 		}
 
-		shasum = sha256.Sum256(html_of_url)
-		
-		if ( ( len(sha_map[string(shasum[0:])]) == 0 ) && ( url_map[string(url)] == 0 ) && (blacklist_check(url) == 0) && ( domainlist_check(url) == 1 ) ) {
-			
-			urls[url_index] = make([]byte,len(url))
-
-			copy(urls[url_index],url)
-			
-			fmt.Printf("%s\n",urls[url_index])
-
-			fmt.Printf("Sha256: %x\n\n",shasum)
-
-			sha_map[string(shasum[0:])] = urls[url_index]
-
-			fmt.Printf("url_map of %s beforehand: %d\n",urls[url_index],url_map[string(urls[url_index])])
-
-			url_map[string(urls[url_index])] = 1
-
-			url_index++
-		
-		} 
-
-		url = []byte{}
-
-		fmt.Println(i)
-
-		i++
-		
 	}
 
 	url = []byte{}
@@ -779,105 +814,100 @@ func extract_domainlist_urls(html_page []byte, input_url []byte) [1024][] byte {
 
 	i = 0
 
+	k = ""
+
 	fmt.Println("Searching sub domain URLs\n\n")
+	
+	for k, _  = range domainlist_map {
 
-	for ( (i < len_html_page) && (url_index < 1024) ) {
+		search_sub_domain = append(search_sub_domain,extract_subdomain([]byte(k))...)
 
-		i_0 = i	
+		for ( (i < len_html_page) && (url_index < 1024) ) {
 
-		i = bytes.Index(html_page[i_0:],search_sub_domain) + i_0
+			i_0 = i	
 
-		if ( (i < 0) || (i < i_0) ) {
-			
-			url = []byte{}
+			i = bytes.Index(html_page[i_0:],search_sub_domain) + i_0
 
-			fmt.Printf("Last index for sub domains found:%d\n\n",i)
+			if ( (i < 0) || (i < i_0) ) {
+				
+				url = []byte{}
 
-			i += 2
+				fmt.Printf("Last index for sub domains found:%d\n\n",i)
 
-			break
-		}
+				i += 2
 
-		for html_page[i] != 0x22 {
-			
-			i++
-		}
+				break
+			}
 
-		i++
-
-		if ( bytes.Equal( html_page[i+1:i+2],[]byte("/") ) ) {
-			
-			url = []byte{}
-
-			fmt.Println(i)
-
-			i++
-
-			continue
-		}
-
-
-		url = append(url,extract_domain(input_url)...)
-
-		for ( ( html_page[i] != 0x22 ) && ( html_page[i] != 0x26 ) ){
-
-			url = append(url,html_page[i])
-			
-			i++
-		}
-
-		if ( html_page[i] == 0x26 ) {
-			
-			for ( html_page[i] != 0x22 ) {
+			for html_page[i] != 0x22 {
 				
 				i++
 			}
-		}
 
-		i++
-		
-		html_of_url = getPage( string(url) )
+			i++ //Get past the '\"' character
 
-		if ( html_of_url == nil ) {
+			url = append(url,extract_domain(input_url)...)
+
+			for ( ( html_page[i] != 0x22 ) && ( html_page[i] != 0x26 ) ){
+
+				url = append(url,html_page[i])
+				
+				i++
+			}
+
+			if ( html_page[i] == 0x26 ) {
+				
+				for ( html_page[i] != 0x22 ) {
+					
+					i++
+				}
+			}
+
+			i++ //get past the '\"'
 			
-			url = []byte{}
+			html_of_url = getPage( string(url) )
 
+			if ( html_of_url == nil ) {
+				
+				url = []byte{}
+
+				fmt.Println(i)
+
+				i++
+
+				continue
+				
+			}
+
+			shasum = sha256.Sum256(html_of_url)
+			
+			if ( ( len(sha_map[string(shasum[0:])]) == 0 ) && ( url_map[string(url)] == 0 ) ) {
+				
+				urls[url_index] = make([]byte,len(url))
+
+				copy(urls[url_index],url)
+				
+				fmt.Printf("%s\n",urls[url_index])
+
+				fmt.Printf("Sha256: %x\n\n",shasum)
+
+				sha_map[string(shasum[0:])] = urls[url_index]
+
+				fmt.Printf("url_map of %s beforehand: %d\n",urls[url_index],url_map[string(urls[url_index])])
+
+				url_map[string(urls[url_index])] = 1
+
+				url_index++
+			
+			} 
+
+			url = []byte{}
+			
 			fmt.Println(i)
 
 			i++
-
-			continue
 			
 		}
-
-		shasum = sha256.Sum256(html_of_url)
-		
-		if ( ( len(sha_map[string(shasum[0:])]) == 0 ) && ( url_map[string(url)] == 0 ) && (blacklist_check(url) == 0) && ( domainlist_check(url) == 1 ) ) {
-			
-			urls[url_index] = make([]byte,len(url))
-
-			copy(urls[url_index],url)
-			
-			fmt.Printf("%s\n",urls[url_index])
-
-			fmt.Printf("Sha256: %x\n\n",shasum)
-
-			sha_map[string(shasum[0:])] = urls[url_index]
-
-			fmt.Printf("url_map of %s beforehand: %d\n",urls[url_index],url_map[string(urls[url_index])])
-
-			url_map[string(urls[url_index])] = 1
-
-			url_index++
-		
-		} 
-
-		url = []byte{}
-		
-		fmt.Println(i)
-
-		i++
-		
 	}
 	
 	i_0 = 0
@@ -892,10 +922,16 @@ func extract_domainlist_urls(html_page []byte, input_url []byte) [1024][] byte {
 
 func crawler(url string) {
 	
-	if ( blacklist_check([]byte(url)) == 1 ) {
+	
+
+	if ( ((domain_settings & 0x1) == 1) && blacklist_check([]byte(url)) == 1 ) {
 		
 		return
 
+	}
+
+	if ( ( ( (domain_settings >> 1) & 0x1 ) == 1 ) && (domainlist_check([]byte(url)) == 1) ) {
+		return
 	}
 
 
@@ -919,7 +955,14 @@ func crawler(url string) {
 
 	var url_list [1024][] byte
 	
-	url_list = extract_urls(c,[]byte(url))
+	if ( ( (domain_settings >> 1) & 0x1 ) == 1) {
+	
+		url_list = extract_domainlist_urls(c,[]byte(url))
+	
+	} else {
+		
+		url_list = extract_urls(c,[]byte(url))
+	}
 
 	i := 0
 	
@@ -965,15 +1008,9 @@ func main() {
 	
 	fmt.Printf("%s\n",getPage(os.Args[1]))
 	
-	blacklist_add([]string{"twitter.com","facebook.com","youtube.com","google.com","instagram.com","linkedin.com","reddit.com","meetup.com","tumblr.com","flickr.com"})
-
-	domainlist_add([]byte("archive.org/details/jstor"))
-
+	domainlist_add([]byte("https://archive.org/details/jstor"))
 	
-//	fmt.Printf("%s\n",blacklist_domain([]byte(os.Args[1])))
-
-//	fmt.Printf("blacklist_check_value: %d\n",blacklist_check([]byte("https://twitter.com/account/begin_password_reset?lang=hr")))
-
+	domainlist_add([]byte("https://archive.org/download/jstor"))
 		
 	
 	crawler(os.Args[1])

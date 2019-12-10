@@ -14,7 +14,7 @@
     <script>window.archive_setup=[]</script>
     <meta charset="UTF-8">
     <script src="//archive.org/includes/jquery-1.10.2.min.js?v1.10.2" type="text/javascript"></script>
-            <script src="//archive.org/includes/analytics.js?v=b984b850" type="text/javascript"></script>
+            <script src="//archive.org/includes/analytics.js?v=80a784c3" type="text/javascript"></script>
 
     <script>
       'use strict';
@@ -30,16 +30,16 @@
     </script>
         <script src="//archive.org/includes/build/npm/jquery-ui.min.js?v1.12.1" type="text/javascript"></script>
     <script src="//archive.org/includes/bootstrap.min.js?v3.0.0" type="text/javascript"></script>
-    <script src="//archive.org/components/npm/clipboard/dist/clipboard.js?v=b984b850" type="text/javascript"></script>
-    <script src="//archive.org/includes/build/js/polyfill.min.js?v=b984b850" type="text/javascript"></script>
+    <script src="//archive.org/components/npm/clipboard/dist/clipboard.js?v=80a784c3" type="text/javascript"></script>
+    <script src="//archive.org/includes/build/js/polyfill.min.js?v=80a784c3" type="text/javascript"></script>
     <script src="//archive.org/includes/build/npm/flot/jquery.flot.js?v1.1" type="text/javascript"></script>
     <script src="//archive.org/includes/build/npm/flot/jquery.flot.time.js?v1.1" type="text/javascript"></script>
     <script src="//archive.org/includes/build/npm/flot/jquery.flot.stack.js?v1.1" type="text/javascript"></script>
     <script src="//archive.org/includes/build/npm/react/umd/react.production.min.js?v16.7.0" type="text/javascript"></script>
     <script src="//archive.org/includes/build/npm/react-dom/umd/react-dom.production.min.js?v16.7.0" type="text/javascript"></script>
-    <script src="//archive.org/includes/build/js/archive.min.js?v=b984b850" type="text/javascript"></script>
-    <script src="//archive.org/includes/build/js/playset.min.js?v=b984b850" type="text/javascript"></script>
-    <script src="//archive.org/includes/build/js/areact.min.js?v=b984b850" type="text/javascript"></script>
+    <script src="//archive.org/includes/build/js/archive.min.js?v=80a784c3" type="text/javascript"></script>
+    <script src="//archive.org/includes/build/js/playset.min.js?v=80a784c3" type="text/javascript"></script>
+    <script src="//archive.org/includes/build/js/areact.min.js?v=80a784c3" type="text/javascript"></script>
 
 <meta name="DESCRIPTION" content="A collection of scholarly literature created by experts and professionals in their fields. Included are theses, books, abstracts and articles. "/>
 
@@ -50,14 +50,14 @@
         // on openlibrary and wayback
         window.webComponentLoaderConfig = {
           baseUrl: 'https://archive.org',
-          version: 'b984b850',
+          version: '80a784c3',
         }
       </script>
-        <script src="//archive.org/includes/build/js/webcomponent-loader.min.js?v=b984b850" type="text/javascript"></script>
-                      <meta property="braintree_token" content="eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiI1ZGI5YzFmYWMzZDYwNTIyMDM3YzgxMjE3MDhhYzIwMDFiOWVjNmMyYzdjY2Y3ZjMxNjA0YTY4ZDMzNTM1NWU0fGNyZWF0ZWRfYXQ9MjAxOS0xMi0wOFQwODo1NDoxNC45Nzg1NDQ3NjcrMDAwMFx1MDAyNm1lcmNoYW50X2lkPXBxZDdoejQ0c3dwNnp2dndcdTAwMjZwdWJsaWNfa2V5PTQ5ZnI3dmM0end0cW5iZ3QiLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzL3BxZDdoejQ0c3dwNnp2dncvY2xpZW50X2FwaS92MS9jb25maWd1cmF0aW9uIiwiZ3JhcGhRTCI6eyJ1cmwiOiJodHRwczovL3BheW1lbnRzLmJyYWludHJlZS1hcGkuY29tL2dyYXBocWwiLCJkYXRlIjoiMjAxOC0wNS0wOCJ9LCJjaGFsbGVuZ2VzIjpbImN2diJdLCJlbnZpcm9ubWVudCI6InByb2R1Y3Rpb24iLCJjbGllbnRBcGlVcmwiOiJodHRwczovL2FwaS5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzL3BxZDdoejQ0c3dwNnp2dncvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5jb20iLCJhbmFseXRpY3MiOnsidXJsIjoiaHR0cHM6Ly9jbGllbnQtYW5hbHl0aWNzLmJyYWludHJlZWdhdGV3YXkuY29tL3BxZDdoejQ0c3dwNnp2dncifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6ZmFsc2UsInBheXBhbEVuYWJsZWQiOnRydWUsInBheXBhbCI6eyJkaXNwbGF5TmFtZSI6IkludGVybmV0IEFyY2hpdmUiLCJjbGllbnRJZCI6IkFUOFAzNkVQSHdDQl9kUm5LTy1OZ3N6Rk1mYWd3VzZReFdQcUpMZU9VRDZQb0dkT0N5d3JfS2JMSDRIZkxMV2szZUxPNVRqdS1pYzRtVFYyIiwicHJpdmFjeVVybCI6Imh0dHBzOi8vYXJjaGl2ZS5vcmcvYWJvdXQvdGVybXMucGhwIiwidXNlckFncmVlbWVudFVybCI6Imh0dHBzOi8vYXJjaGl2ZS5vcmcvYWJvdXQvdGVybXMucGhwIiwiYmFzZVVybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXNzZXRzVXJsIjoiaHR0cHM6Ly9jaGVja291dC5wYXlwYWwuY29tIiwiZGlyZWN0QmFzZVVybCI6bnVsbCwiYWxsb3dIdHRwIjpmYWxzZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOmZhbHNlLCJlbnZpcm9ubWVudCI6ImxpdmUiLCJ1bnZldHRlZE1lcmNoYW50IjpmYWxzZSwiYnJhaW50cmVlQ2xpZW50SWQiOiJBUktyWVJEaDNBR1hEelc3c09fM2JTa3EtVTFDN0hHX3VXTkMtejU3TGpZU0ROVU9TYU90SWE5cTZWcFciLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoiSW50ZXJuZXRBcmNoaXZlX2luc3RhbnQiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6InBxZDdoejQ0c3dwNnp2dnciLCJ2ZW5tbyI6Im9mZiJ9">
+        <script src="//archive.org/includes/build/js/webcomponent-loader.min.js?v=80a784c3" type="text/javascript"></script>
+                      <meta property="braintree_token" content="eyJ2ZXJzaW9uIjoyLCJhdXRob3JpemF0aW9uRmluZ2VycHJpbnQiOiIwZDViOGQxODg0YmEzNjNiZTc1MWUzNTk2NTczODY5OTY3NjkzZDg3YzYwZTZlYWUyODI3ZGM1OGVjMDE2MmMyfGNyZWF0ZWRfYXQ9MjAxOS0xMi0xMFQwNTozMDo1MS4xMjgyMTMzOTkrMDAwMFx1MDAyNm1lcmNoYW50X2lkPXBxZDdoejQ0c3dwNnp2dndcdTAwMjZwdWJsaWNfa2V5PTQ5ZnI3dmM0end0cW5iZ3QiLCJjb25maWdVcmwiOiJodHRwczovL2FwaS5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzL3BxZDdoejQ0c3dwNnp2dncvY2xpZW50X2FwaS92MS9jb25maWd1cmF0aW9uIiwiZ3JhcGhRTCI6eyJ1cmwiOiJodHRwczovL3BheW1lbnRzLmJyYWludHJlZS1hcGkuY29tL2dyYXBocWwiLCJkYXRlIjoiMjAxOC0wNS0wOCJ9LCJjaGFsbGVuZ2VzIjpbImN2diJdLCJlbnZpcm9ubWVudCI6InByb2R1Y3Rpb24iLCJjbGllbnRBcGlVcmwiOiJodHRwczovL2FwaS5icmFpbnRyZWVnYXRld2F5LmNvbTo0NDMvbWVyY2hhbnRzL3BxZDdoejQ0c3dwNnp2dncvY2xpZW50X2FwaSIsImFzc2V0c1VybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXV0aFVybCI6Imh0dHBzOi8vYXV0aC52ZW5tby5jb20iLCJhbmFseXRpY3MiOnsidXJsIjoiaHR0cHM6Ly9jbGllbnQtYW5hbHl0aWNzLmJyYWludHJlZWdhdGV3YXkuY29tL3BxZDdoejQ0c3dwNnp2dncifSwidGhyZWVEU2VjdXJlRW5hYmxlZCI6ZmFsc2UsInBheXBhbEVuYWJsZWQiOnRydWUsInBheXBhbCI6eyJkaXNwbGF5TmFtZSI6IkludGVybmV0IEFyY2hpdmUiLCJjbGllbnRJZCI6IkFUOFAzNkVQSHdDQl9kUm5LTy1OZ3N6Rk1mYWd3VzZReFdQcUpMZU9VRDZQb0dkT0N5d3JfS2JMSDRIZkxMV2szZUxPNVRqdS1pYzRtVFYyIiwicHJpdmFjeVVybCI6Imh0dHBzOi8vYXJjaGl2ZS5vcmcvYWJvdXQvdGVybXMucGhwIiwidXNlckFncmVlbWVudFVybCI6Imh0dHBzOi8vYXJjaGl2ZS5vcmcvYWJvdXQvdGVybXMucGhwIiwiYmFzZVVybCI6Imh0dHBzOi8vYXNzZXRzLmJyYWludHJlZWdhdGV3YXkuY29tIiwiYXNzZXRzVXJsIjoiaHR0cHM6Ly9jaGVja291dC5wYXlwYWwuY29tIiwiZGlyZWN0QmFzZVVybCI6bnVsbCwiYWxsb3dIdHRwIjpmYWxzZSwiZW52aXJvbm1lbnROb05ldHdvcmsiOmZhbHNlLCJlbnZpcm9ubWVudCI6ImxpdmUiLCJ1bnZldHRlZE1lcmNoYW50IjpmYWxzZSwiYnJhaW50cmVlQ2xpZW50SWQiOiJBUktyWVJEaDNBR1hEelc3c09fM2JTa3EtVTFDN0hHX3VXTkMtejU3TGpZU0ROVU9TYU90SWE5cTZWcFciLCJiaWxsaW5nQWdyZWVtZW50c0VuYWJsZWQiOnRydWUsIm1lcmNoYW50QWNjb3VudElkIjoiSW50ZXJuZXRBcmNoaXZlX2luc3RhbnQiLCJjdXJyZW5jeUlzb0NvZGUiOiJVU0QifSwibWVyY2hhbnRJZCI6InBxZDdoejQ0c3dwNnp2dnciLCJ2ZW5tbyI6Im9mZiJ9">
                       <meta property="environment" content="production">
                       <meta property="venmo_id" content="2878003111190856236">
-            <link href="//archive.org/includes/build/css/archive.min.css?v=b984b850" rel="stylesheet" type="text/css"/>
+            <link href="//archive.org/includes/build/css/archive.min.css?v=80a784c3" rel="stylesheet" type="text/css"/>
     <link rel="SHORTCUT ICON" href="https://archive.org/images/glogo.jpg"/>
       </head>
   <body class="navia ia-module lists showdetails">
@@ -72,8 +72,8 @@
         <a href="#" data-action="ia-banner-close"></a>
       </div>
           </div>
-                <script src="//archive.org/includes/build/npm/js-cookie/src/js.cookie.js?v=b984b850" type="text/javascript"></script>
-    <link href="//archive.org/components/donation-banner/banner.css?v=b984b850" rel="stylesheet" type="text/css"/>
+                <script src="//archive.org/includes/build/npm/js-cookie/src/js.cookie.js?v=80a784c3" type="text/javascript"></script>
+    <link href="//archive.org/components/donation-banner/banner.css?v=80a784c3" rel="stylesheet" type="text/css"/>
     <header
       id="donate_banner"
       class="row"
@@ -445,6 +445,9 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                 Your payment will be securely processed
               </small>
             </p>
+            <p class="donation-questions">
+              <a href="https://help.archive.org/hc/en-us/categories/360000155111-Donations">Questions or problems donating?</a>
+            </p>
             <div class="donate-later-wrap">
               <a
                 id="donate_later"
@@ -669,7 +672,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
         >Advanced Search</a>
           </div>
     
-                              <input class="js-tvsearch" type="hidden" value='{"ands":[],"minday":"06/04/2009","maxday":"12/08/2019"}'/>
+                              <input class="js-tvsearch" type="hidden" value='{"ands":[],"minday":"06/04/2009","maxday":"12/10/2019"}'/>
     
                         <input type="submit" value="Search"/>
                       </form>
@@ -1259,7 +1262,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       <div class="fatable facet-mediatype">
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=mediatype%3A%22collection%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=mediatype%3A%22collection%22'"/>
                           </div>
             <div class="facell">
                                             352                          </div>
@@ -1268,7 +1271,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=mediatype%3A%22texts%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=mediatype%3A%22texts%22'"/>
                           </div>
             <div class="facell">
                                             1,844,220                          </div>
@@ -1277,7 +1280,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=mediatype%3A%22data%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=mediatype%3A%22data%22'"/>
                           </div>
             <div class="facell">
                                             5,008                          </div>
@@ -1286,7 +1289,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=mediatype%3A%22image%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=mediatype%3A%22image%22'"/>
                           </div>
             <div class="facell">
                                             9                          </div>
@@ -1295,7 +1298,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=mediatype%3A%22account%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=mediatype%3A%22account%22'"/>
                           </div>
             <div class="facell">
                                             7                          </div>
@@ -1304,7 +1307,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=mediatype%3A%22audio%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=mediatype%3A%22audio%22'"/>
                           </div>
             <div class="facell">
                                             2                          </div>
@@ -1312,7 +1315,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                 audio              </span>
                       </label>
                                 </div>
-      <a href="/details/journals&morf=mediatype" rel="nofollow" class="js-more-facets-click">More <span class="iconochive-right-solid"  aria-hidden="true"></span><span class="sr-only">right-solid</span></a>
+      <a href="/details/journals&amp;subject=Journals&morf=mediatype" rel="nofollow" class="js-more-facets-click">More <span class="iconochive-right-solid"  aria-hidden="true"></span><span class="sr-only">right-solid</span></a>
       <div>
                   </div>
     </div>
@@ -1320,7 +1323,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       <div class="fatable facet-year">
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=year%3A%222017%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=year%3A%222017%22'"/>
                           </div>
             <div class="facell">
                                             24,612                          </div>
@@ -1329,7 +1332,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=year%3A%222016%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=year%3A%222016%22'"/>
                           </div>
             <div class="facell">
                                             92,359                          </div>
@@ -1338,7 +1341,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=year%3A%222015%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=year%3A%222015%22'"/>
                           </div>
             <div class="facell">
                                             92,693                          </div>
@@ -1347,7 +1350,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=year%3A%222014%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=year%3A%222014%22'"/>
                           </div>
             <div class="facell">
                                             173,222                          </div>
@@ -1356,7 +1359,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=year%3A%222013%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=year%3A%222013%22'"/>
                           </div>
             <div class="facell">
                                             98,794                          </div>
@@ -1365,7 +1368,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=year%3A%222012%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=year%3A%222012%22'"/>
                           </div>
             <div class="facell">
                                             102,389                          </div>
@@ -1373,15 +1376,15 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                 2012              </span>
                       </label>
                                 </div>
-      <a href="/details/journals&morf=year" rel="nofollow" class="js-more-facets-click">More <span class="iconochive-right-solid"  aria-hidden="true"></span><span class="sr-only">right-solid</span></a>
+      <a href="/details/journals&amp;subject=Journals&morf=year" rel="nofollow" class="js-more-facets-click">More <span class="iconochive-right-solid"  aria-hidden="true"></span><span class="sr-only">right-solid</span></a>
       <div>
                   </div>
     </div>
-    <h5><button data-toggle='collapse' data-target='.facet_subject' aria-expanded='false' role='button' aria-controls='facet_subject' class='collapsed'>Topics &amp; Subjects</button><span class='hidden-xs'>Topics &amp; Subjects</span><a href="/details/journals&morf=-subject" class="js-more-facets-click" data-switchtoalpha="-subject"><img class="filter-" data-toggle="tooltip" title="Show sorted alphabetically" src="/images/filter-count.png"></a></h5>    <div class="facet_subject collapse" >
+    <h5><button data-toggle='collapse' data-target='.facet_subject' aria-expanded='false' role='button' aria-controls='facet_subject' class='collapsed'>Topics &amp; Subjects</button><span class='hidden-xs'>Topics &amp; Subjects</span><a href="/details/journals&amp;subject=Journals&morf=-subject" class="js-more-facets-click" data-switchtoalpha="-subject"><img class="filter-" data-toggle="tooltip" title="Show sorted alphabetically" src="/images/filter-count.png"></a></h5>    <div class="facet_subject collapse" >
       <div class="fatable facet-subject">
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=subject%3A%22Mathematics%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=subject%3A%22Mathematics%22'"/>
                           </div>
             <div class="facell">
                                             104,539                          </div>
@@ -1390,7 +1393,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=subject%3A%22journals%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=subject%3A%22journals%22'"/>
                           </div>
             <div class="facell">
                                             77,839                          </div>
@@ -1399,7 +1402,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=subject%3A%22Computing+Research+Repository%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=subject%3A%22Computing+Research+Repository%22'"/>
                           </div>
             <div class="facell">
                                             53,200                          </div>
@@ -1408,7 +1411,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=subject%3A%22Astrophysics%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=subject%3A%22Astrophysics%22'"/>
                           </div>
             <div class="facell">
                                             43,937                          </div>
@@ -1417,7 +1420,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=subject%3A%22Condensed+Matter%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=subject%3A%22Condensed+Matter%22'"/>
                           </div>
             <div class="facell">
                                             41,014                          </div>
@@ -1426,7 +1429,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=subject%3A%22Physics%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=subject%3A%22Physics%22'"/>
                           </div>
             <div class="facell">
                                             29,960                          </div>
@@ -1434,7 +1437,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                 Physics              </span>
                       </label>
                                 </div>
-      <a href="/details/journals&morf=subject" rel="nofollow" class="js-more-facets-click">More <span class="iconochive-right-solid"  aria-hidden="true"></span><span class="sr-only">right-solid</span></a>
+      <a href="/details/journals&amp;subject=Journals&morf=subject" rel="nofollow" class="js-more-facets-click">More <span class="iconochive-right-solid"  aria-hidden="true"></span><span class="sr-only">right-solid</span></a>
       <div>
                   </div>
     </div>
@@ -1442,7 +1445,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       <div class="fatable facet-collection">
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=collection%3A%22journals%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=collection%3A%22journals%22'"/>
                           </div>
             <div class="facell">
                                             1,831,041                          </div>
@@ -1451,7 +1454,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=collection%3A%22arxiv%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=collection%3A%22arxiv%22'"/>
                           </div>
             <div class="facell">
                                             1,076,008                          </div>
@@ -1460,7 +1463,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=collection%3A%22jstor_ejc%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=collection%3A%22jstor_ejc%22'"/>
                           </div>
             <div class="facell">
                                             452,031                          </div>
@@ -1469,7 +1472,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=collection%3A%22pubmed%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=collection%3A%22pubmed%22'"/>
                           </div>
             <div class="facell">
                                             209,787                          </div>
@@ -1478,7 +1481,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=collection%3A%22jstor_publhealrepo1896%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=collection%3A%22jstor_publhealrepo1896%22'"/>
                           </div>
             <div class="facell">
                                             42,377                          </div>
@@ -1487,7 +1490,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=collection%3A%22jstor_science%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=collection%3A%22jstor_science%22'"/>
                           </div>
             <div class="facell">
                                             35,637                          </div>
@@ -1495,15 +1498,15 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                 <a href="/details/jstor_science" class='collection-facet' data-event-click-tracking='Facets|FacetCollectionLink'>JSTOR Early Journal Content, Science</a>              </span>
                       </label>
                                 </div>
-      <a href="/details/journals&morf=collection" rel="nofollow" class="js-more-facets-click">More <span class="iconochive-right-solid"  aria-hidden="true"></span><span class="sr-only">right-solid</span></a>
+      <a href="/details/journals&amp;subject=Journals&morf=collection" rel="nofollow" class="js-more-facets-click">More <span class="iconochive-right-solid"  aria-hidden="true"></span><span class="sr-only">right-solid</span></a>
       <div>
                   </div>
     </div>
-    <h5><button data-toggle='collapse' data-target='.facet_creator' aria-expanded='false' role='button' aria-controls='facet_creator' class='collapsed'>Creator</button><span class='hidden-xs'>Creator</span><a href="/details/journals&morf=-creator" class="js-more-facets-click" data-switchtoalpha="-creator"><img class="filter-" data-toggle="tooltip" title="Show sorted alphabetically" src="/images/filter-count.png"></a></h5>    <div class="facet_creator collapse" >
+    <h5><button data-toggle='collapse' data-target='.facet_creator' aria-expanded='false' role='button' aria-controls='facet_creator' class='collapsed'>Creator</button><span class='hidden-xs'>Creator</span><a href="/details/journals&amp;subject=Journals&morf=-creator" class="js-more-facets-click" data-switchtoalpha="-creator"><img class="filter-" data-toggle="tooltip" title="Show sorted alphabetically" src="/images/filter-count.png"></a></h5>    <div class="facet_creator collapse" >
       <div class="fatable facet-creator">
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=creator%3A%22%26na%3B%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=creator%3A%22%26na%3B%22'"/>
                           </div>
             <div class="facell">
                                             5,811                          </div>
@@ -1512,7 +1515,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=creator%3A%22arxiv.org%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=creator%3A%22arxiv.org%22'"/>
                           </div>
             <div class="facell">
                                             5,003                          </div>
@@ -1521,7 +1524,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=creator%3A%22%26na%3B+%26na%3B%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=creator%3A%22%26na%3B+%26na%3B%22'"/>
                           </div>
             <div class="facell">
                                             1,507                          </div>
@@ -1530,7 +1533,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=creator%3A%22j.+m.+c.%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=creator%3A%22j.+m.+c.%22'"/>
                           </div>
             <div class="facell">
                                             1,085                          </div>
@@ -1539,7 +1542,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=creator%3A%22j.+a.+a.%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=creator%3A%22j.+a.+a.%22'"/>
                           </div>
             <div class="facell">
                                             1,009                          </div>
@@ -1548,7 +1551,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=creator%3A%22iaset+journals%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=creator%3A%22iaset+journals%22'"/>
                           </div>
             <div class="facell">
                                             978                          </div>
@@ -1556,7 +1559,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                 iaset journals              </span>
                       </label>
                                 </div>
-      <a href="/details/journals&morf=creator" rel="nofollow" class="js-more-facets-click">More <span class="iconochive-right-solid"  aria-hidden="true"></span><span class="sr-only">right-solid</span></a>
+      <a href="/details/journals&amp;subject=Journals&morf=creator" rel="nofollow" class="js-more-facets-click">More <span class="iconochive-right-solid"  aria-hidden="true"></span><span class="sr-only">right-solid</span></a>
       <div>
                   </div>
     </div>
@@ -1564,7 +1567,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
       <div class="fatable facet-languageSorter">
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=languageSorter%3A%22English%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=languageSorter%3A%22English%22'"/>
                           </div>
             <div class="facell">
                                             1,472,838                          </div>
@@ -1573,7 +1576,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=languageSorter%3A%22German%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=languageSorter%3A%22German%22'"/>
                           </div>
             <div class="facell">
                                             8,964                          </div>
@@ -1582,7 +1585,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=languageSorter%3A%22French%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=languageSorter%3A%22French%22'"/>
                           </div>
             <div class="facell">
                                             2,168                          </div>
@@ -1591,7 +1594,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=languageSorter%3A%22Latin%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=languageSorter%3A%22Latin%22'"/>
                           </div>
             <div class="facell">
                                             1,076                          </div>
@@ -1600,7 +1603,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=languageSorter%3A%22Catalan%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=languageSorter%3A%22Catalan%22'"/>
                           </div>
             <div class="facell">
                                             1,031                          </div>
@@ -1609,7 +1612,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                       </label>
                             <label class="farow">
             <div class="facell">
-                              <input type="checkbox"   onclick="window.location='/details/journals?and[]=languageSorter%3A%22Dutch%22'"/>
+                              <input type="checkbox"   onclick="window.location='/details/journals&amp;subject=Journals?and[]=languageSorter%3A%22Dutch%22'"/>
                           </div>
             <div class="facell">
                                             632                          </div>
@@ -1617,7 +1620,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                 Dutch              </span>
                       </label>
                                 </div>
-      <a href="/details/journals&morf=languageSorter" rel="nofollow" class="js-more-facets-click">More <span class="iconochive-right-solid"  aria-hidden="true"></span><span class="sr-only">right-solid</span></a>
+      <a href="/details/journals&amp;subject=Journals&morf=languageSorter" rel="nofollow" class="js-more-facets-click">More <span class="iconochive-right-solid"  aria-hidden="true"></span><span class="sr-only">right-solid</span></a>
       <div>
                   </div>
     </div>
@@ -1642,7 +1645,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
             <span class="hidden-xs-span">SHOW </span><span>DETAILS</span>
           </div>
 
-                      <a class="stealth" href="/details/journals?&sort=downloads" rel="nofollow"><div class="up-down">
+                      <a class="stealth" href="/details/journals?amp%3Bsubject=Journals&sort=downloads" rel="nofollow"><div class="up-down">
                               <div class="iconochive-up-solid"  aria-hidden="true"></div><span class="sr-only">up-solid</span>                <div class="iconochive-down-solid in"  aria-hidden="true"></div><span class="sr-only">down-solid</span>                          </div></a>
                     <div class="topinblock">
             <div class="hidden-md hidden-lg">
@@ -1661,7 +1664,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
                 SORT BY
               </div>
               <span class="big-label blue-pop">
-                <a class="ikind stealth in" data-id="views" href="/details/journals" rel="nofollow">VIEWS</a><div class="iconochive-dot ikind-sep"></div><a class="ikind stealth" data-id="title" href="/details/journals?sort=titleSorter" rel="nofollow">TITLE</a><div class="iconochive-dot ikind-sep hidden"></div><a class="ikind stealth hidden" data-id="date-archived" href="/details/journals?sort=-publicdate" rel="nofollow">DATE ARCHIVED</a><div class="iconochive-dot ikind-sep"></div><a class="ikind stealth" id="date_switcher" data-id="date-published" href="/details/journals?sort=-date" rel="nofollow">DATE PUBLISHED</a><div class="iconochive-dot ikind-sep hidden"></div><a class="ikind stealth hidden" data-id="date-reviewed" href="/details/journals?sort=-reviewdate" rel="nofollow">DATE REVIEWED</a><div class="iconochive-dot ikind-sep"></div><a class="ikind stealth" data-id="creator" href="/details/journals?sort=creatorSorter" rel="nofollow">CREATOR</a>              </span>
+                <a class="ikind stealth in" data-id="views" href="/details/journals?amp%3Bsubject=Journals" rel="nofollow">VIEWS</a><div class="iconochive-dot ikind-sep"></div><a class="ikind stealth" data-id="title" href="/details/journals?amp%3Bsubject=Journals&amp;sort=titleSorter" rel="nofollow">TITLE</a><div class="iconochive-dot ikind-sep hidden"></div><a class="ikind stealth hidden" data-id="date-archived" href="/details/journals?amp%3Bsubject=Journals&amp;sort=-publicdate" rel="nofollow">DATE ARCHIVED</a><div class="iconochive-dot ikind-sep"></div><a class="ikind stealth" id="date_switcher" data-id="date-published" href="/details/journals?amp%3Bsubject=Journals&amp;sort=-date" rel="nofollow">DATE PUBLISHED</a><div class="iconochive-dot ikind-sep hidden"></div><a class="ikind stealth hidden" data-id="date-reviewed" href="/details/journals?amp%3Bsubject=Journals&amp;sort=-reviewdate" rel="nofollow">DATE REVIEWED</a><div class="iconochive-dot ikind-sep"></div><a class="ikind stealth" data-id="creator" href="/details/journals?amp%3Bsubject=Journals&amp;sort=creatorSorter" rel="nofollow">CREATOR</a>              </span>
             </div>
           </div>
         </div><!--/.sortbar-->
@@ -6404,10 +6407,10 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
 
     </div><!--/.results-->        <center class="more_search">
           <a class="btn btn-info btn-sm" style="visibility:hidden"
-            onclick="return AJS.more_search(this,'/details/journals?&sort=-downloads&page=',1)" href="#">MORE RESULTS</a><br/>
+            onclick="return AJS.more_search(this,'/details/journals?amp%3Bsubject=Journals&sort=-downloads&page=',1)" href="#">MORE RESULTS</a><br/>
           <span class="more-search-fetching">Fetching more results <img src="/images/loading.gif"/></span>
                     <noscript>
-                          <a href="/details/journals?&sort=-downloads&page=2" type="button" class="page-next">Next Page</a>
+                          <a href="/details/journals?amp%3Bsubject=Journals&sort=-downloads&page=2" type="button" class="page-next">Next Page</a>
                       </noscript>
         </center>
               </div>
@@ -6416,7 +6419,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
     </div><!--.columns-items-->
   </div><!--/.row-->
 
-          <script>archive_setup.push(function() { AJS.date_switcher('&nbsp;<a href="/details/journals?sort=-publicdate" rel="nofollow"><div class="date_switcher">Date Archived</div></a> <a href="/details/journals?sort=-date" rel="nofollow"><div class="date_switcher in">Date Published</div></a> <a href="/details/journals?sort=-reviewdate" rel="nofollow"><div class="date_switcher">Date Reviewed</div></a> '); })</script>
+          <script>archive_setup.push(function() { AJS.date_switcher('&nbsp;<a href="/details/journals?amp%3Bsubject=Journals&amp;sort=-publicdate" rel="nofollow"><div class="date_switcher">Date Archived</div></a> <a href="/details/journals?amp%3Bsubject=Journals&amp;sort=-date" rel="nofollow"><div class="date_switcher in">Date Published</div></a> <a href="/details/journals?amp%3Bsubject=Journals&amp;sort=-reviewdate" rel="nofollow"><div class="date_switcher">Date Reviewed</div></a> '); })</script>
                   </div>
       </div>
 
@@ -6537,7 +6540,7 @@ I ask only once a year: please help the Internet Archive today. <strong>Right no
               About the New Statistics
             </a>
           </div>
-          <p>Total Views 88,962,043</p>
+          <p>Total Views 89,001,827</p>
           <div id="grafs_views_api" class="grafs-content" data-id="journals"></div>
           <div id="cviews_legend" class="grafs-legend"> </div>
         </div>
@@ -6601,13 +6604,13 @@ archive_setup.push(function() {
     </div><!--/#wrap-->
     
     <!-- Timing ...
-     rendered on: www22.us.archive.org
- seconds diff sec                                                                                                                                                                                                                                    message   stack(file:line:function)
+     rendered on: www25.us.archive.org
+ seconds diff sec               message   stack(file:line:function)
 =========================================================
-  0.0000   0.0000                                                                                                                                                                                                                              petabox start   var/cache/petabox/petabox/www/sf/details.php:1:require
+  0.0000   0.0000         petabox start   var/cache/petabox/petabox/www/sf/details.php:1:require
                                              |common/ia:66:require_once
                                              |setup.php:310:log
-  0.0086   0.0086                                                                                                                                                                                                                           redis_read start   var/cache/petabox/petabox/www/sf/details.php:62:getItem
+  0.0090   0.0090      redis_read start   var/cache/petabox/petabox/www/sf/details.php:62:getItem
                                              |details.php:183:getItem
                                              |common/Item.inc:77:parseMetadata
                                              |Item.inc:132:get_obj
@@ -6620,7 +6623,7 @@ archive_setup.push(function() {
                                              |AdapterPipeline.inc:608:fetch
                                              |RecordServer.inc:144:execute
                                              |RecordServer/FetchRecordOp.inc:52:log
-  0.0127   0.0041                                                                                                                                                                                                                          redis_read finish   var/cache/petabox/petabox/www/sf/details.php:62:getItem
+  0.0125   0.0035     redis_read finish   var/cache/petabox/petabox/www/sf/details.php:62:getItem
                                              |details.php:183:getItem
                                              |common/Item.inc:77:parseMetadata
                                              |Item.inc:132:get_obj
@@ -6633,19 +6636,19 @@ archive_setup.push(function() {
                                              |AdapterPipeline.inc:608:fetch
                                              |RecordServer.inc:144:execute
                                              |RecordServer/FetchRecordOp.inc:58:log
-  0.0365   0.0237                                                                                                                                                                                                                        begin session_start   var/cache/petabox/petabox/www/sf/details.php:62:getItem
+  0.0351   0.0226   begin session_start   var/cache/petabox/petabox/www/sf/details.php:62:getItem
                                              |details.php:197:include
                                              |collection.php:212:head
                                              |common/Nav.inc:120:__construct
                                              |Nav.inc:188:session_start
                                              |Cookies.inc:56:log
-  0.0367   0.0002                                                                                                                                                                                                                         done session_start   var/cache/petabox/petabox/www/sf/details.php:62:getItem
+  0.0354   0.0003    done session_start   var/cache/petabox/petabox/www/sf/details.php:62:getItem
                                              |details.php:197:include
                                              |collection.php:212:head
                                              |common/Nav.inc:120:__construct
                                              |Nav.inc:188:session_start
                                              |Cookies.inc:62:log
-  0.2830   0.2463                                                                                                                                                                                                                           call get_redis()   var/cache/petabox/petabox/www/sf/details.php:62:getItem
+  0.2782   0.2429      call get_redis()   var/cache/petabox/petabox/www/sf/details.php:62:getItem
                                              |details.php:197:include
                                              |collection.php:212:head
                                              |common/Nav.inc:120:__construct
@@ -6656,7 +6659,7 @@ archive_setup.push(function() {
                                              |Metadata.inc:811:_get_obj_part
                                              |Metadata.inc:850:get_json_obj
                                              |Metadata.inc:2279:log
-  0.2834   0.0005                                                                                                                                                                                                                           redis_read start   var/cache/petabox/petabox/www/sf/details.php:62:getItem
+  0.2787   0.0005      redis_read start   var/cache/petabox/petabox/www/sf/details.php:62:getItem
                                              |details.php:197:include
                                              |collection.php:212:head
                                              |common/Nav.inc:120:__construct
@@ -6669,7 +6672,7 @@ archive_setup.push(function() {
                                              |Metadata.inc:2309:fetch
                                              |Metadata/RecordServer.inc:144:execute
                                              |RecordServer/FetchRecordOp.inc:52:log
-  0.2857   0.0022                                                                                                                                                                                                                          redis_read finish   var/cache/petabox/petabox/www/sf/details.php:62:getItem
+  0.2821   0.0033     redis_read finish   var/cache/petabox/petabox/www/sf/details.php:62:getItem
                                              |details.php:197:include
                                              |collection.php:212:head
                                              |common/Nav.inc:120:__construct
@@ -6682,183 +6685,7 @@ archive_setup.push(function() {
                                              |Metadata.inc:2309:fetch
                                              |Metadata/RecordServer.inc:144:execute
                                              |RecordServer/FetchRecordOp.inc:58:log
-  0.3194   0.0337                                                                                                                                                                                                                cache_calling_closure start   var/cache/petabox/petabox/www/sf/details.php:62:getItem
-                                             |details.php:197:include
-                                             |collection.php:232:main
-                                             |collection.php:944:stdout
-                                             |common/Cache.inc:35:value
-                                             |Cache.inc:92:value
-                                             |RedisCache.inc:309:log
-  0.3230   0.0036   going to SE (( collection:pubmed OR collection:biorxiv OR collection:jstor_ejc OR collection:arxiv OR collection:flooved OR collection:philosophicaltransactions OR subject:IJCSIS OR subject:"IJAET ARCHIVES" ) OR collection:journals)   var/cache/petabox/petabox/www/sf/details.php:62:getItem
-                                             |details.php:197:include
-                                             |collection.php:232:main
-                                             |collection.php:944:stdout
-                                             |common/Cache.inc:35:value
-                                             |Cache.inc:92:value
-                                             |RedisCache.inc:319:{closure}
-                                             |sf/collection.php:938:main
-                                             |collection.php:1061:tolist
-                                             |common/Search.inc:2328:__construct
-                                             |Search.inc:521:log
-  3.3602   3.0373   gone to SE (( collection:pubmed OR collection:biorxiv OR collection:jstor_ejc OR collection:arxiv OR collection:flooved OR collection:philosophicaltransactions OR subject:IJCSIS OR subject:"IJAET ARCHIVES" ) OR collection:journals)    var/cache/petabox/petabox/www/sf/details.php:62:getItem
-                                             |details.php:197:include
-                                             |collection.php:232:main
-                                             |collection.php:944:stdout
-                                             |common/Cache.inc:35:value
-                                             |Cache.inc:92:value
-                                             |RedisCache.inc:319:{closure}
-                                             |sf/collection.php:938:main
-                                             |collection.php:1061:tolist
-                                             |common/Search.inc:2328:__construct
-                                             |Search.inc:812:log
-  3.3607   0.0005                                                                                                                                                                                                                           start db connect   var/cache/petabox/petabox/www/sf/details.php:62:getItem
-                                             |details.php:197:include
-                                             |collection.php:232:main
-                                             |collection.php:944:stdout
-                                             |common/Cache.inc:35:value
-                                             |Cache.inc:92:value
-                                             |RedisCache.inc:319:{closure}
-                                             |sf/collection.php:938:main
-                                             |collection.php:1099:table
-                                             |common/Forum.inc:176:escape
-                                             |DB.inc:722:connect
-                                             |DB.inc:105:conn
-                                             |DB.inc:858:log
-  3.3697   0.0090                                                                                                                                                                                                                                     got db   var/cache/petabox/petabox/www/sf/details.php:62:getItem
-                                             |details.php:197:include
-                                             |collection.php:232:main
-                                             |collection.php:944:stdout
-                                             |common/Cache.inc:35:value
-                                             |Cache.inc:92:value
-                                             |RedisCache.inc:319:{closure}
-                                             |sf/collection.php:938:main
-                                             |collection.php:1099:table
-                                             |common/Forum.inc:176:escape
-                                             |DB.inc:722:connect
-                                             |DB.inc:105:conn
-                                             |DB.inc:905:log
-  3.3786   0.0088                                                                                                                                                                                                                cache_calling_closure start   var/cache/petabox/petabox/www/sf/details.php:62:getItem
-                                             |details.php:197:include
-                                             |collection.php:232:main
-                                             |collection.php:944:stdout
-                                             |common/Cache.inc:35:value
-                                             |Cache.inc:92:value
-                                             |RedisCache.inc:319:{closure}
-                                             |sf/collection.php:938:main
-                                             |collection.php:1099:table
-                                             |common/Forum.inc:222:get_posts
-                                             |Forum.inc:404:query
-                                             |Cache.inc:112:value
-                                             |Cache.inc:92:value
-                                             |RedisCache.inc:309:log
-  3.3796   0.0010                                                                                                                                                                                                                           start db connect   var/cache/petabox/petabox/www/sf/details.php:62:getItem
-                                             |details.php:197:include
-                                             |collection.php:232:main
-                                             |collection.php:944:stdout
-                                             |common/Cache.inc:35:value
-                                             |Cache.inc:92:value
-                                             |RedisCache.inc:319:{closure}
-                                             |sf/collection.php:938:main
-                                             |collection.php:1099:table
-                                             |common/Forum.inc:222:get_posts
-                                             |Forum.inc:404:query
-                                             |Cache.inc:112:value
-                                             |Cache.inc:92:value
-                                             |RedisCache.inc:338:{closure}
-                                             |Cache.inc:101:connectReadOnly
-                                             |DB.inc:106:conn
-                                             |DB.inc:858:log
-  3.3797   0.0001                                                                                                                                                                                                                 got existing db connection   var/cache/petabox/petabox/www/sf/details.php:62:getItem
-                                             |details.php:197:include
-                                             |collection.php:232:main
-                                             |collection.php:944:stdout
-                                             |common/Cache.inc:35:value
-                                             |Cache.inc:92:value
-                                             |RedisCache.inc:319:{closure}
-                                             |sf/collection.php:938:main
-                                             |collection.php:1099:table
-                                             |common/Forum.inc:222:get_posts
-                                             |Forum.inc:404:query
-                                             |Cache.inc:112:value
-                                             |Cache.inc:92:value
-                                             |RedisCache.inc:338:{closure}
-                                             |Cache.inc:101:connectReadOnly
-                                             |DB.inc:106:conn
-                                             |DB.inc:863:log
-  3.3811   0.0014                                                                                                                                                                                                                 cache_calling_closure done   var/cache/petabox/petabox/www/sf/details.php:62:getItem
-                                             |details.php:197:include
-                                             |collection.php:232:main
-                                             |collection.php:944:stdout
-                                             |common/Cache.inc:35:value
-                                             |Cache.inc:92:value
-                                             |RedisCache.inc:319:{closure}
-                                             |sf/collection.php:938:main
-                                             |collection.php:1099:table
-                                             |common/Forum.inc:222:get_posts
-                                             |Forum.inc:404:query
-                                             |Cache.inc:112:value
-                                             |Cache.inc:92:value
-                                             |RedisCache.inc:345:log
-  3.3909   0.0098                                                                                                                                                                                                                cache_calling_closure start   var/cache/petabox/petabox/www/sf/details.php:62:getItem
-                                             |details.php:197:include
-                                             |collection.php:232:main
-                                             |collection.php:944:stdout
-                                             |common/Cache.inc:35:value
-                                             |Cache.inc:92:value
-                                             |RedisCache.inc:319:{closure}
-                                             |sf/collection.php:938:main
-                                             |collection.php:1173:has_items_with_searchable_text
-                                             |collection.php:328:value
-                                             |common/Cache.inc:92:value
-                                             |RedisCache.inc:309:log
-  3.3933   0.0024                                                                                                                                                                                           going to SE collection:journals AND format:Abbyy   var/cache/petabox/petabox/www/sf/details.php:62:getItem
-                                             |details.php:197:include
-                                             |collection.php:232:main
-                                             |collection.php:944:stdout
-                                             |common/Cache.inc:35:value
-                                             |Cache.inc:92:value
-                                             |RedisCache.inc:319:{closure}
-                                             |sf/collection.php:938:main
-                                             |collection.php:1173:has_items_with_searchable_text
-                                             |collection.php:328:value
-                                             |common/Cache.inc:92:value
-                                             |RedisCache.inc:338:{closure}
-                                             |sf/collection.php:324:__construct
-                                             |common/Search.inc:521:log
-  3.6392   0.2459                                                                                                                                                                                           gone to SE collection:journals AND format:Abbyy    var/cache/petabox/petabox/www/sf/details.php:62:getItem
-                                             |details.php:197:include
-                                             |collection.php:232:main
-                                             |collection.php:944:stdout
-                                             |common/Cache.inc:35:value
-                                             |Cache.inc:92:value
-                                             |RedisCache.inc:319:{closure}
-                                             |sf/collection.php:938:main
-                                             |collection.php:1173:has_items_with_searchable_text
-                                             |collection.php:328:value
-                                             |common/Cache.inc:92:value
-                                             |RedisCache.inc:338:{closure}
-                                             |sf/collection.php:324:__construct
-                                             |common/Search.inc:812:log
-  3.6394   0.0003                                                                                                                                                                                                                 cache_calling_closure done   var/cache/petabox/petabox/www/sf/details.php:62:getItem
-                                             |details.php:197:include
-                                             |collection.php:232:main
-                                             |collection.php:944:stdout
-                                             |common/Cache.inc:35:value
-                                             |Cache.inc:92:value
-                                             |RedisCache.inc:319:{closure}
-                                             |sf/collection.php:938:main
-                                             |collection.php:1173:has_items_with_searchable_text
-                                             |collection.php:328:value
-                                             |common/Cache.inc:92:value
-                                             |RedisCache.inc:345:log
-  3.7215   0.0820                                                                                                                                                                                                                 cache_calling_closure done   var/cache/petabox/petabox/www/sf/details.php:62:getItem
-                                             |details.php:197:include
-                                             |collection.php:232:main
-                                             |collection.php:944:stdout
-                                             |common/Cache.inc:35:value
-                                             |Cache.inc:92:value
-                                             |RedisCache.inc:345:log
-  3.7496   0.0281                                                                                                                                                                                                                                   bug dump   var/cache/petabox/petabox/www/sf/details.php:62:getItem
+  0.3220   0.0400              bug dump   var/cache/petabox/petabox/www/sf/details.php:62:getItem
                                              |details.php:197:include
                                              |collection.php:267:footer
                                              |common/setup.php:156:footer
@@ -6870,8 +6697,8 @@ if (window.archive_analytics) {
   var vs = window.archive_analytics.get_data_packets();
   for (var i in vs) {
     vs[i]['cache_bust']=Math.random();
-    vs[i]['server_ms']=3749;
-    vs[i]['server_name']="www22.us.archive.org";
+    vs[i]['server_ms']=322;
+    vs[i]['server_name']="www25.us.archive.org";
       }
 
   if ($(".more_search").size()>0) {
@@ -6887,2063 +6714,12 @@ Checksum of HMTL page of base url is:
 42f669ebfac38f16d194754ad26b6b2d802823f2052efec985c18441279e0fcd
 
 https://archive.org/details/journals
-len_html_page: 360588
+len_html_page: 362005
 Searching complete URLs
 
-5950
-19331
-19936
-24997
-25788
-33904
-34323
-34749
-35173
-35608
-36047
-37141
-37275
-37514
-37645
-37766
-37934
-38080
-38214
-38591
-41048
-41663
-42102
-42610
-42744
-42983
-43114
-43235
-43403
-43549
-43683
-44367
-44851
-46396
-46723
-47021
-47366
-47594
-47795
-47998
-48637
-49108
-49682
-49896
-50119
-50333
-50540
-50756
-50999
-51628
-52063
-52566
-52791
-53611
-54005
-54348
-54577
-54792
-55006
-55591
-55923
-56459
-56692
-56905
-57150
-57387
-57599
-57791
-58408
-58742
-59218
-59448
-59650
-59844
-60050
-60230
-60444
-61283
-61674
-62020
-62226
-62424
-62628
-63251
-63589
-64133
-64363
-64571
-64803
-65029
-65259
-65475
-66080
-66434
-66906
-67138
-67921
-68327
-68669
-68913
-69124
-69353
-69573
-70163
-70519
-71055
-71312
-71540
-71726
-71937
-72107
-72317
-72951
-73313
-73780
-73981
-74214
-74444
-74641
-74840
-75056
-75883
-76275
-76622
-76832
-77078
-77272
-77858
-78248
-78780
-78967
-79186
-79780
-80136
-86564
-86815
-87057
-87773
-350688
-Last index for complete URLS found: 350688
+Last index for complete URLS found: -1
+
+Last index for complete URLS found: 0
 
 Searching URLs with different domains
 
-5841
-6649
-37389
-42858
-84161
-Last index for different domains found: 84161
-
-Searching sub domain URLs
-
-
-5781
-6586
-33480
-37370
-42839
-82718
-83616
-83922
-84121
-84584
-84979
-85350
-94189
-97637
-98119
-101483
-102466
-103069
-https://archive.org/details/jstor_ejc
-Sha256: d195cd3a04d99201df3fbeec515374c90fe3b54be03ccc7356550ddde496f581
-
-url_map of https://archive.org/details/jstor_ejc beforehand: 0
-103679
-104301
-https://archive.org/details/jstor_publhealrepo1896
-Sha256: 5fe4f89800ce93365d01f0cedef53d5eb50bde29b0729f9265e13e4559ae21b2
-
-url_map of https://archive.org/details/jstor_publhealrepo1896 beforehand: 0
-104941
-https://archive.org/details/jstor_science
-Sha256: 7dd9580b1c4446607b73f180e5573b300e485268affdc9d012650bf819496571
-
-url_map of https://archive.org/details/jstor_science beforehand: 0
-105611
-105873
-106327
-109632
-113216
-114571
-115727
-115878
-116051
-116232
-116414
-116577
-117895
-120912
-123852
-126560
-129638
-https://archive.org/details/jstor_nortamerrev
-Sha256: d5da55d8d80e79bf23a7277b1be4e1ea6dec4763daae4991f9d9312e1eccf35e
-
-url_map of https://archive.org/details/jstor_nortamerrev beforehand: 0
-132689
-https://archive.org/details/jstor_amernatu
-Sha256: bd9664243950ff3d21c72f3bf10edc1aa446afd89e5ea0541198a1440edff7e2
-
-url_map of https://archive.org/details/jstor_amernatu beforehand: 0
-135754
-https://archive.org/details/jstor_botanicalgazette
-Sha256: efa949228563d5bf12a0af7d8096eb6bbc6af8d949b6e69c0a2bc5ea3ea9cc2e
-
-url_map of https://archive.org/details/jstor_botanicalgazette beforehand: 0
-138816
-https://archive.org/details/jstor_virglawregi
-Sha256: d10ed5c9df27d7aedc242fa009f65ec30b5daa55bb916d52fb75ff920275d99b
-
-url_map of https://archive.org/details/jstor_virglawregi beforehand: 0
-141849
-https://archive.org/details/jstor_harvardlawreview
-Sha256: 0599faa7193490ed1942c6a3eee9728ec958c849628bf0cf72375a7e0cd5188d
-
-url_map of https://archive.org/details/jstor_harvardlawreview beforehand: 0
-144895
-https://archive.org/details/jstor_yalelawj
-Sha256: e82fdf8a6d26e31ec91c799eb7d3f7b60f8f3102d8243f4b7b66c6e8d6765907
-
-url_map of https://archive.org/details/jstor_yalelawj beforehand: 0
-147923
-https://archive.org/details/jstor_auk
-Sha256: ab51462d1c2d58ecf71fde7d109413b8bd464c92e755f9c2778f58d1ecbeea27
-
-url_map of https://archive.org/details/jstor_auk beforehand: 0
-150935
-https://archive.org/details/jstor_amermathmont
-Sha256: 88996b80d39dbf82ae0c1e04963b8893b114606a778be93214aac2410ef45aa1
-
-url_map of https://archive.org/details/jstor_amermathmont beforehand: 0
-153947
-https://archive.org/details/jstor_michlawrevi
-Sha256: 6da43c3ebeefefc8a40d2b921ee074f7fe40cba514e83354c1e6b8053e0594a7
-
-url_map of https://archive.org/details/jstor_michlawrevi beforehand: 0
-156992
-https://archive.org/details/jstor_americanjnursing
-Sha256: 953e36f7f31a2bb5b2a079a9ead29716d4e2e3cd0820fe4a1f1b93d9d9f502c3
-
-url_map of https://archive.org/details/jstor_americanjnursing beforehand: 0
-160032
-https://archive.org/details/jstor_annaameracadpoli
-Sha256: 3322740da782037a00f553705865dda9bbc6c359142a72052097a2b4cd8fa395
-
-url_map of https://archive.org/details/jstor_annaameracadpoli beforehand: 0
-163089
-https://archive.org/details/jstor_procacadnatuscie
-Sha256: 49102bf01da20c340f92c07e12c31b2fedd50f556fc7ed11d60b2426633cf1c9
-
-url_map of https://archive.org/details/jstor_procacadnatuscie beforehand: 0
-166177
-https://archive.org/details/jstor_biblicalworld
-Sha256: fed61d5a08d31a014a416ac79b5c2a2315118674ae834d30bcbb2f52309832a8
-
-url_map of https://archive.org/details/jstor_biblicalworld beforehand: 0
-169259
-https://archive.org/details/jstor_modelangnote
-Sha256: 5c4f4446f85acdf3bc8305dfb5bf4d82a04c1e0bd748f6de7a8bf064f44e827a
-
-url_map of https://archive.org/details/jstor_modelangnote beforehand: 0
-172292
-https://archive.org/details/jstor_willmaryquar
-Sha256: 967c8765ae98eafd3f755d8e9a4429e0b7556615697533b3dd753b615fca3da4
-
-url_map of https://archive.org/details/jstor_willmaryquar beforehand: 0
-175327
-https://archive.org/details/jstor_virghistbiog
-Sha256: ef34d470cef1b4f3559591db3e0c093022a54be75682600b459b9e60bd6b8314
-
-url_map of https://archive.org/details/jstor_virghistbiog beforehand: 0
-178371
-https://archive.org/details/jstor_bulltorrbotaclub
-Sha256: c09827c6df5d0d1763514f94cfca23707c63f52607d91a0c88159967d8efa6a3
-
-url_map of https://archive.org/details/jstor_bulltorrbotaclub beforehand: 0
-181439
-https://archive.org/details/jstor_amerhistrevi
-Sha256: d136d5770f5c1a01cd95d04b9c8040147181e84660278acde66f72947de6de59
-
-url_map of https://archive.org/details/jstor_amerhistrevi beforehand: 0
-184494
-https://archive.org/details/jstor_advopeac1894
-Sha256: e4fdee4a347c121e38c175b716d7a7037482a459f6e6ff896f726b7c1f32a755
-
-url_map of https://archive.org/details/jstor_advopeac1894 beforehand: 0
-187538
-https://archive.org/details/jstor_philtran1683177
-Sha256: 194cfe7d4e790c1aefd95a77d7f4965014caef4946a714b2460e6c74aa837770
-
-url_map of https://archive.org/details/jstor_philtran1683177 beforehand: 0
-190591
-https://archive.org/details/jstor_jamerfolk
-Sha256: 950c0c6456ed8890bfd2d5f9834bed91398dab8ab691200637c94ce15c57f7c5
-
-url_map of https://archive.org/details/jstor_jamerfolk beforehand: 0
-193640
-https://archive.org/details/jstor_bullamergeogsoci
-Sha256: 704da97f43c91f54550fbdd1fcaf07f6a714714db0e12ba7426fdd606afd2abb
-
-url_map of https://archive.org/details/jstor_bullamergeogsoci beforehand: 0
-196691
-https://archive.org/details/jstor_polisciequar
-Sha256: 8745d00e69132cab2598571a0fe1cb0d1cb1962734b936b956e951c1fe4c94f0
-
-url_map of https://archive.org/details/jstor_polisciequar beforehand: 0
-199754
-https://archive.org/details/jstor_poetry
-Sha256: 91dcbfa212550c1713457bd49943723b0c07f4634ca52d0b9c23edca96dfe44c
-
-url_map of https://archive.org/details/jstor_poetry beforehand: 0
-202783
-https://archive.org/details/jstor_pennmaghistbio
-Sha256: 36f37711e8703883380551a3854484dd5287873a25b8d2cb31756afb32bdb0b6
-
-url_map of https://archive.org/details/jstor_pennmaghistbio beforehand: 0
-205801
-https://archive.org/details/jstor_decoandfurn
-Sha256: a90d53fcd5628bfa213456ea082723055b3f0fef0d2f0b8e14dfddcecbaf072f
-
-url_map of https://archive.org/details/jstor_decoandfurn beforehand: 0
-208865
-https://archive.org/details/jstor_schoolreview
-Sha256: 405740cc2bdad43ac430749397502352b595d7174c990517d77420c57f890575
-
-url_map of https://archive.org/details/jstor_schoolreview beforehand: 0
-211905
-https://archive.org/details/jstor_amerlawregi1852
-Sha256: 7855d3feae9f567c955b52a19197c9cabfabcb9ea47e4b25d695d2f5b8c5cefa
-
-url_map of https://archive.org/details/jstor_amerlawregi1852 beforehand: 0
-214942
-https://archive.org/details/jstor_colulawrevi
-Sha256: 14ac4e0a86e37dff2a614394b1248dbcebd43ef4154f09b7066cb3782f6b33a5
-
-url_map of https://archive.org/details/jstor_colulawrevi beforehand: 0
-217994
-https://archive.org/details/jstor_jphilpsycsciemet
-Sha256: cad3c4ea956c54f25bcefaef9b887401a83241398d0215a35f1099e7c0ab5f8f
-
-url_map of https://archive.org/details/jstor_jphilpsycsciemet beforehand: 0
-221034
-https://archive.org/details/jstor_amerjtheo
-Sha256: d685749da038970d9c40012b33a3d592293b52a085e3e3955e876ff658522cb8
-
-url_map of https://archive.org/details/jstor_amerjtheo beforehand: 0
-224106
-https://archive.org/details/jstor_jpoliecon
-Sha256: 0682b6c5c78dbab130a14b36dd1765b1073c813685eaf75a2645a5b3fb36d7c5
-
-url_map of https://archive.org/details/jstor_jpoliecon beforehand: 0
-227143
-https://archive.org/details/jstor_procamerphilsoci
-Sha256: ef8a861e37cd71e00b292151185bfac379063d9cac563fb7af0a7f38386f501c
-
-url_map of https://archive.org/details/jstor_procamerphilsoci beforehand: 0
-230194
-https://archive.org/details/jstor_philrevi
-Sha256: 2f3c2176fc24b3c541dfc33805460ae03dc51703f4431737a88a3f02a81adb25
-
-url_map of https://archive.org/details/jstor_philrevi beforehand: 0
-233253
-https://archive.org/details/jstor_amerjphil
-Sha256: dbc9b904bd996e75d8f2b499abc4f7e36f96bcbe87bfc673d1aab2a7785ed078
-
-url_map of https://archive.org/details/jstor_amerjphil beforehand: 0
-236281
-https://archive.org/details/jstor_amerjintelaw
-Sha256: ffc741a4daeef1a3fb652a6f859a9c134433f4307d8dd6c06a260af97bd0bf4e
-
-url_map of https://archive.org/details/jstor_amerjintelaw beforehand: 0
-239116
-https://archive.org/details/jstor_ameranth
-Sha256: 28c3f975cc4e42ace3863dba6e9c0ee1a2b3fd793475c75a8d4ae55fd1a82b05
-
-url_map of https://archive.org/details/jstor_ameranth beforehand: 0
-242163
-https://archive.org/details/jstor_procameracadarts
-Sha256: 75d9e4dfb55ebe65ea56cee71d927983f058c0be1a33f1c0b8b2687a9fc1b731
-
-url_map of https://archive.org/details/jstor_procameracadarts beforehand: 0
-245204
-https://archive.org/details/jstor_amerjpsyc
-Sha256: 20020a0d01021afd0e93bde3a077cec978d6f8b0c2b506569a6199f27cc18006
-
-url_map of https://archive.org/details/jstor_amerjpsyc beforehand: 0
-248272
-https://archive.org/details/jstor_philtranroyasoc3
-Sha256: d290809ed0ac9ff4623458a1fbe3b1e4a0bc67f0a852b7c989d9bf692c92ab54
-
-url_map of https://archive.org/details/jstor_philtranroyasoc3 beforehand: 0
-251325
-https://archive.org/details/jstor_amerjsoci
-Sha256: 7f3cb35ff767876483821dcdd35d9fef0b4c18f8bbe6dc587b8a6fa72d7652fb
-
-url_map of https://archive.org/details/jstor_amerjsoci beforehand: 0
-254394
-https://archive.org/details/jstor_publastrsocipaci
-Sha256: d45716d308c9a88b7eb6ed856f27c4fa6b4ced8d0f86563048203ace45c05df8
-
-url_map of https://archive.org/details/jstor_publastrsocipaci beforehand: 0
-257446
-260497
-https://archive.org/details/jstor_amerartnews
-Sha256: fea3109438c8410914c6e7d44e74182c602e2a5e400b5c4fa804d0925f383049
-
-url_map of https://archive.org/details/jstor_amerartnews beforehand: 0
-263272
-https://archive.org/details/jstor_intejethi
-Sha256: 51e8b3162de3ed456e2bbd3055ea235bbb88dc0a54c3a24d7f0943ed04beede9
-
-url_map of https://archive.org/details/jstor_intejethi beforehand: 0
-266296
-https://archive.org/details/jstor_jgeology
-Sha256: 91a291bed04f909a10480f05d0e50cd62ff8e790591136f35472dcde9414161c
-
-url_map of https://archive.org/details/jstor_jgeology beforehand: 0
-269330
-https://archive.org/details/jstor_clasweek
-Sha256: 4669040725439793923d9b43cc79854496ff01f77da71b931aa569495c16d81b
-
-url_map of https://archive.org/details/jstor_clasweek beforehand: 0
-272354
-https://archive.org/details/jstor_sewaneerev
-Sha256: ddc51c23915949e60f52f01f748bd4290f69c3c217119acac0c63aedcb39e56f
-
-url_map of https://archive.org/details/jstor_sewaneerev beforehand: 0
-275380
-https://archive.org/details/jstor_belfmontmaga
-Sha256: 58bf87c06bcf3fb9b2516f96bd18adb4f02b6d23f48c005154a5dff1066abe7f
-
-url_map of https://archive.org/details/jstor_belfmontmaga beforehand: 0
-278410
-https://archive.org/details/jstor_jewiquarrevi
-Sha256: 940f6b23c4b01eda9221be9e42ed108f0f8d5131baef7acd2ccc4dcbc2af0126
-
-url_map of https://archive.org/details/jstor_jewiquarrevi beforehand: 0
-281452
-https://archive.org/details/jstor_jameroriesoci
-Sha256: 54ceae2146c73ad299a8736b982c72e0b4e7506a15ecbd5890736e08e826f378
-
-url_map of https://archive.org/details/jstor_jameroriesoci beforehand: 0
-284495
-https://archive.org/details/jstor_themonist
-Sha256: 71885e228dfe2f95413100a38c223bab5daae661522ab7048f87a2a4bbf68db7
-
-url_map of https://archive.org/details/jstor_themonist beforehand: 0
-287544
-https://archive.org/details/jstor_musitimesingclas
-Sha256: 68b25f9a62a11c443643cf1c9852e0fdbfd2ab23e2a57f43d2b248d29de553cf
-
-url_map of https://archive.org/details/jstor_musitimesingclas beforehand: 0
-290573
-https://archive.org/details/jstor_amereconrevi
-Sha256: a2eaef82affc8996229888fde656def533cc10a986271251518a32a296aa93e2
-
-url_map of https://archive.org/details/jstor_amereconrevi beforehand: 0
-293635
-https://archive.org/details/jstor_artamateur
-Sha256: 601c8d4ed697a849161c1698133a72a7a187203e75d7e8d390d12ad2e9516d16
-
-url_map of https://archive.org/details/jstor_artamateur beforehand: 0
-296673
-https://archive.org/details/jstor_classicalj
-Sha256: dac901fad81223b058f3fd2d37e465e8e7ab68832191a26ec1649d339e0e79be
-
-url_map of https://archive.org/details/jstor_classicalj beforehand: 0
-299696
-https://archive.org/details/jstor_pmla
-Sha256: 94a7b36714b0ff5bf0f2f944b30189b693d8a03dc4b52acd2d0a76e3f9924c10
-
-url_map of https://archive.org/details/jstor_pmla beforehand: 0
-302713
-https://archive.org/details/jstor_clasphil
-Sha256: b8d5ee20e6de0caefc4843db8093fbfac870ac04ab04f1c13c46441652767f4d
-
-url_map of https://archive.org/details/jstor_clasphil beforehand: 0
-305715
-https://archive.org/details/jstor_metrmuseartbull
-Sha256: a4504126b57bde1f5e96c984d46843e4e984aa58cd476e5af26e9a67b3d79537
-
-url_map of https://archive.org/details/jstor_metrmuseartbull beforehand: 0
-308750
-https://archive.org/details/jstor_amerpoliscierevi
-Sha256: d172bc32d55abd26c20f9a3e2a8f54f62a096b554d91201c317dfaa9b5ab4e1d
-
-url_map of https://archive.org/details/jstor_amerpoliscierevi beforehand: 0
-311814
-https://archive.org/details/jstor_torreya
-Sha256: 3ce0262007524056044f20be52ebed86aa17371a0e9e245177da1dc73140e23f
-
-url_map of https://archive.org/details/jstor_torreya beforehand: 0
-314859
-https://archive.org/details/jstor_jroyageogsocilon
-Sha256: 50e827741c6f1852f31472bfb0ed2b2a81e490b651b001287e6f4d22206eba1f
-
-url_map of https://archive.org/details/jstor_jroyageogsocilon beforehand: 0
-317883
-https://archive.org/details/jstor_southcarohisgen
-Sha256: 3aa060d6c3cacdae8a5bfddc48a2c3069478faa7d187cab42ffddb7f352ede04
-
-url_map of https://archive.org/details/jstor_southcarohisgen beforehand: 0
-320958
-https://archive.org/details/jstor_condor
-Sha256: ef858c85cb3c5cd9fd56c95838187baf2607872705aff2fd57b16c7b5f814af7
-
-url_map of https://archive.org/details/jstor_condor beforehand: 0
-324016
-https://archive.org/details/jstor_amerjsemilanglit
-Sha256: da53ed87a2508fb674a3431a0b2bba579c58b2ea6a1ab10e3d658d269c982e6f
-
-url_map of https://archive.org/details/jstor_amerjsemilanglit beforehand: 0
-327042
-https://archive.org/details/jstor_rheimusephil
-Sha256: 3e281f0d17181a7cb1cf07d4ddba9f36b10d3ebc320662b0f8b491a3e58c2729
-
-url_map of https://archive.org/details/jstor_rheimusephil beforehand: 0
-330115
-https://archive.org/details/jstor_modernphilology
-Sha256: fdc0db5ef1e43ff5f67ac25d1cb197fef2f2283bd62400d3a00709fb000be727
-
-url_map of https://archive.org/details/jstor_modernphilology beforehand: 0
-333169
-https://archive.org/details/jstor_aldine
-Sha256: 8f07669e995a825e2a2bf93487ee5fb4f93381cb62f6ddeb0890c575081f2bc5
-
-url_map of https://archive.org/details/jstor_aldine beforehand: 0
-336188
-https://archive.org/details/jstor_jinfedise
-Sha256: 07bf0bc11f5b9033f322a5a05befea74722487a6558b062d95ddca4cb8ef6d9c
-
-url_map of https://archive.org/details/jstor_jinfedise beforehand: 0
-339200
-https://archive.org/details/jstor_sciemont
-Sha256: 0ab24e2ff12d8973fc826f0c5b9405d7d33df9944649215eb511fd17a290d021
-
-url_map of https://archive.org/details/jstor_sciemont beforehand: 0
-342237
-345246
-345561
-345666
-345781
-347473
-348837
-349156
-349577
-349891
-350120
-350429
-352072
-352330
-352668
-353303
-Last index for sub domains found:353303
-
-Checksum of HMTL page of base url is:
-c690f5dfb9fa0db44a9b851494166075c7aaedb6f7e429592647eb84a7b88439
-
-https://archive.org/details/jstor_ejc
-len_html_page: 361207
-Searching complete URLs
-
-5839
-19221
-19826
-24889
-25680
-33798
-34217
-34643
-35067
-35502
-35941
-37035
-37169
-37408
-37539
-37660
-37828
-37974
-38108
-38485
-40942
-41557
-41996
-42504
-42638
-42877
-43008
-43129
-43297
-43443
-43577
-44261
-44745
-46290
-46617
-46915
-47260
-47488
-47689
-47892
-48531
-49002
-49576
-49790
-50013
-50227
-50434
-50650
-50893
-51522
-51957
-52460
-52685
-53505
-53899
-54242
-54471
-54686
-54900
-55485
-55817
-56353
-56586
-56799
-57044
-57281
-57493
-57685
-58302
-58636
-59112
-59342
-59544
-59738
-59944
-60124
-60338
-61177
-61568
-61914
-62120
-62318
-62522
-63145
-63483
-64027
-64257
-64465
-64697
-64923
-65153
-65369
-65974
-66328
-66800
-67032
-67815
-68221
-68563
-68807
-69018
-69247
-69467
-70057
-70413
-70949
-71206
-71434
-71620
-71831
-72001
-72211
-72845
-73207
-73674
-73875
-74108
-74338
-74535
-74734
-74950
-75777
-76169
-76516
-76726
-76972
-77166
-77752
-78142
-78674
-78861
-79080
-79674
-80030
-87043
-87295
-87538
-88293
-349262
-Last index for complete URLS found: 349262
-
-Searching URLs with different domains
-
-5730
-6538
-37283
-42752
-84617
-Last index for different domains found: 84617
-
-Searching sub domain URLs
-
-
-5670
-6475
-33374
-37264
-42733
-83436
-84070
-84377
-84576
-https://archive.org/details/jstor_ejc?tab=about
-Sha256: 9a5b7f07a8ae01d6bd47b5ae4c2e08a5121c97e20090496ae1c6b965fa6d0dcd
-
-url_map of https://archive.org/details/jstor_ejc?tab=about beforehand: 0
-85041
-https://archive.org/details/jstor_ejc?tab=collection
-Sha256: 238e81ce04f8e884355defafae72b247e5321b7cd87240c2fa0f58ffa44143d0
-
-url_map of https://archive.org/details/jstor_ejc?tab=collection beforehand: 0
-85437
-https://archive.org/details/jstor_ejc?tab=forum
-Sha256: 777bd022334d969af37965997ec37ded26b3adaf05ab3cb507c537f60113033b
-
-url_map of https://archive.org/details/jstor_ejc?tab=forum beforehand: 0
-85809
-91438
-96575
-97058
-100600
-101210
-101864
-102535
-103188
-103853
-104132
-104587
-107889
-111474
-https://archive.org/details/jstor_ejc?
-Sha256: 5cac43ff31f195c13cfcba238008d8f99ee0b8e95318aa29f7c982c88ecb49f4
-
-url_map of https://archive.org/details/jstor_ejc? beforehand: 0
-112830
-113987
-https://archive.org/details/jstor_ejc?sort=titleSorter
-Sha256: bacf6857c2e3bb0293613b0b8c46ff8bc73125baee473d288a735369feee90c3
-
-url_map of https://archive.org/details/jstor_ejc?sort=titleSorter beforehand: 0
-114139
-https://archive.org/details/jstor_ejc?sort=-publicdate
-Sha256: 1873c903eb441d5282eb00d33d930afee1779674b7731c99201db68d201c3a28
-
-url_map of https://archive.org/details/jstor_ejc?sort=-publicdate beforehand: 0
-114313
-https://archive.org/details/jstor_ejc?sort=-date
-Sha256: d8129498bcf0f90212a2d0b2be3b8a61fe30864e7d03b205df3c14794d327992
-
-url_map of https://archive.org/details/jstor_ejc?sort=-date beforehand: 0
-114495
-https://archive.org/details/jstor_ejc?sort=-reviewdate
-Sha256: 36188fc9080199ba957e2b38a389f3911f0494f771bea4422d8bf23b1fd7291c
-
-url_map of https://archive.org/details/jstor_ejc?sort=-reviewdate beforehand: 0
-114678
-https://archive.org/details/jstor_ejc?sort=creatorSorter
-Sha256: 19f854e450e0b744dc175917e1bbed159ba83e81d391871a876f4c601aa17041
-
-url_map of https://archive.org/details/jstor_ejc?sort=creatorSorter beforehand: 0
-114842
-116186
-119264
-122315
-125380
-128442
-131475
-134521
-137549
-140561
-143573
-146618
-149658
-152715
-155803
-158885
-161918
-164953
-167997
-171065
-174120
-177164
-180217
-183266
-186317
-189380
-192409
-195427
-198491
-201531
-204568
-207620
-210660
-213732
-216769
-219820
-222879
-225907
-228742
-231789
-234830
-237898
-240951
-244020
-247072
-250143
-253167
-256201
-259225
-262251
-265281
-268323
-271366
-274415
-277444
-280506
-283544
-286567
-289584
-292586
-295621
-298685
-301730
-304754
-307829
-310887
-313913
-316986
-320040
-323059
-326071
-329108
-https://archive.org/details/jstor_jamerinstcrimlaw
-Sha256: a434f7e0b74605ba997b3a206f7e958a4d2534b947b9e0496eb20f381a1fa82d
-
-url_map of https://archive.org/details/jstor_jamerinstcrimlaw beforehand: 0
-332148
-https://archive.org/details/jstor_dublpennj
-Sha256: 478d05712dbcae0fd3288ff262fd62c1a24e1093071366c637ba8d3874839a0d
-
-url_map of https://archive.org/details/jstor_dublpennj beforehand: 0
-335225
-https://archive.org/details/jstor_artprog
-Sha256: 42b7837569e3cc794dcdff16a4cfa3c806281d106e18decf4e3a8e4f79597668
-
-url_map of https://archive.org/details/jstor_artprog beforehand: 0
-338250
-https://archive.org/details/jstor_amerjarch
-Sha256: b1c4648b93b3893e37329f857099ed5978a34c5016db69a16f6211ff0c59c045
-
-url_map of https://archive.org/details/jstor_amerjarch beforehand: 0
-341269
-344288
-344604
-344710
-344826
-347306
-348665
-348972
-350649
-350927
-351266
-351911
-352109
-352603
-352796
-353272
-353458
-353922
-Last index for sub domains found:353922
-
-Checksum of HMTL page of base url is:
-b481b2cc46ed435ed0fe200d5839de6d82e3e5ad5e8b83741d357b00a7484a0b
-
-https://archive.org/details/jstor_ejc?tab=about
-len_html_page: 361277
-Searching complete URLs
-
-5839
-19235
-19840
-24931
-25722
-33868
-34287
-34713
-35137
-35572
-36011
-37105
-37239
-37478
-37609
-37730
-37898
-38044
-38178
-38555
-41012
-41627
-42066
-42574
-42708
-42947
-43078
-43199
-43367
-43513
-43647
-44331
-44815
-46360
-46687
-46985
-47330
-47558
-47759
-47962
-48601
-49072
-49646
-49860
-50083
-50297
-50504
-50720
-50963
-51592
-52027
-52530
-52755
-53575
-53969
-54312
-54541
-54756
-54970
-55555
-55887
-56423
-56656
-56869
-57114
-57351
-57563
-57755
-58372
-58706
-59182
-59412
-59614
-59808
-60014
-60194
-60408
-61247
-61638
-61984
-62190
-62388
-62592
-63215
-63553
-64097
-64327
-64535
-64767
-64993
-65223
-65439
-66044
-66398
-66870
-67102
-67885
-68291
-68633
-68877
-69088
-69317
-69537
-70127
-70483
-71019
-71276
-71504
-71690
-71901
-72071
-72281
-72915
-73277
-73744
-73945
-74178
-74408
-74605
-74804
-75020
-75847
-76239
-76586
-76796
-77042
-77236
-77822
-78212
-78744
-78931
-79150
-79744
-80100
-87113
-87365
-87608
-88363
-349332
-Last index for complete URLS found: 349332
-
-Searching URLs with different domains
-
-5730
-6538
-37353
-42822
-84687
-Last index for different domains found: 84687
-
-Searching sub domain URLs
-
-
-5670
-6475
-33444
-37334
-42803
-83506
-84140
-84447
-84646
-85111
-85507
-85879
-91508
-96645
-97128
-100670
-101280
-101934
-102605
-103258
-103923
-104202
-104657
-107959
-111544
-112900
-114057
-114209
-114383
-114565
-114748
-114912
-116256
-119334
-122385
-125450
-128512
-131545
-134591
-137619
-140631
-143643
-146688
-149728
-152785
-155873
-158955
-161988
-165023
-168067
-171135
-174190
-177234
-180287
-183336
-186387
-189450
-192479
-195497
-198561
-201601
-204638
-207690
-210730
-213802
-216839
-219890
-222949
-225977
-228812
-231859
-234900
-237968
-241021
-244090
-247142
-250213
-253237
-256271
-259295
-262321
-265351
-268393
-271436
-274485
-277514
-280576
-283614
-286637
-289654
-292656
-295691
-298755
-301800
-304824
-307899
-310957
-313983
-317056
-320110
-323129
-326141
-329178
-332218
-335295
-338320
-341339
-344358
-344674
-344780
-344896
-347376
-348735
-349042
-350719
-350997
-351336
-351981
-352179
-352673
-352866
-353342
-353528
-353992
-Last index for sub domains found:353992
-
-Checksum of HMTL page of base url is:
-51f17e1591382aa93f67def04c7b79d35e1a6bee8e9b17162609882e05a050c7
-
-https://archive.org/details/jstor_ejc?tab=collection
-len_html_page: 361302
-Searching complete URLs
-
-5839
-19240
-19845
-24946
-25737
-33893
-34312
-34738
-35162
-35597
-36036
-37130
-37264
-37503
-37634
-37755
-37923
-38069
-38203
-38580
-41037
-41652
-42091
-42599
-42733
-42972
-43103
-43224
-43392
-43538
-43672
-44356
-44840
-46385
-46712
-47010
-47355
-47583
-47784
-47987
-48626
-49097
-49671
-49885
-50108
-50322
-50529
-50745
-50988
-51617
-52052
-52555
-52780
-53600
-53994
-54337
-54566
-54781
-54995
-55580
-55912
-56448
-56681
-56894
-57139
-57376
-57588
-57780
-58397
-58731
-59207
-59437
-59639
-59833
-60039
-60219
-60433
-61272
-61663
-62009
-62215
-62413
-62617
-63240
-63578
-64122
-64352
-64560
-64792
-65018
-65248
-65464
-66069
-66423
-66895
-67127
-67910
-68316
-68658
-68902
-69113
-69342
-69562
-70152
-70508
-71044
-71301
-71529
-71715
-71926
-72096
-72306
-72940
-73302
-73769
-73970
-74203
-74433
-74630
-74829
-75045
-75872
-76264
-76611
-76821
-77067
-77261
-77847
-78237
-78769
-78956
-79175
-79769
-80125
-87138
-87390
-87633
-88388
-349357
-Last index for complete URLS found: 349357
-
-Searching URLs with different domains
-
-5730
-6538
-37378
-42847
-84712
-Last index for different domains found: 84712
-
-Searching sub domain URLs
-
-
-5670
-6475
-33469
-37359
-42828
-83531
-84165
-84472
-84671
-85136
-85532
-85904
-91533
-96670
-97153
-100695
-101305
-101959
-102630
-103283
-103948
-104227
-104682
-107984
-111569
-112925
-114082
-114234
-114408
-114590
-114773
-114937
-116281
-119359
-122410
-125475
-128537
-131570
-134616
-137644
-140656
-143668
-146713
-149753
-152810
-155898
-158980
-162013
-165048
-168092
-171160
-174215
-177259
-180312
-183361
-186412
-189475
-192504
-195522
-198586
-201626
-204663
-207715
-210755
-213827
-216864
-219915
-222974
-226002
-228837
-231884
-234925
-237993
-241046
-244115
-247167
-250238
-253262
-256296
-259320
-262346
-265376
-268418
-271461
-274510
-277539
-280601
-283639
-286662
-289679
-292681
-295716
-298780
-301825
-304849
-307924
-310982
-314008
-317081
-320135
-323154
-326166
-329203
-332243
-335320
-338345
-341364
-344383
-344699
-344805
-344921
-347401
-348760
-349067
-350744
-351022
-351361
-352006
-352204
-352698
-352891
-353367
-353553
-354017
-Last index for sub domains found:354017
-
-Checksum of HMTL page of base url is:
-140a3fbf1da46ca1c31d9752982238c37592c4dbb0214bb60f6d030e19aa42dd
-
-https://archive.org/details/jstor_ejc?tab=forum
-len_html_page: 361277
-Searching complete URLs
-
-5839
-19235
-19840
-24931
-25722
-33868
-34287
-34713
-35137
-35572
-36011
-37105
-37239
-37478
-37609
-37730
-37898
-38044
-38178
-38555
-41012
-41627
-42066
-42574
-42708
-42947
-43078
-43199
-43367
-43513
-43647
-44331
-44815
-46360
-46687
-46985
-47330
-47558
-47759
-47962
-48601
-49072
-49646
-49860
-50083
-50297
-50504
-50720
-50963
-51592
-52027
-52530
-52755
-53575
-53969
-54312
-54541
-54756
-54970
-55555
-55887
-56423
-56656
-56869
-57114
-57351
-57563
-57755
-58372
-58706
-59182
-59412
-59614
-59808
-60014
-60194
-60408
-61247
-61638
-61984
-62190
-62388
-62592
-63215
-63553
-64097
-64327
-64535
-64767
-64993
-65223
-65439
-66044
-66398
-66870
-67102
-67885
-68291
-68633
-68877
-69088
-69317
-69537
-70127
-70483
-71019
-71276
-71504
-71690
-71901
-72071
-72281
-72915
-73277
-73744
-73945
-74178
-74408
-74605
-74804
-75020
-75847
-76239
-76586
-76796
-77042
-77236
-77822
-78212
-78744
-78931
-79150
-79744
-80100
-87113
-87365
-87608
-88363
-349332
-Last index for complete URLS found: 349332
-
-Searching URLs with different domains
-
-5730
-6538
-37353
-42822
-84687
-Last index for different domains found: 84687
-
-Searching sub domain URLs
-
-
-5670
-6475
-33444
-37334
-42803
-83506
-84140
-84447
-84646
-85111
-85507
-85879
-91508
-96645
-97128
-100670
-101280
-101934
-102605
-103258
-103923
-104202
-104657
-107959
-111544
-112900
-114057
-114209
-114383
-114565
-114748
-114912
-116256
-119334
-122385
-125450
-128512
-131545
-134591
-137619
-140631
-143643
-146688
-149728
-152785
-155873
-158955
-161988
-165023
-168067
-171135
-174190
-177234
-180287
-183336
-186387
-189450
-192479
-195497
-198561
-201601
-204638
-207690
-210730
-213802
-216839
-219890
-222949
-225977
-228812
-231859
-234900
-237968
-241021
-244090
-247142
-250213
-253237
-256271
-259295
-262321
-265351
-268393
-271436
-274485
-277514
-280576
-283614
-286637
-289654
-292656
-295691
-298755
-301800
-304824
-307899
-310957
-313983
-317056
-320110
-323129
-326141
-329178
-332218
-335295
-338320
-341339
-344358
-344674
-344780
-344896
-347376
-348735
-349042
-350719
-350997
-351336
-351981
-352179
-352673
-352866
-353342
-353528
-353992
-Last index for sub domains found:353992
-
-Checksum of HMTL page of base url is:
-ef7299eb22038fbd4e1fce5d4f78e880073831e7d595b57f97764bee25a8d521
-
-https://archive.org/details/jstor_ejc?
-len_html_page: 361619
-Searching complete URLs
-
-5839
-19221
-19826
-24889
-25680
-33798
-34217
-34643
-35067
-35502
-35941
-37035
-37169
-37408
-37539
-37660
-37828
-37974
-38108
-38485
-40942
-41557
-41996
-42504
-42638
-42877
-43008
-43129
-43297
-43443
-43577
-44261
-44745
-46290
-46617
-46915
-47260
-47488
-47689
-47892
-48531
-49002
-49576
-49790
-50013
-50227
-50434
-50650
-50893
-51522
-51957
-52460
-52685
-53505
-53899
-54242
-54471
-54686
-54900
-55485
-55817
-56353
-56586
-56799
-57044
-57281
-57493
-57685
-58302
-58636
-59112
-59342
-59544
-59738
-59944
-60124
-60338
-61177
-61568
-61914
-62120
-62318
-62522
-63145
-63483
-64027
-64257
-64465
-64697
-64923
-65153
-65369
-65974
-66328
-66800
-67032
-67815
-68221
-68563
-68807
-69018
-69247
-69467
-70057
-70413
-70949
-71206
-71434
-71620
-71831
-72001
-72211
-72845
-73207
-73674
-73875
-74108
-74338
-74535
-74734
-74950
-75777
-76169
-76516
-76726
-76972
-77166
-77752
-78142
-78674
-78861
-79080
-79674
-80030
-87043
-87295
-87538
-88293
-349674
-Last index for complete URLS found: 349674
-
-Searching URLs with different domains
-
-5730
-6538
-37283
-42752
-84617
-Last index for different domains found: 84617
-
-Searching sub domain URLs
-
-
-5670
-6475
-33374
-37264
-42733
-83436
-84070
-84377
-84576
-85065
-85437
-85809
-91442
-96679
-97172
-100774
-101394
-102058
-102739
-103402
-104077
-104366
-104831
-108203
-111858
-113223
-114380
-114532
-114706
-114888
-115071
-115235
-116579
-119657
-122708
-125773
-128835
-131868
-134914
-137942
-140954
-143966
-147011
-150051
-153108
-156196
-159278
-162311
-165346
-168390
-171458
-174513
-177557
-180610
-183659
-186710
-189773
-192802
-195820
-198884
-201924
-204961
-208013
-211053
-214125
-217162
-220213
-223272
-226300
-229135
-232182
-235223
-238291
-241344
-244413
-247465
-250536
-253560
-256594
-259618
-262644
-265674
-268716
-271759
-274808
-277837
-280899
-283937
-286960
-289977
-292979
-296014
-299078
-302123
-305147
-308222
-311280
-314306
-317379
-320433
-323452
-326464
-329501
-332541
-335618
-338643
-341662
-344681
-344997
-345103
-345219
-347718
-349077
-349384
-351061
-351339
-351678
-352323
-352521
-353015
-353208
-353684
-353870
-354334
-Last index for sub domains found:354334
-
-Checksum of HMTL page of base url is:
-8cc5b44539cf1f1cca43d1bb7bb6b5ae727f96dc1611160a72f2dd2e0fcad316
-
-https://archive.org/details/jstor_ejc?sort=titleSorter
-len_html_page: 399151
-Searching complete URLs
-
-5839
-19242
