@@ -243,3 +243,11 @@ Just make a separate extract_domainlist_urls function that actively seeks the do
 12/9/2019 at 11:51 PM
 
 Problem: You forgot to reset the indices i and i_0 to zero underneath the for k, _ = range domainlist_map loops for all three loops in extract_domainlist_urls
+
+------------------------------------------
+
+12/10/2019 at 12:02 AM
+
+Problem: Crawler is only subdomaining for "https://archive.org/details" instead of the full "https://archive.org/details/jstor"
+
+search_sub_domain is not concatenating beyond "href=\""

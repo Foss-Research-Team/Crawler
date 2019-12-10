@@ -827,6 +827,8 @@ func extract_domainlist_urls(html_page []byte, input_url []byte) [1024][] byte {
 
 		search_sub_domain = append(search_sub_domain,extract_subdomain([]byte(k))...)
 
+		fmt.Printf("search_sub_domain: %s\n",search_sub_domain)
+
 		i = 0
 
 		i_0 = 0
@@ -890,7 +892,7 @@ func extract_domainlist_urls(html_page []byte, input_url []byte) [1024][] byte {
 
 			shasum = sha256.Sum256(html_of_url)
 			
-			if ( ( len(sha_map[string(shasum[0:])]) == 0 ) && ( url_map[string(url)] == 0 ) ) {
+			if ( ( len(sha_map[string(shasum[0:])]) == 0 ) && ( url_map[string(url)] == 0 )  ) {
 				
 				urls[url_index] = make([]byte,len(url))
 
@@ -1013,7 +1015,7 @@ func blacklist_add(blacklist_url []string) {
 
 func main() {
 	
-	fmt.Printf("%s\n",getPage(os.Args[1]))
+//	fmt.Printf("%s\n",getPage(os.Args[1]))
 	
 	domainlist_add([]byte("https://archive.org/details/jstor"))
 	
