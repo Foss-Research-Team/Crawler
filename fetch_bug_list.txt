@@ -251,3 +251,11 @@ Problem: You forgot to reset the indices i and i_0 to zero underneath the for k,
 Problem: Crawler is only subdomaining for "https://archive.org/details" instead of the full "https://archive.org/details/jstor"
 
 search_sub_domain is not concatenating beyond "href=\""
+
+Good news: The problem is fixed at long last. Hoorah!
+
+------------------------------------------
+
+12/10/2019 at 1:58 PM
+
+Now you must make a function that can detect if a binary file is a PDF.
