@@ -12389,3 +12389,399 @@ Sha256: c33ac24e666865537687123137311e3aa895459717b43c4e11af537af5b4c3ca
 url_map of https://archive.org/details/jstor-1799384 beforehand: 0
 131035
 133824
+https://archive.org/details/jstor-1799078
+Sha256: bc35d4df04c0f6beabee8d23fcc9f4bad2ce89a0e03c5c7244ed5bccc4cb164f
+
+url_map of https://archive.org/details/jstor-1799078 beforehand: 0
+134575
+137325
+https://archive.org/details/jstor-1799228
+Sha256: 93d9852bada3ead3b48d36dcd76a057bf2828e2b72dbb30b14e7ab9497c4c560
+
+url_map of https://archive.org/details/jstor-1799228 beforehand: 0
+138074
+140895
+https://archive.org/details/jstor-1798924
+Sha256: 377698474ba9b3e9abfd1fb287ae9697b1bb893d18837eb7193bfe0040bd3f59
+
+url_map of https://archive.org/details/jstor-1798924 beforehand: 0
+141646
+144567
+https://archive.org/details/jstor-1799278
+Sha256: a8ef1c1fb1ed5d06cae16b73dd75d757aac7f166751732b6b659983cc3965926
+
+url_map of https://archive.org/details/jstor-1799278 beforehand: 0
+145316
+148273
+https://archive.org/details/jstor-1798900
+Sha256: f0930d14fc79b520203926e2701ee7e2d27de0bb5f0ce8b34a4629ea42853d46
+
+url_map of https://archive.org/details/jstor-1798900 beforehand: 0
+149022
+151840
+https://archive.org/details/jstor-1799451
+Sha256: 3a45dc5102e81e3793320a5e73d41fd22d32f2f172952feab5a1a7d98ade1ee9
+
+url_map of https://archive.org/details/jstor-1799451 beforehand: 0
+152591
+155345
+https://archive.org/details/jstor-1798969
+Sha256: a0dbdbe39a52b6c96954790c2917f27ce9c203458e5f5bb2368687a083f45b29
+
+url_map of https://archive.org/details/jstor-1798969 beforehand: 0
+156094
+159063
+https://archive.org/details/jstor-1799042
+Sha256: bd23379ae44e50f9d8523136fdd81f427891d6e5b4f196fe0f0e53fb6e7c0210
+
+url_map of https://archive.org/details/jstor-1799042 beforehand: 0
+159814
+162742
+https://archive.org/details/jstor-1799677
+Sha256: ea2f737dd165c8edb3d4a60aad3a57ebbf45a1f61cbf82ffa1746d994450f3c2
+
+url_map of https://archive.org/details/jstor-1799677 beforehand: 0
+163493
+166464
+https://archive.org/details/jstor-1799229
+Sha256: 0f917881c906669102844f2abeaa292ca6bef6b5a4c17948df018be845a036a1
+
+url_map of https://archive.org/details/jstor-1799229 beforehand: 0
+167213
+170081
+https://archive.org/details/jstor-1799085
+Sha256: c50ade25b9e94f9660cf65c59c4554ba3da30f9581f50c7ed3f50f2320e11df8
+
+url_map of https://archive.org/details/jstor-1799085 beforehand: 0
+170832
+173540
+https://archive.org/details/jstor-1799612
+Sha256: dddf6f758edb70690a2a6bc9e75f76471dfdb3dfa62273beb492cfac811b09b1
+
+url_map of https://archive.org/details/jstor-1799612 beforehand: 0
+174291
+177037
+https://archive.org/details/jstor-1799354
+Sha256: e80567861d930f538b6ab4a3b8008e42978e2858eebd4d27e22e60b36dc5e5a1
+
+url_map of https://archive.org/details/jstor-1799354 beforehand: 0
+177788
+180665
+181416
+184163
+https://archive.org/details/jstor-1799310
+Sha256: dc73af18a6caf2d5fba4e7c293f3ffa8d788171c57390695f125ac122a924afb
+
+url_map of https://archive.org/details/jstor-1799310 beforehand: 0
+184914
+187662
+https://archive.org/details/jstor-1798972
+Sha256: 501c7218a0f5d7782f8f41a2d2dacf4c19cb8c30c8d7eb0aeb205e47d6f74cba
+
+url_map of https://archive.org/details/jstor-1798972 beforehand: 0
+188413
+191319
+https://archive.org/details/jstor-1799146
+Sha256: e162240a951271bd2c1c17029217d77b9c973fdd549deaa43354782f90c3002e
+
+url_map of https://archive.org/details/jstor-1799146 beforehand: 0
+192070
+194944
+https://archive.org/details/jstor-1798916
+Sha256: d097b6ebb29309087f66d291aafe38004c36ec09e9d5765ed4e30589ce14724e
+
+url_map of https://archive.org/details/jstor-1798916 beforehand: 0
+195695
+198531
+199282
+202004
+https://archive.org/details/jstor-1799674
+Sha256: 7aab99721183928c0dee87a56225f2f658b4eb39452de7e58499cc4d32a80770
+
+url_map of https://archive.org/details/jstor-1799674 beforehand: 0
+202753
+205610
+https://archive.org/details/jstor-1799178
+Sha256: 5ee8f3ab5cb15d166427d3ac0949a07742f27acb058042a08761f4902e12eb6a
+
+url_map of https://archive.org/details/jstor-1799178 beforehand: 0
+206361
+209078
+https://archive.org/details/jstor-1798873
+Sha256: 3231206d101724c19f97e3554c52f96146062941d1bef710c4ce8046374ccad9
+
+url_map of https://archive.org/details/jstor-1798873 beforehand: 0
+209827
+212770
+https://archive.org/details/jstor-1798909
+Sha256: 751ff4b7fd58595eeb5a84c35e51f4e14f981f21307f6fa30a3cccc415275114
+
+url_map of https://archive.org/details/jstor-1798909 beforehand: 0
+213521
+216532
+https://archive.org/details/jstor-1799180
+Sha256: bdd3eae0756f6717670113f33207b03eb62e1eacb9cd4899f60d371011d74f4d
+
+url_map of https://archive.org/details/jstor-1799180 beforehand: 0
+217283
+220167
+https://archive.org/details/jstor-1799051
+Sha256: e3f831615f9b4eee86acb2b605d7c53d5ee9331cc4a9c5468d916ea7261f077b
+
+url_map of https://archive.org/details/jstor-1799051 beforehand: 0
+220918
+223799
+https://archive.org/details/jstor-1799106
+Sha256: ba752338bf114426b76b72a93ae36a6180ebd6dd4db6e8c64125355851626883
+
+url_map of https://archive.org/details/jstor-1799106 beforehand: 0
+224550
+227441
+https://archive.org/details/jstor-1799127
+Sha256: 14b02a7dabdf698a88cc37ab28a6e3b0decdaadf50bda56cb41d3b2577547b6b
+
+url_map of https://archive.org/details/jstor-1799127 beforehand: 0
+228190
+231006
+https://archive.org/details/jstor-1798810
+Sha256: f63920bbc8a533e098ec232f8e9a639550b911d54ff2b13200d63416fce4ee0f
+
+url_map of https://archive.org/details/jstor-1798810 beforehand: 0
+231757
+234598
+https://archive.org/details/jstor-1799023
+Sha256: 8c23c1ffd2e1edcdcbc227f948a511ac696cfcb70ea10d0a4b31a95e1752d040
+
+url_map of https://archive.org/details/jstor-1799023 beforehand: 0
+235349
+238225
+https://archive.org/details/jstor-1799037
+Sha256: e370166c37178cea2f6c437121d2a0f4e4e910df255a4b61c46b5a530f6bda19
+
+url_map of https://archive.org/details/jstor-1799037 beforehand: 0
+238976
+241810
+https://archive.org/details/jstor-1799525
+Sha256: 8b473babcfdbf0a4c1bf90eb933ac5a1fb25a79558c958a74f1a326efe0a6019
+
+url_map of https://archive.org/details/jstor-1799525 beforehand: 0
+242559
+245483
+https://archive.org/details/jstor-1798930
+Sha256: 6a96f23127b82cf2e9efb1069f2239db5a11002e7751a4b709db29074844e4fb
+
+url_map of https://archive.org/details/jstor-1798930 beforehand: 0
+246232
+249040
+https://archive.org/details/jstor-1798845
+Sha256: b27f961d4e6ae8c6a26a175f7e4dfa1e66db1fb803f8adb192bcd9b82e9ca9ff
+
+url_map of https://archive.org/details/jstor-1798845 beforehand: 0
+249789
+252595
+253346
+256059
+https://archive.org/details/jstor-1799588
+Sha256: e653edd0cdf4e6fa9fc5d63271be331311db6c63972fbfc5854bc33576412f76
+
+url_map of https://archive.org/details/jstor-1799588 beforehand: 0
+256810
+259604
+260355
+263215
+https://archive.org/details/jstor-1799684
+Sha256: 102760043dc376278eecb86265c950dba63ae05588ebe437768b065080b4eeab
+
+url_map of https://archive.org/details/jstor-1799684 beforehand: 0
+263966
+266718
+https://archive.org/details/jstor-1799624
+Sha256: eef18979705f5f1e3df920c779e3316cc657dae4f0199ae52f6c6f92ad5074c7
+
+url_map of https://archive.org/details/jstor-1799624 beforehand: 0
+267469
+270453
+https://archive.org/details/jstor-1799007
+Sha256: 4f8037f12c79f7496996a80d51c60cf55a3d1359c7d67fd7d8a4aa7919298873
+
+url_map of https://archive.org/details/jstor-1799007 beforehand: 0
+271204
+273987
+https://archive.org/details/jstor-1799340
+Sha256: 819be2d6b9fa1270f96c6117b25d5c8f42e8ca35639b494b612a4e7615dc5cb9
+
+url_map of https://archive.org/details/jstor-1799340 beforehand: 0
+274738
+277529
+https://archive.org/details/jstor-1799069
+Sha256: 3f62eec84811ccd384f23c7377ee25739cb364fe7f1cbf15317522a75c557ea1
+
+url_map of https://archive.org/details/jstor-1799069 beforehand: 0
+278280
+280881
+https://archive.org/details/jstor-1799047
+Sha256: 8dd783ebef0a1fb3a7d482563df15d0646aeed743a7158c6d0bfcc3a6992c29c
+
+url_map of https://archive.org/details/jstor-1799047 beforehand: 0
+281632
+284412
+https://archive.org/details/jstor-1799282
+Sha256: 45e00566fb1c8c559b8ae85734b330c47eb24ad16544dc9b49eed1add1c8754e
+
+url_map of https://archive.org/details/jstor-1799282 beforehand: 0
+285163
+287943
+https://archive.org/details/jstor-1799539
+Sha256: 38277e44cc9d3293cd2072e9e8691d277ca97bebe10b3259c0cd88e92a884574
+
+url_map of https://archive.org/details/jstor-1799539 beforehand: 0
+288694
+291477
+https://archive.org/details/jstor-1799291
+Sha256: e016740d510f0dc26ae8ed225a12218f6386dc5acf606b1d8ef945c01dc8d618
+
+url_map of https://archive.org/details/jstor-1799291 beforehand: 0
+292228
+295008
+https://archive.org/details/jstor-1799595
+Sha256: 7c6dc78ffadcf23be2f06f629b20e3fc853ac4374d88f105cb042adf94656121
+
+url_map of https://archive.org/details/jstor-1799595 beforehand: 0
+295759
+298542
+https://archive.org/details/jstor-1798955
+Sha256: 57f10956afae936e1a7db6d9af3e1288551f6046077919f14a92d3e486f33981
+
+url_map of https://archive.org/details/jstor-1798955 beforehand: 0
+299293
+302103
+https://archive.org/details/jstor-1799139
+Sha256: 22dab0182f23d104cac32ef12ab4ccdef919a1e8b1953c84b43c8a0555122b29
+
+url_map of https://archive.org/details/jstor-1799139 beforehand: 0
+302854
+305664
+https://archive.org/details/jstor-1798991
+Sha256: 100b7da7f1a355dbb10347ef239384961755e717f00f8e5318b6ec464777cec4
+
+url_map of https://archive.org/details/jstor-1798991 beforehand: 0
+306413
+309202
+https://archive.org/details/jstor-1799437
+Sha256: fbc6b46ad920e0fd8a29d52176352f81372eaa8ff3f24992d3d95afd86218160
+
+url_map of https://archive.org/details/jstor-1799437 beforehand: 0
+309951
+312744
+313495
+316305
+https://archive.org/details/jstor-1799656
+Sha256: 07af434b79661c68fe17eea3c63bd395651f86aa0bfff371b7a488b5b5e91949
+
+url_map of https://archive.org/details/jstor-1799656 beforehand: 0
+317054
+319882
+https://archive.org/details/jstor-1799691
+Sha256: 0a1a60ea8281a4242b17d6f3d4371def0368c79b11b3c9509ef975ff69e46b84
+
+url_map of https://archive.org/details/jstor-1799691 beforehand: 0
+320631
+323626
+https://archive.org/details/jstor-1799516
+Sha256: ed0b7e88c6e8a7f1f46ef6ae4e0921a13d2d9c43a3085d0c328efcbc52906623
+
+url_map of https://archive.org/details/jstor-1799516 beforehand: 0
+324375
+327135
+https://archive.org/details/jstor-1799299
+Sha256: e174edb3afc5bc977914af8b1814ffe241831a66afe2decf8bf36211401b8085
+
+url_map of https://archive.org/details/jstor-1799299 beforehand: 0
+327886
+330819
+331570
+334386
+https://archive.org/details/jstor-1799654
+Sha256: dacf10f0dd1a445283f8f65144d8a092699c1fbfd258a49429e9392a29f91142
+
+url_map of https://archive.org/details/jstor-1799654 beforehand: 0
+335137
+337875
+https://archive.org/details/jstor-1799457
+Sha256: d25eb9c95048a1e43bf28aee206df7edf8d666d69e2d9b94d2051904d38a13bb
+
+url_map of https://archive.org/details/jstor-1799457 beforehand: 0
+338624
+341532
+https://archive.org/details/jstor-1799380
+Sha256: f87f8c8fbcf64b35f5165009c9a66acbaa1a35cba41f55ed958e5afdf4a6a71f
+
+url_map of https://archive.org/details/jstor-1799380 beforehand: 0
+342281
+345260
+https://archive.org/details/jstor-1798923
+Sha256: f9ba2c3754b8bdc4665a07593539b9caaf29298ea8ca7a0f3daa084f4cef924b
+
+url_map of https://archive.org/details/jstor-1798923 beforehand: 0
+346011
+348729
+https://archive.org/details/jstor-1799119
+Sha256: 46a0f48a668d42731a2f01f413ffae558b2dbb53392f141c75203ece325d9e19
+
+url_map of https://archive.org/details/jstor-1799119 beforehand: 0
+349480
+352457
+https://archive.org/details/jstor-1799116
+Sha256: fab0dda9fffd2d24fc5338028daebaf2b31a7f4904d1294ae3a5008d336c5919
+
+url_map of https://archive.org/details/jstor-1799116 beforehand: 0
+353208
+355906
+https://archive.org/details/jstor-1799235
+Sha256: 00acedac13c5204a2df05292d775ceef2c7a3a7020bda2c36dd7f0b619bb4804
+
+url_map of https://archive.org/details/jstor-1799235 beforehand: 0
+356657
+359446
+https://archive.org/details/jstor-1799669
+Sha256: 8ed8401f7a7eceff5b1aa0ef928b56437828635b008c1ca257ef613285c50626
+
+url_map of https://archive.org/details/jstor-1799669 beforehand: 0
+360195
+362783
+https://archive.org/details/jstor-1798902
+Sha256: d45f9141b03ef6b07cc608bb6d6660a4af7291d25116d8b85cf5afa92415e9df
+
+url_map of https://archive.org/details/jstor-1798902 beforehand: 0
+363534
+366256
+https://archive.org/details/jstor-1798809
+Sha256: 4ac3c1dc040cbcc4279781ed8704de18eccf2db5f5ea1efc694f851597ca2c64
+
+url_map of https://archive.org/details/jstor-1798809 beforehand: 0
+367007
+369848
+https://archive.org/details/jstor-1799182
+Sha256: 59d5a5f65af11fd0eeb59e33a94573345cc7b7066dc5ae69630d8e7414349a3c
+
+url_map of https://archive.org/details/jstor-1799182 beforehand: 0
+370599
+373494
+https://archive.org/details/jstor-1799122
+Sha256: 5f9800a8af4e374846601c2f6521ee6a4427d9c454eaaf5366660afdae171089
+
+url_map of https://archive.org/details/jstor-1799122 beforehand: 0
+374243
+376750
+https://archive.org/details/jstor-1799328
+Sha256: 39e0d2983a9c6c3a6a7dce78acc19eafd430e3215976dfd1e9be9cce0d6b0fdb
+
+url_map of https://archive.org/details/jstor-1799328 beforehand: 0
+377499
+380006
+https://archive.org/details/jstor-1798950
+Sha256: f8ed6d831c4d6417a65a1c1e66c3e31e5ba80fbc71ee199be1233c2ba9cc4c34
+
+url_map of https://archive.org/details/jstor-1798950 beforehand: 0
+380757
+384011
