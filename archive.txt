@@ -20,388 +20,374 @@ Last index for different domains found: -1
 Searching sub domain URLs
 
 
-search_sub_domain: href="/
-https://archive.org//archive.org/includes/build/css/archive.min.css?v=80a784c3
-Sha256: 6acf9a488a6a5e39914ad63860835a2c0a01854886fc2d5c12ebbc66695ed762
-
-url_map of https://archive.org//archive.org/includes/build/css/archive.min.css?v=80a784c3 beforehand: 0
-5841
-6649
-https://archive.org/
-Sha256: e7f2c444bcb8c292cdc3a4bd8684a1d6b1a7557a0021f2a668c4bbb7d836754f
-
-url_map of https://archive.org/ beforehand: 0
-33668
-37577
-43046
-https://archive.org/bookmarks.php?add_bookmark=1
-Sha256: abcd1885a316ae4655a4ebe57b6db72e118f2f38d82a897acde729ec2ea01e1c
-
-url_map of https://archive.org/bookmarks.php?add_bookmark=1 beforehand: 0
-82906
-https://archive.org/services/collection-rss.php?collection=journals
-Sha256: 72bb52b05c679eaa697f9b63b357b6a2b67848e9fcbc3d1cd3a8181a38388943
-
-url_map of https://archive.org/services/collection-rss.php?collection=journals beforehand: 0
-83804
-https://archive.org/editxml/journals
-Sha256: 55e339c4165d805cb175a78d0ff5fa16745ce8a095aabd33255a8f7a840e5508
-
-url_map of https://archive.org/editxml/journals beforehand: 0
-84110
-84349
-https://archive.org/details/journals?tab=about
-Sha256: 87c4710c1cd6011cc98e5132cf17fb403d228ed09dc02acb4bad661827adfcb1
-
-url_map of https://archive.org/details/journals?tab=about beforehand: 0
-84772
-https://archive.org/details/journals?tab=collection
-Sha256: 7f3750eb79ebf4ac80790dd4633c84874b16c0cfc235ca9d97e581b3aa718196
-
-url_map of https://archive.org/details/journals?tab=collection beforehand: 0
-85167
-https://archive.org/details/journals?tab=forum
-Sha256: 64fcd8d06f8d4ea1144bc58944680e310ca93e4cf4d08c4d0cf7455b3bcd7f9e
-
-url_map of https://archive.org/details/journals?tab=forum beforehand: 0
-85538
-94377
-97825
-98307
-101671
-102654
-https://archive.org/details/arxiv
-Sha256: 91e9c646c57474dd790e49dd161e03a571ae1c1f3df5b9907b330d0cf92ec400
-
-url_map of https://archive.org/details/arxiv beforehand: 0
-103257
+k: archive.org/details/jstor
+search_sub_domain: href="/details/jstor
 https://archive.org/details/jstor_ejc
-Sha256: 01fb02bfe1f819b911b4ecd121eadf43d3d80dbf9d1f25aec2d0dde4f95e6f4c
+Sha256: 5cc5ede41c1f4f047be354b7a034731da4af5dfe1a4ed86556f64e4cc6351810
 
 url_map of https://archive.org/details/jstor_ejc beforehand: 0
 103867
-https://archive.org/details/pubmed
-Sha256: 7aa79fea6edcb7aef695a6b0b61ac530b3c6bc382772512662c44f40103034c0
-
-url_map of https://archive.org/details/pubmed beforehand: 0
-104489
 https://archive.org/details/jstor_publhealrepo1896
-Sha256: f04aa5edc56661632e7eb9cc82de0b5c27e4d189f5b08243d9b0a71f7324b5f7
+Sha256: 59feb7bccd0b2f56914b7a93bb104c3e6807a6527f11264db3a5970a19234e05
 
 url_map of https://archive.org/details/jstor_publhealrepo1896 beforehand: 0
 105129
 https://archive.org/details/jstor_science
-Sha256: ef11976124ff01512a273fab835f0ef5b059fd64f8d86fc2ddc1386ba86b5c20
+Sha256: c602ff596d06af5aef74ada8533e932f6d976874e81176787579e4d401252bad
 
 url_map of https://archive.org/details/jstor_science beforehand: 0
 105799
-106061
-106515
-109820
-113404
-https://archive.org/details/journals?
-Sha256: fbf6d8ac60969860c2d7dfe417cd309b38eeb4af416d6c5f3db1db1f57e758e5
-
-url_map of https://archive.org/details/journals? beforehand: 0
-114759
-115915
-https://archive.org/details/journals?sort=titleSorter
-Sha256: e4dd23b013da05f139b85408b1a8807cfaf8ce5bf1890f4964a987c25adecebd
-
-url_map of https://archive.org/details/journals?sort=titleSorter beforehand: 0
-116066
-https://archive.org/details/journals?sort=-publicdate
-Sha256: 705a53ef6add144a123cf3b1996ced20de90f7629eefe0d71f2554d5ade63363
-
-url_map of https://archive.org/details/journals?sort=-publicdate beforehand: 0
-116239
-https://archive.org/details/journals?sort=-date
-Sha256: 4df701f41cc6c584ec0b58b31b92e0a8d812916b76fac7ccc08d46a5f56ede75
-
-url_map of https://archive.org/details/journals?sort=-date beforehand: 0
-116420
-https://archive.org/details/journals?sort=-reviewdate
-Sha256: 9868f7148102318052564487a32b937033be11fe3f255b9cb078ce0e71316183
-
-url_map of https://archive.org/details/journals?sort=-reviewdate beforehand: 0
-116602
-https://archive.org/details/journals?sort=creatorSorter
-Sha256: 866351d5982ad7eafa424b09567b30debd809140542dfb5acabbf604152ca8f2
-
-url_map of https://archive.org/details/journals?sort=creatorSorter beforehand: 0
-116765
 118083
-121100
-124040
 126748
 129826
 https://archive.org/details/jstor_nortamerrev
-Sha256: b3326a4a74c0b56ee2e429fcd285a9eeb91eea5027f796393101d0bea0fd2892
+Sha256: b138bd2d60066d41e1cea36c0356ad9afe78382ce7ed2d9af9b956f9cf6c3104
 
 url_map of https://archive.org/details/jstor_nortamerrev beforehand: 0
 132877
 https://archive.org/details/jstor_amernatu
-Sha256: 458637242d473ca58e13087efcd3489511e819a308ee47eb7cb85f92f718a3f4
+Sha256: dbdc6cece0a75a7a0b71033428377b1a159ce04bfb4a77c9e3a0a5ce44b823ae
 
 url_map of https://archive.org/details/jstor_amernatu beforehand: 0
 135942
 https://archive.org/details/jstor_botanicalgazette
-Sha256: f79078073f2c6a211f17c8526610e4d31d90a3c8771385ca43139a8db4d5e61c
+Sha256: 26077664bd85d4f1b40aaa4ac8cf7270d850c1863e8fa00df6425017a462f88d
 
 url_map of https://archive.org/details/jstor_botanicalgazette beforehand: 0
 139004
 https://archive.org/details/jstor_virglawregi
-Sha256: c24f0297553d6bf756c5626fb1521f0e6f9eb28e6095379531b175fd8009bc55
+Sha256: 659c3fbd5c951ec78631a25a299ce3273fe326e202cb6adf8ac905b3fcbfc59c
 
 url_map of https://archive.org/details/jstor_virglawregi beforehand: 0
 142037
 https://archive.org/details/jstor_harvardlawreview
-Sha256: 4c6fec3df42899b237ea2a45382194159184f66202983af85f51c51b98b26dff
+Sha256: c5d742134f2c2608a86b7e84986acac1fc9d3f9a5bb402d6e771579931f4a41d
 
 url_map of https://archive.org/details/jstor_harvardlawreview beforehand: 0
 145083
 https://archive.org/details/jstor_yalelawj
-Sha256: 708f76cd91fbc1c2229b52df609d3ff0485dfffb05bdc2be468bf00bde0bd5e9
+Sha256: 63275da2f4129769442a2f29300d5f34cece5eee8caf54744fbcac32b26124e1
 
 url_map of https://archive.org/details/jstor_yalelawj beforehand: 0
 148111
 https://archive.org/details/jstor_auk
-Sha256: 279557846c1308e9081745a927d0cc465604f3fdaec15afdd2f1fc8338f8eed4
+Sha256: b2f63d7984cf4a30e064ff722f511543c8d1c1436a01f8763ffd69e5a63c302b
 
 url_map of https://archive.org/details/jstor_auk beforehand: 0
 151123
 https://archive.org/details/jstor_amermathmont
-Sha256: b5d38a35b198a734755891cbcdb77b3d1c477a61dc236be4a24a4c125f20ace4
+Sha256: c539dd5849d914d0a75b85cca486111bb19dfac328ac66d2da51243b095e3f97
 
 url_map of https://archive.org/details/jstor_amermathmont beforehand: 0
 154135
 https://archive.org/details/jstor_michlawrevi
-Sha256: 67fdbfec9da9d5ae20353ad989277e272e974aeafe4e657016a9e53d06a6bda2
+Sha256: 7afcdc1eecac0f209ff726b82a4c45de6c0f5688645bbeaa270b7b433d014f0c
 
 url_map of https://archive.org/details/jstor_michlawrevi beforehand: 0
 157180
 https://archive.org/details/jstor_americanjnursing
-Sha256: b4b9af5d38ac8ebb09f57055f64d10581b7f378bd06f739c78cd05a7efafb7a1
+Sha256: 1b5d5e0e147adf446ae391e9fa19de60a730d3568f9d1b317904eb5911279500
 
 url_map of https://archive.org/details/jstor_americanjnursing beforehand: 0
 160220
 https://archive.org/details/jstor_annaameracadpoli
-Sha256: 173fd45842df082817d9167b650f617f9ffc50331e7eaa412889c1c5cca9f223
+Sha256: 8eb0306d89bc2fca538d9497b6304fcff6ade0ca02fa11e6880b8b1a4906abaa
 
 url_map of https://archive.org/details/jstor_annaameracadpoli beforehand: 0
 163277
 https://archive.org/details/jstor_procacadnatuscie
-Sha256: 31b12b408f7f941aa9e8be9b9c27f05a3510366d7368ddfa28a0f94bc10401f8
+Sha256: 56a7c277c4d06b15b42e00e6bd62d7e39e6729c49863d11d92f0f59845b789e6
 
 url_map of https://archive.org/details/jstor_procacadnatuscie beforehand: 0
 166365
 https://archive.org/details/jstor_biblicalworld
-Sha256: 45b778668dc2d52239b9f95a64e36ac325fb59c46754dfb0c87aa9794d371231
+Sha256: 110b243ed4d566da3c8a2987c92e305ba72bba8d7b54745efc1a9c4f5b335e53
 
 url_map of https://archive.org/details/jstor_biblicalworld beforehand: 0
 169447
 https://archive.org/details/jstor_modelangnote
-Sha256: d92c08395c20cf6dc40f0aae01925653e3ac5c8c86b53a207e30d4c22ccfda5f
+Sha256: 9f4fad7f0e4c200cf3fb00490e2404006c3332c369d655cc9aa2bd64982e04c0
 
 url_map of https://archive.org/details/jstor_modelangnote beforehand: 0
 172480
 https://archive.org/details/jstor_willmaryquar
-Sha256: ed0b4036caaa6ee7661e9dae92deed784436b772c0dcfba0b2a3d68458a5589d
+Sha256: 68370f08aabb05bda26a31c9572ecbaa7b2cd7031abac70a93711638a49a7065
 
 url_map of https://archive.org/details/jstor_willmaryquar beforehand: 0
 175515
 https://archive.org/details/jstor_virghistbiog
-Sha256: eaaa71127bfc4caab651c2dd1a06035346ca8a69cedccd17622ce74c5e71bffa
+Sha256: dd72b6fca3acb6afb667c8de70267c98fab001cfe667cdf29c1dd0715f48730a
 
 url_map of https://archive.org/details/jstor_virghistbiog beforehand: 0
 178559
 https://archive.org/details/jstor_bulltorrbotaclub
-Sha256: 10947c10c8e46d7a92e7c4e689f1887f41fae1ff813c56e7f45936922c3f2a7b
+Sha256: 7a09e97cd3992487a03d850c34190d2314800e78829e488024e71dabcbacbaf4
 
 url_map of https://archive.org/details/jstor_bulltorrbotaclub beforehand: 0
 181627
 https://archive.org/details/jstor_amerhistrevi
-Sha256: c827a6015db751b9b861c6dbab06a41cc72352957a5f970f646beefaa12e31f7
+Sha256: 6f91364b7a6cc59a30b0a264fa4b881fce2f1401fd4f3ba069265f2167d52c58
 
 url_map of https://archive.org/details/jstor_amerhistrevi beforehand: 0
 184682
 https://archive.org/details/jstor_advopeac1894
-Sha256: 80499b60cfd47f330405b1fa1cb6cecf88905560ef9ab82d42374147b1649434
+Sha256: fc9428f4b991f67ce1814cacce17da331d6c2f12bf816156e82d9c117770b537
 
 url_map of https://archive.org/details/jstor_advopeac1894 beforehand: 0
 187726
 https://archive.org/details/jstor_philtran1683177
-Sha256: 28d5c54d82381ea686e9201b8629ba49c36fafcb350e2b93a0a72771ddf6998b
+Sha256: 2b39492f0dff75c552e2213569679757a5a64fbad023fb1b89a1d922b3b9af9e
 
 url_map of https://archive.org/details/jstor_philtran1683177 beforehand: 0
 190779
 https://archive.org/details/jstor_jamerfolk
-Sha256: a3041dbb66267e42550c554b3bc0748fb800b3ab4d9bc78b45a83003a67810c4
+Sha256: 8bdf3a70be722e4f77e7c2c2c39fffa9bb7c1638496b559a413e4dfbbe8fc2e3
 
 url_map of https://archive.org/details/jstor_jamerfolk beforehand: 0
 193828
 https://archive.org/details/jstor_bullamergeogsoci
-Sha256: 4731854e9051d26bb090ec7139d2a226b88799b30d2b6faddbb6e99b9b071ffb
+Sha256: 781dd87459d3b0fa30134c5c79f0ffb1a8da4dd1e52b36c8bdff63ef3dfaf1fa
 
 url_map of https://archive.org/details/jstor_bullamergeogsoci beforehand: 0
 196879
 https://archive.org/details/jstor_polisciequar
-Sha256: 0e4f090f61fc57a8bd68235ae6838ccfce11a41ee2f24f21c3281c048117c776
+Sha256: a0b37e3e9cd4568778b3328f23f36495555a8c9f17e7c2a60b15ca2185d8b5bb
 
 url_map of https://archive.org/details/jstor_polisciequar beforehand: 0
 199942
 https://archive.org/details/jstor_poetry
-Sha256: 289d2ec4c3628e6819946d678c58de5d498a85fd98ca666058eb03d2d14861f2
+Sha256: 057a1f2ec89bc97bc7fe1e7d1e726601a9c2194bf78b1de81a87f0c1c0e6284c
 
 url_map of https://archive.org/details/jstor_poetry beforehand: 0
 202971
 https://archive.org/details/jstor_pennmaghistbio
-Sha256: f4816d2d4123ddeb2cc96ee01137afe46527e7b4c5de66571fd41cdfb4fc749d
+Sha256: 5a29db859bd375c331ca4bed3dc66eaeca7446b7e941ee3da9ce6037f9ad807a
 
 url_map of https://archive.org/details/jstor_pennmaghistbio beforehand: 0
 205989
 https://archive.org/details/jstor_decoandfurn
-Sha256: 3b0b7aab03e0df79aa544cfde9649da033e18a9554c105f49785043dd32e23df
+Sha256: 7065fd7ea6b990d58dc8472ee31643e2c63b2f9333e4f41aa1614e3ac67e8c8d
 
 url_map of https://archive.org/details/jstor_decoandfurn beforehand: 0
 209053
 https://archive.org/details/jstor_schoolreview
-Sha256: 179f614d0f2275cb377e7ef19c2260dad4820212475b58c7df73c98cb15227b9
+Sha256: 7123bd0328d082a41286df9e77ba5575e19f86a85bdba6242fcfa8091224b837
 
 url_map of https://archive.org/details/jstor_schoolreview beforehand: 0
 212093
 https://archive.org/details/jstor_amerlawregi1852
-Sha256: 06580d25440828bceefbc426da3244aa2e1d0f22e72f76df193642c31e4785d7
+Sha256: 7c85ac875434d50bc26176ed23b683d572ee9e80d31e4344368d45f8fd2789e7
 
 url_map of https://archive.org/details/jstor_amerlawregi1852 beforehand: 0
 215130
 https://archive.org/details/jstor_colulawrevi
-Sha256: 609c0c01027c8e43aee28ad6c20f6cdcc0c48a8ecfd4021c4057bc6b4b18be08
+Sha256: 774f0bc03adc8c18a402b44cb0ee02b0f68a0d6a424bdcedeac624902b50b600
 
 url_map of https://archive.org/details/jstor_colulawrevi beforehand: 0
 218182
 https://archive.org/details/jstor_jphilpsycsciemet
-Sha256: 4612adf823f7baef77c9b973d1b92363554e6a4202bb5821330ec87c9b25e139
+Sha256: f88c03deb347575af7f0a80aef5af9874193604a4fc924e225199f4d48c841ee
 
 url_map of https://archive.org/details/jstor_jphilpsycsciemet beforehand: 0
 221222
 https://archive.org/details/jstor_amerjtheo
-Sha256: 6cd4ae6df523df792bc228a21e38b20e596a748f8a2416b371b7bb7d9365b561
+Sha256: d62c30a3f97b42ceb86daa77dec5a66473fc0a1ba1c1a372a88fed23fd556c24
 
 url_map of https://archive.org/details/jstor_amerjtheo beforehand: 0
 224294
 https://archive.org/details/jstor_jpoliecon
-Sha256: cb47fd2e0d1cb1f85688e6d551e66c7f1b67866a6691d43d3e7f6d9909bee0d5
+Sha256: a097e6b3f4749073c1d1d52dc287af991b54f3fd0d4a7482b46054b014d33369
 
 url_map of https://archive.org/details/jstor_jpoliecon beforehand: 0
 227331
 https://archive.org/details/jstor_procamerphilsoci
-Sha256: a6a8f3d5715fc5c8f885de90fef92b1f1169dffd98dc56cbdc9a760c8aacbb4c
+Sha256: 7411095ce92dc0c2910d09828778df15eb336908cf009d8cbcb8b79aa7b39065
 
 url_map of https://archive.org/details/jstor_procamerphilsoci beforehand: 0
 230382
 https://archive.org/details/jstor_philrevi
-Sha256: 47b2931cf877b2b0f5baf2be2b28cee4a11cbca4affad3dd8ca379bf60588101
+Sha256: f8cbe450f2a0917c5786caa0d83f9706537ce2591ecd3ef6c3d269a3504abd4d
 
 url_map of https://archive.org/details/jstor_philrevi beforehand: 0
 233441
 https://archive.org/details/jstor_amerjphil
-Sha256: 7e3545e5175e68ce3122491a97126c035887710c7d74ea820cbe1ab4d9e6469c
+Sha256: b637d7d3822fe4d6559c9c27a828b8bdc278649919b5f8a37bbb563b5f71967f
 
 url_map of https://archive.org/details/jstor_amerjphil beforehand: 0
 236469
 https://archive.org/details/jstor_amerjintelaw
-Sha256: 18e534ff0ce397a0db7552a868b1e00d564eaa974adccb4af0f55812e9d4e34b
+Sha256: 509a1a1376721d94566a59bfd331845b5a313958b8b4f62f646a15fa214ee8a9
 
 url_map of https://archive.org/details/jstor_amerjintelaw beforehand: 0
 239304
 https://archive.org/details/jstor_ameranth
-Sha256: a9ba5ebc1499345491ac5c7cb4cc94d218fda66dbf684c08aab61d7d20821612
+Sha256: 10e9f0e5a3b29c0adab10c913767aeeb4bd9304939c7a6f738760fcc02956c99
 
 url_map of https://archive.org/details/jstor_ameranth beforehand: 0
 242351
 https://archive.org/details/jstor_procameracadarts
-Sha256: 527ca9da64ac21c5d3d46a2a6095602a6e5803a8c42854809852c623d22bf3fb
+Sha256: 7e88841a668da7a2718cb0057a4b48e3c19e58ed2f626b585d81102be037eb65
 
 url_map of https://archive.org/details/jstor_procameracadarts beforehand: 0
 245392
 https://archive.org/details/jstor_amerjpsyc
-Sha256: 96efb33ee33d6cd19718ed2305b28cf20d40d345f61e4e7a083e425eb575e861
+Sha256: bbc054c59e57a8538d2520a3e3788f9021129ae86e301e135390a2832d7b18c8
 
 url_map of https://archive.org/details/jstor_amerjpsyc beforehand: 0
 248460
 https://archive.org/details/jstor_philtranroyasoc3
-Sha256: c8ca97298a42c4a8cff1b2b43cffcfbf71171798c63b53a7c7d3ea2e2ee1d388
+Sha256: 12d2eea094cccbe1c8681ff2d1b83b4565a950e6f7255b7ea1eeef17de479590
 
 url_map of https://archive.org/details/jstor_philtranroyasoc3 beforehand: 0
 251513
 https://archive.org/details/jstor_amerjsoci
-Sha256: 74c3f7c4577ac3bd9ec1bfbfd99324f93408c4add1c6209b415ebc962fb04d69
+Sha256: 077d5b253e52f3be96338326e6a37691b8c144281969dbbd97b65d700682b152
 
 url_map of https://archive.org/details/jstor_amerjsoci beforehand: 0
 254582
 https://archive.org/details/jstor_publastrsocipaci
-Sha256: c75595cf6bc40eff1a70e66f20d590fa03b8a27f9b6c908e0670be13bc689210
+Sha256: e5d14a7ea3335047b4adb6fd2c143840d9ba372302901cc9c86889a8b6c95402
 
 url_map of https://archive.org/details/jstor_publastrsocipaci beforehand: 0
 257634
-https://archive.org/details/flooved
-Sha256: 3eb32c7c22a7e84aece6e07e55939e987cd45e596330f329a726ab61577b462c
-
-url_map of https://archive.org/details/flooved beforehand: 0
-260685
 https://archive.org/details/jstor_amerartnews
-Sha256: ffbc5d390fcdd5948a53d94b827034e86b4070a602343f5d53b2aa9197f5517c
+Sha256: 33652f3be5c5220056f8bc595aff34a1a9e4a7bd0863375e797aeb3702ba9fec
 
 url_map of https://archive.org/details/jstor_amerartnews beforehand: 0
 263460
 https://archive.org/details/jstor_intejethi
-Sha256: 2a22d4f72da4c5353dd4fa43be1995a52fd5c9f76099a5631eb15fe9d2ef93dd
+Sha256: 39c6b4afcf8fbb6a59b7852e07a7cf6cfc9d4bbc63a19763a71a10c70da456fb
 
 url_map of https://archive.org/details/jstor_intejethi beforehand: 0
 266484
 https://archive.org/details/jstor_jgeology
-Sha256: 798bcf5e59e28e9d97b7c8c71e7db8edd4b42849d6ddc8db8f2cacdb890d754c
+Sha256: c5a07767071813e20cbc6880c98ac6813c43e6d20fe7af87ed6eb5ad583e119a
 
 url_map of https://archive.org/details/jstor_jgeology beforehand: 0
 269518
 https://archive.org/details/jstor_clasweek
-Sha256: 16f7fc993bae6f7e64b77c58ef4cff2389506850410aaf816754ddda884add58
+Sha256: 2fe83672df9f137170a66ba4e305f387f86f01dd645ba50f01b32d2b7deb7722
 
 url_map of https://archive.org/details/jstor_clasweek beforehand: 0
 272542
 https://archive.org/details/jstor_sewaneerev
-Sha256: 628391ea5936aafd872fcbf4e3958bb70590228bade170002213b54c47b4db80
+Sha256: e620bd8bc6b14aa62fce8f5ecfe57c5f130664198a96a47e83c53ccb4635d5a9
 
 url_map of https://archive.org/details/jstor_sewaneerev beforehand: 0
 275568
 https://archive.org/details/jstor_belfmontmaga
-Sha256: 7b67ab851c9787d09def2347d364537c75992776dc79c95fcfbaede26d255c58
+Sha256: 0cf4d15740dbc4f6e4e1a198f5239060403dd456fa158f36eae388f70fd8a418
 
 url_map of https://archive.org/details/jstor_belfmontmaga beforehand: 0
 278598
 https://archive.org/details/jstor_jewiquarrevi
-Sha256: 2a8df983fe83fa730912c5255cadd3e55d7cbc1b8e4ab8a0d18f405d667bb21b
+Sha256: 0b2c35e3f33a7c573dc296d06189cb53ba59ee7751de982e418e75e4d1bf1a7a
 
 url_map of https://archive.org/details/jstor_jewiquarrevi beforehand: 0
 281640
 https://archive.org/details/jstor_jameroriesoci
-Sha256: e06b7b2797cc887de92f53159db1ec0eaf91a6323811ab56ffbd1ccae5dc73d3
+Sha256: 891042ee05ef167dbef6ed1a04b955ecf10d50f2914f3ab100fcb6b0a151fec8
 
 url_map of https://archive.org/details/jstor_jameroriesoci beforehand: 0
 284683
 https://archive.org/details/jstor_themonist
-Sha256: cb12aa6b0355804b7b2f0e2c20265b0ec04a6d09463df1469854b6503aba2ca2
+Sha256: abd71467eb4739390877c8fbb4b2d3e8ef1cb4bd131d6511578a9f44da354eb7
 
 url_map of https://archive.org/details/jstor_themonist beforehand: 0
 287732
 https://archive.org/details/jstor_musitimesingclas
-Sha256: 4816056887b38c3a6ee0559161edf9907565404a2f77ee7b628777d1a007bf6f
+Sha256: 91726208186f1d85566ad68454b362c24e5b63339605f4405d55183ff3569213
 
 url_map of https://archive.org/details/jstor_musitimesingclas beforehand: 0
 290761
 https://archive.org/details/jstor_amereconrevi
-Sha256: f8b0a96e39b0eedfaaba87b6e5241a51025123aa8f0728f964075a99f6b87c88
+Sha256: e53a13f0a3f42790e1656af78302d1ec0821f95661bb292cea1578b9c7703469
 
 url_map of https://archive.org/details/jstor_amereconrevi beforehand: 0
 293823
+https://archive.org/details/jstor_artamateur
+Sha256: e836d7e0a8672904722b02d6bacdaf3cd357123c249b11149c6625502306e298
+
+url_map of https://archive.org/details/jstor_artamateur beforehand: 0
+296861
+https://archive.org/details/jstor_classicalj
+Sha256: 2d1ba7b3eddbeba49a7331a00417fe403fe3322225ec1ab57436aff1416ee307
+
+url_map of https://archive.org/details/jstor_classicalj beforehand: 0
+299884
+https://archive.org/details/jstor_pmla
+Sha256: 830d117359c81ad0f7566748016eb6b2d6b9d3e965009484b9896ef4c98973ed
+
+url_map of https://archive.org/details/jstor_pmla beforehand: 0
+302901
+https://archive.org/details/jstor_clasphil
+Sha256: 01ab8d29ebba9647ecb70d4fb0ca0c8e566bd979dfd949dc9d38bb46a3f43533
+
+url_map of https://archive.org/details/jstor_clasphil beforehand: 0
+305903
+https://archive.org/details/jstor_metrmuseartbull
+Sha256: 2d7b8a141fdda3c16e3934ebc621c9e843f37d44a5683852c1b6311fec484fe2
+
+url_map of https://archive.org/details/jstor_metrmuseartbull beforehand: 0
+308938
+https://archive.org/details/jstor_amerpoliscierevi
+Sha256: 390c6396ff18a5deeb49a645ec8074d74cd5557d93c821b98d307ed8e8bb014b
+
+url_map of https://archive.org/details/jstor_amerpoliscierevi beforehand: 0
+312002
+https://archive.org/details/jstor_torreya
+Sha256: 78aebcd4de960ff5407f05a75028c07135a56a9b723bc90e1f69ecfa2bbe160b
+
+url_map of https://archive.org/details/jstor_torreya beforehand: 0
+315047
+https://archive.org/details/jstor_jroyageogsocilon
+Sha256: 199b28a40b359313dc0e2dc0d079c76a393f7bd72e7a6a9a65647e20f5eb33b1
+
+url_map of https://archive.org/details/jstor_jroyageogsocilon beforehand: 0
+318071
+https://archive.org/details/jstor_southcarohisgen
+Sha256: cf727b81431e84206479a2fc0d7c068df6303eef37d438ba882ccbb44034cb12
+
+url_map of https://archive.org/details/jstor_southcarohisgen beforehand: 0
+321146
+https://archive.org/details/jstor_amerjsemilanglit
+Sha256: 6ce5780c6e563dea96e1404959d42a8b2fedafff4e0dcbc8b96effd7c06ba68b
+
+url_map of https://archive.org/details/jstor_amerjsemilanglit beforehand: 0
+324224
+https://archive.org/details/jstor_condor
+Sha256: 7cf9149a13914f9ffeb6f4bdfe1cd72f7f8620f49d66d8077961708c706f0cd4
+
+url_map of https://archive.org/details/jstor_condor beforehand: 0
+327285
+https://archive.org/details/jstor_rheimusephil
+Sha256: 1e8b4a166825238b021ce226d4894d1f28a52ba364fb1acb39e9a1ff3ec43ec2
+
+url_map of https://archive.org/details/jstor_rheimusephil beforehand: 0
+330303
+https://archive.org/details/jstor_modernphilology
+Sha256: 4bb4190998107f0b592fef7227cc26d4cabb01c72cbee55cf436dff72566f42b
+
+url_map of https://archive.org/details/jstor_modernphilology beforehand: 0
+333357
+https://archive.org/details/jstor_aldine
+Sha256: 6ac1e101d6722e60bd7acf2fab742b373c32db0459a47d2282cad07d6a72c4a2
+
+url_map of https://archive.org/details/jstor_aldine beforehand: 0
+336376
+https://archive.org/details/jstor_jinfedise
+Sha256: c69b93bce5f11c80ce5ade7accb9b05868a48a485d5b22b931b47b91fa6997c5
+
+url_map of https://archive.org/details/jstor_jinfedise beforehand: 0
+339388
+https://archive.org/details/jstor_sciemont
+Sha256: eea83c6c4d0c11227e5dc830bc2261da95c636f76868d16adb9a2b43ffe67e51
+
+url_map of https://archive.org/details/jstor_sciemont beforehand: 0
+342425
+Last index for sub domains found:342425
+
+k: archive.org/download/jstor
+search_sub_domain: href="/details/jstordownload/jstor
+Last index for sub domains found:-1
+

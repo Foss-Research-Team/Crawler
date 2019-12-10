@@ -129,6 +129,13 @@ func extract_subdomain(url []byte) []byte {
 
 	i++ // get past the '/'
 
+	for i < len(url) {
+		
+		subdomain = append(subdomain,url[i])
+
+		i++
+	}
+
 	return subdomain
 	
 }
@@ -824,6 +831,8 @@ func extract_domainlist_urls(html_page []byte, input_url []byte) [1024][] byte {
 	fmt.Println("Searching sub domain URLs\n\n")
 	
 	for k, _  = range domainlist_map {
+
+		fmt.Printf("k: %s\n",k)
 
 		search_sub_domain = append(search_sub_domain,extract_subdomain([]byte(k))...)
 
