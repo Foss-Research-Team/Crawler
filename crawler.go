@@ -175,6 +175,8 @@ func domainlist_add(url []byte) {
 		i++
 	}
 
+	domainlist_url = append([]byte("https://"),domainlist_url...)
+
 	domainlist_map[string(domainlist_url)] = 1
 
 	url_map[string(url)] = 1
@@ -587,7 +589,11 @@ func extract_domainlist_urls(html_page []byte, input_url []byte) [1024][] byte {
 	
 	//var search_str []byte = []byte("href=\"https://")
 
+	var search_sub_domain_default []byte = []byte("href=\"/")
+
 	var search_sub_domain []byte = []byte("href=\"/")
+
+	var search_dif_domain_default []byte = []byte("href=\"//")
 
 	var search_dif_domain []byte = []byte("href=\"//")
 
@@ -616,6 +622,8 @@ func extract_domainlist_urls(html_page []byte, input_url []byte) [1024][] byte {
 	for k, _ = range domainlist_map {
 
 		k = "href=\"" + k + "\""
+
+		fmt.Printf("k: %s\n",k)
 
 		i = 0
 
@@ -722,9 +730,15 @@ func extract_domainlist_urls(html_page []byte, input_url []byte) [1024][] byte {
 
 	for k, _ = range domainlist_map {
 		
+		fmt.Printf("k: %s\n",k)
+
 		//search_dif_domain == "href=\"//domainname.domainsuffix/sub/domains/..."
 
+		search_dif_domain = search_dif_domain_default
+
 		search_dif_domain = append(search_dif_domain,k[8:]...)
+
+		fmt.Printf("search_dif_domain: %s\n",search_dif_domain)
 
 		i = 0
 
@@ -833,6 +847,8 @@ func extract_domainlist_urls(html_page []byte, input_url []byte) [1024][] byte {
 	for k, _  = range domainlist_map {
 
 		fmt.Printf("k: %s\n",k)
+
+		search_sub_domain = search_sub_domain_default
 
 		search_sub_domain = append(search_sub_domain,extract_subdomain([]byte(k))...)
 
@@ -946,10 +962,6 @@ func crawler(url string) {
 
 	}
 
-	if ( ( ( (domain_settings >> 1) & 0x1 ) == 1 ) && (domainlist_check([]byte(url)) == 1) ) {
-		return
-	}
-
 
 	shasum_base_url := sha256.Sum256([]byte(url))
 
@@ -982,7 +994,7 @@ func crawler(url string) {
 		url_list = extract_urls(c,[]byte(url))
 	}
 
-	i := 0
+	var i int = 0
 	
 	for ( (i < len(url_list)) && (url_list[i] != nil) ) {
 		
