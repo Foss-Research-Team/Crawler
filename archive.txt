@@ -12785,3 +12785,53 @@ Sha256: f8ed6d831c4d6417a65a1c1e66c3e31e5ba80fbc71ee199be1233c2ba9cc4c34
 url_map of https://archive.org/details/jstor-1798950 beforehand: 0
 380757
 384011
+384340
+384459
+384588
+387081
+Last index for sub domains found:387081
+
+Checksum of HMTL page of base url is:
+0286646482c5ae9928d1a697cab63c6cd32bcbd86cb2b7b54385e37315cbdca5
+
+https://archive.org/details/jstor_procroyageogsoc2?sort=-downloads
+Printing extract_domainlist_urls
+
+len_html_page: 393573
+Searching complete URLs
+
+k: href="https://archive.org/details/jstor"
+Last index for complete URLS found: -1
+
+k: href="https://archive.org/download/jstor"
+Last index for complete URLS found: -1
+
+Searching URLs with different domains
+
+k: https://archive.org/details/jstor
+search_dif_domain: href="//archive.org/details/jstor
+Last index for different domains found: -1
+
+k: https://archive.org/download/jstor
+search_dif_domain: href="//archive.org/download/jstor
+Last index for different domains found: -1
+
+Searching sub domain URLs
+
+
+k: https://archive.org/details/jstor
+search_sub_domain: href="/details/jstor
+85760
+86169
+92243
+96682
+98324
+99004
+101288
+101772
+105371
+107628
+108798
+108963
+109150
+109345
